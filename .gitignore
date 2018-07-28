@@ -1,0 +1,10 @@
+.idea
+node_modules
+coverage
+logs
+*.log
+npm-debug.log*
+**/*.xxx.js
+.npm
+.DS_Store
+static
