@@ -22,18 +22,20 @@ codestyle:
     - npm ci
     - npm run lint
 
-node:latest: 
+node:latest:
   stage: test
   image: node:latest
   script:
+    - ls -la
     - npm ci
     - npm run unit
   coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
-node:8: 
+node:8:
   stage: test
   image: node:8
   script:
+    - ls -la
     - npm i
     - npm run unit
   coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
