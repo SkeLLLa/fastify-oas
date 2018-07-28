@@ -1,5 +1,9 @@
+
+
 module.exports = {
+  testEnvironment: 'node',
   collectCoverage: true,
   verbose: true,
-  testPathIgnorePatterns: ['node_modules', 'static', 'build'],
+  testMatch: ['**/__tests__/**/*.spec.js'],
+  // testPathIgnorePatterns: ['/node_modules/', '/build/', '/static/'],
 };
