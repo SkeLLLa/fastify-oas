@@ -5,5 +5,5 @@ module.exports = {
   collectCoverage: true,
   verbose: true,
   testMatch: ['**/__tests__/**/*.spec.js'],
-  // testPathIgnorePatterns: ['/node_modules/', '/build/', '/static/'],
+  testPathIgnorePatterns: ['/node_modules/', '/build/', '/static/'],
 };
