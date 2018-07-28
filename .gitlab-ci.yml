@@ -27,7 +27,7 @@ node:latest:
   image: node:latest
   script:
     - ls -la
-    - npm ci --unsafe-perm
+    - npm ci
     - npm run unit
   coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
@@ -36,7 +36,7 @@ node:8:
   image: node:8
   script:
     - ls -la
-    - npm i --unsafe-perm
+    - npm i
     - npm run unit
   coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
