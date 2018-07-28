@@ -1,0 +1,54 @@
+{
+  "name": "fasify-oas",
+  "version": "1.0.0",
+  "description": "Fastify OpenAPI specification generator plugin",
+  "main": "lib/index.js",
+  "config": {
+    "releaseBranch": "master"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "unit": "jest",
+    "lint": "eslint .",
+    "changelog": "changelog",
+    "check-branch": "if test \"$(git rev-parse --abbrev-ref HEAD)\" = \"$npm_package_config_releaseBranch\" ; then exit 0 ; else  echo \"Not on '$npm_package_config_releaseBranch' branch\" && exit 1 ; fi",
+    "version": "changelog && git add -u",
+    "preversion": "npm run check-branch && npm run lint && npm run unit",
+    "postversion": "git push && git push --tags",
+    "prepare": "node build/prepare-swagger-ui",
+    "prepublishOnly": "npm run prepare"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/m03geek/fasify-oas3.git"
+  },
+  "keywords": [
+    "fastify",
+    "openapi",
+    "oas3",
+    "oas",
+    "swagger"
+  ],
+  "author": "m03geek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/m03geek/fasify-oas/issues"
+  },
+  "homepage": "https://gitlab.com/m03geek/fasify-oas#README",
+  "dependencies": {
+    "fastify-plugin": "^1.2.0",
+    "fastify-static": "^0.12.0",
+    "js-yaml": "^3.12.0",
+    "swagger-ui-dist": "^3.17.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "@types/node": "^10.5.2",
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1",
+    "fastify": "^1.9.0",
+    "generate-changelog": "^1.7.1",
+    "jest": "^23.4.1",
+    "swagger-parser": "^5.0.1"
+  }
+}
