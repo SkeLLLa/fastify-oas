@@ -22,21 +22,31 @@ codestyle:
     - npm ci
     - npm run lint
 
+node:8:
+  stage: test
+  image: node:8
+  only:
+    - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
+  script:
+    - npm i
+    - npm run unit
+  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
+
+node:9:
+  stage: test
+  image: node:9
+  only:
+    - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
+  script:
+    - npm i
+    - npm run unit
+  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
+
 node:latest:
   stage: test
   image: node:latest
   script:
-    - ls -la
     - npm ci
-    - npm run unit
-  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
-
-node:8:
-  stage: test
-  image: node:8
-  script:
-    - ls -la
-    - npm i
     - npm run unit
   coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
