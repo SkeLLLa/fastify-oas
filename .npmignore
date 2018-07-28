@@ -1,3 +1,6 @@
 .vscode
-test
+__tests__
+coverage
 .*
+*.config.js
+CHANGELOG.md
