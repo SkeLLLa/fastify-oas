@@ -28,7 +28,7 @@ node:latest:
   script:
     - npm ci
     - npm run unit
-  coverage: ^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)
+  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
 node:8: 
   stage: test
@@ -36,7 +36,7 @@ node:8:
   script:
     - npm i
     - npm run unit
-  coverage: ^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)
+  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
 
 npm:
   stage: publish
