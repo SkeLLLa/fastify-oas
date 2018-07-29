@@ -98,6 +98,7 @@ describe('helpers', () => {
       helpers.genBody(dst, body, ['application/json']);
     });
   });
+
   describe('genHeaders', () => {
     test('generates valid headers', () => {
       const dst = [];
@@ -138,6 +139,7 @@ describe('helpers', () => {
       expect(dst).toEqual(expected);
     });
   });
+
   describe('genQuery', () => {
     test('generates valid query', () => {
       const querystring = {
@@ -180,6 +182,7 @@ describe('helpers', () => {
       expect(dst).toEqual(expected);
     });
   });
+
   describe('genPath', () => {
     test('generates valid path params', () => {
       const dst = [];
@@ -205,6 +208,7 @@ describe('helpers', () => {
       expect(dst).toEqual(expected);
     });
   });
+
   describe('genResponse', () => {
     test('generates default response', () => {
       const dst = {};
@@ -263,5 +267,6 @@ describe('helpers', () => {
       expect(dst).toEqual(expected);
     });
   });
+
   describe('formatParamUrl', () => {});
 });
