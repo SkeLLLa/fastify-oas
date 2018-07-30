@@ -34,8 +34,14 @@
   "bugs": {
     "url": "https://gitlab.com/m03geek/fasify-oas/issues"
   },
+  "directories": {
+    "test": "__tests__",
+    "lib": "lib"
+  },
+  "files": [],
   "homepage": "https://gitlab.com/m03geek/fasify-oas#README",
   "dependencies": {
+    "app-root-path": "^2.1.0",
     "fastify-plugin": "^1.2.0",
     "fastify-static": "^0.12.0",
     "js-yaml": "^3.12.0",
