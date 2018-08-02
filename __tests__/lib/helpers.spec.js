@@ -268,5 +268,17 @@ describe('helpers', () => {
     });
   });
 
-  describe('formatParamUrl', () => {});
+  describe('formatParamUrl', () => {
+    test('with path params', () => {
+      const expected = '/abc/{id}/{name}';
+      const formatted = helpers.formatParamUrl('/abc/:id/:name');
+      expect(formatted).toBe(expected);
+    });
+
+    test('without path params', () => {
+      const expected = '/abc/id/name';
+      const formatted = helpers.formatParamUrl('/abc/id/name');
+      expect(formatted).toBe(expected);
+    });
+  });
 });
