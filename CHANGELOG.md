@@ -1,3 +1,43 @@
+#### 0.3.0 (2018-08-03)
+
+##### Chores
+
+*  add logo ([03ac5abb](git+https://gitlab.com/m03geek/fasify-oas3/commit/03ac5abbb845039286b1ee6fc0e333631446666b))
+*  update npmignore ([d7830971](git+https://gitlab.com/m03geek/fasify-oas3/commit/d783097131ad30f1856c0d3cfb25b7c93f90caef))
+* **deps:**  add app-root-path ([2a943818](git+https://gitlab.com/m03geek/fasify-oas3/commit/2a943818a6d63aa70497c3212b8ff5e484a60aaa))
+* **package:**  add directories ([dde6cfd6](git+https://gitlab.com/m03geek/fasify-oas3/commit/dde6cfd64fa30569d4968f329b3d1e072e87cfe2))
+
+##### Continuous Integration
+
+*  add node 9 tests ([734048c4](git+https://gitlab.com/m03geek/fasify-oas3/commit/734048c486ffcd52da4ce3376266e821367bd9f7))
+
+##### Documentation Changes
+
+*  update readme ([820ce612](git+https://gitlab.com/m03geek/fasify-oas3/commit/820ce61235884836a889bdb4d88b8eaa55726be4))
+*  add changelog ([a7169743](git+https://gitlab.com/m03geek/fasify-oas3/commit/a71697438895848d86d324e99894be40e16343ea))
+
+##### New Features
+
+*  add externalDocs and tags support ([2335359c](git+https://gitlab.com/m03geek/fasify-oas3/commit/2335359c1cbe91773e9f7092a99e133f91f7b0fa))
+
+##### Bug Fixes
+
+*  response and body generation ([4640cfc1](git+https://gitlab.com/m03geek/fasify-oas3/commit/4640cfc16aeba8aedfe5e2b272d220d516979107))
+
+##### Refactors
+
+*  move openapi to module ([b4f75b4f](git+https://gitlab.com/m03geek/fasify-oas3/commit/b4f75b4f0d9c0a70b4326e9f8342923b1d064d08))
+
+##### Tests
+
+*  add routes test ([586defcd](git+https://gitlab.com/m03geek/fasify-oas3/commit/586defcd96358517f3bcb9790058f5e5245f4867))
+*  add headers and querystring tests ([b506a557](git+https://gitlab.com/m03geek/fasify-oas3/commit/b506a557fe7b8612819e0c83a4e8f3c3afab85c9))
+*  add body and params tests ([91ed4d12](git+https://gitlab.com/m03geek/fasify-oas3/commit/91ed4d12f277761d1314a0eaafa88519d3f7fa56))
+*  add fromat url test ([d77580e6](git+https://gitlab.com/m03geek/fasify-oas3/commit/d77580e60b9d2d4d7439e7927e3132bede6e825a))
+*  proper coverage ([a53fae5b](git+https://gitlab.com/m03geek/fasify-oas3/commit/a53fae5b97de78dfd493e38fef62eb32f6fb4a4c))
+* **openapi:**  add initial openapi validation test ([096b3fb9](git+https://gitlab.com/m03geek/fasify-oas3/commit/096b3fb9ea60d03fd22dff06a32697a0f665801e))
+* **helpers:**  add more tests ([e380a900](git+https://gitlab.com/m03geek/fasify-oas3/commit/e380a900cf8de1d3aa7dfe23625b6e3cd3dee392))
+
 #### 0.2.0 (2018-07-28)
 
 ##### Chores
