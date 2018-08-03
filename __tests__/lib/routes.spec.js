@@ -23,18 +23,20 @@ describe('plugin', async () => {
     );
   });
   test('returns documentation', (done) => {
-    app.inject(
-      {
-        method: 'GET',
-        url: '/documentation/index.html',
-      },
-      (err, res) => {
-        expect(err).toBeFalsy();
-        expect(res.statusCode).toEqual(200);
-        expect(res.payload).toBeDefined();
-        done();
-      }
-    );
+    app.ready().then(() => {
+      app.inject(
+        {
+          method: 'GET',
+          url: '/documentation/index.html',
+        },
+        (err, res) => {
+          expect(err).toBeFalsy();
+          expect(res.statusCode).toEqual(200);
+          expect(res.payload).toBeDefined();
+          done();
+        }
+      );
+    });
   });
 
   test('returns json spec', (done) => {
