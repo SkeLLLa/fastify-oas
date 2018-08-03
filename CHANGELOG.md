@@ -1,3 +1,9 @@
+#### 0.3.4 (2018-08-03)
+
+##### Continuous Integration
+
+*  fix npm publish ([ba0aed73](git+https://gitlab.com/m03geek/fasify-oas3/commit/ba0aed73ea4cbf27111ea5b931bea77d4af1fc86))
+
 #### 0.3.3 (2018-08-03)
 
 ##### Build System / Dependencies
