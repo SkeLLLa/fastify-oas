@@ -1,3 +1,9 @@
+#### 0.3.3 (2018-08-03)
+
+##### Build System / Dependencies
+
+* **npm:**  fix npm package build ([bc5014b0](git+https://gitlab.com/m03geek/fasify-oas3/commit/bc5014b01e3930f0bd7ef9228d2919a4304bfd15))
+
 #### 0.3.2 (2018-08-03)
 
 ##### Tests
