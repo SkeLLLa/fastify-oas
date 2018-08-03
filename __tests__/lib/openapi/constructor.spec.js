@@ -4,6 +4,7 @@
 const swParser = require('swagger-parser');
 
 const openapi = require('../../../lib/openapi/constructor');
+const {version} = require('../../../package.json');
 
 describe('openapi constructor', () => {
   describe('swagger 2.0 compatible', () => {
@@ -182,7 +183,7 @@ describe('openapi constructor', () => {
       const api = apiFn();
       const apiCache = apiFn();
       const expected =
-        'openapi: 3.0.0\ninfo:\n  title: fasify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: 0.2.0\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n';
+        'openapi: 3.0.0\ninfo:\n  title: fasify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace('X.X.X', version);
 
       await expect(api).toEqual(apiCache);
       await expect(api).toEqual(expected);
