@@ -3,4 +3,3 @@ __tests__
 coverage
 .*
 *.config.js
-CHANGELOG.md

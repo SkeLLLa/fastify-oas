@@ -38,7 +38,11 @@
     "test": "__tests__",
     "lib": "lib"
   },
-  "files": [],
+  "files": [
+    "build/**/*.js",
+    "lib/**/*.js",
+    "static/**/*"
+  ],
   "homepage": "https://gitlab.com/m03geek/fasify-oas#README",
   "dependencies": {
     "app-root-path": "^2.1.0",
