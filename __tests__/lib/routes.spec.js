@@ -4,11 +4,10 @@
 const fastify = require('fastify');
 const oasPlugin = require('../../lib');
 
-describe('plugin', async () => {
-  const app = fastify();
-  app.register(oasPlugin, {exposeRoute: true});
-  // await app.ready();
+describe('plugin', () => {
   test('redirects to documentation index', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: true});
     app.ready().then(() => {
       app.inject(
         {
@@ -25,6 +24,8 @@ describe('plugin', async () => {
     });
   });
   test('returns documentation', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: true});
     app.ready().then(() => {
       app.inject(
         {
@@ -33,8 +34,9 @@ describe('plugin', async () => {
         },
         (err, res) => {
           expect(err).toBeFalsy();
-          expect(res.statusCode).toEqual(200);
+          // expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
+          expect(res.payload).toEqual(require('fs').readFileSync('./static/index.html', 'utf-8'));
           done();
         }
       );
@@ -42,6 +44,8 @@ describe('plugin', async () => {
   });
 
   test('returns json spec', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: true});
     app.ready().then(() => {
       app.inject(
         {
@@ -59,6 +63,8 @@ describe('plugin', async () => {
   });
 
   test('returns yaml spec', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: true});
     app.ready().then(() => {
       app.inject(
         {
