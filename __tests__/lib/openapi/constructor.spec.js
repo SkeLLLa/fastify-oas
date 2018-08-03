@@ -39,7 +39,7 @@ describe('openapi constructor', () => {
     };
     test('generates valid swagger header', async () => {
       const api = openapi({options})();
-      expect(api).toEqual({
+      await expect(api).toEqual({
         openapi: '3.0.0',
         info: {
           title: 'Test swagger',
@@ -138,7 +138,7 @@ describe('openapi constructor', () => {
         },
       };
       const api = openapi({options: opts, schemas})();
-      expect(api).toHaveProperty('components.schemas', {
+      await expect(api).toHaveProperty('components.schemas', {
         sch1: {
           type: 'object',
           description: 'sch1 schema',
@@ -164,22 +164,28 @@ describe('openapi constructor', () => {
 
   describe('openapi 3.0 defaults', () => {
     test('generates valid swagger header', async () => {
-      const api = openapi()();
+      const apiFn = openapi();
+      const api = apiFn();
+      const apiCache = apiFn();
+      await expect(api).toEqual(apiCache);
       await expect(swParser.validate(api)).resolves.toEqual(api);
     });
   });
 
   describe('openapi yaml', () => {
     test('generates valid swagger yaml', async () => {
-      const api = openapi({
+      const apiFn = openapi({
         options: {
           yaml: true,
         },
-      })();
+      });
+      const api = apiFn();
+      const apiCache = apiFn();
       const expected =
         'openapi: 3.0.0\ninfo:\n  title: fasify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: 0.2.0\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n';
 
-      expect(api).toEqual(expected);
+      await expect(api).toEqual(apiCache);
+      await expect(api).toEqual(expected);
     });
   });
 
@@ -283,7 +289,7 @@ describe('openapi constructor', () => {
           },
         ],
       })();
-      expect(api).toHaveProperty('paths', {
+      await expect(api).toHaveProperty('paths', {
         '/api/ep': {
           post: {
             responses: {
@@ -351,6 +357,212 @@ describe('openapi constructor', () => {
       });
       await expect(swParser.validate(api)).resolves.toEqual(api);
     });
+    test('generates valid body with default media types', async () => {
+      const api = openapi({
+        options: {
+
+        },
+        routes: [
+          {
+            logLevel: '',
+            method: ['POST', 'PATCH'],
+            path: '/api/ep',
+            url: '/api/ep',
+            prefix: '/api',
+            schema: {
+              body: {
+                $id: 'auth',
+                type: 'object',
+                oneOf: [
+                  {
+                    $id: 'obj1',
+                    type: 'object',
+                    properties: {
+                      login: {type: 'string', description: 'User login'},
+                      password: {
+                        type: 'string',
+                        description: 'User password',
+                      },
+                    },
+                  },
+                  {
+                    $id: 'obj2',
+                    type: 'object',
+                    properties: {
+                      auth_token: {
+                        type: 'string',
+                        description: 'Auth token',
+                      },
+                    },
+                  },
+                ],
+              },
+              response: {
+                '200': {
+                  description: 'Response description',
+                  type: 'object',
+                  properties: {status: {type: 'string'}},
+                },
+                '401': {
+                  description: 'User not logged in',
+                  type: 'object',
+                  properties: {message: {type: 'string'}},
+                },
+              },
+            },
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {
+        '/api/ep': {
+          post: {
+            responses: {
+              '200': {
+                content: {
+                  '*/*': {
+                    schema: {
+                      description: 'Response description',
+                      type: 'object',
+                      properties: {status: {type: 'string'}},
+                    },
+                  },
+                },
+                description: 'Response description',
+              },
+              '401': {
+                content: {
+                  '*/*': {
+                    schema: {
+                      description: 'User not logged in',
+                      type: 'object',
+                      properties: {message: {type: 'string'}},
+                    },
+                  },
+                },
+                description: 'User not logged in',
+              },
+            },
+            requestBody: {
+              content: {
+                '*/*': {
+                  schema: {
+                    type: 'object',
+                    oneOf: [
+                      {
+                        type: 'object',
+                        properties: {
+                          login: {type: 'string', description: 'User login'},
+                          password: {
+                            type: 'string',
+                            description: 'User password',
+                          },
+                        },
+                      },
+                      {
+                        type: 'object',
+                        properties: {
+                          auth_token: {
+                            type: 'string',
+                            description: 'Auth token',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          },
+          patch: {
+            responses: {
+              '200': {
+                content: {
+                  '*/*': {
+                    schema: {
+                      description: 'Response description',
+                      type: 'object',
+                      properties: {status: {type: 'string'}},
+                    },
+                  },
+                },
+                description: 'Response description',
+              },
+              '401': {
+                content: {
+                  '*/*': {
+                    schema: {
+                      description: 'User not logged in',
+                      type: 'object',
+                      properties: {message: {type: 'string'}},
+                    },
+                  },
+                },
+                description: 'User not logged in',
+              },
+            },
+            requestBody: {
+              content: {
+                '*/*': {
+                  schema: {
+                    type: 'object',
+                    oneOf: [
+                      {
+                        type: 'object',
+                        properties: {
+                          login: {type: 'string', description: 'User login'},
+                          password: {
+                            type: 'string',
+                            description: 'User password',
+                          },
+                        },
+                      },
+                      {
+                        type: 'object',
+                        properties: {
+                          auth_token: {
+                            type: 'string',
+                            description: 'Auth token',
+                          },
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          },
+        },
+      });
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+    test('skips hidden shcemas', async () => {
+      const api = openapi({
+        options: {},
+        routes: [
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/ep/:id',
+            url: '/api/ep/:id',
+            prefix: '/api',
+            schema: {
+              hide: true,
+              description: 'Description',
+              tags: ['tag'],
+              consumes: ['text/plain; charset=utf-8'],
+              security: [{bearerAuth: []}],
+              summary: 'Summary',
+              params: {
+                type: 'object',
+                properties: {id: {type: 'number', description: 'ID'}},
+              },
+            },
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {});
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
     test('generates valid params', async () => {
       const api = openapi({
         options: {
@@ -402,7 +614,6 @@ describe('openapi constructor', () => {
             url: '/api/ep/:id',
             prefix: '/api',
             schema: {
-              deprecated: true,
               description: 'Description',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
@@ -416,7 +627,7 @@ describe('openapi constructor', () => {
           },
         ],
       })();
-      expect(api).toHaveProperty('paths', {
+      await expect(api).toHaveProperty('paths', {
         '/api/ep/{id}': {
           post: {
             responses: {
@@ -425,7 +636,6 @@ describe('openapi constructor', () => {
               },
             },
             summary: 'Summary',
-            deprecated: true,
             description: 'Description',
             tags: ['tag'],
             security: [{bearerAuth: []}],
@@ -438,6 +648,128 @@ describe('openapi constructor', () => {
                 schema: {type: 'number', description: 'ID'},
               },
             ],
+          },
+        },
+      });
+
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+    test('generates valid query', async () => {
+      const api = openapi({
+        options: {},
+        routes: [
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/ep',
+            url: '/api/ep',
+            prefix: '/api',
+            schema: {
+              description: 'Description',
+              tags: ['tag'],
+              consumes: ['text/plain; charset=utf-8'],
+              security: [{bearerAuth: []}],
+              summary: 'Summary',
+              querystring: {
+                type: 'object',
+                properties: {id: {type: 'number', description: 'ID'}},
+              },
+            },
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {
+        '/api/ep': {
+          post: {
+            responses: {
+              '200': {
+                description: 'Default Response',
+              },
+            },
+            summary: 'Summary',
+            description: 'Description',
+            tags: ['tag'],
+            security: [{bearerAuth: []}],
+            parameters: [
+              {
+                name: 'id',
+                in: 'query',
+                description: 'ID',
+                schema: {type: 'number', description: 'ID'},
+              },
+            ],
+          },
+        },
+      });
+
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+    test('generates valid headers', async () => {
+      const api = openapi({
+        options: {},
+        routes: [
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/ep',
+            url: '/api/ep',
+            prefix: '/api',
+            schema: {
+              consumes: ['text/plain; charset=utf-8'],
+              deprecated: true,
+              headers: {
+                type: 'object',
+                properties: {host: {type: 'string', description: 'Host'}},
+              },
+            },
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {
+        '/api/ep': {
+          post: {
+            deprecated: true,
+            responses: {
+              '200': {
+                description: 'Default Response',
+              },
+            },
+            parameters: [
+              {
+                name: 'host',
+                required: false,
+                in: 'header',
+                description: 'Host',
+                schema: {type: 'string', description: 'Host'},
+              },
+            ],
+          },
+        },
+      });
+
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+    test('skips if no schema', async () => {
+      const api = openapi({
+        options: {},
+        routes: [
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/ep',
+            url: '/api/ep',
+            prefix: '/api',
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {
+        '/api/ep': {
+          post: {
+            responses: {
+              // '200': {
+              //   description: 'Default Response',
+              // },
+            },
           },
         },
       });
