@@ -1,3 +1,9 @@
+#### 0.3.1 (2018-08-03)
+
+##### Tests
+
+*  fix yaml test ([a1b43d7f](git+https://gitlab.com/m03geek/fasify-oas3/commit/a1b43d7f433d2ea72ad95e5da6fea9510402e310))
+
 #### 0.3.0 (2018-08-03)
 
 ##### Chores
