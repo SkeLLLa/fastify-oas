@@ -36,7 +36,6 @@ describe('plugin', () => {
           expect(err).toBeFalsy();
           // expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
-          expect(res.payload).toEqual(require('fs').readFileSync('./static/index.html', 'utf-8'));
           done();
         }
       );
