@@ -1,3 +1,12 @@
+#### 0.3.2 (2018-08-03)
+
+##### Tests
+
+*  fix tests ([ee8e0089](git+https://gitlab.com/m03geek/fasify-oas3/commit/ee8e0089a7b65788c5845d7cb0fa8d02cef11f1a))
+*  fix route tests ([309b43c7](git+https://gitlab.com/m03geek/fasify-oas3/commit/309b43c726635e5f245572608a7088bbf4da076e))
+*  fix routes test ([734756b4](git+https://gitlab.com/m03geek/fasify-oas3/commit/734756b41a74133bfb939abfebe441498c963753))
+*  fix tests ([15d0a435](git+https://gitlab.com/m03geek/fasify-oas3/commit/15d0a43508fef3b051d3626429175636e7ff2759))
+
 #### 0.3.1 (2018-08-03)
 
 ##### Tests
