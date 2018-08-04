@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/m03geek/fasify-oas3.git"
+    "url": "https://gitlab.com/m03geek/fastify-oas3.git"
   },
   "keywords": [
     "fastify",
@@ -32,7 +32,7 @@
   "author": "m03geek",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/m03geek/fasify-oas/issues"
+    "url": "https://gitlab.com/m03geek/fastify-oas/issues"
   },
   "directories": {
     "test": "__tests__",
@@ -43,7 +43,7 @@
     "lib/**/*.js",
     "static/**/*"
   ],
-  "homepage": "https://gitlab.com/m03geek/fasify-oas#README",
+  "homepage": "https://gitlab.com/m03geek/fastify-oas#README",
   "dependencies": {
     "app-root-path": "^2.1.0",
     "fastify-plugin": "^1.2.0",
