@@ -1,3 +1,9 @@
+#### 0.3.8 (2018-08-04)
+
+##### Continuous Integration
+
+* **publish:**  fix script ([59be2f02](https://gitlab.com/m03geek/fastify-oas3/commit/59be2f02403199aaf5f1052155ee47183a0e1173))
+
 #### 0.3.7 (2018-08-04)
 
 ##### Bug Fixes
