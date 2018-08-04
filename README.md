@@ -66,6 +66,15 @@ npm i fastify-oas --save
 
 ## Development
 
+In order to start development run:
+
+```sh
+npm i
+npm run prepare
+```
+
+So that [swagger-ui](https://github.com/swagger-api/swagger-ui) static folder will be generated for you.
+
 <sub>[Back to top](#toc)</sub>
 
 ## See also
