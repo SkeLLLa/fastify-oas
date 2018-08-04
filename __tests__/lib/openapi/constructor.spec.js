@@ -173,6 +173,20 @@ describe('openapi constructor', () => {
     });
   });
 
+  describe('openapi 3.0 defaults no package.json', () => {
+    test('generates valid swagger header', async () => {
+      jest.resetModules();
+      jest.mock('fs');
+      const openapi = require('../../../lib/openapi/constructor');
+      const apiFn = openapi();
+      const api = apiFn();
+      const apiCache = apiFn();
+      await expect(api).toEqual(apiCache);
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+  });
+
+
   describe('openapi yaml', () => {
     test('generates valid swagger yaml', async () => {
       const apiFn = openapi({
