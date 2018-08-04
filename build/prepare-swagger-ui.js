@@ -16,8 +16,10 @@ const STATIC_DIR = './static';
     await Promise.all(
       files.map(async (file) => {
         try {
-          const p = path.join(STATIC_DIR, file);
-          await unlink(p);
+          if (file !== '.gitkeep') {
+            const p = path.join(STATIC_DIR, file);
+            await unlink(p);
+          }
         } catch (err) {
           // do nothing, file not exists
         }
