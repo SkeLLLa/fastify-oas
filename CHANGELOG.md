@@ -1,3 +1,9 @@
+#### 0.3.6 (2018-08-04)
+
+##### Tests
+
+*  add more tests ([cdc021f7](git+https://gitlab.com/m03geek/fasify-oas3/commit/cdc021f79e0aa36dfa6eb1c96c421b85b39c22b3))
+
 #### 0.3.5 (2018-08-04)
 
 ##### Build System / Dependencies
