@@ -1,3 +1,13 @@
+#### 0.3.5 (2018-08-04)
+
+##### Build System / Dependencies
+
+*  fix prepare script ([296cd65f](git+https://gitlab.com/m03geek/fasify-oas3/commit/296cd65fe3e6320cc5955b2293ae3339d17f6edf))
+
+##### Continuous Integration
+
+*  fix publish ([2e986781](git+https://gitlab.com/m03geek/fasify-oas3/commit/2e98678185b472b4f43ab79d18be95f612e24ce1))
+
 #### 0.3.4 (2018-08-03)
 
 ##### Continuous Integration
