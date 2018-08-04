@@ -54,7 +54,7 @@ npm:
   stage: publish
   script:
     - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}' > .npmrc
-    - npm prepare
+    - npm run prepare
     - npm publish
   environment:
     name: npm
