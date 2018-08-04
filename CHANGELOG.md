@@ -1,3 +1,13 @@
+#### 0.3.7 (2018-08-04)
+
+##### Bug Fixes
+
+*  package name ([309d2549](https://gitlab.com/m03geek/fastify-oas3/commit/309d2549efd3182a2f477b6fe9180b068e73c3ec))
+
+##### Refactors
+
+*  refactor package typo ([4c14fcc9](https://gitlab.com/m03geek/fastify-oas3/commit/4c14fcc9fa53e69dfc295a0d66158c3b71e36355))
+
 #### 0.3.6 (2018-08-04)
 
 ##### Tests
