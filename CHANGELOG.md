@@ -1,3 +1,18 @@
+#### 0.4.0 (2018-08-05)
+
+##### Continuous Integration
+
+* **verify:**  add packages audit ([3fe77042](https://gitlab.com/m03geek/fastify-oas3/commit/3fe77042721eae46b36a8e48e33249b4523923e9))
+
+##### Documentation Changes
+
+* **readme:**
+  *  add examples ([338b7f17](https://gitlab.com/m03geek/fastify-oas3/commit/338b7f17e11644761a895da5e2f5e197b8b7c31d))
+  *  update readme ([50929549](https://gitlab.com/m03geek/fastify-oas3/commit/50929549f5c1d9b090762449ff9650f2f4a518f0))
+  *  update readme ([4c797d67](https://gitlab.com/m03geek/fastify-oas3/commit/4c797d674b3ec1c165cfb7245e706014e29ff6fe))
+  *  fix badges ([cb3f957e](https://gitlab.com/m03geek/fastify-oas3/commit/cb3f957eb388cf53b25719147a3f0411d03f5df9))
+  *  add logo and badges ([876ea988](https://gitlab.com/m03geek/fastify-oas3/commit/876ea9888fe155d1cf2b4c9b6b1e9bb71a386fef))
+
 #### 0.3.8 (2018-08-04)
 
 ##### Continuous Integration
