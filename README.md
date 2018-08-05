@@ -24,6 +24,7 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
   - [Installation](#installation)
   - [Features and requirements](#features-and-requirements)
   - [Usage](#usage)
+    - [Plugin options](#plugin-options)
     - [OpenAPI](#openapi)
     - [Swagger 2.0](#swagger-20)
   - [Development](#development)
@@ -54,13 +55,185 @@ npm i fastify-oas --save
 
 ## Usage
 
+Add it to your project like regular fastify plugin. Use `register` method and pass it swagger options, then call the api constructor.
+
+```js
+const fastify = require('fastify');
+const oas = require('fastify-oas');
+const app = fastify();
+
+app.register(oas, {
+  routePrefix: '/documentation',
+  swagger: {
+    info: {
+      title: 'Test openapi',
+      description: 'testing the fastify swagger api',
+      version: '0.1.0',
+    },
+    externalDocs: {
+      url: 'https://swagger.io',
+      description: 'Find more info here',
+    },
+    consumes: ['application/json'],
+    produces: ['application/json'],
+  },
+});
+
+// put some routes and schemas
+
+app.ready(err => {
+  if (err) throw err;
+  app.oas();
+});
+```
+
 <sub>[Back to top](#toc)</sub>
 
+### Plugin options
+
+|  parameter  |  type  |  description   |  default  |
+|-------------|--------|----------------|-----------|
+| `routePrefix` | String | Documentation endpoint | `/documentation` |
+| `exposeRoute` | Boolean | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false` |
+| `addModels` | Boolean | If `true` adds fastify schemas as openapi models | `false` |
+| `openapi` | String | Openapi version | '3.0.0' |
+| `yaml` | Boolean | If `true` returns yaml instead of json | `false` |
+| `swagger` | Object | Swagger object except paths | `{}` |
+
+<sub>[Back to top](#toc)</sub>
+
+
 ### OpenAPI
+
+Unlike regular OpenAPI spec you'll still need some options from swagger 2.0.
+
+```js
+const fastify = require('fastify');
+const oas = require('fastify-oas');
+const app = fastify();
+
+app.register(oas, {
+  routePrefix: '/documentation',
+  swagger: {
+    info: {
+      title: 'Test openapi',
+      description: 'testing the fastify swagger api',
+      version: '0.1.0',
+    },
+    externalDocs: {
+      url: 'https://swagger.io',
+      description: 'Find more info here',
+    },
+    consumes: ['application/json'], // app-wide default media-type
+    produces: ['application/json'], // app-wide default media-type
+    servers: [{
+      url: 'http://api.example.com/v1',
+      description: 'Optional server description, e.g. Main (production) server',
+    }],
+    components: {
+      // see https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.0.md#componentsObject for more options
+      securitySchemes: {
+        BasicAuth: {
+          type: 'http',
+          scheme: 'basic',
+        },
+      },
+    }, 
+  },
+});
+```
 
 <sub>[Back to top](#toc)</sub>
 
 ### Swagger 2.0
+
+This will not generate swagger 2.0 docs. It will generate openapi 3.0 docs, but from swagger 2.0 (and fastify-swagger) compatible configuration.
+It will allow easily migrate from fastify-swagger.
+
+The example below is taken from fastify-swagger repo to show the differences .
+
+```js
+const fastify = require('fastify')()
+
+// before: fastify.register(require('fastify-swagger'), {
+fastify.register(require('fastify-oas'), { // after
+  routePrefix: '/documentation',
+  swagger: {
+    info: {
+      title: 'Test swagger',
+      description: 'testing the fastify swagger api',
+      version: '0.1.0'
+    },
+    externalDocs: {
+      url: 'https://swagger.io',
+      description: 'Find more info here'
+    },
+    host: 'localhost',
+    schemes: ['http'],
+    consumes: ['application/json'],
+    produces: ['application/json'],
+    tags: [
+      { name: 'user', description: 'User related end-points' },
+      { name: 'code', description: 'Code related end-points' }
+    ],
+    securityDefinitions: {
+      apiKey: {
+        type: 'apiKey',
+        name: 'apiKey',
+        in: 'header'
+      }
+    }
+  }
+})
+
+fastify.put('/some-route/:id', {
+  schema: {
+    description: 'post some data',
+    tags: ['user', 'code'],
+    summary: 'qwerty',
+    params: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string',
+          description: 'user id'
+        }
+      }
+    },
+    body: {
+      type: 'object',
+      properties: {
+        hello: { type: 'string' },
+        obj: {
+          type: 'object',
+          properties: {
+            some: { type: 'string' }
+          }
+        }
+      }
+    },
+    response: {
+      201: {
+        description: 'Successful response',
+        type: 'object',
+        properties: {
+          hello: { type: 'string' }
+        }
+      }
+    },
+    security: [
+      {
+        "api_key": []
+      }
+    ]
+  }
+}, (req, reply) => {})
+
+fastify.ready(err => {
+  if (err) throw err
+  fastify.oas()
+})
+```
 
 <sub>[Back to top](#toc)</sub>
 
