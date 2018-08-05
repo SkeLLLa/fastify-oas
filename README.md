@@ -12,9 +12,9 @@
 [![License](https://img.shields.io/npm/l/fasify-oas.svg)](https://gitlab.com/m03geek/fastify-oas/blob/master/LICENSE)
 
 [OpenAPI 3.0+ (OAS3)](https://swagger.io/docs/specification/about/) documentation generator for Fastify.
-It uses the schemas you declare in your routes to generate a swagger compliant doc.
+It uses the schemas you declare in your routes to generate an OpenAPI (swagger) compliant doc.
 
-This plugin based on [fastify-swagger](https://github.com/fastify/fastify-swagger/) that generates swagger 2.0 spec.
+This plugin based on [fastify-swagger](https://github.com/fastify/fastify-swagger/) that generates swagger 2.0 docs.
 
 This plugin designed in such way to be compatible with it's predcessor and in most cases if you already use `fastify-swagger` you may just replace it with current plugin and it should work.
 
@@ -50,6 +50,8 @@ npm i fastify-oas --save
 
 * Requires fastify `>=1.9.0`.
 * Node.js `>=8.9.0`.
+
+NOTE: If you need to generate fastify routes from your swagger document - please refer to plugins in [See also](#see-also) like fastify-swaggergen or fastify-openapi-glue.
 
 <sub>[Back to top](#toc)</sub>
 
@@ -101,7 +103,6 @@ app.ready(err => {
 | `swagger` | Object | Swagger object except paths | `{}` |
 
 <sub>[Back to top](#toc)</sub>
-
 
 ### OpenAPI
 
@@ -253,7 +254,8 @@ So that [swagger-ui](https://github.com/swagger-api/swagger-ui) static folder wi
 ## See also
 
 * [fastify-swagger](https://github.com/fastify/fastify-swagger) - swagger 2.0 docs generation plugin.
-* [fastify-swaggergen](https://github.com/seriousme/fastify-swaggergen) - fastify routes generation from swagger docs.
+* [fastify-swaggergen](https://github.com/seriousme/fastify-swaggergen) - fastify routes generation from swagger 2.0 docs.
+* [fastify-openapi-glue](https://github.com/seriousme/fastify-openapi-glue) - fastify-swaggergen successor, generates fastify routes from swagger 2.0 and openapi 3.0 docs (just like this module, but in opposite direction).
 
 <sub>[Back to top](#toc)</sub>
 
