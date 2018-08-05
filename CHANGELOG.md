@@ -1,3 +1,9 @@
+#### 0.4.1 (2018-08-05)
+
+##### Refactors
+
+* **deps:**  move swagger ui to dev deps ([6860e1b4](https://gitlab.com/m03geek/fastify-oas3/commit/6860e1b478df67a1d225bea5aeea44b72cdb7f61))
+
 #### 0.4.0 (2018-08-05)
 
 ##### Continuous Integration
