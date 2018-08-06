@@ -138,7 +138,8 @@ describe('openapi constructor', () => {
           },
         },
       };
-      const api = openapi({options: opts, schemas})();
+      const getSchemas = () => schemas;
+      const api = openapi({options: opts, getSchemas})();
       await expect(api).toHaveProperty('components.schemas', {
         sch1: {
           type: 'object',
