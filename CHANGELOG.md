@@ -1,3 +1,9 @@
+#### 0.4.4 (2018-08-06)
+
+##### Bug Fixes
+
+* **schema:**  use schemaKey if $id is missing ([1ac51eb2](https://gitlab.com/m03geek/fastify-oas3/commit/1ac51eb23a4c521203ffae58b7f7c9c1dad770eb))
+
 #### 0.4.3 (2018-08-06)
 
 ##### Bug Fixes
