@@ -1,3 +1,14 @@
+#### 0.4.2 (2018-08-06)
+
+##### Documentation Changes
+
+* **readme:**  add more refs ([67c03a29](https://gitlab.com/m03geek/fastify-oas3/commit/67c03a291ca9a262eaa12fe3574f784d377a1f63))
+
+##### Bug Fixes
+
+* **routes:**  fix routes with separate schemas ([d1322581](https://gitlab.com/m03geek/fastify-oas3/commit/d13225810cc45233ae08d8ff5c55571803917bc5))
+* **schemas:**  fix schemas generation ([82e4fbcd](https://gitlab.com/m03geek/fastify-oas3/commit/82e4fbcd64ac1368234c821b7a58c879b0038486))
+
 #### 0.4.1 (2018-08-05)
 
 ##### Refactors
