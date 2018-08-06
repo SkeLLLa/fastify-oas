@@ -1,3 +1,9 @@
+#### 0.4.3 (2018-08-06)
+
+##### Bug Fixes
+
+* **schemas:**  fix add schemas as models ([942e9ceb](https://gitlab.com/m03geek/fastify-oas3/commit/942e9ceb1bd59cb6ebedd88d4b319c67df0e7877))
+
 #### 0.4.2 (2018-08-06)
 
 ##### Documentation Changes
