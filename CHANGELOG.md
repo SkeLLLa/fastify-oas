@@ -1,3 +1,13 @@
+#### 0.4.6 (2018-08-12)
+
+##### Bug Fixes
+
+* **changelog:**  fix changelog links ([59a0053e](https://github.com/SkeLLLa/fastify-oas/commit/59a0053eeea3e3b9cd2b43943f9119818bcf3a7e))
+
+##### Refactors
+
+* **package.json:**  fix git url ([624887d7](https://github.com/SkeLLLa/fastify-oas/commit/624887d715b9b30b5ec9a507a418bbdd2885797a))
+
 #### 0.4.5 (2018-08-12)
 
 ##### Bug Fixes
