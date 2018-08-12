@@ -7,7 +7,7 @@
     "releaseBranch": "master"
   },
   "scripts": {
-    "changelog": "changelog",
+    "changelog": "changelog -u https://gitlab.com/m03geek/fastify-oas",
     "check-branch": "if test \"$(git rev-parse --abbrev-ref HEAD)\" = \"$npm_package_config_releaseBranch\" ; then exit 0 ; else  echo \"Not on '$npm_package_config_releaseBranch' branch\" && exit 1 ; fi",
     "lint": "eslint .",
     "postversion": "git push && git push --tags",
