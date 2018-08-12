@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/m03geek/fastify-oas3.git"
+    "url": "https://github.com/SkeLLLa/fastify-oas.git"
   },
   "keywords": [
     "fastify",
