@@ -1,3 +1,9 @@
+#### 0.4.5 (2018-08-12)
+
+##### Bug Fixes
+
+* **helpers:**  fix enum handling ([bfc483c8](https://gitlab.com/m03geek/fastify-oas3/commit/bfc483c8bc16df10db0080a059f7b7dd65f76001))
+
 #### 0.4.4 (2018-08-06)
 
 ##### Bug Fixes
