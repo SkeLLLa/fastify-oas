@@ -146,7 +146,7 @@ describe('helpers', () => {
         type: 'object',
         properties: {
           hello: {type: 'string'},
-          world: {type: 'string', description: 'something'},
+          world: {type: 'string', enum: ['world', 'worlds'], description: 'something'},
         },
         required: ['hello'],
       };
@@ -157,7 +157,7 @@ describe('helpers', () => {
           in: 'query',
           name: 'world',
           description: 'something',
-          schema: {type: 'string', description: 'something'},
+          schema: {type: 'string', enum: ['world', 'worlds'], description: 'something'},
         },
       ];
       helpers.genQuery(dst, querystring);

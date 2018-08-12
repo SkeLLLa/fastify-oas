@@ -137,6 +137,24 @@ describe('openapi constructor', () => {
             },
           },
         },
+        sch2: {
+          type: 'object',
+          description: 'sch2 schema',
+          properties: {
+            num: {
+              type: 'number',
+              minimum: 1,
+              maximum: 1000,
+              description: 'some number',
+            },
+            str: {
+              enum: ['a', 'b', 'c'],
+              default: 'b',
+              description: 'some string',
+              type: 'string',
+            },
+          },
+        },
       };
       const getSchemas = () => schemas;
       const api = openapi({options: opts, getSchemas})();
@@ -144,6 +162,24 @@ describe('openapi constructor', () => {
         sch1: {
           type: 'object',
           description: 'sch1 schema',
+          properties: {
+            num: {
+              type: 'number',
+              minimum: 1,
+              maximum: 1000,
+              description: 'some number',
+            },
+            str: {
+              enum: ['a', 'b', 'c'],
+              default: 'b',
+              description: 'some string',
+              type: 'string',
+            },
+          },
+        },
+        sch2: {
+          type: 'object',
+          description: 'sch2 schema',
           properties: {
             num: {
               type: 'number',
