@@ -9,7 +9,7 @@
 [![Vunerabilities Count](https://snyk.io/test/npm/fastify-oas/badge.svg)](https://www.npmjs.com/package/fastify-oas)
 [![Build Status](https://gitlab.com/m03geek/fastify-oas/badges/master/pipeline.svg)](https://gitlab.com/m03geek/fastify-oas/commits/master)
 [![Coverage Status](https://gitlab.com/m03geek/fastify-oas/badges/master/coverage.svg)](https://gitlab.com/m03geek/fastify-oas/commits/master)
-[![License](https://img.shields.io/npm/l/fasify-oas.svg)](https://gitlab.com/m03geek/fastify-oas/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/fastify-oas.svg)](https://gitlab.com/m03geek/fastify-oas/blob/master/LICENSE)
 
 [OpenAPI 3.0+ (OAS3)](https://swagger.io/docs/specification/about/) documentation generator for Fastify.
 It uses the schemas you declare in your routes to generate an OpenAPI (swagger) compliant doc.
