@@ -1,3 +1,9 @@
+#### 0.4.8 (2018-09-25)
+
+##### Chores
+
+* **readme:**  fix typo ([a139d356](https://github.com/SkeLLLa/fastify-oas/commit/a139d356150a15b4615086a4ac28c83ae4b1e2d8))
+
 #### 0.4.7 (2018-09-25)
 
 ##### Chores
