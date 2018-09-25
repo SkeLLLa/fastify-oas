@@ -1,3 +1,9 @@
+#### 0.4.7 (2018-09-25)
+
+##### Chores
+
+* **deps:**  update deps ([324ff88d](https://github.com/SkeLLLa/fastify-oas/commit/324ff88d9b9d9ca6403c447c3012215798c35cd4))
+
 #### 0.4.6 (2018-08-12)
 
 ##### Bug Fixes
