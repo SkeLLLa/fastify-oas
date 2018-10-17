@@ -25,6 +25,7 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
   - [Features and requirements](#features-and-requirements)
   - [Usage](#usage)
     - [Plugin options](#plugin-options)
+    - [Additional schema options](#additional-schema-options)
     - [OpenAPI](#openapi)
     - [Swagger 2.0](#swagger-20)
   - [Development](#development)
@@ -101,6 +102,40 @@ app.ready(err => {
 | `openapi` | String | Openapi version | '3.0.0' |
 | `yaml` | Boolean | If `true` returns yaml instead of json | `false` |
 | `swagger` | Object | Swagger object except paths | `{}` |
+
+<sub>[Back to top](#toc)</sub>
+
+### Additional schema options
+
+In order to remove some endpoints from Swagger/OpenAPI document you may add `{hide: true}` option to route schema.
+
+```js
+const fastify = require('fastify')()
+fastify.get('/some-secrete-route/:id', {
+  schema: {
+    hide: true,
+    params: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string',
+          description: 'user id'
+        }
+      }
+    },
+    response: {
+      201: {
+        description: 'Successful response',
+        type: 'object',
+        properties: {
+          hello: { type: 'string' }
+        }
+      }
+    },
+  }
+}, (req, reply) => {})
+
+```
 
 <sub>[Back to top](#toc)</sub>
 
