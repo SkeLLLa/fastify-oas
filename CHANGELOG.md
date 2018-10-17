@@ -1,3 +1,9 @@
+#### 0.4.9 (2018-10-17)
+
+##### Documentation Changes
+
+* **readme:**  add hide description ([59a204b3](https://github.com/SkeLLLa/fastify-oas/commit/59a204b3f49cf4a97f5cdd5aca57e62e9317dd0e))
+
 #### 0.4.8 (2018-09-25)
 
 ##### Chores
