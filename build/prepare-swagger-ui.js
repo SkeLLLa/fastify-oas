@@ -66,6 +66,7 @@ const STATIC_DIR = './static';
       .replace(
         /url: "(.*)",/,
         `url: resolveUrl('./json'),
+    validatorUrl: null,
     oauth2RedirectUrl: resolveUrl('./oauth2-redirect.html'),`
       )
   );
