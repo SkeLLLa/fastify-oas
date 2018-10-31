@@ -1,3 +1,9 @@
+#### 0.5.1 (2018-10-31)
+
+##### Bug Fixes
+
+* **typedoc:**  fix typedocs ([7993a362](https://github.com/SkeLLLa/fastify-oas/commit/7993a362f282018c9c2be0d44260163a3b2ce30f))
+
 #### 0.5.0 (2018-10-31)
 
 ##### Chores
