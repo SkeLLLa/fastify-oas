@@ -1,3 +1,9 @@
+#### 0.5.2 (2018-10-31)
+
+##### Documentation Changes
+
+*  fix security schema type ([c2f5bc19](https://github.com/SkeLLLa/fastify-oas/commit/c2f5bc19808c3a5a5124030b5b638846de09dc77))
+
 #### 0.5.1 (2018-10-31)
 
 ##### Bug Fixes
