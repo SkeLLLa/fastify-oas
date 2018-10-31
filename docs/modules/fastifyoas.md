@@ -5,7 +5,7 @@
 ## Callable
 ▸ **fastifyOAS**(fastify: *`FastifyInstance`*, opts: *[FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)*): `void`
 
-*Defined in lib/index.d.ts:47*
+*Defined in lib/index.d.ts:108*
 
 **Parameters:**
 
@@ -21,6 +21,7 @@
 ### Interfaces
 
 * [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
+* [OpenApiSpec](../interfaces/fastifyoas.openapispec.md)
 
 ---
 

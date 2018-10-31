@@ -4,9 +4,13 @@
 
 ## Hierarchy
 
- `ISpecificationExtension`
+ [ISpecificationExtension](ispecificationextension.md)
 
 **↳ ServerVariableObject**
+
+## Implemented by
+
+* [ServerVariable](../classes/servervariable.md)
 
 ## Indexable
 

@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
- `ISpecificationExtension`
+ [ISpecificationExtension](ispecificationextension.md)
 
 **↳ OpenAPIObject**
 

@@ -1,7 +1,12 @@
 {
   "files": [
     "./lib/index.d.ts",
-    "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts"
+    "./node_modules/openapi3-ts/dist/index.d.ts",
+    "./node_modules/openapi3-ts/dist/model/index.d.ts",
+    "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts",
+    "./node_modules/openapi3-ts/dist/model/Server.d.ts",
+    "./node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts",
+    "./node_modules/@types/swagger-schema-official/index.d.ts"
   ],
   "compilerOptions": {
     "target": "es2017",

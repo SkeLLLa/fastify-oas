@@ -4,9 +4,13 @@
 
 ## Hierarchy
 
- `ISpecificationExtension`
+ [ISpecificationExtension](ispecificationextension.md)
 
 **↳ ServerObject**
+
+## Implemented by
+
+* [Server](../classes/server.md)
 
 ## Indexable
 
