@@ -24,6 +24,7 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
   - [Installation](#installation)
   - [Features and requirements](#features-and-requirements)
   - [Usage](#usage)
+    - [Docs](#docs)
     - [Plugin options](#plugin-options)
     - [Additional schema options](#additional-schema-options)
     - [OpenAPI](#openapi)
@@ -91,6 +92,10 @@ app.ready(err => {
 ```
 
 <sub>[Back to top](#toc)</sub>
+
+### Docs
+
+See [Docs](/docs/README.md) for more details. 
 
 ### Plugin options
 
