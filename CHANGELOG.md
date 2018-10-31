@@ -1,3 +1,19 @@
+#### 0.5.0 (2018-10-31)
+
+##### Chores
+
+* **deps:**  update ([4745551c](https://github.com/SkeLLLa/fastify-oas/commit/4745551c8fdf112ee952542f75a3eaa7c6a39d1c))
+* **ui:**  remove validator ([d0e153a5](https://github.com/SkeLLLa/fastify-oas/commit/d0e153a50022464687bc3d51bad1ddaacf28594d))
+
+##### Documentation Changes
+
+* **readme:**  add docs link to readme ([445f743f](https://github.com/SkeLLLa/fastify-oas/commit/445f743f372f6e39310840e16df8c830ba3224ac))
+* **typescript:**  add typedocs ([711a3b8d](https://github.com/SkeLLLa/fastify-oas/commit/711a3b8d6ac335b1839a39aea7fa7c53423903e5))
+
+##### New Features
+
+*  add typescript definitions and typedocs ([6ce96d1e](https://github.com/SkeLLLa/fastify-oas/commit/6ce96d1e69e20a68d662ad5f8bad6f61b1756023))
+
 #### 0.4.9 (2018-10-17)
 
 ##### Documentation Changes
