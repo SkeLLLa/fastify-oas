@@ -25,6 +25,7 @@ Fastify OAS plugin options
 ### Properties
 
 * [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
+* [attachValidation](fastifyoas.fastifyoasoptions.md#attachvalidation)
 * [beforeHandler](fastifyoas.fastifyoasoptions.md#beforehandler)
 * [bodyLimit](fastifyoas.fastifyoasoptions.md#bodylimit)
 * [config](fastifyoas.fastifyoasoptions.md#config)
@@ -44,7 +45,7 @@ Fastify OAS plugin options
 
 <a id="addmodels"></a>
 
-###  addModels
+### `<Optional>` addModels
 
 **● addModels**: *`Boolean`*
 
@@ -52,6 +53,17 @@ Fastify OAS plugin options
 
 If `true` adds fastify schemas as openapi models
 *__default__*: false
+
+___
+<a id="attachvalidation"></a>
+
+### `<Optional>` attachValidation
+
+**● attachValidation**: *`boolean`*
+
+*Inherited from RouteShorthandOptions.attachValidation*
+
+*Defined in node_modules/fastify/fastify.d.ts:169*
 
 ___
 <a id="beforehandler"></a>
@@ -63,7 +75,7 @@ ___
 
 *Inherited from RouteShorthandOptions.beforeHandler*
 
-*Defined in node_modules/fastify/fastify.d.ts:169*
+*Defined in node_modules/fastify/fastify.d.ts:170*
 
 ___
 <a id="bodylimit"></a>
@@ -74,7 +86,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:173*
+*Defined in node_modules/fastify/fastify.d.ts:174*
 
 ___
 <a id="config"></a>
@@ -85,12 +97,12 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:175*
+*Defined in node_modules/fastify/fastify.d.ts:176*
 
 ___
 <a id="exposeroute"></a>
 
-###  exposeRoute
+### `<Optional>` exposeRoute
 
 **● exposeRoute**: *`Boolean`*
 
@@ -108,12 +120,12 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:174*
+*Defined in node_modules/fastify/fastify.d.ts:175*
 
 ___
 <a id="openapi"></a>
 
-###  openapi
+### `<Optional>` openapi
 
 **● openapi**: *`String`*
 
@@ -131,12 +143,12 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:200*
+*Defined in node_modules/fastify/fastify.d.ts:201*
 
 ___
 <a id="routeprefix"></a>
 
-###  routePrefix
+### `<Optional>` routePrefix
 
 **● routePrefix**: *`String`*
 
@@ -165,12 +177,12 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:172*
+*Defined in node_modules/fastify/fastify.d.ts:173*
 
 ___
 <a id="swagger"></a>
 
-###  swagger
+### `<Optional>` swagger
 
 **● swagger**: *[OpenApiSpec](fastifyoas.openapispec.md)*
 
@@ -181,7 +193,7 @@ OpenApi/Swagger object except paths
 ___
 <a id="yaml"></a>
 
-###  yaml
+### `<Optional>` yaml
 
 **● yaml**: *`Boolean`*
 

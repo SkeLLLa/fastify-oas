@@ -54,7 +54,7 @@ declare module 'fastify' {
     /**
      * OpenAPI security definitions
      */
-    security: Array<SecurityRequirementObject>;
+    security?: Array<SecurityRequirementObject>;
   }
 }
 
@@ -91,31 +91,31 @@ declare namespace fastifyOAS {
      * Documentation endpoint
      * @default /documentation
      */
-    routePrefix: String;
+    routePrefix?: String;
     /**
      * If `true` the plugin will expose the documentation routes
      * @default false
      */
-    exposeRoute: Boolean;
+    exposeRoute?: Boolean;
     /**
      * If `true` adds fastify schemas as openapi models
      * @default false
      */
-    addModels: Boolean;
+    addModels?: Boolean;
     /**
      * Openapi version
      * @default 3.0.0
      */
-    openapi: String;
+    openapi?: String;
     /**
      * If `true` returns yaml instead of json
      * @default false
      */
-    yaml: Boolean;
+    yaml?: Boolean;
     /**
      * OpenApi/Swagger object except paths
      */
-    swagger: OpenApiSpec;
+    swagger?: OpenApiSpec;
   }
 }
 

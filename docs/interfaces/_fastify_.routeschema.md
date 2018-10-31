@@ -69,7 +69,7 @@ Media types route produces
 ___
 <a id="security"></a>
 
-###  security
+### `<Optional>` security
 
 **● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)>*
 
