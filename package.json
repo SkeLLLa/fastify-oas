@@ -14,7 +14,7 @@
     "postversion": "git push && git push --tags",
     "prepare": "node build/prepare-swagger-ui",
     "prepublishOnly": "npm run prepare",
-    "preversion": "npm run check-branch && npm run lint && npm run unit",
+    "preversion": "npm run check-branch && npm run test",
     "test": "npm audit && npm run tsc && npm run lint && npm run unit",
     "unit": "jest",
     "tsc": "tsc ./lib/index.d.ts",
@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "@types/fastify-static": "^0.14.0",
-    "@types/jest": "^23.3.8",
+    "@types/jest": "^23.3.9",
     "@types/node": "^10.12.1",
     "@types/swagger-schema-official": "^2.0.12",
     "eslint": "^5.8.0",
