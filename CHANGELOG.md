@@ -1,3 +1,13 @@
+#### 0.5.3 (2018-10-31)
+
+##### Continuous Integration
+
+*  fix coverage and add 10 node ([6b405aef](https://github.com/SkeLLLa/fastify-oas/commit/6b405aef58a8dba5a35790e96314714b0c441c27))
+
+##### Bug Fixes
+
+* **typescript:**  typings fix ([ed7a237b](https://github.com/SkeLLLa/fastify-oas/commit/ed7a237b77bc8d866a8ef682dd43f0f1cffe3396))
+
 #### 0.5.2 (2018-10-31)
 
 ##### Documentation Changes
