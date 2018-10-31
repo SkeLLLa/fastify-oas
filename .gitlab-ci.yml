@@ -31,17 +31,17 @@ node:8:
   script:
     - npm i
     - npm run unit
-  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
+  coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
-node:9:
+node:10:
   stage: test
-  image: node:9
+  image: node:10
   only:
     - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
   script:
     - npm i
     - npm run unit
-  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
+  coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
 node:latest:
   stage: test
@@ -49,7 +49,7 @@ node:latest:
   script:
     - npm ci
     - npm run unit
-  coverage: /^All files\s*\|\s*\d+\.*\d+\s*\|\s*(\d+\.*\d+)/
+  coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
 npm:
   stage: publish
