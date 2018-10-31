@@ -71,7 +71,7 @@ ___
 
 ###  security
 
-**● security**: *`Array`<`Object`>*
+**● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)>*
 
 *Defined in lib/index.d.ts:57*
 

@@ -54,7 +54,7 @@ declare module 'fastify' {
     /**
      * OpenAPI security definitions
      */
-    security: Array<Object>;
+    security: Array<SecurityRequirementObject>;
   }
 }
 
@@ -68,7 +68,7 @@ declare namespace fastifyOAS {
     consumes?: Array<String>;
     produces?: Array<String>;
     security?:
-      | SecurityRequirementObject[]
+      | Array<SecurityRequirementObject>
       | Array<{[securityDefinitionName: string]: Array<String>}>;
     servers?: Array<Server>;
     componetns?: ComponentsObject;

@@ -106,7 +106,7 @@ ___
 
 ### `<Optional>` security
 
-**● security**: * [SecurityRequirementObject](securityrequirementobject.md)[] &#124; `Array`<`object`>
+**● security**: * `Array`<[SecurityRequirementObject](securityrequirementobject.md)> &#124; `Array`<`object`>
 *
 
 *Defined in lib/index.d.ts:70*
