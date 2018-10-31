@@ -1,8 +1,17 @@
 import * as fastify from 'fastify';
 import * as http from 'http';
-import {OpenAPIObject, InfoObject, ExternalDocumentationObject, SchemasObject, SecurityRequirementObject, ComponentsObject, Server, TagObject} from 'openapi3-ts';
+import {
+  OpenAPIObject,
+  InfoObject,
+  ExternalDocumentationObject,
+  SchemasObject,
+  SecurityRequirementObject,
+  ComponentsObject,
+  Server,
+  TagObject,
+} from 'openapi3-ts';
 import {RegisterOptions} from 'fastify';
-import { ExternalDocs, Info, Security, Tag } from 'swagger-schema-official';
+import {ExternalDocs, Info, Security, Tag} from 'swagger-schema-official';
 
 declare module 'fastify' {
   interface FastifyInstance<
@@ -72,7 +81,12 @@ declare namespace fastifyOAS {
   /**
    * Fastify OAS plugin options
    */
-  export interface FastifyOASOptions {
+  export interface FastifyOASOptions
+    extends RegisterOptions<
+        http.Server,
+        http.IncomingMessage,
+        http.ServerResponse
+      > {
     /**
      * Documentation endpoint
      * @default /documentation
@@ -105,9 +119,6 @@ declare namespace fastifyOAS {
   }
 }
 
-declare function fastifyOAS(
-  fastify: fastify.FastifyInstance,
-  opts: fastifyOAS.FastifyOASOptions
-): void;
+declare function fastifyOAS(): void;
 
 export = fastifyOAS;

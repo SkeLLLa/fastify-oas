@@ -28,7 +28,7 @@
 
 **● consumes**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:40*
+*Defined in lib/index.d.ts:49*
 
 Media types route consumes
 
@@ -39,7 +39,7 @@ ___
 
 **● description**: *`String`*
 
-*Defined in lib/index.d.ts:28*
+*Defined in lib/index.d.ts:37*
 
 Route description
 
@@ -50,7 +50,7 @@ ___
 
 **● hide**: *`Boolean`*
 
-*Defined in lib/index.d.ts:24*
+*Defined in lib/index.d.ts:33*
 
 Hides route from result OpenAPI document
 *__default__*: false
@@ -62,7 +62,7 @@ ___
 
 **● produces**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:44*
+*Defined in lib/index.d.ts:53*
 
 Media types route produces
 
@@ -73,7 +73,7 @@ ___
 
 **● security**: *`Array`<`Object`>*
 
-*Defined in lib/index.d.ts:48*
+*Defined in lib/index.d.ts:57*
 
 OpenAPI security definitions
 
@@ -84,7 +84,7 @@ ___
 
 **● summary**: *`String`*
 
-*Defined in lib/index.d.ts:32*
+*Defined in lib/index.d.ts:41*
 
 Route summary
 
@@ -95,7 +95,7 @@ ___
 
 **● tags**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:36*
+*Defined in lib/index.d.ts:45*
 
 Route tags
 

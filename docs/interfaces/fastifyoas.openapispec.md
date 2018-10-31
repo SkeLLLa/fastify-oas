@@ -33,7 +33,7 @@
 
 **● basePath**: *`String`*
 
-*Defined in lib/index.d.ts:57*
+*Defined in lib/index.d.ts:66*
 
 ___
 <a id="componetns"></a>
@@ -42,7 +42,7 @@ ___
 
 **● componetns**: *[ComponentsObject](componentsobject.md)*
 
-*Defined in lib/index.d.ts:65*
+*Defined in lib/index.d.ts:74*
 
 ___
 <a id="consumes"></a>
@@ -51,7 +51,7 @@ ___
 
 **● consumes**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:59*
+*Defined in lib/index.d.ts:68*
 
 ___
 <a id="externaldocs"></a>
@@ -61,7 +61,7 @@ ___
 **● externalDocs**: * [ExternalDocumentationObject](externaldocumentationobject.md) &#124; [ExternalDocs](externaldocs.md)
 *
 
-*Defined in lib/index.d.ts:55*
+*Defined in lib/index.d.ts:64*
 
 ___
 <a id="host"></a>
@@ -70,7 +70,7 @@ ___
 
 **● host**: *`String`*
 
-*Defined in lib/index.d.ts:56*
+*Defined in lib/index.d.ts:65*
 
 ___
 <a id="info"></a>
@@ -80,7 +80,7 @@ ___
 **● info**: * [InfoObject](infoobject.md) &#124; [Info](info.md)
 *
 
-*Defined in lib/index.d.ts:54*
+*Defined in lib/index.d.ts:63*
 
 ___
 <a id="produces"></a>
@@ -89,7 +89,7 @@ ___
 
 **● produces**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:60*
+*Defined in lib/index.d.ts:69*
 
 ___
 <a id="schemes"></a>
@@ -99,7 +99,7 @@ ___
 **● schemes**: * [SchemasObject](schemasobject.md) &#124; `Array`<`String`>
 *
 
-*Defined in lib/index.d.ts:58*
+*Defined in lib/index.d.ts:67*
 
 ___
 <a id="security"></a>
@@ -109,7 +109,7 @@ ___
 **● security**: * [SecurityRequirementObject](securityrequirementobject.md)[] &#124; `Array`<`object`>
 *
 
-*Defined in lib/index.d.ts:61*
+*Defined in lib/index.d.ts:70*
 
 ___
 <a id="securitydefinitions"></a>
@@ -118,7 +118,7 @@ ___
 
 **● securityDefinitions**: *`object`*
 
-*Defined in lib/index.d.ts:66*
+*Defined in lib/index.d.ts:75*
 
 #### Type declaration
 
@@ -131,7 +131,7 @@ ___
 
 **● servers**: *`Array`<[Server](../classes/server.md)>*
 
-*Defined in lib/index.d.ts:64*
+*Defined in lib/index.d.ts:73*
 
 ___
 <a id="tags"></a>
@@ -141,7 +141,7 @@ ___
 **● tags**: * `Array`<[TagObject](tagobject.md)> &#124; `Array`<[Tag](tag.md)>
 *
 
-*Defined in lib/index.d.ts:69*
+*Defined in lib/index.d.ts:78*
 
 ___
 

@@ -3,16 +3,9 @@
 # Module: fastifyOAS
 
 ## Callable
-▸ **fastifyOAS**(fastify: *`FastifyInstance`*, opts: *[FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)*): `void`
+▸ **fastifyOAS**(): `void`
 
-*Defined in lib/index.d.ts:108*
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| fastify | `FastifyInstance` |
-| opts | [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md) |
+*Defined in lib/index.d.ts:122*
 
 **Returns:** `void`
 

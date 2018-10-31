@@ -26,7 +26,7 @@
 
 ▸ **oas**(): `Promise`<`void`>
 
-*Defined in lib/index.d.ts:16*
+*Defined in lib/index.d.ts:25*
 
 Init OpenApi plugin
 
