@@ -1,0 +1,26 @@
+{
+  "files": [
+    "./lib/index.d.ts",
+    "./node_modules/openapi3-ts/dist/model/OpenApi.d.ts"
+  ],
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017"],
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "checkJs": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "noEmit": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "typeRoots": ["node_modules/@types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "typeAcquisition": {
+    "enable": true
+  }
+}

@@ -3,6 +3,7 @@
   "version": "0.4.9",
   "description": "Fastify OpenAPI specification generator plugin",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "config": {
     "releaseBranch": "master"
   },
@@ -14,9 +15,11 @@
     "prepare": "node build/prepare-swagger-ui",
     "prepublishOnly": "npm run prepare",
     "preversion": "npm run check-branch && npm run lint && npm run unit",
-    "test": "npm audit && npm run lint && npm run unit",
+    "test": "npm audit && npm run tsc && npm run lint && npm run unit",
     "unit": "jest",
-    "version": "changelog && git add -u"
+    "tsc": "tsc ./lib/index.d.ts",
+    "typedoc": "typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs",
+    "version": "npm run typedoc && changelog && git add ./docs && git add -u"
   },
   "repository": {
     "type": "git",
@@ -41,6 +44,7 @@
   "files": [
     "build/**/*.js",
     "lib/**/*.js",
+    "lib/**/*.d.ts",
     "static/**/*"
   ],
   "homepage": "https://gitlab.com/m03geek/fastify-oas#README",
@@ -51,14 +55,19 @@
     "js-yaml": "^3.12.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.2",
-    "@types/node": "^10.11.0",
-    "eslint": "^5.6.0",
-    "eslint-config-google": "^0.10.0",
-    "fastify": "^1.12.0",
+    "@types/jest": "^23.3.8",
+    "@types/node": "^10.12.1",
+    "@types/fastify-static": "^0.14.0",
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "fastify": "^1.12.1",
     "generate-changelog": "^1.7.1",
     "jest": "^23.6.0",
-    "swagger-parser": "^5.0.5",
-    "swagger-ui-dist": "^3.19.0"
+    "openapi3-ts": "^1.0.3",
+    "swagger-parser": "^6.0.0",
+    "swagger-ui-dist": "^3.19.4",
+    "typedoc": "^0.13.0",
+    "typedoc-plugin-markdown": "^1.1.18",
+    "typescript": "^3.1.4"
   }
 }
