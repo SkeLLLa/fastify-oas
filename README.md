@@ -29,6 +29,7 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
     - [Additional schema options](#additional-schema-options)
     - [OpenAPI](#openapi)
     - [Swagger 2.0](#swagger-20)
+  - [UI](#ui)
   - [Development](#development)
   - [See also](#see-also)
   - [License](#license)
@@ -275,6 +276,14 @@ fastify.ready(err => {
   fastify.oas()
 })
 ```
+
+<sub>[Back to top](#toc)</sub>
+
+## UI
+
+Swagger UI is available via `/<routePrefix>/index.html`. By default it's `/documentation/index.html`.
+
+ReDoc UI is available via `/<routePrefix>/redoc.html`. By default it's `/documentation/redoc.html`.
 
 <sub>[Back to top](#toc)</sub>
 
