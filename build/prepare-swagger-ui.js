@@ -7,6 +7,7 @@ const readdir = promisify(fs.readdir);
 const unlink = promisify(fs.unlink);
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
+const copyFile = promisify(fs.copyFile);
 
 const STATIC_DIR = './static';
 
@@ -49,6 +50,25 @@ const STATIC_DIR = './static';
   const newIndex = await readFile(
     path.resolve(`${STATIC_DIR}/index.html`),
     'utf-8'
+  );
+  await copyFile(
+    `${__dirname}/../node_modules/redoc/bundles/redoc.standalone.js`,
+    `${STATIC_DIR}/redoc.standalone.js`
+  );
+  await writeFile(
+    path.resolve(`${STATIC_DIR}/redoc.html`),
+    `
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Docs</title>
+  </head>
+  <body>
+    <redoc spec-url="./json"></redoc>
+    <script src="./redoc.standalone.js"> </script>
+  </body>
+</html>`
   );
   await writeFile(
     path.resolve(`${STATIC_DIR}/index.html`),

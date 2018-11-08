@@ -65,6 +65,7 @@
     "generate-changelog": "^1.7.1",
     "jest": "^23.6.0",
     "openapi3-ts": "^1.1.0",
+    "redoc": "^2.0.0-alpha.41",
     "swagger-parser": "^6.0.2",
     "swagger-ui-dist": "^3.19.5",
     "typedoc": "^0.13.0",
