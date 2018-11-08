@@ -1,3 +1,18 @@
+#### 0.6.0 (2018-11-08)
+
+##### Chores
+
+* **deps:**  update ([444e18a9](https://github.com/SkeLLLa/fastify-oas/commit/444e18a99911e56901a6662c38e1ab632fa8dbb9))
+* **ignore:**  ignore tests for npm package ([04b2589c](https://github.com/SkeLLLa/fastify-oas/commit/04b2589ca87ead61afcf6b65582c235071381b74))
+
+##### Documentation Changes
+
+* **readme:**  add UI notes ([ff61766c](https://github.com/SkeLLLa/fastify-oas/commit/ff61766c3b7b0942b6ea0ee52b0464aec6a9f04c))
+
+##### New Features
+
+*  add redoc ([7508231b](https://github.com/SkeLLLa/fastify-oas/commit/7508231b50cf346b0ed2c092c70f0f94bc8be10e))
+
 #### 0.5.3 (2018-10-31)
 
 ##### Continuous Integration
