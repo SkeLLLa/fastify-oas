@@ -57,9 +57,9 @@
   "devDependencies": {
     "@types/fastify-static": "^0.14.0",
     "@types/jest": "^23.3.9",
-    "@types/node": "^10.12.3",
-    "@types/swagger-schema-official": "^2.0.12",
-    "eslint": "^5.8.0",
+    "@types/node": "^10.12.9",
+    "@types/swagger-schema-official": "^2.0.13",
+    "eslint": "^5.9.0",
     "eslint-config-google": "^0.11.0",
     "fastify": "^1.13.0",
     "generate-changelog": "^1.7.1",
