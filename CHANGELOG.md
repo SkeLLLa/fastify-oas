@@ -1,3 +1,13 @@
+#### 0.6.1 (2018-11-16)
+
+##### Chores
+
+* **deps:**  update ([c04ebcc5](https://github.com/SkeLLLa/fastify-oas/commit/c04ebcc5201597f92e969aaeac617f1203ae4424))
+
+##### Refactors
+
+* **redoc:**  rename html to docs.html ([3c6e303e](https://github.com/SkeLLLa/fastify-oas/commit/3c6e303eebd8325087af6c844e3ad1adf2171eb0))
+
 #### 0.6.0 (2018-11-08)
 
 ##### Chores

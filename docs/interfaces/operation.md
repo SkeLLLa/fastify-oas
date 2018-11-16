@@ -76,8 +76,7 @@ ___
 
 ### `<Optional>` parameters
 
-**● parameters**: * [Parameter](../#parameter)[] &#124; [Reference](reference.md)[]
-*
+**● parameters**: *`Array`< [Parameter](../#parameter) &#124; [Reference](reference.md)>*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:102*
 
