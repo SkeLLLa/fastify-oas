@@ -56,7 +56,7 @@ const STATIC_DIR = './static';
     `${STATIC_DIR}/redoc.standalone.js`
   );
   await writeFile(
-    path.resolve(`${STATIC_DIR}/redoc.html`),
+    path.resolve(`${STATIC_DIR}/docs.html`),
     `
 <!DOCTYPE html>
 <html lang="en">
