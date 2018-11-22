@@ -25,6 +25,7 @@ describe('helpers', () => {
       const body = {
         type: 'object',
         description: 'lalala',
+        required: ['a', 'b'],
         example: {
           a: 'a',
           b: 'C',
@@ -47,6 +48,7 @@ describe('helpers', () => {
       const dst = {};
       const expected = {
         description: 'lalala',
+        required: true,
         content: {
           'application/json': {
             example: {
@@ -56,6 +58,7 @@ describe('helpers', () => {
             },
             schema: {
               type: 'object',
+              required: ['a', 'b'],
               properties: {
                 a: {type: 'string', description: 'A value'},
                 b: {type: 'string', enum: ['C', 'D'], default: 'C'},
