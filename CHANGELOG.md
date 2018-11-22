@@ -1,3 +1,17 @@
+#### 0.6.2 (2018-11-22)
+
+##### Chores
+
+* **deps:**  update ([4b6e6a6c](https://github.com/SkeLLLa/fastify-oas/commit/4b6e6a6c54e5e8cb704ff612950f359dd127f387))
+
+##### Documentation Changes
+
+*  update docs ([777769bd](https://github.com/SkeLLLa/fastify-oas/commit/777769bd156c2ec5eb7d13ed48cde14151e4b90d))
+
+##### Bug Fixes
+
+* **body:**  required params fix ([590e219c](https://github.com/SkeLLLa/fastify-oas/commit/590e219c0d4541e9dad9c62c1b04020fc094a487))
+
 #### 0.6.1 (2018-11-16)
 
 ##### Chores
