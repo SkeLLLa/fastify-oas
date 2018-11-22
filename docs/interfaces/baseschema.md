@@ -79,7 +79,7 @@ ___
 
 ### `<Optional>` exclusiveMaximum
 
-**● exclusiveMaximum**: *`number`*
+**● exclusiveMaximum**: *`boolean`*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:130*
 
@@ -88,7 +88,7 @@ ___
 
 ### `<Optional>` exclusiveMinimum
 
-**● exclusiveMinimum**: *`number`*
+**● exclusiveMinimum**: *`boolean`*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:132*
 

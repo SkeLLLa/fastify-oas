@@ -92,7 +92,7 @@ ___
 
 ### `<Optional>` exclusiveMaximum
 
-**● exclusiveMaximum**: *`number`*
+**● exclusiveMaximum**: *`boolean`*
 
 *Inherited from [BaseSchema](baseschema.md).[exclusiveMaximum](baseschema.md#exclusivemaximum)*
 
@@ -103,7 +103,7 @@ ___
 
 ### `<Optional>` exclusiveMinimum
 
-**● exclusiveMinimum**: *`number`*
+**● exclusiveMinimum**: *`boolean`*
 
 *Inherited from [BaseSchema](baseschema.md).[exclusiveMinimum](baseschema.md#exclusiveminimum)*
 
