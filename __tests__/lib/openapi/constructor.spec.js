@@ -10,28 +10,29 @@ describe('openapi constructor', () => {
   describe('swagger 2.0 compatible', () => {
     const options = {
       swagger: {
-        info: {
+        'info': {
           title: 'Test swagger',
           description: 'testing the fastify swagger api',
           version: '0.1.0',
         },
-        host: 'localhost',
-        schemes: ['http'],
-        consumes: ['application/json'],
-        produces: ['application/json'],
-        tags: [{name: 'tag'}],
-        externalDocs: {
+        'x-tagGroups': 'testGroup',
+        'host': 'localhost',
+        'schemes': ['http'],
+        'consumes': ['application/json'],
+        'produces': ['application/json'],
+        'tags': [{name: 'tag'}],
+        'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
         },
-        securityDefinitions: {
+        'securityDefinitions': {
           apiKey: {
             type: 'apiKey',
             name: 'apiKey',
             in: 'header',
           },
         },
-        security: [
+        'security': [
           {
             apiKey: [],
           },
@@ -41,13 +42,14 @@ describe('openapi constructor', () => {
     test('generates valid swagger header', async () => {
       const api = openapi({options})();
       await expect(api).toEqual({
-        openapi: '3.0.0',
-        info: {
+        'openapi': '3.0.0',
+        'info': {
           title: 'Test swagger',
           description: 'testing the fastify swagger api',
           version: '0.1.0',
         },
-        components: {
+        'x-tagGroups': 'testGroup',
+        'components': {
           securitySchemes: {
             apiKey: {
               type: 'apiKey',
@@ -56,14 +58,14 @@ describe('openapi constructor', () => {
             },
           },
         },
-        tags: [{name: 'tag'}],
-        externalDocs: {
+        'tags': [{name: 'tag'}],
+        'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
         },
-        security: [{apiKey: []}],
-        servers: [{url: 'http://localhost/'}],
-        paths: {},
+        'security': [{apiKey: []}],
+        'servers': [{url: 'http://localhost/'}],
+        'paths': {},
       });
       await expect(swParser.validate(api)).resolves.toEqual(api);
     });
@@ -73,12 +75,13 @@ describe('openapi constructor', () => {
     const options = {
       openapi: '3.0.0',
       swagger: {
-        info: {
+        'info': {
           title: 'Test swagger',
           description: 'testing the fastify swagger api',
           version: '0.1.0',
         },
-        components: {
+        'x-tagGroups': 'testGroup',
+        'components': {
           securitySchemes: {
             bearerAuth: {
               type: 'http',
@@ -87,13 +90,13 @@ describe('openapi constructor', () => {
             },
           },
         },
-        tags: [{name: 'tag'}],
-        externalDocs: {
+        'tags': [{name: 'tag'}],
+        'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
         },
-        security: [{bearerAuth: []}],
-        servers: [
+        'security': [{bearerAuth: []}],
+        'servers': [
           {
             url: 'https://{prefix}.example.com:{port}',
             description: 'default server',
@@ -143,6 +146,7 @@ describe('openapi constructor', () => {
           properties: {
             num: {
               type: 'number',
+              title: 'title',
               minimum: 1,
               maximum: 1000,
               description: 'some number',
@@ -183,6 +187,7 @@ describe('openapi constructor', () => {
           properties: {
             num: {
               type: 'number',
+              title: 'title',
               minimum: 1,
               maximum: 1000,
               description: 'some number',
