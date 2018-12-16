@@ -1,5 +1,6 @@
 {
   "files": [
+    "./package.json",
     "./lib/index.d.ts",
     "./node_modules/openapi3-ts/dist/index.d.ts",
     "./node_modules/openapi3-ts/dist/model/index.d.ts",
