@@ -1,3 +1,23 @@
+#### 1.0.0 (2018-12-16)
+
+##### Chores
+
+* **types:**  add package.json ([8837e6bf](https://github.com/SkeLLLa/fastify-oas/commit/8837e6bf5e83297f32387ca034906ed8c118f80f))
+* **deps:**  update ([9a3af8dc](https://github.com/SkeLLLa/fastify-oas/commit/9a3af8dcada6c28e0946158f4565b15164ab9196))
+
+##### Documentation Changes
+
+* **typedoc:**  update documentation ([a3bdbbcd](https://github.com/SkeLLLa/fastify-oas/commit/a3bdbbcd40ace34f7d8e876c2f9641e0e77146bd))
+
+##### New Features
+
+* **docs:**  add notice about fastify version support ([dc732453](https://github.com/SkeLLLa/fastify-oas/commit/dc73245370ce7ba630b044ea2cb81729cd1ffc21))
+
+##### Bug Fixes
+
+* **swagger:**  add title support ([75530a8f](https://github.com/SkeLLLa/fastify-oas/commit/75530a8f7c23ab284d8ea223bb6170415571191d))
+* **redoc:**  add tagGroups support ([be728e13](https://github.com/SkeLLLa/fastify-oas/commit/be728e13b5df16d389754a268252682338e81063))
+
 #### 0.6.2 (2018-11-22)
 
 ##### Chores
