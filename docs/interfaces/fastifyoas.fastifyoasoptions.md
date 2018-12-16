@@ -49,7 +49,7 @@ Fastify OAS plugin options
 
 **● addModels**: *`Boolean`*
 
-*Defined in lib/index.d.ts:104*
+*Defined in lib/index.d.ts:105*
 
 If `true` adds fastify schemas as openapi models
 *__default__*: false
@@ -106,7 +106,7 @@ ___
 
 **● exposeRoute**: *`Boolean`*
 
-*Defined in lib/index.d.ts:99*
+*Defined in lib/index.d.ts:100*
 
 If `true` the plugin will expose the documentation routes
 *__default__*: false
@@ -129,7 +129,7 @@ ___
 
 **● openapi**: *`String`*
 
-*Defined in lib/index.d.ts:109*
+*Defined in lib/index.d.ts:110*
 
 Openapi version
 *__default__*: 3.0.0
@@ -152,7 +152,7 @@ ___
 
 **● routePrefix**: *`String`*
 
-*Defined in lib/index.d.ts:94*
+*Defined in lib/index.d.ts:95*
 
 Documentation endpoint
 *__default__*: /documentation
@@ -186,7 +186,7 @@ ___
 
 **● swagger**: *[OpenApiSpec](fastifyoas.openapispec.md)*
 
-*Defined in lib/index.d.ts:118*
+*Defined in lib/index.d.ts:119*
 
 OpenApi/Swagger object except paths
 
@@ -197,7 +197,7 @@ ___
 
 **● yaml**: *`Boolean`*
 
-*Defined in lib/index.d.ts:114*
+*Defined in lib/index.d.ts:115*
 
 If `true` returns yaml instead of json
 *__default__*: false

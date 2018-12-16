@@ -18,7 +18,7 @@
     "test": "npm audit && npm run tsc && npm run lint && npm run unit",
     "unit": "jest",
     "tsc": "tsc ./lib/index.d.ts",
-    "typedoc": "typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs",
+    "typedoc": "rm -rf ./docs/* && typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs",
     "version": "npm run typedoc && changelog && git add ./docs && git add -u"
   },
   "repository": {

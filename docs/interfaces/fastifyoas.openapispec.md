@@ -22,6 +22,7 @@
 * [securityDefinitions](fastifyoas.openapispec.md#securitydefinitions)
 * [servers](fastifyoas.openapispec.md#servers)
 * [tags](fastifyoas.openapispec.md#tags)
+* [x-tagGroups](fastifyoas.openapispec.md#x_taggroups)
 
 ---
 
@@ -42,7 +43,7 @@ ___
 
 **● componetns**: *[ComponentsObject](componentsobject.md)*
 
-*Defined in lib/index.d.ts:74*
+*Defined in lib/index.d.ts:75*
 
 ___
 <a id="consumes"></a>
@@ -51,7 +52,7 @@ ___
 
 **● consumes**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:68*
+*Defined in lib/index.d.ts:69*
 
 ___
 <a id="externaldocs"></a>
@@ -89,7 +90,7 @@ ___
 
 **● produces**: *`Array`<`String`>*
 
-*Defined in lib/index.d.ts:69*
+*Defined in lib/index.d.ts:70*
 
 ___
 <a id="schemes"></a>
@@ -99,7 +100,7 @@ ___
 **● schemes**: * [SchemasObject](schemasobject.md) &#124; `Array`<`String`>
 *
 
-*Defined in lib/index.d.ts:67*
+*Defined in lib/index.d.ts:68*
 
 ___
 <a id="security"></a>
@@ -109,7 +110,7 @@ ___
 **● security**: * `Array`<[SecurityRequirementObject](securityrequirementobject.md)> &#124; `Array`<`object`>
 *
 
-*Defined in lib/index.d.ts:70*
+*Defined in lib/index.d.ts:71*
 
 ___
 <a id="securitydefinitions"></a>
@@ -118,7 +119,7 @@ ___
 
 **● securityDefinitions**: *`object`*
 
-*Defined in lib/index.d.ts:75*
+*Defined in lib/index.d.ts:76*
 
 #### Type declaration
 
@@ -131,7 +132,7 @@ ___
 
 **● servers**: *`Array`<[Server](../classes/server.md)>*
 
-*Defined in lib/index.d.ts:73*
+*Defined in lib/index.d.ts:74*
 
 ___
 <a id="tags"></a>
@@ -141,7 +142,16 @@ ___
 **● tags**: * `Array`<[TagObject](tagobject.md)> &#124; `Array`<[Tag](tag.md)>
 *
 
-*Defined in lib/index.d.ts:78*
+*Defined in lib/index.d.ts:79*
+
+___
+<a id="x_taggroups"></a>
+
+### `<Optional>` x-tagGroups
+
+**● x-tagGroups**: *`String`*
+
+*Defined in lib/index.d.ts:67*
 
 ___
 
