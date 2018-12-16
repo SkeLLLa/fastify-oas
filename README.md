@@ -21,6 +21,7 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
 ## ToC
 - [fastify-oas](#fastify-oas)
   - [ToC](#toc)
+  - [Fastify support](#fastify-support)
   - [Installation](#installation)
   - [Features and requirements](#features-and-requirements)
   - [Usage](#usage)
@@ -33,6 +34,11 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
   - [Development](#development)
   - [See also](#see-also)
   - [License](#license)
+
+## Fastify support
+
+- v0.X.X - v1.X.X - supports fastify v1.X.X
+- v2.X.X - will support fastify v2.X.X
 
 ## Installation
 
