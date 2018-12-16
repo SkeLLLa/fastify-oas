@@ -64,6 +64,7 @@ declare namespace fastifyOAS {
     externalDocs?: ExternalDocumentationObject | ExternalDocs;
     host?: String;
     basePath?: String;
+    'x-tagGroups'?: String;
     schemes?: SchemasObject | Array<String>;
     consumes?: Array<String>;
     produces?: Array<String>;
@@ -83,10 +84,10 @@ declare namespace fastifyOAS {
    */
   export interface FastifyOASOptions
     extends RegisterOptions<
-        http.Server,
-        http.IncomingMessage,
-        http.ServerResponse
-      > {
+      http.Server,
+      http.IncomingMessage,
+      http.ServerResponse
+    > {
     /**
      * Documentation endpoint
      * @default /documentation
