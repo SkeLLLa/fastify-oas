@@ -30,6 +30,7 @@ Fastify OAS plugin options
 * [bodyLimit](fastifyoas.fastifyoasoptions.md#bodylimit)
 * [config](fastifyoas.fastifyoasoptions.md#config)
 * [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
+* [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
 * [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
 * [openapi](fastifyoas.fastifyoasoptions.md#openapi)
 * [prefix](fastifyoas.fastifyoasoptions.md#prefix)
@@ -109,6 +110,18 @@ ___
 *Defined in lib/index.d.ts:100*
 
 If `true` the plugin will expose the documentation routes
+*__default__*: false
+
+___
+<a id="hideuntagged"></a>
+
+### `<Optional>` hideUntagged
+
+**● hideUntagged**: *`Boolean`*
+
+*Defined in lib/index.d.ts:124*
+
+If true will not add routes without tags
 *__default__*: false
 
 ___

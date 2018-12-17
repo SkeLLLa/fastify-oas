@@ -117,6 +117,11 @@ declare namespace fastifyOAS {
      * OpenApi/Swagger object except paths
      */
     swagger?: OpenApiSpec;
+    /**
+     * If true will not add routes without tags
+     * @default false
+     */
+    hideUntagged?: Boolean; 
   }
 }
 

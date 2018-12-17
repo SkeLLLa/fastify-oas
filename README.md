@@ -113,6 +113,7 @@ See [Docs](/docs/README.md) for more details.
 | `addModels` | Boolean | If `true` adds fastify schemas as openapi models | `false` |
 | `openapi` | String | Openapi version | '3.0.0' |
 | `yaml` | Boolean | If `true` returns yaml instead of json | `false` |
+| `hideUntagged` | Boolean | If `true` remove routes without tags in schema from resulting swagger file | `false` |
 | `swagger` | Object | Swagger object except paths | `{}` |
 
 <sub>[Back to top](#toc)</sub>

@@ -594,7 +594,9 @@ describe('openapi constructor', () => {
     });
     test('skips hidden shcemas', async () => {
       const api = openapi({
-        options: {},
+        options: {
+          hideUntagged: true,
+        },
         routes: [
           {
             logLevel: '',
@@ -614,6 +616,30 @@ describe('openapi constructor', () => {
                 properties: {id: {type: 'number', description: 'ID'}},
               },
             },
+          },
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/untagged/:id',
+            url: '/api/untagged/:id',
+            prefix: '/api',
+            schema: {
+              description: 'Description',
+              consumes: ['text/plain; charset=utf-8'],
+              security: [{bearerAuth: []}],
+              summary: 'Summary',
+              params: {
+                type: 'object',
+                properties: {id: {type: 'number', description: 'ID'}},
+              },
+            },
+          },
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/untagged2/:id',
+            url: '/api/untagged2/:id',
+            prefix: '/api',
           },
         ],
       })();
