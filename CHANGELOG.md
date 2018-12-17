@@ -1,3 +1,9 @@
+#### 1.1.1 (2018-12-17)
+
+##### Bug Fixes
+
+*  remove console.log ([ce1dc540](https://github.com/SkeLLLa/fastify-oas/commit/ce1dc5400850765b95adaa6f638b86e6db06a790))
+
 #### 1.1.0 (2018-12-17)
 
 ##### New Features
