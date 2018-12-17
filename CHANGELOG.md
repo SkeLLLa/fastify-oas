@@ -1,3 +1,9 @@
+#### 1.1.0 (2018-12-17)
+
+##### New Features
+
+*  add hideUntagged option ([8d7f4e5d](https://github.com/SkeLLLa/fastify-oas/commit/8d7f4e5d5e138a4a7e2d5131a8e8fc034fe82da3))
+
 #### 1.0.0 (2018-12-16)
 
 ##### Chores
