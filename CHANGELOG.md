@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0-rc.2"></a>
+# [2.0.0-rc.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2018-12-26)
+
+
+
 <a name="2.0.0-rc.1"></a>
 # [2.0.0-rc.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.0...v2.0.0-rc.1) (2018-12-26)
 
