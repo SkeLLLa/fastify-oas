@@ -15,8 +15,6 @@ stages:
 before_script:
   - VERSION=$([ ! -z $CI_COMMIT_TAG ] && echo ${CI_COMMIT_TAG} || echo ${CI_COMMIT_REF_NAME})
   - echo VERSION=$VERSION
-  - VERSION_TAG=$([[ $CI_COMMIT_TAG == *"-rc"* ]] && echo "next" || echo "latest")
-  - echo VERSION_TAG=$VERSION_TAG
 
 codestyle:
   stage: verify
