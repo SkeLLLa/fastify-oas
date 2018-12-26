@@ -98,7 +98,7 @@ ___
 
 #### Type declaration
 
-[parameterName: `string`]:  [BodyParameter](bodyparameter.md) &#124; [QueryParameter](queryparameter.md)
+[parameterName: `string`]: [BodyParameter](bodyparameter.md) | [QueryParameter](queryparameter.md)
 
 ___
 <a id="paths"></a>

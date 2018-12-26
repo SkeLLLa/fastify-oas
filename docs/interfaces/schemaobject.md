@@ -60,8 +60,7 @@
 
 ### `<Optional>` additionalProperties
 
-**● additionalProperties**: * `false` &#124; `true` &#124; [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md)
-*
+**● additionalProperties**: *`false` | `true` | [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:232*
 
@@ -70,7 +69,7 @@ ___
 
 ### `<Optional>` allOf
 
-**● allOf**: *( [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md))[]*
+**● allOf**: *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:224*
 
@@ -79,7 +78,7 @@ ___
 
 ### `<Optional>` anyOf
 
-**● anyOf**: *( [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md))[]*
+**● anyOf**: *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226*
 
@@ -187,8 +186,7 @@ ___
 
 ### `<Optional>` items
 
-**● items**: * [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md)
-*
+**● items**: *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:228*
 
@@ -278,8 +276,7 @@ ___
 
 ### `<Optional>` not
 
-**● not**: * [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md)
-*
+**● not**: *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227*
 
@@ -297,7 +294,7 @@ ___
 
 ### `<Optional>` oneOf
 
-**● oneOf**: *( [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md))[]*
+**● oneOf**: *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225*
 
@@ -321,7 +318,7 @@ ___
 
 #### Type declaration
 
-[propertyName: `string`]:  [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md)
+[propertyName: `string`]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 <a id="readonly"></a>

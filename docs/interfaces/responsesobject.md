@@ -25,8 +25,7 @@
 
 ### `<Optional>` default
 
-**● default**: * [ResponseObject](responseobject.md) &#124; [ReferenceObject](referenceobject.md)
-*
+**● default**: *[ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:159*
 

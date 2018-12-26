@@ -31,8 +31,7 @@
 
 ###  default
 
-**● default**: * `string` &#124; `boolean` &#124; `number`
-*
+**● default**: *`string` | `boolean` | `number`*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:40*
 
@@ -50,8 +49,7 @@ ___
 
 ### `<Optional>` enum
 
-**● enum**: * `string`[] &#124; `boolean`[] &#124; `number`[]
-*
+**● enum**: *`string`[] | `boolean`[] | `number`[]*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:39*
 

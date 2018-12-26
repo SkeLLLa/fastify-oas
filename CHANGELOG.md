@@ -1,323 +1,216 @@
-#### 1.1.1 (2018-12-17)
+## [1.1.1](https://github.com/SkeLLLa/fastify-oas/compare/v1.1.0...v1.1.1) (2018-12-17)
 
-##### Bug Fixes
 
-*  remove console.log ([ce1dc540](https://github.com/SkeLLLa/fastify-oas/commit/ce1dc5400850765b95adaa6f638b86e6db06a790))
+### Bug Fixes
 
-#### 1.1.0 (2018-12-17)
+* remove console.log ([ce1dc54](https://github.com/SkeLLLa/fastify-oas/commit/ce1dc54))
 
-##### New Features
 
-*  add hideUntagged option ([8d7f4e5d](https://github.com/SkeLLLa/fastify-oas/commit/8d7f4e5d5e138a4a7e2d5131a8e8fc034fe82da3))
 
-#### 1.0.0 (2018-12-16)
+# [1.1.0](https://github.com/SkeLLLa/fastify-oas/compare/v1.0.0...v1.1.0) (2018-12-17)
 
-##### Chores
 
-* **types:**  add package.json ([8837e6bf](https://github.com/SkeLLLa/fastify-oas/commit/8837e6bf5e83297f32387ca034906ed8c118f80f))
-* **deps:**  update ([9a3af8dc](https://github.com/SkeLLLa/fastify-oas/commit/9a3af8dcada6c28e0946158f4565b15164ab9196))
+### Features
 
-##### Documentation Changes
+* add hideUntagged option ([8d7f4e5](https://github.com/SkeLLLa/fastify-oas/commit/8d7f4e5))
 
-* **typedoc:**  update documentation ([a3bdbbcd](https://github.com/SkeLLLa/fastify-oas/commit/a3bdbbcd40ace34f7d8e876c2f9641e0e77146bd))
 
-##### New Features
 
-* **docs:**  add notice about fastify version support ([dc732453](https://github.com/SkeLLLa/fastify-oas/commit/dc73245370ce7ba630b044ea2cb81729cd1ffc21))
+# [1.0.0](https://github.com/SkeLLLa/fastify-oas/compare/v0.6.2...v1.0.0) (2018-12-16)
 
-##### Bug Fixes
 
-* **swagger:**  add title support ([75530a8f](https://github.com/SkeLLLa/fastify-oas/commit/75530a8f7c23ab284d8ea223bb6170415571191d))
-* **redoc:**  add tagGroups support ([be728e13](https://github.com/SkeLLLa/fastify-oas/commit/be728e13b5df16d389754a268252682338e81063))
+### Bug Fixes
 
-#### 0.6.2 (2018-11-22)
+* **redoc:** add tagGroups support ([be728e1](https://github.com/SkeLLLa/fastify-oas/commit/be728e1))
+* **swagger:** add title support ([75530a8](https://github.com/SkeLLLa/fastify-oas/commit/75530a8))
 
-##### Chores
 
-* **deps:**  update ([4b6e6a6c](https://github.com/SkeLLLa/fastify-oas/commit/4b6e6a6c54e5e8cb704ff612950f359dd127f387))
+### Features
 
-##### Documentation Changes
+* **docs:** add notice about fastify version support ([dc73245](https://github.com/SkeLLLa/fastify-oas/commit/dc73245))
 
-*  update docs ([777769bd](https://github.com/SkeLLLa/fastify-oas/commit/777769bd156c2ec5eb7d13ed48cde14151e4b90d))
 
-##### Bug Fixes
 
-* **body:**  required params fix ([590e219c](https://github.com/SkeLLLa/fastify-oas/commit/590e219c0d4541e9dad9c62c1b04020fc094a487))
+## [0.6.2](https://github.com/SkeLLLa/fastify-oas/compare/v0.6.1...v0.6.2) (2018-11-22)
 
-#### 0.6.1 (2018-11-16)
 
-##### Chores
+### Bug Fixes
 
-* **deps:**  update ([c04ebcc5](https://github.com/SkeLLLa/fastify-oas/commit/c04ebcc5201597f92e969aaeac617f1203ae4424))
+* **body:** required params fix ([590e219](https://github.com/SkeLLLa/fastify-oas/commit/590e219))
 
-##### Refactors
 
-* **redoc:**  rename html to docs.html ([3c6e303e](https://github.com/SkeLLLa/fastify-oas/commit/3c6e303eebd8325087af6c844e3ad1adf2171eb0))
 
-#### 0.6.0 (2018-11-08)
+## [0.6.1](https://github.com/SkeLLLa/fastify-oas/compare/v0.6.0...v0.6.1) (2018-11-16)
 
-##### Chores
 
-* **deps:**  update ([444e18a9](https://github.com/SkeLLLa/fastify-oas/commit/444e18a99911e56901a6662c38e1ab632fa8dbb9))
-* **ignore:**  ignore tests for npm package ([04b2589c](https://github.com/SkeLLLa/fastify-oas/commit/04b2589ca87ead61afcf6b65582c235071381b74))
 
-##### Documentation Changes
+# [0.6.0](https://github.com/SkeLLLa/fastify-oas/compare/v0.5.3...v0.6.0) (2018-11-08)
 
-* **readme:**  add UI notes ([ff61766c](https://github.com/SkeLLLa/fastify-oas/commit/ff61766c3b7b0942b6ea0ee52b0464aec6a9f04c))
 
-##### New Features
+### Features
 
-*  add redoc ([7508231b](https://github.com/SkeLLLa/fastify-oas/commit/7508231b50cf346b0ed2c092c70f0f94bc8be10e))
+* add redoc ([7508231](https://github.com/SkeLLLa/fastify-oas/commit/7508231))
 
-#### 0.5.3 (2018-10-31)
 
-##### Continuous Integration
 
-*  fix coverage and add 10 node ([6b405aef](https://github.com/SkeLLLa/fastify-oas/commit/6b405aef58a8dba5a35790e96314714b0c441c27))
+## [0.5.3](https://github.com/SkeLLLa/fastify-oas/compare/v0.5.2...v0.5.3) (2018-10-31)
 
-##### Bug Fixes
 
-* **typescript:**  typings fix ([ed7a237b](https://github.com/SkeLLLa/fastify-oas/commit/ed7a237b77bc8d866a8ef682dd43f0f1cffe3396))
+### Bug Fixes
 
-#### 0.5.2 (2018-10-31)
+* **typescript:** typings fix ([ed7a237](https://github.com/SkeLLLa/fastify-oas/commit/ed7a237))
 
-##### Documentation Changes
 
-*  fix security schema type ([c2f5bc19](https://github.com/SkeLLLa/fastify-oas/commit/c2f5bc19808c3a5a5124030b5b638846de09dc77))
 
-#### 0.5.1 (2018-10-31)
+## [0.5.2](https://github.com/SkeLLLa/fastify-oas/compare/v0.5.1...v0.5.2) (2018-10-31)
 
-##### Bug Fixes
 
-* **typedoc:**  fix typedocs ([7993a362](https://github.com/SkeLLLa/fastify-oas/commit/7993a362f282018c9c2be0d44260163a3b2ce30f))
 
-#### 0.5.0 (2018-10-31)
+## [0.5.1](https://github.com/SkeLLLa/fastify-oas/compare/v0.5.0...v0.5.1) (2018-10-31)
 
-##### Chores
 
-* **deps:**  update ([4745551c](https://github.com/SkeLLLa/fastify-oas/commit/4745551c8fdf112ee952542f75a3eaa7c6a39d1c))
-* **ui:**  remove validator ([d0e153a5](https://github.com/SkeLLLa/fastify-oas/commit/d0e153a50022464687bc3d51bad1ddaacf28594d))
+### Bug Fixes
 
-##### Documentation Changes
+* **typedoc:** fix typedocs ([7993a36](https://github.com/SkeLLLa/fastify-oas/commit/7993a36))
 
-* **readme:**  add docs link to readme ([445f743f](https://github.com/SkeLLLa/fastify-oas/commit/445f743f372f6e39310840e16df8c830ba3224ac))
-* **typescript:**  add typedocs ([711a3b8d](https://github.com/SkeLLLa/fastify-oas/commit/711a3b8d6ac335b1839a39aea7fa7c53423903e5))
 
-##### New Features
 
-*  add typescript definitions and typedocs ([6ce96d1e](https://github.com/SkeLLLa/fastify-oas/commit/6ce96d1e69e20a68d662ad5f8bad6f61b1756023))
+# [0.5.0](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.9...v0.5.0) (2018-10-31)
 
-#### 0.4.9 (2018-10-17)
 
-##### Documentation Changes
+### Features
 
-* **readme:**  add hide description ([59a204b3](https://github.com/SkeLLLa/fastify-oas/commit/59a204b3f49cf4a97f5cdd5aca57e62e9317dd0e))
+* add typescript definitions and typedocs ([6ce96d1](https://github.com/SkeLLLa/fastify-oas/commit/6ce96d1))
 
-#### 0.4.8 (2018-09-25)
 
-##### Chores
 
-* **readme:**  fix typo ([a139d356](https://github.com/SkeLLLa/fastify-oas/commit/a139d356150a15b4615086a4ac28c83ae4b1e2d8))
+## [0.4.9](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.8...v0.4.9) (2018-10-17)
 
-#### 0.4.7 (2018-09-25)
 
-##### Chores
 
-* **deps:**  update deps ([324ff88d](https://github.com/SkeLLLa/fastify-oas/commit/324ff88d9b9d9ca6403c447c3012215798c35cd4))
+## [0.4.8](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.7...v0.4.8) (2018-09-25)
 
-#### 0.4.6 (2018-08-12)
 
-##### Bug Fixes
 
-* **changelog:**  fix changelog links ([59a0053e](https://github.com/SkeLLLa/fastify-oas/commit/59a0053eeea3e3b9cd2b43943f9119818bcf3a7e))
+## [0.4.7](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.6...v0.4.7) (2018-09-25)
 
-##### Refactors
 
-* **package.json:**  fix git url ([624887d7](https://github.com/SkeLLLa/fastify-oas/commit/624887d715b9b30b5ec9a507a418bbdd2885797a))
 
-#### 0.4.5 (2018-08-12)
+## [0.4.6](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.5...v0.4.6) (2018-08-12)
 
-##### Bug Fixes
 
-* **helpers:**  fix enum handling ([bfc483c8](https://gitlab.com/m03geek/fastify-oas/commit/bfc483c8bc16df10db0080a059f7b7dd65f76001))
+### Bug Fixes
 
-#### 0.4.4 (2018-08-06)
+* **changelog:** fix changelog links ([59a0053](https://github.com/SkeLLLa/fastify-oas/commit/59a0053))
 
-##### Bug Fixes
 
-* **schema:**  use schemaKey if $id is missing ([1ac51eb2](https://gitlab.com/m03geek/fastify-oas/commit/1ac51eb23a4c521203ffae58b7f7c9c1dad770eb))
 
-#### 0.4.3 (2018-08-06)
+## [0.4.5](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.4...v0.4.5) (2018-08-12)
 
-##### Bug Fixes
 
-* **schemas:**  fix add schemas as models ([942e9ceb](https://gitlab.com/m03geek/fastify-oas/commit/942e9ceb1bd59cb6ebedd88d4b319c67df0e7877))
+### Bug Fixes
 
-#### 0.4.2 (2018-08-06)
+* **helpers:** fix enum handling ([bfc483c](https://github.com/SkeLLLa/fastify-oas/commit/bfc483c)), closes [#3](https://github.com/SkeLLLa/fastify-oas/issues/3)
 
-##### Documentation Changes
 
-* **readme:**  add more refs ([67c03a29](https://gitlab.com/m03geek/fastify-oas/commit/67c03a291ca9a262eaa12fe3574f784d377a1f63))
 
-##### Bug Fixes
+## [0.4.4](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.3...v0.4.4) (2018-08-06)
 
-* **routes:**  fix routes with separate schemas ([d1322581](https://gitlab.com/m03geek/fastify-oas/commit/d13225810cc45233ae08d8ff5c55571803917bc5))
-* **schemas:**  fix schemas generation ([82e4fbcd](https://gitlab.com/m03geek/fastify-oas/commit/82e4fbcd64ac1368234c821b7a58c879b0038486))
 
-#### 0.4.1 (2018-08-05)
+### Bug Fixes
 
-##### Refactors
+* **schema:** use schemaKey if $id is missing ([1ac51eb](https://github.com/SkeLLLa/fastify-oas/commit/1ac51eb))
 
-* **deps:**  move swagger ui to dev deps ([6860e1b4](https://gitlab.com/m03geek/fastify-oas/commit/6860e1b478df67a1d225bea5aeea44b72cdb7f61))
 
-#### 0.4.0 (2018-08-05)
 
-##### Continuous Integration
+## [0.4.3](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.2...v0.4.3) (2018-08-06)
 
-* **verify:**  add packages audit ([3fe77042](https://gitlab.com/m03geek/fastify-oas/commit/3fe77042721eae46b36a8e48e33249b4523923e9))
 
-##### Documentation Changes
+### Bug Fixes
 
-* **readme:**
-  *  add examples ([338b7f17](https://gitlab.com/m03geek/fastify-oas/commit/338b7f17e11644761a895da5e2f5e197b8b7c31d))
-  *  update readme ([50929549](https://gitlab.com/m03geek/fastify-oas/commit/50929549f5c1d9b090762449ff9650f2f4a518f0))
-  *  update readme ([4c797d67](https://gitlab.com/m03geek/fastify-oas/commit/4c797d674b3ec1c165cfb7245e706014e29ff6fe))
-  *  fix badges ([cb3f957e](https://gitlab.com/m03geek/fastify-oas/commit/cb3f957eb388cf53b25719147a3f0411d03f5df9))
-  *  add logo and badges ([876ea988](https://gitlab.com/m03geek/fastify-oas/commit/876ea9888fe155d1cf2b4c9b6b1e9bb71a386fef))
+* **schemas:** fix add schemas as models ([942e9ce](https://github.com/SkeLLLa/fastify-oas/commit/942e9ce))
 
-#### 0.3.8 (2018-08-04)
 
-##### Continuous Integration
 
-* **publish:**  fix script ([59be2f02](https://gitlab.com/m03geek/fastify-oas/commit/59be2f02403199aaf5f1052155ee47183a0e1173))
+## [0.4.2](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.1...v0.4.2) (2018-08-06)
 
-#### 0.3.7 (2018-08-04)
 
-##### Bug Fixes
+### Bug Fixes
 
-*  package name ([309d2549](https://gitlab.com/m03geek/fastify-oas/commit/309d2549efd3182a2f477b6fe9180b068e73c3ec))
+* **routes:** fix routes with separate schemas ([d132258](https://github.com/SkeLLLa/fastify-oas/commit/d132258))
+* **schemas:** fix schemas generation ([82e4fbc](https://github.com/SkeLLLa/fastify-oas/commit/82e4fbc))
 
-##### Refactors
 
-*  refactor package typo ([4c14fcc9](https://gitlab.com/m03geek/fastify-oas/commit/4c14fcc9fa53e69dfc295a0d66158c3b71e36355))
 
-#### 0.3.6 (2018-08-04)
+## [0.4.1](https://github.com/SkeLLLa/fastify-oas/compare/v0.4.0...v0.4.1) (2018-08-05)
 
-##### Tests
 
-*  add more tests ([cdc021f7](https://gitlab.com/m03geek/fastify-oas/commit/cdc021f79e0aa36dfa6eb1c96c421b85b39c22b3))
 
-#### 0.3.5 (2018-08-04)
+# [0.4.0](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.8...v0.4.0) (2018-08-05)
 
-##### Build System / Dependencies
 
-*  fix prepare script ([296cd65f](https://gitlab.com/m03geek/fastify-oas/commit/296cd65fe3e6320cc5955b2293ae3339d17f6edf))
 
-##### Continuous Integration
+## [0.3.8](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.7...v0.3.8) (2018-08-04)
 
-*  fix publish ([2e986781](https://gitlab.com/m03geek/fastify-oas/commit/2e98678185b472b4f43ab79d18be95f612e24ce1))
 
-#### 0.3.4 (2018-08-03)
 
-##### Continuous Integration
+## [0.3.7](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.6...v0.3.7) (2018-08-04)
 
-*  fix npm publish ([ba0aed73](https://gitlab.com/m03geek/fastify-oas/commit/ba0aed73ea4cbf27111ea5b931bea77d4af1fc86))
 
-#### 0.3.3 (2018-08-03)
+### Bug Fixes
 
-##### Build System / Dependencies
+* package name ([309d254](https://github.com/SkeLLLa/fastify-oas/commit/309d254))
 
-* **npm:**  fix npm package build ([bc5014b0](https://gitlab.com/m03geek/fastify-oas/commit/bc5014b01e3930f0bd7ef9228d2919a4304bfd15))
 
-#### 0.3.2 (2018-08-03)
 
-##### Tests
+## [0.3.6](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.5...v0.3.6) (2018-08-04)
 
-*  fix tests ([ee8e0089](https://gitlab.com/m03geek/fastify-oas/commit/ee8e0089a7b65788c5845d7cb0fa8d02cef11f1a))
-*  fix route tests ([309b43c7](https://gitlab.com/m03geek/fastify-oas/commit/309b43c726635e5f245572608a7088bbf4da076e))
-*  fix routes test ([734756b4](https://gitlab.com/m03geek/fastify-oas/commit/734756b41a74133bfb939abfebe441498c963753))
-*  fix tests ([15d0a435](https://gitlab.com/m03geek/fastify-oas/commit/15d0a43508fef3b051d3626429175636e7ff2759))
 
-#### 0.3.1 (2018-08-03)
 
-##### Tests
+## [0.3.5](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.4...v0.3.5) (2018-08-04)
 
-*  fix yaml test ([a1b43d7f](https://gitlab.com/m03geek/fastify-oas/commit/a1b43d7f433d2ea72ad95e5da6fea9510402e310))
 
-#### 0.3.0 (2018-08-03)
 
-##### Chores
+## [0.3.4](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.3...v0.3.4) (2018-08-03)
 
-*  add logo ([03ac5abb](https://gitlab.com/m03geek/fastify-oas/commit/03ac5abbb845039286b1ee6fc0e333631446666b))
-*  update npmignore ([d7830971](https://gitlab.com/m03geek/fastify-oas/commit/d783097131ad30f1856c0d3cfb25b7c93f90caef))
-* **deps:**  add app-root-path ([2a943818](https://gitlab.com/m03geek/fastify-oas/commit/2a943818a6d63aa70497c3212b8ff5e484a60aaa))
-* **package:**  add directories ([dde6cfd6](https://gitlab.com/m03geek/fastify-oas/commit/dde6cfd64fa30569d4968f329b3d1e072e87cfe2))
 
-##### Continuous Integration
 
-*  add node 9 tests ([734048c4](https://gitlab.com/m03geek/fastify-oas/commit/734048c486ffcd52da4ce3376266e821367bd9f7))
+## [0.3.3](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.2...v0.3.3) (2018-08-03)
 
-##### Documentation Changes
 
-*  update readme ([820ce612](https://gitlab.com/m03geek/fastify-oas/commit/820ce61235884836a889bdb4d88b8eaa55726be4))
-*  add changelog ([a7169743](https://gitlab.com/m03geek/fastify-oas/commit/a71697438895848d86d324e99894be40e16343ea))
 
-##### New Features
+## [0.3.2](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.1...v0.3.2) (2018-08-03)
 
-*  add externalDocs and tags support ([2335359c](https://gitlab.com/m03geek/fastify-oas/commit/2335359c1cbe91773e9f7092a99e133f91f7b0fa))
 
-##### Bug Fixes
 
-*  response and body generation ([4640cfc1](https://gitlab.com/m03geek/fastify-oas/commit/4640cfc16aeba8aedfe5e2b272d220d516979107))
+## [0.3.1](https://github.com/SkeLLLa/fastify-oas/compare/v0.3.0...v0.3.1) (2018-08-03)
 
-##### Refactors
 
-*  move openapi to module ([b4f75b4f](https://gitlab.com/m03geek/fastify-oas/commit/b4f75b4f0d9c0a70b4326e9f8342923b1d064d08))
 
-##### Tests
+# [0.3.0](https://github.com/SkeLLLa/fastify-oas/compare/v0.2.0...v0.3.0) (2018-08-03)
 
-*  add routes test ([586defcd](https://gitlab.com/m03geek/fastify-oas/commit/586defcd96358517f3bcb9790058f5e5245f4867))
-*  add headers and querystring tests ([b506a557](https://gitlab.com/m03geek/fastify-oas/commit/b506a557fe7b8612819e0c83a4e8f3c3afab85c9))
-*  add body and params tests ([91ed4d12](https://gitlab.com/m03geek/fastify-oas/commit/91ed4d12f277761d1314a0eaafa88519d3f7fa56))
-*  add fromat url test ([d77580e6](https://gitlab.com/m03geek/fastify-oas/commit/d77580e60b9d2d4d7439e7927e3132bede6e825a))
-*  proper coverage ([a53fae5b](https://gitlab.com/m03geek/fastify-oas/commit/a53fae5b97de78dfd493e38fef62eb32f6fb4a4c))
-* **openapi:**  add initial openapi validation test ([096b3fb9](https://gitlab.com/m03geek/fastify-oas/commit/096b3fb9ea60d03fd22dff06a32697a0f665801e))
-* **helpers:**  add more tests ([e380a900](https://gitlab.com/m03geek/fastify-oas/commit/e380a900cf8de1d3aa7dfe23625b6e3cd3dee392))
 
-#### 0.2.0 (2018-07-28)
+### Bug Fixes
 
-##### Chores
+* response and body generation ([4640cfc](https://github.com/SkeLLLa/fastify-oas/commit/4640cfc))
 
-* **version:**  set initial version ([e8f66326](https://gitlab.com/m03geek/fastify-oas/commit/e8f663266d02f2593581e8d06b3d7a8808abbe10))
-*  add vscode launch settings ([95c17580](https://gitlab.com/m03geek/fastify-oas/commit/95c175804b7cf3afb9a94049d86de25963e71693))
-*  add ignore files ([aff7d48e](https://gitlab.com/m03geek/fastify-oas/commit/aff7d48e8f4ee20486987332e644e2ae9bc70a8c))
-* **deps:**  add deps ([703430d8](https://gitlab.com/m03geek/fastify-oas/commit/703430d850ca10be807a690e90590578219ff9de))
 
-##### Continuous Integration
+### Features
 
-*  jest bug ([579bf720](https://gitlab.com/m03geek/fastify-oas/commit/579bf7207b9ffae91958661dd90f4dbd31782cbc))
-*  try to fix tests ([87350ab9](https://gitlab.com/m03geek/fastify-oas/commit/87350ab9dd00f7554ea944649fdc200517f17916))
-*  fix ci ([4278a144](https://gitlab.com/m03geek/fastify-oas/commit/4278a144e664653662efddf0fd912cd8571c08db))
-*  add ci script ([6508802b](https://gitlab.com/m03geek/fastify-oas/commit/6508802b084e455135e5e4d42f3d40e4deb54d6c))
+* add externalDocs and tags support ([2335359](https://github.com/SkeLLLa/fastify-oas/commit/2335359))
 
-##### New Features
 
-*  add main file ([4f70f992](https://gitlab.com/m03geek/fastify-oas/commit/4f70f99233c79552ede9034a89db3eca98c1a113))
-*  add openapi generator ([862561a0](https://gitlab.com/m03geek/fastify-oas/commit/862561a0784c82797154c22951ce2cdfdb897709))
-*  add helpers for oas ([54d4d338](https://gitlab.com/m03geek/fastify-oas/commit/54d4d338a6a5f1c9911f6451604884650b4c4658))
-*  add swagger routes ([cb959fb8](https://gitlab.com/m03geek/fastify-oas/commit/cb959fb88c8fbade84ff815eec27ee616fca313c))
-*  add swagger ui ([cfe110ca](https://gitlab.com/m03geek/fastify-oas/commit/cfe110cad04b1d32e3a002e89f42acd407123d01))
 
-##### Refactors
+# [0.2.0](https://github.com/SkeLLLa/fastify-oas/compare/cfe110c...v0.2.0) (2018-07-28)
 
-*  move tests ([16ef83de](https://gitlab.com/m03geek/fastify-oas/commit/16ef83de51c69f5d1142fd596129cb54ad8ffa3e))
 
-##### Code Style Changes
+### Features
 
-*  add ignore patterns ([57f8a259](https://gitlab.com/m03geek/fastify-oas/commit/57f8a259fb76ee2ee06b0644912bf82872f263b6))
-* **lint:**  add eslint configs ([ef272789](https://gitlab.com/m03geek/fastify-oas/commit/ef272789142a4c0b241422419f2abb7d1f661121))
+* add helpers for oas ([54d4d33](https://github.com/SkeLLLa/fastify-oas/commit/54d4d33))
+* add main file ([4f70f99](https://github.com/SkeLLLa/fastify-oas/commit/4f70f99))
+* add openapi generator ([862561a](https://github.com/SkeLLLa/fastify-oas/commit/862561a))
+* add swagger routes ([cb959fb](https://github.com/SkeLLLa/fastify-oas/commit/cb959fb))
+* add swagger ui ([cfe110c](https://github.com/SkeLLLa/fastify-oas/commit/cfe110c))
 
-##### Tests
 
-*  add body generator ([de14aea0](https://gitlab.com/m03geek/fastify-oas/commit/de14aea00817481c1c7b8da87ee40e7501fa1ab3))
 

@@ -52,8 +52,7 @@ ___
 
 ###  default
 
-**● default**: * `string` &#124; `boolean` &#124; `number`
-*
+**● default**: *`string` | `boolean` | `number`*
 
 *Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[default](../interfaces/servervariableobject.md#default)*
 
@@ -75,8 +74,7 @@ ___
 
 ### `<Optional>` enum
 
-**● enum**: * `string`[] &#124; `boolean`[] &#124; `number`[]
-*
+**● enum**: *`string`[] | `boolean`[] | `number`[]*
 
 *Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[enum](../interfaces/servervariableobject.md#enum)*
 

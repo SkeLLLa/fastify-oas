@@ -78,8 +78,7 @@ ___
 
 ### `<Optional>` default
 
-**● default**: * `string` &#124; `boolean` &#124; `number` &#124; `__type`
-*
+**● default**: *`string` | `boolean` | `number` | `__type`*
 
 *Inherited from [BaseSchema](baseschema.md).[default](baseschema.md#default)*
 
@@ -110,7 +109,7 @@ ___
 
 ### `<Optional>` enum
 
-**● enum**: *`Array`< `string` &#124; `boolean` &#124; `number` &#124; `__type`>*
+**● enum**: *`Array`<`string` | `boolean` | `number` | `__type`>*
 
 *Inherited from [BaseSchema](baseschema.md).[enum](baseschema.md#enum)*
 
@@ -172,8 +171,7 @@ ___
 
 ### `<Optional>` items
 
-**● items**: * [Schema](schema.md) &#124; [Schema](schema.md)[]
-*
+**● items**: *[Schema](schema.md) | [Schema](schema.md)[]*
 
 *Inherited from [BaseSchema](baseschema.md).[items](baseschema.md#items)*
 
