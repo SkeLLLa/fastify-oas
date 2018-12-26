@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0-rc.1"></a>
+# [2.0.0-rc.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.0...v2.0.0-rc.1) (2018-12-26)
+
+
+### Bug Fixes
+
+* **plugin:** proper plugin version check ([b906898](https://gitlab.com/m03geek/fastify-oas/commit/b906898))
+
+
+
 <a name="2.0.0-rc.0"></a>
 # [2.0.0-rc.0](https://gitlab.com/m03geek/fastify-oas/compare/v1.1.1...v2.0.0-rc.0) (2018-12-26)
 
