@@ -111,7 +111,7 @@ ___
 
 #### Type declaration
 
-[param: `string`]:  [ExampleObject](exampleobject.md) &#124; [ReferenceObject](referenceobject.md)
+[param: `string`]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 <a id="explode"></a>
@@ -158,8 +158,7 @@ ___
 
 ### `<Optional>` schema
 
-**● schema**: * [SchemaObject](schemaobject.md) &#124; [ReferenceObject](referenceobject.md)
-*
+**● schema**: *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
 
 *Inherited from [BaseParameterObject](baseparameterobject.md).[schema](baseparameterobject.md#schema)*
 

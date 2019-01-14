@@ -51,8 +51,7 @@
 
 ### `<Optional>` default
 
-**● default**: * `string` &#124; `boolean` &#124; `number` &#124; `__type`
-*
+**● default**: *`string` | `boolean` | `number` | `__type`*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:127*
 
@@ -70,7 +69,7 @@ ___
 
 ### `<Optional>` enum
 
-**● enum**: *`Array`< `string` &#124; `boolean` &#124; `number` &#124; `__type`>*
+**● enum**: *`Array`<`string` | `boolean` | `number` | `__type`>*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*
 
@@ -106,8 +105,7 @@ ___
 
 ### `<Optional>` items
 
-**● items**: * [Schema](schema.md) &#124; [Schema](schema.md)[]
-*
+**● items**: *[Schema](schema.md) | [Schema](schema.md)[]*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:143*
 

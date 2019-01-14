@@ -59,8 +59,7 @@ ___
 
 ### `<Optional>` externalDocs
 
-**● externalDocs**: * [ExternalDocumentationObject](externaldocumentationobject.md) &#124; [ExternalDocs](externaldocs.md)
-*
+**● externalDocs**: *[ExternalDocumentationObject](externaldocumentationobject.md) | [ExternalDocs](externaldocs.md)*
 
 *Defined in lib/index.d.ts:64*
 
@@ -78,8 +77,7 @@ ___
 
 ### `<Optional>` info
 
-**● info**: * [InfoObject](infoobject.md) &#124; [Info](info.md)
-*
+**● info**: *[InfoObject](infoobject.md) | [Info](info.md)*
 
 *Defined in lib/index.d.ts:63*
 
@@ -97,8 +95,7 @@ ___
 
 ### `<Optional>` schemes
 
-**● schemes**: * [SchemasObject](schemasobject.md) &#124; `Array`<`String`>
-*
+**● schemes**: *[SchemasObject](schemasobject.md) | `Array`<`String`>*
 
 *Defined in lib/index.d.ts:68*
 
@@ -107,8 +104,7 @@ ___
 
 ### `<Optional>` security
 
-**● security**: * `Array`<[SecurityRequirementObject](securityrequirementobject.md)> &#124; `Array`<`object`>
-*
+**● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)> | `Array`<`object`>*
 
 *Defined in lib/index.d.ts:71*
 
@@ -139,8 +135,7 @@ ___
 
 ### `<Optional>` tags
 
-**● tags**: * `Array`<[TagObject](tagobject.md)> &#124; `Array`<[Tag](tag.md)>
-*
+**● tags**: *`Array`<[TagObject](tagobject.md)> | `Array`<[Tag](tag.md)>*
 
 *Defined in lib/index.d.ts:79*
 

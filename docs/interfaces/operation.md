@@ -76,7 +76,7 @@ ___
 
 ### `<Optional>` parameters
 
-**● parameters**: *`Array`< [Parameter](../#parameter) &#124; [Reference](reference.md)>*
+**● parameters**: *`Array`<[Parameter](../#parameter) | [Reference](reference.md)>*
 
 *Defined in node_modules/@types/swagger-schema-official/index.d.ts:102*
 
@@ -100,7 +100,7 @@ ___
 
 #### Type declaration
 
-[responseName: `string`]:  [Response](response.md) &#124; [Reference](reference.md)
+[responseName: `string`]: [Response](response.md) | [Reference](reference.md)
 
 ___
 <a id="schemes"></a>

@@ -71,8 +71,7 @@ ___
 
 ### `<Optional>` beforeHandler
 
-**● beforeHandler**: * `FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> &#124; `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>
-*
+**● beforeHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
 
 *Inherited from RouteShorthandOptions.beforeHandler*
 

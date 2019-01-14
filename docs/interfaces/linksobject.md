@@ -8,8 +8,7 @@
 
 ## Indexable
 
-\[name: `string`\]:&nbsp; [LinkObject](linkobject.md) &#124; [ReferenceObject](referenceobject.md)
-
+\[name: `string`\]:&nbsp;[LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
 ## Index
 
 ---
