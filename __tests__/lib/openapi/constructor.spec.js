@@ -299,6 +299,7 @@ describe('openapi constructor', () => {
             prefix: '/api',
             schema: {
               description: 'Description',
+              operationId: 'operationId',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
               security: [{bearerAuth: []}],
@@ -314,6 +315,7 @@ describe('openapi constructor', () => {
                       login: {type: 'string', description: 'User login'},
                       password: {
                         type: 'string',
+                        pattern: 'qwerty',
                         description: 'User password',
                       },
                     },
@@ -378,6 +380,7 @@ describe('openapi constructor', () => {
             summary: 'Summary',
             description: 'Description',
             tags: ['tag'],
+            operationId: 'operationId',
             security: [{bearerAuth: []}],
             requestBody: {
               content: {
@@ -391,6 +394,7 @@ describe('openapi constructor', () => {
                           login: {type: 'string', description: 'User login'},
                           password: {
                             type: 'string',
+                            pattern: 'qwerty',
                             description: 'User password',
                           },
                         },
