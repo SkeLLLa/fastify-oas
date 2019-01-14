@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0-rc.3"></a>
+# [2.0.0-rc.3](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.2...v2.0.0-rc.3) (2019-01-14)
+
+
+### Bug Fixes
+
+* add pattern to valid params ([9e8b766](https://gitlab.com/m03geek/fastify-oas/commit/9e8b766))
+
+
+### Features
+
+* Support operationId ([cbbda88](https://gitlab.com/m03geek/fastify-oas/commit/cbbda88))
+
+
+
 <a name="2.0.0-rc.2"></a>
 # [2.0.0-rc.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.1...v2.0.0-rc.2) (2018-12-26)
 
