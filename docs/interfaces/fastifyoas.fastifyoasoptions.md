@@ -65,7 +65,7 @@ ___
 
 *Inherited from RouteShorthandOptions.attachValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:192*
+*Defined in node_modules/fastify/fastify.d.ts:208*
 
 ___
 <a id="bodylimit"></a>
@@ -76,7 +76,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:200*
+*Defined in node_modules/fastify/fastify.d.ts:216*
 
 ___
 <a id="config"></a>
@@ -87,7 +87,7 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:202*
+*Defined in node_modules/fastify/fastify.d.ts:218*
 
 ___
 <a id="exposeroute"></a>
@@ -122,7 +122,7 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:201*
+*Defined in node_modules/fastify/fastify.d.ts:217*
 
 ___
 <a id="openapi"></a>
@@ -145,7 +145,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preHandler*
 
-*Defined in node_modules/fastify/fastify.d.ts:196*
+*Defined in node_modules/fastify/fastify.d.ts:212*
 
 ___
 <a id="prevalidation"></a>
@@ -156,7 +156,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:193*
+*Defined in node_modules/fastify/fastify.d.ts:209*
 
 ___
 <a id="prefix"></a>
@@ -167,7 +167,7 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:227*
+*Defined in node_modules/fastify/fastify.d.ts:243*
 
 ___
 <a id="routeprefix"></a>
@@ -190,7 +190,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schema*
 
-*Defined in node_modules/fastify/fastify.d.ts:191*
+*Defined in node_modules/fastify/fastify.d.ts:207*
 
 ___
 <a id="schemacompiler"></a>
@@ -201,7 +201,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:199*
+*Defined in node_modules/fastify/fastify.d.ts:215*
 
 ___
 <a id="swagger"></a>
