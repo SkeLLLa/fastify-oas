@@ -50,26 +50,26 @@
   "homepage": "https://gitlab.com/m03geek/fastify-oas#README",
   "dependencies": {
     "app-root-path": "^2.1.0",
-    "fastify-plugin": "^1.3.0",
+    "fastify-plugin": "^1.4.0",
     "fastify-static": "^1.0.0",
-    "js-yaml": "^3.12.0"
+    "js-yaml": "^3.12.1"
   },
   "devDependencies": {
     "@types/fastify-static": "^0.14.0",
-    "@types/jest": "^23.3.10",
-    "@types/node": "^10.12.15",
+    "@types/jest": "^23.3.12",
+    "@types/node": "^10.12.18",
     "@types/swagger-schema-official": "^2.0.14",
-    "eslint": "^5.10.0",
+    "eslint": "^5.12.0",
     "eslint-config-google": "^0.11.0",
-    "fastify": "^1.13.2",
+    "fastify": "^1.13.4",
     "generate-changelog": "^1.7.1",
     "jest": "^23.6.0",
     "openapi3-ts": "^1.1.0",
     "redoc": "^2.0.0-alpha.41",
-    "swagger-parser": "^6.0.2",
-    "swagger-ui-dist": "^3.20.3",
-    "typedoc": "^0.13.0",
-    "typedoc-plugin-markdown": "^1.1.19",
+    "swagger-parser": "^6.0.3",
+    "swagger-ui-dist": "^3.20.5",
+    "typedoc": "^0.14.0",
+    "typedoc-plugin-markdown": "^1.1.21",
     "typescript": "^3.2.2"
   }
 }

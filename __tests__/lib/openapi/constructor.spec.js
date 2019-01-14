@@ -228,7 +228,6 @@ describe('openapi constructor', () => {
     });
   });
 
-
   describe('openapi yaml', () => {
     test('generates valid swagger yaml', async () => {
       const apiFn = openapi({
@@ -238,8 +237,10 @@ describe('openapi constructor', () => {
       });
       const api = apiFn();
       const apiCache = apiFn();
-      const expected =
-        'openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace('X.X.X', version);
+      const expected = 'openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace(
+        'X.X.X',
+        version
+      );
 
       await expect(api).toEqual(apiCache);
       await expect(api).toEqual(expected);
@@ -300,6 +301,7 @@ describe('openapi constructor', () => {
             schema: {
               description: 'Description',
               tags: ['tag'],
+              operationId: 'operationId',
               consumes: ['text/plain; charset=utf-8'],
               security: [{bearerAuth: []}],
               summary: 'Summary',
@@ -311,9 +313,14 @@ describe('openapi constructor', () => {
                     $id: 'obj1',
                     type: 'object',
                     properties: {
-                      login: {type: 'string', description: 'User login'},
+                      login: {
+                        type: 'string',
+                        pattern: 'user',
+                        description: 'User login',
+                      },
                       password: {
                         type: 'string',
+                        pattern: 'qwerty',
                         description: 'User password',
                       },
                     },
@@ -378,6 +385,7 @@ describe('openapi constructor', () => {
             summary: 'Summary',
             description: 'Description',
             tags: ['tag'],
+            operationId: 'operationId',
             security: [{bearerAuth: []}],
             requestBody: {
               content: {
@@ -388,9 +396,14 @@ describe('openapi constructor', () => {
                       {
                         type: 'object',
                         properties: {
-                          login: {type: 'string', description: 'User login'},
+                          login: {
+                            type: 'string',
+                            pattern: 'user',
+                            description: 'User login',
+                          },
                           password: {
                             type: 'string',
+                            pattern: 'qwerty',
                             description: 'User password',
                           },
                         },
@@ -416,9 +429,7 @@ describe('openapi constructor', () => {
     });
     test('generates valid body with default media types', async () => {
       const api = openapi({
-        options: {
-
-        },
+        options: {},
         routes: [
           {
             logLevel: '',
@@ -435,7 +446,10 @@ describe('openapi constructor', () => {
                     $id: 'obj1',
                     type: 'object',
                     properties: {
-                      login: {type: 'string', description: 'User login'},
+                      login: {
+                        type: 'string',
+                        description: 'User login',
+                      },
                       password: {
                         type: 'string',
                         description: 'User password',
