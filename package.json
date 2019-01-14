@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "config": {
-    "releaseBranch": "master"
+    "releaseBranch": "v1"
   },
   "scripts": {
     "changelog": "changelog -u https://gitlab.com/m03geek/fastify-oas",
