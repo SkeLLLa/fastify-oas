@@ -1,3 +1,21 @@
+#### 1.2.0 (2019-01-14)
+
+##### Continuous Integration
+
+*  fix release branch ([8e4dda44](https://github.com/SkeLLLa/fastify-oas/commit/8e4dda44b612acf0513dddc742b8ed762d2afb03))
+
+##### Documentation Changes
+
+*  update typedoc ([e2551fe3](https://github.com/SkeLLLa/fastify-oas/commit/e2551fe3f8085db6d47a8c42efb85c8168bb39f3))
+
+##### New Features
+
+*  add operationId ([9caa6d1e](https://github.com/SkeLLLa/fastify-oas/commit/9caa6d1ef941fc27b57c4896b7e4bc8c7c6d4898))
+
+##### Bug Fixes
+
+*  add pattern to valid params ([c13f251a](https://github.com/SkeLLLa/fastify-oas/commit/c13f251a8a35ff5104151ee3e972d6d603fa845e))
+
 #### 1.1.1 (2018-12-17)
 
 ##### Bug Fixes
