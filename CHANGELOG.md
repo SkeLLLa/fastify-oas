@@ -1,3 +1,13 @@
+#### 1.2.1 (2019-01-23)
+
+##### Documentation Changes
+
+* **typedoc:**  fix typo ([0550d300](https://github.com/SkeLLLa/fastify-oas/commit/0550d30059642387a5db704114bec6e323bfb9f1))
+
+##### Bug Fixes
+
+* **types:**  fix typo components ([01753448](https://github.com/SkeLLLa/fastify-oas/commit/017534480fc577de2d7e87da4a320fb038dc491a))
+
 #### 1.2.0 (2019-01-14)
 
 ##### Continuous Integration
