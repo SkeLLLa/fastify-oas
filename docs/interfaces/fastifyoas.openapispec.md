@@ -11,7 +11,7 @@
 ### Properties
 
 * [basePath](fastifyoas.openapispec.md#basepath)
-* [componetns](fastifyoas.openapispec.md#componetns)
+* [components](fastifyoas.openapispec.md#components)
 * [consumes](fastifyoas.openapispec.md#consumes)
 * [externalDocs](fastifyoas.openapispec.md#externaldocs)
 * [host](fastifyoas.openapispec.md#host)
@@ -37,11 +37,11 @@
 *Defined in lib/index.d.ts:66*
 
 ___
-<a id="componetns"></a>
+<a id="components"></a>
 
-### `<Optional>` componetns
+### `<Optional>` components
 
-**● componetns**: *[ComponentsObject](componentsobject.md)*
+**● components**: *[ComponentsObject](componentsobject.md)*
 
 *Defined in lib/index.d.ts:75*
 

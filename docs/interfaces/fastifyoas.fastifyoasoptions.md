@@ -26,14 +26,13 @@ Fastify OAS plugin options
 
 * [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
 * [attachValidation](fastifyoas.fastifyoasoptions.md#attachvalidation)
+* [beforeHandler](fastifyoas.fastifyoasoptions.md#beforehandler)
 * [bodyLimit](fastifyoas.fastifyoasoptions.md#bodylimit)
 * [config](fastifyoas.fastifyoasoptions.md#config)
 * [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
 * [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
 * [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
 * [openapi](fastifyoas.fastifyoasoptions.md#openapi)
-* [preHandler](fastifyoas.fastifyoasoptions.md#prehandler)
-* [preValidation](fastifyoas.fastifyoasoptions.md#prevalidation)
 * [prefix](fastifyoas.fastifyoasoptions.md#prefix)
 * [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
 * [schema](fastifyoas.fastifyoasoptions.md#schema)
@@ -65,7 +64,18 @@ ___
 
 *Inherited from RouteShorthandOptions.attachValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:208*
+*Defined in node_modules/fastify/fastify.d.ts:169*
+
+___
+<a id="beforehandler"></a>
+
+### `<Optional>` beforeHandler
+
+**● beforeHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
+
+*Inherited from RouteShorthandOptions.beforeHandler*
+
+*Defined in node_modules/fastify/fastify.d.ts:170*
 
 ___
 <a id="bodylimit"></a>
@@ -76,7 +86,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:216*
+*Defined in node_modules/fastify/fastify.d.ts:174*
 
 ___
 <a id="config"></a>
@@ -87,7 +97,7 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:218*
+*Defined in node_modules/fastify/fastify.d.ts:176*
 
 ___
 <a id="exposeroute"></a>
@@ -122,7 +132,7 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:217*
+*Defined in node_modules/fastify/fastify.d.ts:175*
 
 ___
 <a id="openapi"></a>
@@ -137,28 +147,6 @@ Openapi version
 *__default__*: 3.0.0
 
 ___
-<a id="prehandler"></a>
-
-### `<Optional>` preHandler
-
-**● preHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
-
-*Inherited from RouteShorthandOptions.preHandler*
-
-*Defined in node_modules/fastify/fastify.d.ts:212*
-
-___
-<a id="prevalidation"></a>
-
-### `<Optional>` preValidation
-
-**● preValidation**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
-
-*Inherited from RouteShorthandOptions.preValidation*
-
-*Defined in node_modules/fastify/fastify.d.ts:209*
-
-___
 <a id="prefix"></a>
 
 ### `<Optional>` prefix
@@ -167,7 +155,7 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:243*
+*Defined in node_modules/fastify/fastify.d.ts:201*
 
 ___
 <a id="routeprefix"></a>
@@ -190,7 +178,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schema*
 
-*Defined in node_modules/fastify/fastify.d.ts:207*
+*Defined in node_modules/fastify/fastify.d.ts:168*
 
 ___
 <a id="schemacompiler"></a>
@@ -201,7 +189,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:215*
+*Defined in node_modules/fastify/fastify.d.ts:173*
 
 ___
 <a id="swagger"></a>
