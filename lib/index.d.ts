@@ -72,7 +72,7 @@ declare namespace fastifyOAS {
       | Array<SecurityRequirementObject>
       | Array<{[securityDefinitionName: string]: Array<String>}>;
     servers?: Array<Server>;
-    componetns?: ComponentsObject;
+    components?: ComponentsObject;
     securityDefinitions?: {
       [securityDefinitionName: string]: Security;
     };
