@@ -228,7 +228,6 @@ describe('openapi constructor', () => {
     });
   });
 
-
   describe('openapi yaml', () => {
     test('generates valid swagger yaml', async () => {
       const apiFn = openapi({
@@ -238,8 +237,10 @@ describe('openapi constructor', () => {
       });
       const api = apiFn();
       const apiCache = apiFn();
-      const expected =
-        'openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace('X.X.X', version);
+      const expected = 'openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace(
+        'X.X.X',
+        version
+      );
 
       await expect(api).toEqual(apiCache);
       await expect(api).toEqual(expected);
@@ -420,9 +421,7 @@ describe('openapi constructor', () => {
     });
     test('generates valid body with default media types', async () => {
       const api = openapi({
-        options: {
-
-        },
+        options: {},
         routes: [
           {
             logLevel: '',
@@ -759,7 +758,10 @@ describe('openapi constructor', () => {
               summary: 'Summary',
               querystring: {
                 type: 'object',
-                properties: {id: {type: 'number', description: 'ID'}},
+                properties: {
+                  id: {type: 'number', description: 'ID'},
+                  text: {type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$'},
+                },
               },
             },
           },
@@ -783,6 +785,11 @@ describe('openapi constructor', () => {
                 in: 'query',
                 description: 'ID',
                 schema: {type: 'number', description: 'ID'},
+              },
+              {
+                name: 'text',
+                in: 'query',
+                schema: {type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$'},
               },
             ],
           },
