@@ -8,7 +8,7 @@
 
 ## Indexable
 
-\[name: `string`\]:&nbsp;`any`
+\[name: `string`\]:&nbsp;[ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
 ## Index
 
 ---

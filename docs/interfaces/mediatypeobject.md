@@ -37,7 +37,7 @@ ___
 
 ### `<Optional>` example
 
-**● example**: *[ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)*
+**● example**: *`any`*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:142*
 
@@ -46,7 +46,7 @@ ___
 
 ### `<Optional>` examples
 
-**● examples**: *[[ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)]*
+**● examples**: *[ExamplesObject](examplesobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:141*
 
