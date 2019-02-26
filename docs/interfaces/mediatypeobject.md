@@ -55,7 +55,7 @@ ___
 
 ### `<Optional>` schema
 
-**● schema**: *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+**● schema**: *[SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:140*
 

@@ -53,6 +53,7 @@ ___
 *Defined in lib/index.d.ts:33*
 
 Hides route from result OpenAPI document
+
 *__default__*: false
 
 ___

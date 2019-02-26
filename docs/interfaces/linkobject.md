@@ -66,7 +66,7 @@ ___
 
 ### `<Optional>` requestBody
 
-**● requestBody**: *`any` | `string`*
+**● requestBody**: *`any` \| `string`*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191*
 

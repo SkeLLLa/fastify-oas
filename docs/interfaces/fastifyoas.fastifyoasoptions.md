@@ -33,6 +33,7 @@ Fastify OAS plugin options
 * [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
 * [openapi](fastifyoas.fastifyoasoptions.md#openapi)
 * [preHandler](fastifyoas.fastifyoasoptions.md#prehandler)
+* [preSerialization](fastifyoas.fastifyoasoptions.md#preserialization)
 * [preValidation](fastifyoas.fastifyoasoptions.md#prevalidation)
 * [prefix](fastifyoas.fastifyoasoptions.md#prefix)
 * [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
@@ -54,6 +55,7 @@ Fastify OAS plugin options
 *Defined in lib/index.d.ts:105*
 
 If `true` adds fastify schemas as openapi models
+
 *__default__*: false
 
 ___
@@ -65,7 +67,7 @@ ___
 
 *Inherited from RouteShorthandOptions.attachValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:208*
+*Defined in node_modules/fastify/fastify.d.ts:235*
 
 ___
 <a id="bodylimit"></a>
@@ -76,7 +78,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:216*
+*Defined in node_modules/fastify/fastify.d.ts:246*
 
 ___
 <a id="config"></a>
@@ -87,7 +89,7 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:218*
+*Defined in node_modules/fastify/fastify.d.ts:248*
 
 ___
 <a id="exposeroute"></a>
@@ -99,6 +101,7 @@ ___
 *Defined in lib/index.d.ts:100*
 
 If `true` the plugin will expose the documentation routes
+
 *__default__*: false
 
 ___
@@ -111,6 +114,7 @@ ___
 *Defined in lib/index.d.ts:124*
 
 If true will not add routes without tags
+
 *__default__*: false
 
 ___
@@ -122,7 +126,7 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:217*
+*Defined in node_modules/fastify/fastify.d.ts:247*
 
 ___
 <a id="openapi"></a>
@@ -134,6 +138,7 @@ ___
 *Defined in lib/index.d.ts:110*
 
 Openapi version
+
 *__default__*: 3.0.0
 
 ___
@@ -141,22 +146,33 @@ ___
 
 ### `<Optional>` preHandler
 
-**● preHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
+**● preHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
 
 *Inherited from RouteShorthandOptions.preHandler*
 
-*Defined in node_modules/fastify/fastify.d.ts:212*
+*Defined in node_modules/fastify/fastify.d.ts:239*
+
+___
+<a id="preserialization"></a>
+
+### `<Optional>` preSerialization
+
+**● preSerialization**: *`FastifyMiddlewareWithPayload`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddlewareWithPayload`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
+
+*Inherited from RouteShorthandOptions.preSerialization*
+
+*Defined in node_modules/fastify/fastify.d.ts:242*
 
 ___
 <a id="prevalidation"></a>
 
 ### `<Optional>` preValidation
 
-**● preValidation**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> | `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
+**● preValidation**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
 
 *Inherited from RouteShorthandOptions.preValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:209*
+*Defined in node_modules/fastify/fastify.d.ts:236*
 
 ___
 <a id="prefix"></a>
@@ -167,7 +183,7 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:243*
+*Defined in node_modules/fastify/fastify.d.ts:273*
 
 ___
 <a id="routeprefix"></a>
@@ -179,6 +195,7 @@ ___
 *Defined in lib/index.d.ts:95*
 
 Documentation endpoint
+
 *__default__*: /documentation
 
 ___
@@ -190,7 +207,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schema*
 
-*Defined in node_modules/fastify/fastify.d.ts:207*
+*Defined in node_modules/fastify/fastify.d.ts:234*
 
 ___
 <a id="schemacompiler"></a>
@@ -201,7 +218,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:215*
+*Defined in node_modules/fastify/fastify.d.ts:245*
 
 ___
 <a id="swagger"></a>
@@ -224,6 +241,7 @@ ___
 *Defined in lib/index.d.ts:115*
 
 If `true` returns yaml instead of json
+
 *__default__*: false
 
 ___

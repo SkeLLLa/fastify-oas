@@ -29,7 +29,7 @@
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
 
 ___
 <a id="type"></a>
@@ -38,7 +38,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
 
 ___
 

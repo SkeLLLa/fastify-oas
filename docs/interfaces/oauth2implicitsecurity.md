@@ -27,7 +27,7 @@
 
 **● authorizationUrl**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:188*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:193*
 
 ___
 <a id="description"></a>
@@ -38,7 +38,7 @@ ___
 
 *Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
 
 ___
 <a id="flow"></a>
@@ -49,7 +49,7 @@ ___
 
 *Inherited from [BaseOAuthSecuirty](baseoauthsecuirty.md).[flow](baseoauthsecuirty.md#flow)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:184*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:189*
 
 ___
 <a id="type"></a>
@@ -60,7 +60,7 @@ ___
 
 *Inherited from [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
 
 ___
 

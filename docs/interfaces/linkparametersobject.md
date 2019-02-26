@@ -8,7 +8,7 @@
 
 ## Indexable
 
-\[name: `string`\]:&nbsp;`any` | `string`
+\[name: `string`\]:&nbsp;`any` \| `string`
 ## Index
 
 ---

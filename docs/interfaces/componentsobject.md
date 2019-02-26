@@ -39,7 +39,7 @@
 
 #### Type declaration
 
-[callback: `string`]: [CallbackObject](callbackobject.md) | [ReferenceObject](referenceobject.md)
+[callback: `string`]: [CallbackObject](callbackobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="examples"></a>
@@ -52,7 +52,7 @@ ___
 
 #### Type declaration
 
-[example: `string`]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+[example: `string`]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="headers"></a>
@@ -65,7 +65,7 @@ ___
 
 #### Type declaration
 
-[heaer: `string`]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+[heaer: `string`]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="links"></a>
@@ -78,7 +78,7 @@ ___
 
 #### Type declaration
 
-[link: `string`]: [LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
+[link: `string`]: [LinkObject](linkobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="parameters"></a>
@@ -91,7 +91,7 @@ ___
 
 #### Type declaration
 
-[parameter: `string`]: [ParameterObject](parameterobject.md) | [ReferenceObject](referenceobject.md)
+[parameter: `string`]: [ParameterObject](parameterobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="requestbodies"></a>
@@ -104,7 +104,7 @@ ___
 
 #### Type declaration
 
-[request: `string`]: [RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)
+[request: `string`]: [RequestBodyObject](requestbodyobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="responses"></a>
@@ -117,7 +117,7 @@ ___
 
 #### Type declaration
 
-[response: `string`]: [ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)
+[response: `string`]: [ResponseObject](responseobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="schemas"></a>
@@ -130,7 +130,7 @@ ___
 
 #### Type declaration
 
-[schema: `string`]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
+[schema: `string`]: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="securityschemes"></a>
@@ -143,7 +143,7 @@ ___
 
 #### Type declaration
 
-[securityScheme: `string`]: [SecuritySchemeObject](securityschemeobject.md) | [ReferenceObject](referenceobject.md)
+[securityScheme: `string`]: [SecuritySchemeObject](securityschemeobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 

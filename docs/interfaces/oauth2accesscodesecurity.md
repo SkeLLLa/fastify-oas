@@ -29,7 +29,7 @@
 
 **● authorizationUrl**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:203*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:208*
 
 ___
 <a id="description"></a>
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
 
 ___
 <a id="flow"></a>
@@ -51,7 +51,7 @@ ___
 
 *Inherited from [BaseOAuthSecuirty](baseoauthsecuirty.md).[flow](baseoauthsecuirty.md#flow)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:184*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:189*
 
 ___
 <a id="scopes"></a>
@@ -60,7 +60,7 @@ ___
 
 **● scopes**: *[OAuthScope](oauthscope.md)[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:204*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:209*
 
 ___
 <a id="tokenurl"></a>
@@ -69,7 +69,7 @@ ___
 
 **● tokenUrl**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:202*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:207*
 
 ___
 <a id="type"></a>
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
 
 ___
 

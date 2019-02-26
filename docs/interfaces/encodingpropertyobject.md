@@ -60,7 +60,7 @@ ___
 
 #### Type declaration
 
-[key: `string`]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+[key: `string`]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="style"></a>

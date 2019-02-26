@@ -8,7 +8,7 @@
 
 ## Indexable
 
-\[name: `string`\]:&nbsp;[HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+\[name: `string`\]:&nbsp;[HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md)
 ## Index
 
 ---

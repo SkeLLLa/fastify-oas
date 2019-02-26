@@ -36,7 +36,7 @@
 
 **● basePath**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:225*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:230*
 
 ___
 <a id="consumes"></a>
@@ -45,7 +45,7 @@ ___
 
 **● consumes**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:227*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:232*
 
 ___
 <a id="definitions"></a>
@@ -54,7 +54,7 @@ ___
 
 **● definitions**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:230*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:235*
 
 #### Type declaration
 
@@ -67,7 +67,7 @@ ___
 
 **● externalDocs**: *[ExternalDocs](externaldocs.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:223*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:228*
 
 ___
 <a id="host"></a>
@@ -76,7 +76,7 @@ ___
 
 **● host**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:224*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:229*
 
 ___
 <a id="info"></a>
@@ -85,7 +85,7 @@ ___
 
 **● info**: *[Info](info.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:222*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:227*
 
 ___
 <a id="parameters"></a>
@@ -94,11 +94,11 @@ ___
 
 **● parameters**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:231*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:236*
 
 #### Type declaration
 
-[parameterName: `string`]: [BodyParameter](bodyparameter.md) | [QueryParameter](queryparameter.md)
+[parameterName: `string`]: [BodyParameter](bodyparameter.md) \| [QueryParameter](queryparameter.md)
 
 ___
 <a id="paths"></a>
@@ -107,7 +107,7 @@ ___
 
 **● paths**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:229*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:234*
 
 #### Type declaration
 
@@ -120,7 +120,7 @@ ___
 
 **● produces**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:228*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:233*
 
 ___
 <a id="responses"></a>
@@ -129,7 +129,7 @@ ___
 
 **● responses**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:232*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:237*
 
 #### Type declaration
 
@@ -142,7 +142,7 @@ ___
 
 **● schemes**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:226*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:231*
 
 ___
 <a id="security"></a>
@@ -151,7 +151,7 @@ ___
 
 **● security**: *`Array`<`object`>*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:233*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:238*
 
 ___
 <a id="securitydefinitions"></a>
@@ -160,7 +160,7 @@ ___
 
 **● securityDefinitions**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:234*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:239*
 
 #### Type declaration
 
@@ -173,7 +173,7 @@ ___
 
 **● swagger**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:221*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:226*
 
 ___
 <a id="tags"></a>
@@ -182,7 +182,7 @@ ___
 
 **● tags**: *[Tag](tag.md)[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:235*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:240*
 
 ___
 

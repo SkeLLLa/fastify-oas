@@ -81,7 +81,7 @@ ___
 
 ### `<Optional>` parameters
 
-**● parameters**: *([ReferenceObject](referenceobject.md) | [ParameterObject](parameterobject.md))[]*
+**● parameters**: *([ReferenceObject](referenceobject.md) \| [ParameterObject](parameterobject.md))[]*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:98*
 
@@ -90,7 +90,7 @@ ___
 
 ### `<Optional>` requestBody
 
-**● requestBody**: *[RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)*
+**● requestBody**: *[RequestBodyObject](requestbodyobject.md) \| [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:99*
 

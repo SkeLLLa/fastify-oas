@@ -99,7 +99,7 @@ ___
 
 #### Type declaration
 
-[param: `string`]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+[param: `string`]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md)
 
 ___
 <a id="explode"></a>
@@ -124,7 +124,7 @@ ___
 
 ### `<Optional>` schema
 
-**● schema**: *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+**● schema**: *[SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:120*
 

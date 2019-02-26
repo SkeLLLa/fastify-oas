@@ -110,16 +110,16 @@
 
 ###  Parameter
 
-**Ƭ Parameter**: *[BodyParameter](interfaces/bodyparameter.md) | [FormDataParameter](interfaces/formdataparameter.md) | [QueryParameter](interfaces/queryparameter.md) | [PathParameter](interfaces/pathparameter.md) | [HeaderParameter](interfaces/headerparameter.md)*
+**Ƭ Parameter**: *[BodyParameter](interfaces/bodyparameter.md) \| [FormDataParameter](interfaces/formdataparameter.md) \| [QueryParameter](interfaces/queryparameter.md) \| [PathParameter](interfaces/pathparameter.md) \| [HeaderParameter](interfaces/headerparameter.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:73*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:78*
 
 ___
 <a id="parameterlocation"></a>
 
 ###  ParameterLocation
 
-**Ƭ ParameterLocation**: *"query" | "header" | "path" | "cookie"*
+**Ƭ ParameterLocation**: *"query" \| "header" \| "path" \| "cookie"*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:110*
 
@@ -128,7 +128,7 @@ ___
 
 ###  ParameterStyle
 
-**Ƭ ParameterStyle**: *"matrix" | "label" | "form" | "simple" | "spaceDelimited" | "pipeDelimited" | "deepObject"*
+**Ƭ ParameterStyle**: *"matrix" \| "label" \| "form" \| "simple" \| "spaceDelimited" \| "pipeDelimited" \| "deepObject"*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:111*
 
@@ -146,16 +146,16 @@ ___
 
 ###  Security
 
-**Ƭ Security**: *[BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) | [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) | [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) | [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) | [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) | [ApiKeySecurity](interfaces/apikeysecurity.md)*
+**Ƭ Security**: *[BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) \| [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) \| [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) \| [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) \| [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) \| [ApiKeySecurity](interfaces/apikeysecurity.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:211*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:216*
 
 ___
 <a id="securityschemetype"></a>
 
 ###  SecuritySchemeType
 
-**Ƭ SecuritySchemeType**: *"apiKey" | "http" | "oauth2" | "openIdConnect"*
+**Ƭ SecuritySchemeType**: *"apiKey" \| "http" \| "oauth2" \| "openIdConnect"*
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269*
 

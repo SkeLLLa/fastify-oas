@@ -37,11 +37,11 @@ ___
 
 ###  in
 
-**● in**: *`string`*
+**● in**: *"body"*
 
-*Inherited from [BaseParameter](baseparameter.md).[in](baseparameter.md#in)*
+*Overrides [BaseParameter](baseparameter.md).[in](baseparameter.md#in)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:44*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:50*
 
 ___
 <a id="name"></a>
@@ -72,7 +72,7 @@ ___
 
 **● schema**: *[Schema](schema.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:50*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:51*
 
 ___
 

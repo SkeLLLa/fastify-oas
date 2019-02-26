@@ -50,7 +50,7 @@
 
 **● allowEmptyValue**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:70*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:75*
 
 ___
 <a id="collectionformat"></a>
@@ -59,18 +59,18 @@ ___
 
 **● collectionFormat**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:69*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:74*
 
 ___
 <a id="default"></a>
 
 ### `<Optional>` default
 
-**● default**: *`string` | `boolean` | `number` | `__type`*
+**● default**: *`string` \| `boolean` \| `number` \| `__type`*
 
 *Inherited from [BaseSchema](baseschema.md).[default](baseschema.md#default)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:127*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:132*
 
 ___
 <a id="description"></a>
@@ -90,11 +90,11 @@ ___
 
 ### `<Optional>` enum
 
-**● enum**: *`Array`<`string` | `boolean` | `number` | `__type`>*
+**● enum**: *`Array`<`string` \| `boolean` \| `number` \| `__type`>*
 
 *Inherited from [BaseSchema](baseschema.md).[enum](baseschema.md#enum)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:146*
 
 ___
 <a id="exclusivemaximum"></a>
@@ -105,7 +105,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[exclusiveMaximum](baseschema.md#exclusivemaximum)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:130*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:135*
 
 ___
 <a id="exclusiveminimum"></a>
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[exclusiveMinimum](baseschema.md#exclusiveminimum)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:132*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:137*
 
 ___
 <a id="format"></a>
@@ -127,29 +127,29 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[format](baseschema.md#format)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:124*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:129*
 
 ___
 <a id="in"></a>
 
 ###  in
 
-**● in**: *`string`*
+**● in**: *"formData"*
 
-*Inherited from [BaseParameter](baseparameter.md).[in](baseparameter.md#in)*
+*Overrides [BaseParameter](baseparameter.md).[in](baseparameter.md#in)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:44*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:72*
 
 ___
 <a id="items"></a>
 
 ### `<Optional>` items
 
-**● items**: *[Schema](schema.md) | [Schema](schema.md)[]*
+**● items**: *[Schema](schema.md) \| [Schema](schema.md)[]*
 
 *Inherited from [BaseSchema](baseschema.md).[items](baseschema.md#items)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:143*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:148*
 
 ___
 <a id="maxitems"></a>
@@ -160,7 +160,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[maxItems](baseschema.md#maxitems)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:136*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*
 
 ___
 <a id="maxlength"></a>
@@ -171,7 +171,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[maxLength](baseschema.md#maxlength)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:133*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:138*
 
 ___
 <a id="maxproperties"></a>
@@ -182,7 +182,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[maxProperties](baseschema.md#maxproperties)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:139*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:144*
 
 ___
 <a id="maximum"></a>
@@ -193,7 +193,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[maximum](baseschema.md#maximum)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:129*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:134*
 
 ___
 <a id="minitems"></a>
@@ -204,7 +204,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[minItems](baseschema.md#minitems)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:137*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:142*
 
 ___
 <a id="minlength"></a>
@@ -215,7 +215,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[minLength](baseschema.md#minlength)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:134*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:139*
 
 ___
 <a id="minproperties"></a>
@@ -226,7 +226,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[minProperties](baseschema.md#minproperties)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:140*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:145*
 
 ___
 <a id="minimum"></a>
@@ -237,7 +237,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[minimum](baseschema.md#minimum)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:131*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:136*
 
 ___
 <a id="multipleof"></a>
@@ -248,7 +248,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[multipleOf](baseschema.md#multipleof)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:128*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:133*
 
 ___
 <a id="name"></a>
@@ -270,7 +270,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[pattern](baseschema.md#pattern)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:135*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:140*
 
 ___
 <a id="required"></a>
@@ -292,7 +292,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[title](baseschema.md#title)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:125*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:130*
 
 ___
 <a id="type"></a>
@@ -303,7 +303,7 @@ ___
 
 *Overrides [BaseSchema](baseschema.md).[type](baseschema.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:68*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:73*
 
 ___
 <a id="uniqueitems"></a>
@@ -314,7 +314,7 @@ ___
 
 *Inherited from [BaseSchema](baseschema.md).[uniqueItems](baseschema.md#uniqueitems)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:138*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:143*
 
 ___
 
