@@ -831,8 +831,51 @@ describe('openapi constructor', () => {
             parameters: [
               {
                 name: 'host',
-                required: false,
                 in: 'header',
+                description: 'Host',
+                schema: {type: 'string', description: 'Host'},
+              },
+            ],
+          },
+        },
+      });
+
+      await expect(swParser.validate(api)).resolves.toEqual(api);
+    });
+    test('generates valid cookies', async () => {
+      const api = openapi({
+        options: {},
+        routes: [
+          {
+            logLevel: '',
+            method: 'POST',
+            path: '/api/ep',
+            url: '/api/ep',
+            prefix: '/api',
+            schema: {
+              consumes: ['text/plain; charset=utf-8'],
+              deprecated: true,
+              cookies: {
+                type: 'object',
+                properties: {host: {type: 'string', description: 'Host'}},
+              },
+            },
+          },
+        ],
+      })();
+      await expect(api).toHaveProperty('paths', {
+        '/api/ep': {
+          post: {
+            deprecated: true,
+            responses: {
+              '200': {
+                description: 'Default Response',
+              },
+            },
+            parameters: [
+              {
+                name: 'host',
+                in: 'cookie',
                 description: 'Host',
                 schema: {type: 'string', description: 'Host'},
               },

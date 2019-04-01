@@ -117,7 +117,6 @@ describe('helpers', () => {
           description: 'optional api version',
           in: 'header',
           name: 'x-api-version',
-          required: false,
           schema: {
             description: 'optional api version',
             type: 'string',
@@ -149,7 +148,11 @@ describe('helpers', () => {
         type: 'object',
         properties: {
           hello: {type: 'string'},
-          world: {type: 'string', enum: ['world', 'worlds'], description: 'something'},
+          world: {
+            type: 'string',
+            enum: ['world', 'worlds'],
+            description: 'something',
+          },
         },
         required: ['hello'],
       };
@@ -160,7 +163,11 @@ describe('helpers', () => {
           in: 'query',
           name: 'world',
           description: 'something',
-          schema: {type: 'string', enum: ['world', 'worlds'], description: 'something'},
+          schema: {
+            type: 'string',
+            enum: ['world', 'worlds'],
+            description: 'something',
+          },
         },
       ];
       helpers.genQuery(dst, querystring);
@@ -174,6 +181,39 @@ describe('helpers', () => {
       const dst = [];
       const expected = [
         {in: 'query', name: 'hello', required: true, schema: {type: 'string'}},
+        {
+          in: 'query',
+          name: 'world',
+          description: 'something',
+          schema: {type: 'string', description: 'something'},
+        },
+      ];
+      helpers.genQuery(dst, querystring);
+      expect(dst).toEqual(expected);
+    });
+    test('generates valid query with nested objects', () => {
+      const querystring = {
+        hello: {
+          type: 'object',
+          explode: true,
+          required: true,
+          style: 'deepObject',
+          properties: {
+            id: {type: 'string'},
+          },
+        },
+        world: {type: 'string', description: 'something'},
+      };
+      const dst = [];
+      const expected = [
+        {
+          in: 'query',
+          name: 'hello',
+          explode: true,
+          style: 'deepObject',
+          required: true,
+          schema: {type: 'object', properties: {id: {type: 'string'}}},
+        },
         {
           in: 'query',
           name: 'world',

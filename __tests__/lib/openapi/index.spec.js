@@ -4,7 +4,7 @@
 const openapi = require('../../../lib/openapi');
 const fastify = require('fastify');
 
-describe('openapi fastify plugin', async () => {
+describe('openapi fastify plugin', () => {
   test('registers plugin', async () => {
     const app = fastify();
     openapi(app, {exposeRoute: true});
