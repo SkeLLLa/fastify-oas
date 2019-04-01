@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.1.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0...v2.1.0) (2019-04-01)
+
+
+### Features
+
+* **openapi:** add style and explode support ([25f2f98](https://gitlab.com/m03geek/fastify-oas/commit/25f2f98))
+
+
+
 # [2.0.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0-rc.4...v2.0.0) (2019-02-26)
 
 
