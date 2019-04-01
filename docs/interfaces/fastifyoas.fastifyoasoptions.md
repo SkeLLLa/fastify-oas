@@ -67,7 +67,7 @@ ___
 
 *Inherited from RouteShorthandOptions.attachValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:235*
+*Defined in node_modules/fastify/fastify.d.ts:238*
 
 ___
 <a id="bodylimit"></a>
@@ -78,7 +78,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:246*
+*Defined in node_modules/fastify/fastify.d.ts:249*
 
 ___
 <a id="config"></a>
@@ -89,7 +89,7 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:248*
+*Defined in node_modules/fastify/fastify.d.ts:251*
 
 ___
 <a id="exposeroute"></a>
@@ -126,7 +126,7 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:247*
+*Defined in node_modules/fastify/fastify.d.ts:250*
 
 ___
 <a id="openapi"></a>
@@ -150,7 +150,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preHandler*
 
-*Defined in node_modules/fastify/fastify.d.ts:239*
+*Defined in node_modules/fastify/fastify.d.ts:242*
 
 ___
 <a id="preserialization"></a>
@@ -161,7 +161,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preSerialization*
 
-*Defined in node_modules/fastify/fastify.d.ts:242*
+*Defined in node_modules/fastify/fastify.d.ts:245*
 
 ___
 <a id="prevalidation"></a>
@@ -172,7 +172,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:236*
+*Defined in node_modules/fastify/fastify.d.ts:239*
 
 ___
 <a id="prefix"></a>
@@ -183,7 +183,7 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:273*
+*Defined in node_modules/fastify/fastify.d.ts:276*
 
 ___
 <a id="routeprefix"></a>
@@ -207,7 +207,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schema*
 
-*Defined in node_modules/fastify/fastify.d.ts:234*
+*Defined in node_modules/fastify/fastify.d.ts:237*
 
 ___
 <a id="schemacompiler"></a>
@@ -218,7 +218,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:245*
+*Defined in node_modules/fastify/fastify.d.ts:248*
 
 ___
 <a id="swagger"></a>
