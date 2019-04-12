@@ -57,7 +57,7 @@
     "app-root-path": "^2.2.1",
     "fastify-plugin": "^1.5.0",
     "fastify-static": "^2.4.0",
-    "js-yaml": "^3.13.0"
+    "js-yaml": "^3.13.1"
   },
   "devDependencies": {
     "@types/fastify-static": "^2.2.1",
