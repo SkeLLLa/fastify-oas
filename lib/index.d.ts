@@ -55,6 +55,10 @@ declare module 'fastify' {
      * OpenAPI security definitions
      */
     security?: Array<SecurityRequirementObject>;
+    /**
+     * OpenAPI operation unique identifier
+     */
+    operationId?: string;
   }
 }
 
