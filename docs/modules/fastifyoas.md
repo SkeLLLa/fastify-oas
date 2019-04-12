@@ -5,7 +5,7 @@
 ## Callable
 ▸ **fastifyOAS**(): `void`
 
-*Defined in lib/index.d.ts:128*
+*Defined in lib/index.d.ts:132*
 
 **Returns:** `void`
 

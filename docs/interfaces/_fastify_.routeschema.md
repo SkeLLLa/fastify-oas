@@ -13,6 +13,7 @@
 * [consumes](_fastify_.routeschema.md#consumes)
 * [description](_fastify_.routeschema.md#description)
 * [hide](_fastify_.routeschema.md#hide)
+* [operationId](_fastify_.routeschema.md#operationid)
 * [produces](_fastify_.routeschema.md#produces)
 * [security](_fastify_.routeschema.md#security)
 * [summary](_fastify_.routeschema.md#summary)
@@ -55,6 +56,17 @@ ___
 Hides route from result OpenAPI document
 
 *__default__*: false
+
+___
+<a id="operationid"></a>
+
+### `<Optional>` operationId
+
+**● operationId**: *`string`*
+
+*Defined in lib/index.d.ts:61*
+
+OpenAPI operation unique identifier
 
 ___
 <a id="produces"></a>
