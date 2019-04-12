@@ -21,7 +21,7 @@ codestyle:
   script:
     - npm ci
     - npm run lint
-    - npm audit
+    # - npm audit
 
 node:8:
   stage: test
