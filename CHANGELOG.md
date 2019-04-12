@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.1.0...v2.1.1) (2019-04-12)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([8d5a453](https://gitlab.com/m03geek/fastify-oas/commit/8d5a453))
+* **swagger:** add operationId support ([9ef427a](https://gitlab.com/m03geek/fastify-oas/commit/9ef427a))
+
+
+
 # [2.1.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.0.0...v2.1.0) (2019-04-01)
 
 
