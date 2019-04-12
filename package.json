@@ -19,7 +19,7 @@
     "lint": "eslint .",
     "prepare": "node build/prepare-swagger-ui",
     "prepublishOnly": "npm run prepare",
-    "test": "npm audit && npm run tsc && npm run lint && npm run unit",
+    "test": "npm audit || true && npm run tsc && npm run lint && npm run unit",
     "unit": "jest",
     "tsc": "tsc ./lib/index.d.ts",
     "typedoc": "rm -rf ./docs/* && typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs",
