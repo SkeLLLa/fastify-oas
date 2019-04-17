@@ -324,4 +324,75 @@ describe('helpers', () => {
       expect(formatted).toBe(expected);
     });
   });
+
+  describe('fixes for OpenAPI 3', () => {
+    test('json-schema tuple type', () => {
+      const body = {
+        type: 'array',
+        items: [{type: 'string'}, {type: 'number'}],
+      };
+      const dst = {};
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'array',
+              items: {
+                oneOf: [{type: 'string'}, {type: 'number'}],
+              },
+              maxItems: 2,
+              minItems: 2,
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
+
+    test('json-schema tuple type with minItems, maxItems', () => {
+      const body = {
+        type: 'array',
+        items: [{type: 'string'}, {type: 'number'}],
+        minItems: 3,
+        maxItems: 3,
+      };
+      const dst = {};
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'array',
+              items: {
+                oneOf: [{type: 'string'}, {type: 'number'}],
+              },
+              maxItems: 3,
+              minItems: 3,
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
+
+    test('json-schema enums without a type', () => {
+      const body = {
+        enum: ['Foo', 'Bar'],
+      };
+      const dst = {};
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'string',
+              enum: ['Foo', 'Bar'],
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
+  });
 });
