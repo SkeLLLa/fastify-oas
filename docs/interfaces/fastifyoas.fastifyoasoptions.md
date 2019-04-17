@@ -36,6 +36,7 @@ Fastify OAS plugin options
 * [preSerialization](fastifyoas.fastifyoasoptions.md#preserialization)
 * [preValidation](fastifyoas.fastifyoasoptions.md#prevalidation)
 * [prefix](fastifyoas.fastifyoasoptions.md#prefix)
+* [prefixTrailingSlash](fastifyoas.fastifyoasoptions.md#prefixtrailingslash)
 * [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
 * [schema](fastifyoas.fastifyoasoptions.md#schema)
 * [schemaCompiler](fastifyoas.fastifyoasoptions.md#schemacompiler)
@@ -67,7 +68,7 @@ ___
 
 *Inherited from RouteShorthandOptions.attachValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:238*
+*Defined in node_modules/fastify/fastify.d.ts:239*
 
 ___
 <a id="bodylimit"></a>
@@ -78,7 +79,7 @@ ___
 
 *Inherited from RouteShorthandOptions.bodyLimit*
 
-*Defined in node_modules/fastify/fastify.d.ts:249*
+*Defined in node_modules/fastify/fastify.d.ts:250*
 
 ___
 <a id="config"></a>
@@ -89,7 +90,7 @@ ___
 
 *Inherited from RouteShorthandOptions.config*
 
-*Defined in node_modules/fastify/fastify.d.ts:251*
+*Defined in node_modules/fastify/fastify.d.ts:252*
 
 ___
 <a id="exposeroute"></a>
@@ -126,7 +127,7 @@ ___
 
 *Inherited from RouteShorthandOptions.logLevel*
 
-*Defined in node_modules/fastify/fastify.d.ts:250*
+*Defined in node_modules/fastify/fastify.d.ts:251*
 
 ___
 <a id="openapi"></a>
@@ -150,7 +151,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preHandler*
 
-*Defined in node_modules/fastify/fastify.d.ts:242*
+*Defined in node_modules/fastify/fastify.d.ts:243*
 
 ___
 <a id="preserialization"></a>
@@ -161,7 +162,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preSerialization*
 
-*Defined in node_modules/fastify/fastify.d.ts:245*
+*Defined in node_modules/fastify/fastify.d.ts:246*
 
 ___
 <a id="prevalidation"></a>
@@ -172,7 +173,7 @@ ___
 
 *Inherited from RouteShorthandOptions.preValidation*
 
-*Defined in node_modules/fastify/fastify.d.ts:239*
+*Defined in node_modules/fastify/fastify.d.ts:240*
 
 ___
 <a id="prefix"></a>
@@ -183,7 +184,18 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:276*
+*Defined in node_modules/fastify/fastify.d.ts:278*
+
+___
+<a id="prefixtrailingslash"></a>
+
+### `<Optional>` prefixTrailingSlash
+
+**● prefixTrailingSlash**: *"slash" \| "no-slash" \| "both"*
+
+*Inherited from RouteShorthandOptions.prefixTrailingSlash*
+
+*Defined in node_modules/fastify/fastify.d.ts:253*
 
 ___
 <a id="routeprefix"></a>
@@ -207,7 +219,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schema*
 
-*Defined in node_modules/fastify/fastify.d.ts:237*
+*Defined in node_modules/fastify/fastify.d.ts:238*
 
 ___
 <a id="schemacompiler"></a>
@@ -218,7 +230,7 @@ ___
 
 *Inherited from RouteShorthandOptions.schemaCompiler*
 
-*Defined in node_modules/fastify/fastify.d.ts:248*
+*Defined in node_modules/fastify/fastify.d.ts:249*
 
 ___
 <a id="swagger"></a>
