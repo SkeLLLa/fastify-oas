@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-↳  [BaseOAuthSecuirty](baseoauthsecuirty.md)
+↳  [BaseOAuthSecurity](baseoauthsecurity.md)
 
 **↳ OAuth2ImplicitSecurity**
 
@@ -15,6 +15,7 @@
 * [authorizationUrl](oauth2implicitsecurity.md#authorizationurl)
 * [description](oauth2implicitsecurity.md#description)
 * [flow](oauth2implicitsecurity.md#flow)
+* [scopes](oauth2implicitsecurity.md#scopes)
 * [type](oauth2implicitsecurity.md#type)
 
 ---
@@ -27,7 +28,7 @@
 
 **● authorizationUrl**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:193*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:201*
 
 ___
 <a id="description"></a>
@@ -38,29 +39,40 @@ ___
 
 *Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
 
 ___
 <a id="flow"></a>
 
 ###  flow
 
-**● flow**: *`string`*
+**● flow**: *"implicit"*
 
-*Inherited from [BaseOAuthSecuirty](baseoauthsecuirty.md).[flow](baseoauthsecuirty.md#flow)*
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:189*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
+
+___
+<a id="scopes"></a>
+
+### `<Optional>` scopes
+
+**● scopes**: *[OAuthScope](oauthscope.md)*
+
+*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)*
+
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:195*
 
 ___
 <a id="type"></a>
 
 ###  type
 
-**● type**: *`string`*
+**● type**: *"oauth2"*
 
-*Inherited from [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:199*
 
 ___
 

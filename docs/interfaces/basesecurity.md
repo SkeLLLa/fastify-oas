@@ -10,7 +10,7 @@
 
 ↳  [ApiKeySecurity](apikeysecurity.md)
 
-↳  [BaseOAuthSecuirty](baseoauthsecuirty.md)
+↳  [BaseOAuthSecurity](baseoauthsecurity.md)
 
 ## Index
 
@@ -29,16 +29,16 @@
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
 
 ___
 <a id="type"></a>
 
 ###  type
 
-**● type**: *`string`*
+**● type**: *"basic" \| "apiKey" \| "oauth2"*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:178*
 
 ___
 

@@ -62,7 +62,7 @@
 
 **● additionalProperties**: *`false` \| `true` \| [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:232*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:233*
 
 ___
 <a id="allof"></a>
@@ -71,7 +71,7 @@ ___
 
 **● allOf**: *([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:224*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225*
 
 ___
 <a id="anyof"></a>
@@ -80,7 +80,7 @@ ___
 
 **● anyOf**: *([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227*
 
 ___
 <a id="default"></a>
@@ -89,7 +89,7 @@ ___
 
 **● default**: *`any`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:235*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:236*
 
 ___
 <a id="deprecated"></a>
@@ -98,7 +98,7 @@ ___
 
 **● deprecated**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:222*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:223*
 
 ___
 <a id="description"></a>
@@ -107,7 +107,7 @@ ___
 
 **● description**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:233*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:234*
 
 ___
 <a id="discriminator"></a>
@@ -116,7 +116,7 @@ ___
 
 **● discriminator**: *[DiscriminatorObject](discriminatorobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:215*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:216*
 
 ___
 <a id="enum"></a>
@@ -125,7 +125,7 @@ ___
 
 **● enum**: *`any`[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:251*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:252*
 
 ___
 <a id="example"></a>
@@ -134,7 +134,7 @@ ___
 
 **● example**: *`any`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:220*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:221*
 
 ___
 <a id="examples"></a>
@@ -143,7 +143,7 @@ ___
 
 **● examples**: *`any`[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:221*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:222*
 
 ___
 <a id="exclusivemaximum"></a>
@@ -152,7 +152,7 @@ ___
 
 **● exclusiveMaximum**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:239*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:240*
 
 ___
 <a id="exclusiveminimum"></a>
@@ -161,7 +161,7 @@ ___
 
 **● exclusiveMinimum**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:241*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:242*
 
 ___
 <a id="externaldocs"></a>
@@ -170,7 +170,7 @@ ___
 
 **● externalDocs**: *[ExternalDocumentationObject](externaldocumentationobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:219*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:220*
 
 ___
 <a id="format"></a>
@@ -179,7 +179,7 @@ ___
 
 **● format**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:234*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:235*
 
 ___
 <a id="items"></a>
@@ -188,7 +188,7 @@ ___
 
 **● items**: *[SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:228*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:229*
 
 ___
 <a id="maxitems"></a>
@@ -197,7 +197,7 @@ ___
 
 **● maxItems**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:245*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:246*
 
 ___
 <a id="maxlength"></a>
@@ -206,7 +206,7 @@ ___
 
 **● maxLength**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:242*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:243*
 
 ___
 <a id="maxproperties"></a>
@@ -215,7 +215,7 @@ ___
 
 **● maxProperties**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:248*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:249*
 
 ___
 <a id="maximum"></a>
@@ -224,7 +224,7 @@ ___
 
 **● maximum**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:238*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:239*
 
 ___
 <a id="minitems"></a>
@@ -233,7 +233,7 @@ ___
 
 **● minItems**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:246*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:247*
 
 ___
 <a id="minlength"></a>
@@ -242,7 +242,7 @@ ___
 
 **● minLength**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:243*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:244*
 
 ___
 <a id="minproperties"></a>
@@ -251,7 +251,7 @@ ___
 
 **● minProperties**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:249*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:250*
 
 ___
 <a id="minimum"></a>
@@ -260,7 +260,7 @@ ___
 
 **● minimum**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:240*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:241*
 
 ___
 <a id="multipleof"></a>
@@ -269,7 +269,7 @@ ___
 
 **● multipleOf**: *`number`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:237*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:238*
 
 ___
 <a id="not"></a>
@@ -278,7 +278,7 @@ ___
 
 **● not**: *[SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:228*
 
 ___
 <a id="nullable"></a>
@@ -287,7 +287,7 @@ ___
 
 **● nullable**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:214*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:215*
 
 ___
 <a id="oneof"></a>
@@ -296,7 +296,7 @@ ___
 
 **● oneOf**: *([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226*
 
 ___
 <a id="pattern"></a>
@@ -305,7 +305,7 @@ ___
 
 **● pattern**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:244*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:245*
 
 ___
 <a id="properties"></a>
@@ -314,7 +314,7 @@ ___
 
 **● properties**: *`object`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:229*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:230*
 
 #### Type declaration
 
@@ -327,7 +327,7 @@ ___
 
 **● readOnly**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:216*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:217*
 
 ___
 <a id="required"></a>
@@ -336,7 +336,7 @@ ___
 
 **● required**: *`string`[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:250*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:251*
 
 ___
 <a id="title"></a>
@@ -345,7 +345,7 @@ ___
 
 **● title**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:236*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:237*
 
 ___
 <a id="type"></a>
@@ -354,7 +354,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:223*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:224*
 
 ___
 <a id="uniqueitems"></a>
@@ -363,7 +363,7 @@ ___
 
 **● uniqueItems**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:247*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:248*
 
 ___
 <a id="writeonly"></a>
@@ -372,7 +372,7 @@ ___
 
 **● writeOnly**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:217*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:218*
 
 ___
 <a id="xml"></a>
@@ -381,7 +381,7 @@ ___
 
 **● xml**: *[XmlObject](xmlobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:218*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:219*
 
 ___
 

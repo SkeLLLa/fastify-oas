@@ -35,16 +35,16 @@
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:46*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:49*
 
 ___
 <a id="in"></a>
 
 ###  in
 
-**● in**: *`string`*
+**● in**: *"body" \| "query" \| "path" \| "header" \| "formData" \| "body"*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:44*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:47*
 
 ___
 <a id="name"></a>
@@ -53,7 +53,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:43*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:46*
 
 ___
 <a id="required"></a>
@@ -62,7 +62,7 @@ ___
 
 **● required**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:45*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:48*
 
 ___
 

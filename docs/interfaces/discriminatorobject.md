@@ -23,7 +23,7 @@
 
 **● mapping**: *`object`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:258*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:260*
 
 #### Type declaration
 
@@ -36,7 +36,7 @@ ___
 
 **● propertyName**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:257*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:259*
 
 ___
 

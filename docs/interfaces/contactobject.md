@@ -25,7 +25,7 @@
 
 <a id="email"></a>
 
-###  email
+### `<Optional>` email
 
 **● email**: *`string`*
 
@@ -34,7 +34,7 @@
 ___
 <a id="name"></a>
 
-###  name
+### `<Optional>` name
 
 **● name**: *`string`*
 
@@ -43,7 +43,7 @@ ___
 ___
 <a id="url"></a>
 
-###  url
+### `<Optional>` url
 
 **● url**: *`string`*
 

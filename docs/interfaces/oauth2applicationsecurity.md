@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-↳  [BaseOAuthSecuirty](baseoauthsecuirty.md)
+↳  [BaseOAuthSecurity](baseoauthsecurity.md)
 
 **↳ OAuth2ApplicationSecurity**
 
@@ -30,27 +30,29 @@
 
 *Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
 
 ___
 <a id="flow"></a>
 
 ###  flow
 
-**● flow**: *`string`*
+**● flow**: *"application"*
 
-*Inherited from [BaseOAuthSecuirty](baseoauthsecuirty.md).[flow](baseoauthsecuirty.md#flow)*
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:189*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:212*
 
 ___
 <a id="scopes"></a>
 
 ### `<Optional>` scopes
 
-**● scopes**: *[OAuthScope](oauthscope.md)[]*
+**● scopes**: *[OAuthScope](oauthscope.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:203*
+*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)*
+
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:195*
 
 ___
 <a id="tokenurl"></a>
@@ -59,18 +61,18 @@ ___
 
 **● tokenUrl**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:202*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:213*
 
 ___
 <a id="type"></a>
 
 ###  type
 
-**● type**: *`string`*
+**● type**: *"oauth2"*
 
-*Inherited from [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:211*
 
 ___
 

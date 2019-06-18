@@ -29,16 +29,16 @@
 
 *Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:175*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
 
 ___
 <a id="in"></a>
 
 ###  in
 
-**● in**: *`string`*
+**● in**: *"query" \| "header"*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:185*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:189*
 
 ___
 <a id="name"></a>
@@ -47,18 +47,18 @@ ___
 
 **● name**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:184*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:188*
 
 ___
 <a id="type"></a>
 
 ###  type
 
-**● type**: *`string`*
+**● type**: *"apiKey"*
 
-*Inherited from [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
+*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:174*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:187*
 
 ___
 

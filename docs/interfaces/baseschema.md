@@ -53,7 +53,7 @@
 
 **● default**: *`string` \| `boolean` \| `number` \| `__type`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:132*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:136*
 
 ___
 <a id="description"></a>
@@ -62,7 +62,7 @@ ___
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:131*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:135*
 
 ___
 <a id="enum"></a>
@@ -71,7 +71,7 @@ ___
 
 **● enum**: *`Array`<`string` \| `boolean` \| `number` \| `__type`>*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:146*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:150*
 
 ___
 <a id="exclusivemaximum"></a>
@@ -80,7 +80,7 @@ ___
 
 **● exclusiveMaximum**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:135*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:139*
 
 ___
 <a id="exclusiveminimum"></a>
@@ -89,7 +89,7 @@ ___
 
 **● exclusiveMinimum**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:137*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*
 
 ___
 <a id="format"></a>
@@ -98,7 +98,7 @@ ___
 
 **● format**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:129*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:133*
 
 ___
 <a id="items"></a>
@@ -107,7 +107,7 @@ ___
 
 **● items**: *[Schema](schema.md) \| [Schema](schema.md)[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:148*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:152*
 
 ___
 <a id="maxitems"></a>
@@ -116,7 +116,7 @@ ___
 
 **● maxItems**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:145*
 
 ___
 <a id="maxlength"></a>
@@ -125,7 +125,7 @@ ___
 
 **● maxLength**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:138*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:142*
 
 ___
 <a id="maxproperties"></a>
@@ -134,7 +134,7 @@ ___
 
 **● maxProperties**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:144*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:148*
 
 ___
 <a id="maximum"></a>
@@ -143,7 +143,7 @@ ___
 
 **● maximum**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:134*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:138*
 
 ___
 <a id="minitems"></a>
@@ -152,7 +152,7 @@ ___
 
 **● minItems**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:142*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:146*
 
 ___
 <a id="minlength"></a>
@@ -161,7 +161,7 @@ ___
 
 **● minLength**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:139*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:143*
 
 ___
 <a id="minproperties"></a>
@@ -170,7 +170,7 @@ ___
 
 **● minProperties**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:145*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:149*
 
 ___
 <a id="minimum"></a>
@@ -179,7 +179,7 @@ ___
 
 **● minimum**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:136*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:140*
 
 ___
 <a id="multipleof"></a>
@@ -188,7 +188,7 @@ ___
 
 **● multipleOf**: *`number`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:133*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:137*
 
 ___
 <a id="pattern"></a>
@@ -197,7 +197,7 @@ ___
 
 **● pattern**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:140*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:144*
 
 ___
 <a id="title"></a>
@@ -206,7 +206,7 @@ ___
 
 **● title**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:130*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:134*
 
 ___
 <a id="type"></a>
@@ -215,7 +215,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:147*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:151*
 
 ___
 <a id="uniqueitems"></a>
@@ -224,7 +224,7 @@ ___
 
 **● uniqueItems**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:143*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:147*
 
 ___
 

@@ -33,7 +33,7 @@
 
 **● consumes**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:106*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:110*
 
 ___
 <a id="deprecated"></a>
@@ -42,7 +42,7 @@ ___
 
 **● deprecated**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:109*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:113*
 
 ___
 <a id="description"></a>
@@ -51,7 +51,7 @@ ___
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:102*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:106*
 
 ___
 <a id="externaldocs"></a>
@@ -60,7 +60,7 @@ ___
 
 **● externalDocs**: *[ExternalDocs](externaldocs.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:103*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:107*
 
 ___
 <a id="operationid"></a>
@@ -69,7 +69,7 @@ ___
 
 **● operationId**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:104*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:108*
 
 ___
 <a id="parameters"></a>
@@ -78,7 +78,7 @@ ___
 
 **● parameters**: *`Array`<[Parameter](../#parameter) \| [Reference](reference.md)>*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:107*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:111*
 
 ___
 <a id="produces"></a>
@@ -87,7 +87,7 @@ ___
 
 **● produces**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:105*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:109*
 
 ___
 <a id="responses"></a>
@@ -96,7 +96,7 @@ ___
 
 **● responses**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:100*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:104*
 
 #### Type declaration
 
@@ -109,7 +109,7 @@ ___
 
 **● schemes**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:108*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:112*
 
 ___
 <a id="security"></a>
@@ -118,7 +118,7 @@ ___
 
 **● security**: *[Security](../#security)[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:110*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:114*
 
 ___
 <a id="summary"></a>
@@ -127,7 +127,7 @@ ___
 
 **● summary**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:101*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:105*
 
 ___
 <a id="tags"></a>
@@ -136,7 +136,7 @@ ___
 
 **● tags**: *`string`[]*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:111*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:115*
 
 ___
 

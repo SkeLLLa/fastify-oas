@@ -17,7 +17,7 @@
 ### Interfaces
 
 * [ApiKeySecurity](interfaces/apikeysecurity.md)
-* [BaseOAuthSecuirty](interfaces/baseoauthsecuirty.md)
+* [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
 * [BaseParameter](interfaces/baseparameter.md)
 * [BaseParameterObject](interfaces/baseparameterobject.md)
 * [BaseSchema](interfaces/baseschema.md)
@@ -92,6 +92,7 @@
 * [Parameter](#parameter)
 * [ParameterLocation](#parameterlocation)
 * [ParameterStyle](#parameterstyle)
+* [ParameterType](#parametertype)
 * [PathObject](#pathobject)
 * [Security](#security)
 * [SecuritySchemeType](#securityschemetype)
@@ -101,6 +102,8 @@
 * [addExtension](#addextension)
 * [getExtension](#getextension)
 * [getPath](#getpath)
+* [isReferenceObject](#isreferenceobject)
+* [isSchemaObject](#isschemaobject)
 
 ---
 
@@ -112,7 +115,7 @@
 
 **Ƭ Parameter**: *[BodyParameter](interfaces/bodyparameter.md) \| [FormDataParameter](interfaces/formdataparameter.md) \| [QueryParameter](interfaces/queryparameter.md) \| [PathParameter](interfaces/pathparameter.md) \| [HeaderParameter](interfaces/headerparameter.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:78*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:82*
 
 ___
 <a id="parameterlocation"></a>
@@ -133,6 +136,15 @@ ___
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:111*
 
 ___
+<a id="parametertype"></a>
+
+###  ParameterType
+
+**Ƭ ParameterType**: *"string" \| "number" \| "integer" \| "boolean" \| "array" \| "file"*
+
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:43*
+
+___
 <a id="pathobject"></a>
 
 ###  PathObject
@@ -148,7 +160,7 @@ ___
 
 **Ƭ Security**: *[BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) \| [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) \| [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) \| [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) \| [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) \| [ApiKeySecurity](interfaces/apikeysecurity.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:216*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:227*
 
 ___
 <a id="securityschemetype"></a>
@@ -157,7 +169,7 @@ ___
 
 **Ƭ SecuritySchemeType**: *"apiKey" \| "http" \| "oauth2" \| "openIdConnect"*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:271*
 
 ___
 
@@ -204,7 +216,7 @@ ___
 
 ###  getPath
 
-▸ **getPath**(pathsObject: *[PathsObject](interfaces/pathsobject.md)*, path: *`string`*): [PathItemObject](interfaces/pathitemobject.md)
+▸ **getPath**(pathsObject: *[PathsObject](interfaces/pathsobject.md)*, path: *`string`*): [PathItemObject](interfaces/pathitemobject.md) \| `undefined`
 
 *Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:76*
 
@@ -215,7 +227,41 @@ ___
 | pathsObject | [PathsObject](interfaces/pathsobject.md) |
 | path | `string` |
 
-**Returns:** [PathItemObject](interfaces/pathitemobject.md)
+**Returns:** [PathItemObject](interfaces/pathitemobject.md) \| `undefined`
+
+___
+<a id="isreferenceobject"></a>
+
+###  isReferenceObject
+
+▸ **isReferenceObject**(obj: *`object`*): `boolean`
+
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:213*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| obj | `object` |
+
+**Returns:** `boolean`
+
+___
+<a id="isschemaobject"></a>
+
+###  isSchemaObject
+
+▸ **isSchemaObject**(schema: *[SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md)*): `boolean`
+
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254*
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| schema | [SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md) |
+
+**Returns:** `boolean`
 
 ___
 

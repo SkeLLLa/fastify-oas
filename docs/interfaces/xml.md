@@ -26,7 +26,7 @@
 
 **● attribute**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:168*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:172*
 
 ___
 <a id="name"></a>
@@ -35,7 +35,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:165*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
 
 ___
 <a id="namespace"></a>
@@ -44,7 +44,7 @@ ___
 
 **● namespace**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:166*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
 
 ___
 <a id="prefix"></a>
@@ -53,7 +53,7 @@ ___
 
 **● prefix**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:167*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:171*
 
 ___
 <a id="wrapped"></a>
@@ -62,7 +62,7 @@ ___
 
 **● wrapped**: *`boolean`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:173*
 
 ___
 

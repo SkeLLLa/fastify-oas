@@ -30,7 +30,7 @@
 
 **● authorizationCode**: *[OAuthFlowObject](oauthflowobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:286*
 
 ___
 <a id="clientcredentials"></a>
@@ -39,7 +39,7 @@ ___
 
 **● clientCredentials**: *[OAuthFlowObject](oauthflowobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:285*
 
 ___
 <a id="implicit"></a>
@@ -48,7 +48,7 @@ ___
 
 **● implicit**: *[OAuthFlowObject](oauthflowobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:281*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283*
 
 ___
 <a id="password"></a>
@@ -57,7 +57,7 @@ ___
 
 **● password**: *[OAuthFlowObject](oauthflowobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:282*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284*
 
 ___
 

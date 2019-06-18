@@ -30,7 +30,7 @@
 
 **● $ref**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:87*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:91*
 
 ___
 <a id="delete"></a>
@@ -39,7 +39,7 @@ ___
 
 **● delete**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:91*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:95*
 
 ___
 <a id="get"></a>
@@ -48,7 +48,7 @@ ___
 
 **● get**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:88*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:92*
 
 ___
 <a id="head"></a>
@@ -57,7 +57,7 @@ ___
 
 **● head**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:93*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:97*
 
 ___
 <a id="options"></a>
@@ -66,7 +66,7 @@ ___
 
 **● options**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:92*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:96*
 
 ___
 <a id="parameters"></a>
@@ -75,7 +75,7 @@ ___
 
 **● parameters**: *`Array`<[Parameter](../#parameter) \| [Reference](reference.md)>*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:95*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:99*
 
 ___
 <a id="patch"></a>
@@ -84,7 +84,7 @@ ___
 
 **● patch**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:94*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:98*
 
 ___
 <a id="post"></a>
@@ -93,7 +93,7 @@ ___
 
 **● post**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:90*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:94*
 
 ___
 <a id="put"></a>
@@ -102,7 +102,7 @@ ___
 
 **● put**: *[Operation](operation.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:89*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:93*
 
 ___
 

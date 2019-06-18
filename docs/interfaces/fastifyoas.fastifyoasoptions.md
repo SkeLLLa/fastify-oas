@@ -4,11 +4,6 @@
 
 Fastify OAS plugin options
 
-## Type parameters
-#### Query 
-#### Params 
-#### Headers 
-#### Body 
 ## Hierarchy
 
  `RegisterOptions`<`Server`, `IncomingMessage`, `ServerResponse`>
@@ -25,21 +20,11 @@ Fastify OAS plugin options
 ### Properties
 
 * [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
-* [attachValidation](fastifyoas.fastifyoasoptions.md#attachvalidation)
-* [bodyLimit](fastifyoas.fastifyoasoptions.md#bodylimit)
-* [config](fastifyoas.fastifyoasoptions.md#config)
 * [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
 * [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
-* [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
 * [openapi](fastifyoas.fastifyoasoptions.md#openapi)
-* [preHandler](fastifyoas.fastifyoasoptions.md#prehandler)
-* [preSerialization](fastifyoas.fastifyoasoptions.md#preserialization)
-* [preValidation](fastifyoas.fastifyoasoptions.md#prevalidation)
 * [prefix](fastifyoas.fastifyoasoptions.md#prefix)
-* [prefixTrailingSlash](fastifyoas.fastifyoasoptions.md#prefixtrailingslash)
 * [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
-* [schema](fastifyoas.fastifyoasoptions.md#schema)
-* [schemaCompiler](fastifyoas.fastifyoasoptions.md#schemacompiler)
 * [swagger](fastifyoas.fastifyoasoptions.md#swagger)
 * [yaml](fastifyoas.fastifyoasoptions.md#yaml)
 
@@ -58,39 +43,6 @@ Fastify OAS plugin options
 If `true` adds fastify schemas as openapi models
 
 *__default__*: false
-
-___
-<a id="attachvalidation"></a>
-
-### `<Optional>` attachValidation
-
-**● attachValidation**: *`boolean`*
-
-*Inherited from RouteShorthandOptions.attachValidation*
-
-*Defined in node_modules/fastify/fastify.d.ts:239*
-
-___
-<a id="bodylimit"></a>
-
-### `<Optional>` bodyLimit
-
-**● bodyLimit**: *`number`*
-
-*Inherited from RouteShorthandOptions.bodyLimit*
-
-*Defined in node_modules/fastify/fastify.d.ts:250*
-
-___
-<a id="config"></a>
-
-### `<Optional>` config
-
-**● config**: *`any`*
-
-*Inherited from RouteShorthandOptions.config*
-
-*Defined in node_modules/fastify/fastify.d.ts:252*
 
 ___
 <a id="exposeroute"></a>
@@ -119,17 +71,6 @@ If true will not add routes without tags
 *__default__*: false
 
 ___
-<a id="loglevel"></a>
-
-### `<Optional>` logLevel
-
-**● logLevel**: *`string`*
-
-*Inherited from RouteShorthandOptions.logLevel*
-
-*Defined in node_modules/fastify/fastify.d.ts:251*
-
-___
 <a id="openapi"></a>
 
 ### `<Optional>` openapi
@@ -143,39 +84,6 @@ Openapi version
 *__default__*: 3.0.0
 
 ___
-<a id="prehandler"></a>
-
-### `<Optional>` preHandler
-
-**● preHandler**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
-
-*Inherited from RouteShorthandOptions.preHandler*
-
-*Defined in node_modules/fastify/fastify.d.ts:243*
-
-___
-<a id="preserialization"></a>
-
-### `<Optional>` preSerialization
-
-**● preSerialization**: *`FastifyMiddlewareWithPayload`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddlewareWithPayload`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
-
-*Inherited from RouteShorthandOptions.preSerialization*
-
-*Defined in node_modules/fastify/fastify.d.ts:246*
-
-___
-<a id="prevalidation"></a>
-
-### `<Optional>` preValidation
-
-**● preValidation**: *`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`> \| `Array`<`FastifyMiddleware`<`Server`, `IncomingMessage`, `ServerResponse`, `Query`, `Params`, `Headers`, `Body`>>*
-
-*Inherited from RouteShorthandOptions.preValidation*
-
-*Defined in node_modules/fastify/fastify.d.ts:240*
-
-___
 <a id="prefix"></a>
 
 ### `<Optional>` prefix
@@ -184,18 +92,7 @@ ___
 
 *Inherited from RegisterOptions.prefix*
 
-*Defined in node_modules/fastify/fastify.d.ts:278*
-
-___
-<a id="prefixtrailingslash"></a>
-
-### `<Optional>` prefixTrailingSlash
-
-**● prefixTrailingSlash**: *"slash" \| "no-slash" \| "both"*
-
-*Inherited from RouteShorthandOptions.prefixTrailingSlash*
-
-*Defined in node_modules/fastify/fastify.d.ts:253*
+*Defined in node_modules/fastify/fastify.d.ts:287*
 
 ___
 <a id="routeprefix"></a>
@@ -209,28 +106,6 @@ ___
 Documentation endpoint
 
 *__default__*: /documentation
-
-___
-<a id="schema"></a>
-
-### `<Optional>` schema
-
-**● schema**: *`RouteSchema`*
-
-*Inherited from RouteShorthandOptions.schema*
-
-*Defined in node_modules/fastify/fastify.d.ts:238*
-
-___
-<a id="schemacompiler"></a>
-
-### `<Optional>` schemaCompiler
-
-**● schemaCompiler**: *`SchemaCompiler`*
-
-*Inherited from RouteShorthandOptions.schemaCompiler*
-
-*Defined in node_modules/fastify/fastify.d.ts:249*
 
 ___
 <a id="swagger"></a>

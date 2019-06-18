@@ -22,7 +22,7 @@
 
 **● $ref**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:116*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:120*
 
 ___
 

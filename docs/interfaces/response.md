@@ -25,7 +25,7 @@
 
 **● description**: *`string`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:121*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:125*
 
 ___
 <a id="examples"></a>
@@ -34,7 +34,7 @@ ___
 
 **● examples**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:124*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:128*
 
 #### Type declaration
 
@@ -47,7 +47,7 @@ ___
 
 **● headers**: *`object`*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:123*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:127*
 
 #### Type declaration
 
@@ -60,7 +60,7 @@ ___
 
 **● schema**: *[Schema](schema.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:122*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:126*
 
 ___
 

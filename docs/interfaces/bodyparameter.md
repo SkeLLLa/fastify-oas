@@ -30,7 +30,7 @@
 
 *Inherited from [BaseParameter](baseparameter.md).[description](baseparameter.md#description)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:46*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:49*
 
 ___
 <a id="in"></a>
@@ -41,7 +41,7 @@ ___
 
 *Overrides [BaseParameter](baseparameter.md).[in](baseparameter.md#in)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:50*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:53*
 
 ___
 <a id="name"></a>
@@ -52,7 +52,7 @@ ___
 
 *Inherited from [BaseParameter](baseparameter.md).[name](baseparameter.md#name)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:43*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:46*
 
 ___
 <a id="required"></a>
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [BaseParameter](baseparameter.md).[required](baseparameter.md#required)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:45*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:48*
 
 ___
 <a id="schema"></a>
@@ -72,7 +72,7 @@ ___
 
 **● schema**: *[Schema](schema.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:51*
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:54*
 
 ___
 

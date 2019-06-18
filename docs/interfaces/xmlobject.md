@@ -31,7 +31,7 @@
 
 **● attribute**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268*
 
 ___
 <a id="name"></a>
@@ -40,7 +40,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:263*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265*
 
 ___
 <a id="namespace"></a>
@@ -49,7 +49,7 @@ ___
 
 **● namespace**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:264*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266*
 
 ___
 <a id="prefix"></a>
@@ -58,7 +58,7 @@ ___
 
 **● prefix**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267*
 
 ___
 <a id="wrapped"></a>
@@ -67,7 +67,7 @@ ___
 
 **● wrapped**: *`boolean`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269*
 
 ___
 

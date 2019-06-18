@@ -34,7 +34,7 @@
 
 **● bearerFormat**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:276*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:278*
 
 ___
 <a id="description"></a>
@@ -43,7 +43,7 @@ ___
 
 **● description**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:272*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:274*
 
 ___
 <a id="flows"></a>
@@ -52,7 +52,7 @@ ___
 
 **● flows**: *[OAuthFlowsObject](oauthflowsobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:277*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:279*
 
 ___
 <a id="in"></a>
@@ -61,7 +61,7 @@ ___
 
 **● in**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:274*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:276*
 
 ___
 <a id="name"></a>
@@ -70,7 +70,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:273*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:275*
 
 ___
 <a id="openidconnecturl"></a>
@@ -79,7 +79,7 @@ ___
 
 **● openIdConnectUrl**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:278*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:280*
 
 ___
 <a id="scheme"></a>
@@ -88,7 +88,7 @@ ___
 
 **● scheme**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:275*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:277*
 
 ___
 <a id="type"></a>
@@ -97,7 +97,7 @@ ___
 
 **● type**: *[SecuritySchemeType](../#securityschemetype)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:271*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:273*
 
 ___
 

@@ -30,7 +30,7 @@
 
 **● authorizationUrl**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:287*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289*
 
 ___
 <a id="refreshurl"></a>
@@ -39,7 +39,7 @@ ___
 
 **● refreshUrl**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291*
 
 ___
 <a id="scopes"></a>
@@ -48,7 +48,7 @@ ___
 
 **● scopes**: *[ScopesObject](scopesobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292*
 
 ___
 <a id="tokenurl"></a>
@@ -57,7 +57,7 @@ ___
 
 **● tokenUrl**: *`string`*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:288*
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290*
 
 ___
 
