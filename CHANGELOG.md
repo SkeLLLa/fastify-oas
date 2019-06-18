@@ -1,6 +1,15 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.2.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.1.3...v2.2.0) (2019-06-18)
+
+
+### Features
+
+* **openapi:** convert multiple and nullable types to OpenAPI ([34f9d47](https://gitlab.com/m03geek/fastify-oas/commit/34f9d47))
+
+
 
 ## [2.1.3](https://gitlab.com/m03geek/fastify-oas/compare/v2.1.2...v2.1.3) (2019-04-17)
 
