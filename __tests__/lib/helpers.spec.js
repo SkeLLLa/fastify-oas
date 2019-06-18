@@ -394,5 +394,42 @@ describe('helpers', () => {
       helpers.genBody(dst, body, ['application/json']);
       expect(dst).toEqual(expected);
     });
+
+    test('json-schema with nullable types', () => {
+      const body = {
+        type: ['string', 'null'],
+      };
+      const dst = {};
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'string',
+              nullable: true,
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
+
+    test('json-schema with multiple types', () => {
+      const body = {
+        type: ['string', 'number'],
+      };
+      const dst = {};
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              oneOf: [{type: 'string'}, {type: 'number'}],
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
   });
 });
