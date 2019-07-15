@@ -1,143 +1,128 @@
-[fastify-oas](../README.md) > [OperationObject](../interfaces/operationobject.md)
+> **[fastify-oas](../README.md)**
+
+[OperationObject](operationobject.md) /
 
 # Interface: OperationObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ OperationObject**
+  * **OperationObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [callbacks](operationobject.md#callbacks)
-* [deprecated](operationobject.md#deprecated)
-* [description](operationobject.md#description)
-* [externalDocs](operationobject.md#externaldocs)
-* [operationId](operationobject.md#operationid)
-* [parameters](operationobject.md#parameters)
-* [requestBody](operationobject.md#requestbody)
+#### Properties
+
+* [callbacks](operationobject.md#optional-callbacks)
+* [deprecated](operationobject.md#optional-deprecated)
+* [description](operationobject.md#optional-description)
+* [externalDocs](operationobject.md#optional-externaldocs)
+* [operationId](operationobject.md#optional-operationid)
+* [parameters](operationobject.md#optional-parameters)
+* [requestBody](operationobject.md#optional-requestbody)
 * [responses](operationobject.md#responses)
-* [security](operationobject.md#security)
-* [servers](operationobject.md#servers)
-* [summary](operationobject.md#summary)
-* [tags](operationobject.md#tags)
-
----
+* [security](operationobject.md#optional-security)
+* [servers](operationobject.md#optional-servers)
+* [summary](operationobject.md#optional-summary)
+* [tags](operationobject.md#optional-tags)
 
 ## Properties
 
-<a id="callbacks"></a>
+### `Optional` callbacks
 
-### `<Optional>` callbacks
+• **callbacks**? : *[CallbacksObject](callbacksobject.md)*
 
-**● callbacks**: *[CallbacksObject](callbacksobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:101*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:101
 
 ___
-<a id="deprecated"></a>
 
-### `<Optional>` deprecated
+### `Optional` deprecated
 
-**● deprecated**: *`boolean`*
+• **deprecated**? : *boolean*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:102*
-
-___
-<a id="description"></a>
-
-### `<Optional>` description
-
-**● description**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:95*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:102
 
 ___
-<a id="externaldocs"></a>
 
-### `<Optional>` externalDocs
+### `Optional` description
 
-**● externalDocs**: *[ExternalDocumentationObject](externaldocumentationobject.md)*
+• **description**? : *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:96*
-
-___
-<a id="operationid"></a>
-
-### `<Optional>` operationId
-
-**● operationId**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:97*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:95
 
 ___
-<a id="parameters"></a>
 
-### `<Optional>` parameters
+### `Optional` externalDocs
 
-**● parameters**: *([ReferenceObject](referenceobject.md) \| [ParameterObject](parameterobject.md))[]*
+• **externalDocs**? : *[ExternalDocumentationObject](externaldocumentationobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:98*
-
-___
-<a id="requestbody"></a>
-
-### `<Optional>` requestBody
-
-**● requestBody**: *[RequestBodyObject](requestbodyobject.md) \| [ReferenceObject](referenceobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:99*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:96
 
 ___
-<a id="responses"></a>
+
+### `Optional` operationId
+
+• **operationId**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:97
+
+___
+
+### `Optional` parameters
+
+• **parameters**? : *[ReferenceObject](referenceobject.md) | [ParameterObject](parameterobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:98
+
+___
+
+### `Optional` requestBody
+
+• **requestBody**? : *[RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:99
+
+___
 
 ###  responses
 
-**● responses**: *[ResponsesObject](responsesobject.md)*
+• **responses**: *[ResponsesObject](responsesobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:100*
-
-___
-<a id="security"></a>
-
-### `<Optional>` security
-
-**● security**: *[SecurityRequirementObject](securityrequirementobject.md)[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:103*
-
-___
-<a id="servers"></a>
-
-### `<Optional>` servers
-
-**● servers**: *[ServerObject](serverobject.md)[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:104*
-
-___
-<a id="summary"></a>
-
-### `<Optional>` summary
-
-**● summary**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:94*
-
-___
-<a id="tags"></a>
-
-### `<Optional>` tags
-
-**● tags**: *`string`[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:93*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:100
 
 ___
 
+### `Optional` security
+
+• **security**? : *[SecurityRequirementObject](securityrequirementobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:103
+
+___
+
+### `Optional` servers
+
+• **servers**? : *[ServerObject](serverobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:104
+
+___
+
+### `Optional` summary
+
+• **summary**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:94
+
+___
+
+### `Optional` tags
+
+• **tags**? : *string[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:93

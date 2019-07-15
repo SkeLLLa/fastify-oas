@@ -1,108 +1,95 @@
-[fastify-oas](../README.md) > [Path](../interfaces/path.md)
+> **[fastify-oas](../README.md)**
+
+[Path](path.md) /
 
 # Interface: Path
 
 ## Hierarchy
 
-**Path**
+* **Path**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [$ref](path.md#_ref)
-* [delete](path.md#delete)
-* [get](path.md#get)
-* [head](path.md#head)
-* [options](path.md#options)
-* [parameters](path.md#parameters)
-* [patch](path.md#patch)
-* [post](path.md#post)
-* [put](path.md#put)
-
----
+* [$ref](path.md#optional-$ref)
+* [delete](path.md#optional-delete)
+* [get](path.md#optional-get)
+* [head](path.md#optional-head)
+* [options](path.md#optional-options)
+* [parameters](path.md#optional-parameters)
+* [patch](path.md#optional-patch)
+* [post](path.md#optional-post)
+* [put](path.md#optional-put)
 
 ## Properties
 
-<a id="_ref"></a>
+### `Optional` $ref
 
-### `<Optional>` $ref
+• **$ref**? : *string*
 
-**● $ref**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:91*
-
-___
-<a id="delete"></a>
-
-### `<Optional>` delete
-
-**● delete**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:95*
-
-___
-<a id="get"></a>
-
-### `<Optional>` get
-
-**● get**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:92*
-
-___
-<a id="head"></a>
-
-### `<Optional>` head
-
-**● head**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:97*
-
-___
-<a id="options"></a>
-
-### `<Optional>` options
-
-**● options**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:96*
-
-___
-<a id="parameters"></a>
-
-### `<Optional>` parameters
-
-**● parameters**: *`Array`<[Parameter](../#parameter) \| [Reference](reference.md)>*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:99*
-
-___
-<a id="patch"></a>
-
-### `<Optional>` patch
-
-**● patch**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:98*
-
-___
-<a id="post"></a>
-
-### `<Optional>` post
-
-**● post**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:94*
-
-___
-<a id="put"></a>
-
-### `<Optional>` put
-
-**● put**: *[Operation](operation.md)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:93*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:112
 
 ___
 
+### `Optional` delete
+
+• **delete**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:116
+
+___
+
+### `Optional` get
+
+• **get**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:113
+
+___
+
+### `Optional` head
+
+• **head**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:118
+
+___
+
+### `Optional` options
+
+• **options**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:117
+
+___
+
+### `Optional` parameters
+
+• **parameters**? : *`Array<Parameter | Reference>`*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:120
+
+___
+
+### `Optional` patch
+
+• **patch**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:119
+
+___
+
+### `Optional` post
+
+• **post**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:115
+
+___
+
+### `Optional` put
+
+• **put**? : *[Operation](operation.md)*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:114

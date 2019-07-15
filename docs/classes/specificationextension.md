@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) > [SpecificationExtension](../classes/specificationextension.md)
+> **[fastify-oas](../README.md)**
+
+[SpecificationExtension](specificationextension.md) /
 
 # Class: SpecificationExtension
 
 ## Hierarchy
 
-**SpecificationExtension**
+* **SpecificationExtension**
 
 ## Implements
 
@@ -12,81 +14,72 @@
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Methods
+### Index
+
+#### Methods
 
 * [addExtension](specificationextension.md#addextension)
 * [getExtension](specificationextension.md#getextension)
 * [listExtensions](specificationextension.md#listextensions)
-* [isValidExtension](specificationextension.md#isvalidextension)
-
----
+* [isValidExtension](specificationextension.md#static-isvalidextension)
 
 ## Methods
 
-<a id="addextension"></a>
-
 ###  addExtension
 
-▸ **addExtension**(extensionName: *`string`*, payload: *`any`*): `void`
+▸ **addExtension**(`extensionName`: string, `payload`: any): *void*
 
-*Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:8*
+Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:8
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| extensionName | `string` |
-| payload | `any` |
+Name | Type |
+------ | ------ |
+`extensionName` | string |
+`payload` | any |
 
-**Returns:** `void`
+**Returns:** *void*
 
 ___
-<a id="getextension"></a>
 
 ###  getExtension
 
-▸ **getExtension**(extensionName: *`string`*): `any`
+▸ **getExtension**(`extensionName`: string): *any*
 
-*Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:7*
+Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:7
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| extensionName | `string` |
+Name | Type |
+------ | ------ |
+`extensionName` | string |
 
-**Returns:** `any`
+**Returns:** *any*
 
 ___
-<a id="listextensions"></a>
 
 ###  listExtensions
 
-▸ **listExtensions**(): `string`[]
+▸ **listExtensions**(): *string[]*
 
-*Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:9*
+Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:9
 
-**Returns:** `string`[]
+**Returns:** *string[]*
 
 ___
-<a id="isvalidextension"></a>
 
-### `<Static>` isValidExtension
+### `Static` isValidExtension
 
-▸ **isValidExtension**(extensionName: *`string`*): `boolean`
+▸ **isValidExtension**(`extensionName`: string): *boolean*
 
-*Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:6*
+Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:6
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| extensionName | `string` |
+Name | Type |
+------ | ------ |
+`extensionName` | string |
 
-**Returns:** `boolean`
-
-___
-
+**Returns:** *boolean*

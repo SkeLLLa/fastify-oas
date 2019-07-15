@@ -1,103 +1,92 @@
-[fastify-oas](../README.md) > [OpenAPIObject](../interfaces/openapiobject.md)
+> **[fastify-oas](../README.md)**
+
+[OpenAPIObject](openapiobject.md) /
 
 # Interface: OpenAPIObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ OpenAPIObject**
+  * **OpenAPIObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [components](openapiobject.md#components)
-* [externalDocs](openapiobject.md#externaldocs)
+#### Properties
+
+* [components](openapiobject.md#optional-components)
+* [externalDocs](openapiobject.md#optional-externaldocs)
 * [info](openapiobject.md#info)
 * [openapi](openapiobject.md#openapi)
 * [paths](openapiobject.md#paths)
-* [security](openapiobject.md#security)
-* [servers](openapiobject.md#servers)
-* [tags](openapiobject.md#tags)
-
----
+* [security](openapiobject.md#optional-security)
+* [servers](openapiobject.md#optional-servers)
+* [tags](openapiobject.md#optional-tags)
 
 ## Properties
 
-<a id="components"></a>
+### `Optional` components
 
-### `<Optional>` components
+• **components**? : *[ComponentsObject](componentsobject.md)*
 
-**● components**: *[ComponentsObject](componentsobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:9*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:9
 
 ___
-<a id="externaldocs"></a>
 
-### `<Optional>` externalDocs
+### `Optional` externalDocs
 
-**● externalDocs**: *[ExternalDocumentationObject](externaldocumentationobject.md)*
+• **externalDocs**? : *[ExternalDocumentationObject](externaldocumentationobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:12*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:12
 
 ___
-<a id="info"></a>
 
 ###  info
 
-**● info**: *[InfoObject](infoobject.md)*
+• **info**: *[InfoObject](infoobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:6*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:6
 
 ___
-<a id="openapi"></a>
 
 ###  openapi
 
-**● openapi**: *`string`*
+• **openapi**: *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:5*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:5
 
 ___
-<a id="paths"></a>
 
 ###  paths
 
-**● paths**: *[PathsObject](pathsobject.md)*
+• **paths**: *[PathsObject](pathsobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:8*
-
-___
-<a id="security"></a>
-
-### `<Optional>` security
-
-**● security**: *[SecurityRequirementObject](securityrequirementobject.md)[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:10*
-
-___
-<a id="servers"></a>
-
-### `<Optional>` servers
-
-**● servers**: *[ServerObject](serverobject.md)[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:7*
-
-___
-<a id="tags"></a>
-
-### `<Optional>` tags
-
-**● tags**: *[TagObject](tagobject.md)[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:11*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:8
 
 ___
 
+### `Optional` security
+
+• **security**? : *[SecurityRequirementObject](securityrequirementobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:10
+
+___
+
+### `Optional` servers
+
+• **servers**? : *[ServerObject](serverobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:7
+
+___
+
+### `Optional` tags
+
+• **tags**? : *[TagObject](tagobject.md)[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:11

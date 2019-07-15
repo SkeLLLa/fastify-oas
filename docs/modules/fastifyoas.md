@@ -1,20 +1,20 @@
-[fastify-oas](../README.md) > [fastifyOAS](../modules/fastifyoas.md)
+> **[fastify-oas](../README.md)**
+
+[fastifyOAS](fastifyoas.md) /
 
 # Module: fastifyOAS
 
 ## Callable
-▸ **fastifyOAS**(): `void`
 
-*Defined in lib/index.d.ts:132*
+▸ **fastifyOAS**(): *void*
 
-**Returns:** `void`
+Defined in lib/index.d.ts:132
 
-## Index
+**Returns:** *void*
 
-### Interfaces
+### Index
+
+#### Interfaces
 
 * [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
 * [OpenApiSpec](../interfaces/fastifyoas.openapispec.md)
-
----
-

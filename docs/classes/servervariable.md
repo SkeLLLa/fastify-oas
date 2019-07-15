@@ -1,84 +1,73 @@
-[fastify-oas](../README.md) > [ServerVariable](../classes/servervariable.md)
+> **[fastify-oas](../README.md)**
+
+[ServerVariable](servervariable.md) /
 
 # Class: ServerVariable
 
 ## Hierarchy
 
-**ServerVariable**
+* **ServerVariable**
 
 ## Implements
 
 * [ServerVariableObject](../interfaces/servervariableobject.md)
 
-## Index
+### Index
 
-### Constructors
+#### Constructors
 
 * [constructor](servervariable.md#constructor)
 
-### Properties
+#### Properties
 
 * [default](servervariable.md#default)
-* [description](servervariable.md#description)
-* [enum](servervariable.md#enum)
-
----
+* [description](servervariable.md#optional-description)
+* [enum](servervariable.md#optional-enum)
 
 ## Constructors
 
-<a id="constructor"></a>
-
 ###  constructor
 
-⊕ **new ServerVariable**(defaultValue: *`any`*, enums?: *`any`*, description?: *`string`*): [ServerVariable](servervariable.md)
+\+ **new ServerVariable**(`defaultValue`: any, `enums?`: any, `description?`: string): *[ServerVariable](servervariable.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:14*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:14
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| defaultValue | `any` |
-| `Optional` enums | `any` |
-| `Optional` description | `string` |
+Name | Type |
+------ | ------ |
+`defaultValue` | any |
+`enums?` | any |
+`description?` | string |
 
-**Returns:** [ServerVariable](servervariable.md)
-
-___
+**Returns:** *[ServerVariable](servervariable.md)*
 
 ## Properties
 
-<a id="default"></a>
-
 ###  default
 
-**● default**: *`string` \| `boolean` \| `number`*
+• **default**: *string | boolean | number*
 
 *Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[default](../interfaces/servervariableobject.md#default)*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:13*
-
-___
-<a id="description"></a>
-
-### `<Optional>` description
-
-**● description**: *`string`*
-
-*Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[description](../interfaces/servervariableobject.md#description)*
-
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:14*
-
-___
-<a id="enum"></a>
-
-### `<Optional>` enum
-
-**● enum**: *`string`[] \| `boolean`[] \| `number`[]*
-
-*Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[enum](../interfaces/servervariableobject.md#enum)*
-
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:12*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:13
 
 ___
 
+### `Optional` description
+
+• **description**? : *string*
+
+*Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[description](../interfaces/servervariableobject.md#optional-description)*
+
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:14
+
+___
+
+### `Optional` enum
+
+• **enum**? : *string[] | boolean[] | number[]*
+
+*Implementation of [ServerVariableObject](../interfaces/servervariableobject.md).[enum](../interfaces/servervariableobject.md#optional-enum)*
+
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:12

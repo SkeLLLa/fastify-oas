@@ -1,83 +1,74 @@
-[fastify-oas](../README.md) > [InfoObject](../interfaces/infoobject.md)
+> **[fastify-oas](../README.md)**
+
+[InfoObject](infoobject.md) /
 
 # Interface: InfoObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ InfoObject**
+  * **InfoObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [contact](infoobject.md#contact)
-* [description](infoobject.md#description)
-* [license](infoobject.md#license)
-* [termsOfService](infoobject.md#termsofservice)
+#### Properties
+
+* [contact](infoobject.md#optional-contact)
+* [description](infoobject.md#optional-description)
+* [license](infoobject.md#optional-license)
+* [termsOfService](infoobject.md#optional-termsofservice)
 * [title](infoobject.md#title)
 * [version](infoobject.md#version)
 
----
-
 ## Properties
 
-<a id="contact"></a>
+### `Optional` contact
 
-### `<Optional>` contact
+• **contact**? : *[ContactObject](contactobject.md)*
 
-**● contact**: *[ContactObject](contactobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:18*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:18
 
 ___
-<a id="description"></a>
 
-### `<Optional>` description
+### `Optional` description
 
-**● description**: *`string`*
+• **description**? : *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:16*
-
-___
-<a id="license"></a>
-
-### `<Optional>` license
-
-**● license**: *[LicenseObject](licenseobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:19*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:16
 
 ___
-<a id="termsofservice"></a>
 
-### `<Optional>` termsOfService
+### `Optional` license
 
-**● termsOfService**: *`string`*
+• **license**? : *[LicenseObject](licenseobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:17*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:19
 
 ___
-<a id="title"></a>
+
+### `Optional` termsOfService
+
+• **termsOfService**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:17
+
+___
 
 ###  title
 
-**● title**: *`string`*
+• **title**: *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:15*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:15
 
 ___
-<a id="version"></a>
 
 ###  version
 
-**● version**: *`string`*
+• **version**: *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:20*
-
-___
-
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:20

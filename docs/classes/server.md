@@ -1,112 +1,97 @@
-[fastify-oas](../README.md) > [Server](../classes/server.md)
+> **[fastify-oas](../README.md)**
+
+[Server](server.md) /
 
 # Class: Server
 
 ## Hierarchy
 
-**Server**
+* **Server**
 
 ## Implements
 
 * [ServerObject](../interfaces/serverobject.md)
 
-## Index
+### Index
 
-### Constructors
+#### Constructors
 
 * [constructor](server.md#constructor)
 
-### Properties
+#### Properties
 
-* [description](server.md#description)
+* [description](server.md#optional-description)
 * [url](server.md#url)
 * [variables](server.md#variables)
 
-### Methods
+#### Methods
 
 * [addVariable](server.md#addvariable)
 
----
-
 ## Constructors
-
-<a id="constructor"></a>
 
 ###  constructor
 
-⊕ **new Server**(url: *`string`*, desc?: *`string`*): [Server](server.md)
+\+ **new Server**(`url`: string, `desc?`: string): *[Server](server.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:7*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:7
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| url | `string` |
-| `Optional` desc | `string` |
+Name | Type |
+------ | ------ |
+`url` | string |
+`desc?` | string |
 
-**Returns:** [Server](server.md)
-
-___
+**Returns:** *[Server](server.md)*
 
 ## Properties
 
-<a id="description"></a>
+### `Optional` description
 
-### `<Optional>` description
+• **description**? : *string*
 
-**● description**: *`string`*
+*Implementation of [ServerObject](../interfaces/serverobject.md).[description](../interfaces/serverobject.md#optional-description)*
 
-*Implementation of [ServerObject](../interfaces/serverobject.md).[description](../interfaces/serverobject.md#description)*
-
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:4*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:4
 
 ___
-<a id="url"></a>
 
 ###  url
 
-**● url**: *`string`*
+• **url**: *string*
 
 *Implementation of [ServerObject](../interfaces/serverobject.md).[url](../interfaces/serverobject.md#url)*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:3*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:3
 
 ___
-<a id="variables"></a>
 
 ###  variables
 
-**● variables**: *`object`*
+• **variables**: *object*
 
-*Implementation of [ServerObject](../interfaces/serverobject.md).[variables](../interfaces/serverobject.md#variables)*
+*Implementation of [ServerObject](../interfaces/serverobject.md).[variables](../interfaces/serverobject.md#optional-variables)*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5
 
-#### Type declaration
+#### Type declaration:
 
-[v: `string`]: [ServerVariable](servervariable.md)
-
-___
+● \[▪ **v**: *string*\]: [ServerVariable](servervariable.md)
 
 ## Methods
 
-<a id="addvariable"></a>
-
 ###  addVariable
 
-▸ **addVariable**(name: *`string`*, variable: *[ServerVariable](servervariable.md)*): `void`
+▸ **addVariable**(`name`: string, `variable`: [ServerVariable](servervariable.md)): *void*
 
-*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:9*
+Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:9
 
 **Parameters:**
 
-| Name | Type |
-| ------ | ------ |
-| name | `string` |
-| variable | [ServerVariable](servervariable.md) |
+Name | Type |
+------ | ------ |
+`name` | string |
+`variable` | [ServerVariable](servervariable.md) |
 
-**Returns:** `void`
-
-___
-
+**Returns:** *void*

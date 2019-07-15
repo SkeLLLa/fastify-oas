@@ -1,63 +1,56 @@
-[fastify-oas](../README.md) > [ResponseObject](../interfaces/responseobject.md)
+> **[fastify-oas](../README.md)**
+
+[ResponseObject](responseobject.md) /
 
 # Interface: ResponseObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ ResponseObject**
+  * **ResponseObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [content](responseobject.md#content)
+#### Properties
+
+* [content](responseobject.md#optional-content)
 * [description](responseobject.md#description)
-* [headers](responseobject.md#headers)
-* [links](responseobject.md#links)
-
----
+* [headers](responseobject.md#optional-headers)
+* [links](responseobject.md#optional-links)
 
 ## Properties
 
-<a id="content"></a>
+### `Optional` content
 
-### `<Optional>` content
+• **content**? : *[ContentObject](contentobject.md)*
 
-**● content**: *[ContentObject](contentobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165
 
 ___
-<a id="description"></a>
 
 ###  description
 
-**● description**: *`string`*
+• **description**: *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163*
-
-___
-<a id="headers"></a>
-
-### `<Optional>` headers
-
-**● headers**: *[HeadersObject](headersobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164*
-
-___
-<a id="links"></a>
-
-### `<Optional>` links
-
-**● links**: *[LinksObject](linksobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163
 
 ___
 
+### `Optional` headers
+
+• **headers**? : *[HeadersObject](headersobject.md)*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164
+
+___
+
+### `Optional` links
+
+• **links**? : *[LinksObject](linksobject.md)*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166

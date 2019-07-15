@@ -1,83 +1,74 @@
-[fastify-oas](../README.md) > [LinkObject](../interfaces/linkobject.md)
+> **[fastify-oas](../README.md)**
+
+[LinkObject](linkobject.md) /
 
 # Interface: LinkObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ LinkObject**
+  * **LinkObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [description](linkobject.md#description)
-* [operationId](linkobject.md#operationid)
-* [operationRef](linkobject.md#operationref)
-* [parameters](linkobject.md#parameters)
-* [requestBody](linkobject.md#requestbody)
-* [server](linkobject.md#server)
+#### Properties
 
----
+* [description](linkobject.md#optional-description)
+* [operationId](linkobject.md#optional-operationid)
+* [operationRef](linkobject.md#optional-operationref)
+* [parameters](linkobject.md#optional-parameters)
+* [requestBody](linkobject.md#optional-requestbody)
+* [server](linkobject.md#optional-server)
 
 ## Properties
 
-<a id="description"></a>
+### `Optional` description
 
-### `<Optional>` description
+• **description**? : *string*
 
-**● description**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192*
-
-___
-<a id="operationid"></a>
-
-### `<Optional>` operationId
-
-**● operationId**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189*
-
-___
-<a id="operationref"></a>
-
-### `<Optional>` operationRef
-
-**● operationRef**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188*
-
-___
-<a id="parameters"></a>
-
-### `<Optional>` parameters
-
-**● parameters**: *[LinkParametersObject](linkparametersobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190*
-
-___
-<a id="requestbody"></a>
-
-### `<Optional>` requestBody
-
-**● requestBody**: *`any` \| `string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191*
-
-___
-<a id="server"></a>
-
-### `<Optional>` server
-
-**● server**: *[ServerObject](serverobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192
 
 ___
 
+### `Optional` operationId
+
+• **operationId**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189
+
+___
+
+### `Optional` operationRef
+
+• **operationRef**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188
+
+___
+
+### `Optional` parameters
+
+• **parameters**? : *[LinkParametersObject](linkparametersobject.md)*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190
+
+___
+
+### `Optional` requestBody
+
+• **requestBody**? : *any | string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191
+
+___
+
+### `Optional` server
+
+• **server**? : *[ServerObject](serverobject.md)*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193

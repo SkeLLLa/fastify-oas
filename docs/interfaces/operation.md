@@ -1,142 +1,126 @@
-[fastify-oas](../README.md) > [Operation](../interfaces/operation.md)
+> **[fastify-oas](../README.md)**
+
+[Operation](operation.md) /
 
 # Interface: Operation
 
 ## Hierarchy
 
-**Operation**
+* **Operation**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [consumes](operation.md#consumes)
-* [deprecated](operation.md#deprecated)
-* [description](operation.md#description)
-* [externalDocs](operation.md#externaldocs)
-* [operationId](operation.md#operationid)
-* [parameters](operation.md#parameters)
-* [produces](operation.md#produces)
+* [consumes](operation.md#optional-consumes)
+* [deprecated](operation.md#optional-deprecated)
+* [description](operation.md#optional-description)
+* [externalDocs](operation.md#optional-externaldocs)
+* [operationId](operation.md#optional-operationid)
+* [parameters](operation.md#optional-parameters)
+* [produces](operation.md#optional-produces)
 * [responses](operation.md#responses)
-* [schemes](operation.md#schemes)
-* [security](operation.md#security)
-* [summary](operation.md#summary)
-* [tags](operation.md#tags)
-
----
+* [schemes](operation.md#optional-schemes)
+* [security](operation.md#optional-security)
+* [summary](operation.md#optional-summary)
+* [tags](operation.md#optional-tags)
 
 ## Properties
 
-<a id="consumes"></a>
+### `Optional` consumes
 
-### `<Optional>` consumes
+• **consumes**? : *string[]*
 
-**● consumes**: *`string`[]*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:110*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:131
 
 ___
-<a id="deprecated"></a>
 
-### `<Optional>` deprecated
+### `Optional` deprecated
 
-**● deprecated**: *`boolean`*
+• **deprecated**? : *boolean*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:113*
-
-___
-<a id="description"></a>
-
-### `<Optional>` description
-
-**● description**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:106*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:134
 
 ___
-<a id="externaldocs"></a>
 
-### `<Optional>` externalDocs
+### `Optional` description
 
-**● externalDocs**: *[ExternalDocs](externaldocs.md)*
+• **description**? : *string*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:107*
-
-___
-<a id="operationid"></a>
-
-### `<Optional>` operationId
-
-**● operationId**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:108*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:127
 
 ___
-<a id="parameters"></a>
 
-### `<Optional>` parameters
+### `Optional` externalDocs
 
-**● parameters**: *`Array`<[Parameter](../#parameter) \| [Reference](reference.md)>*
+• **externalDocs**? : *[ExternalDocs](externaldocs.md)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:111*
-
-___
-<a id="produces"></a>
-
-### `<Optional>` produces
-
-**● produces**: *`string`[]*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:109*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:128
 
 ___
-<a id="responses"></a>
+
+### `Optional` operationId
+
+• **operationId**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:129
+
+___
+
+### `Optional` parameters
+
+• **parameters**? : *`Array<Parameter | Reference>`*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:132
+
+___
+
+### `Optional` produces
+
+• **produces**? : *string[]*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:130
+
+___
 
 ###  responses
 
-**● responses**: *`object`*
+• **responses**: *object*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:104*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:125
 
-#### Type declaration
+#### Type declaration:
 
-[responseName: `string`]: [Response](response.md) \| [Reference](reference.md)
-
-___
-<a id="schemes"></a>
-
-### `<Optional>` schemes
-
-**● schemes**: *`string`[]*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:112*
-
-___
-<a id="security"></a>
-
-### `<Optional>` security
-
-**● security**: *[Security](../#security)[]*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:114*
-
-___
-<a id="summary"></a>
-
-### `<Optional>` summary
-
-**● summary**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:105*
-
-___
-<a id="tags"></a>
-
-### `<Optional>` tags
-
-**● tags**: *`string`[]*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:115*
+● \[▪ **responseName**: *string*\]: [Response](response.md) | [Reference](reference.md)
 
 ___
 
+### `Optional` schemes
+
+• **schemes**? : *string[]*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:133
+
+___
+
+### `Optional` security
+
+• **security**? : *[Security](../README.md#security)[]*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:135
+
+___
+
+### `Optional` summary
+
+• **summary**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:126
+
+___
+
+### `Optional` tags
+
+• **tags**? : *string[]*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:136

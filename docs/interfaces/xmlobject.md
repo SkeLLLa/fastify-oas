@@ -1,73 +1,65 @@
-[fastify-oas](../README.md) > [XmlObject](../interfaces/xmlobject.md)
+> **[fastify-oas](../README.md)**
+
+[XmlObject](xmlobject.md) /
 
 # Interface: XmlObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ XmlObject**
+  * **XmlObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [attribute](xmlobject.md#attribute)
-* [name](xmlobject.md#name)
-* [namespace](xmlobject.md#namespace)
-* [prefix](xmlobject.md#prefix)
-* [wrapped](xmlobject.md#wrapped)
+#### Properties
 
----
+* [attribute](xmlobject.md#optional-attribute)
+* [name](xmlobject.md#optional-name)
+* [namespace](xmlobject.md#optional-namespace)
+* [prefix](xmlobject.md#optional-prefix)
+* [wrapped](xmlobject.md#optional-wrapped)
 
 ## Properties
 
-<a id="attribute"></a>
+### `Optional` attribute
 
-### `<Optional>` attribute
+• **attribute**? : *boolean*
 
-**● attribute**: *`boolean`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268*
-
-___
-<a id="name"></a>
-
-### `<Optional>` name
-
-**● name**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265*
-
-___
-<a id="namespace"></a>
-
-### `<Optional>` namespace
-
-**● namespace**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266*
-
-___
-<a id="prefix"></a>
-
-### `<Optional>` prefix
-
-**● prefix**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267*
-
-___
-<a id="wrapped"></a>
-
-### `<Optional>` wrapped
-
-**● wrapped**: *`boolean`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268
 
 ___
 
+### `Optional` name
+
+• **name**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265
+
+___
+
+### `Optional` namespace
+
+• **namespace**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266
+
+___
+
+### `Optional` prefix
+
+• **prefix**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267
+
+___
+
+### `Optional` wrapped
+
+• **wrapped**? : *boolean*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269

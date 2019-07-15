@@ -1,61 +1,54 @@
-[fastify-oas](../README.md) > [ExampleObject](../interfaces/exampleobject.md)
+> **[fastify-oas](../README.md)**
+
+[ExampleObject](exampleobject.md) /
 
 # Interface: ExampleObject
 
 ## Hierarchy
 
-**ExampleObject**
+* **ExampleObject**
 
 ## Indexable
 
-\[property: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **property**: *string*\]: any
 
-### Properties
+### Index
 
-* [description](exampleobject.md#description)
-* [externalValue](exampleobject.md#externalvalue)
-* [summary](exampleobject.md#summary)
-* [value](exampleobject.md#value)
+#### Properties
 
----
+* [description](exampleobject.md#optional-description)
+* [externalValue](exampleobject.md#optional-externalvalue)
+* [summary](exampleobject.md#optional-summary)
+* [value](exampleobject.md#optional-value)
 
 ## Properties
 
-<a id="description"></a>
+### `Optional` description
 
-### `<Optional>` description
+• **description**? : *string*
 
-**● description**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179*
-
-___
-<a id="externalvalue"></a>
-
-### `<Optional>` externalValue
-
-**● externalValue**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181*
-
-___
-<a id="summary"></a>
-
-### `<Optional>` summary
-
-**● summary**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178*
-
-___
-<a id="value"></a>
-
-### `<Optional>` value
-
-**● value**: *`any`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179
 
 ___
 
+### `Optional` externalValue
+
+• **externalValue**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181
+
+___
+
+### `Optional` summary
+
+• **summary**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178
+
+___
+
+### `Optional` value
+
+• **value**? : *any*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180

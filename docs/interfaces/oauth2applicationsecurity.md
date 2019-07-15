@@ -1,78 +1,69 @@
-[fastify-oas](../README.md) > [OAuth2ApplicationSecurity](../interfaces/oauth2applicationsecurity.md)
+> **[fastify-oas](../README.md)**
+
+[OAuth2ApplicationSecurity](oauth2applicationsecurity.md) /
 
 # Interface: OAuth2ApplicationSecurity
 
 ## Hierarchy
 
-↳  [BaseOAuthSecurity](baseoauthsecurity.md)
+  * [BaseOAuthSecurity](baseoauthsecurity.md)
 
-**↳ OAuth2ApplicationSecurity**
+  * **OAuth2ApplicationSecurity**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [description](oauth2applicationsecurity.md#description)
+* [description](oauth2applicationsecurity.md#optional-description)
 * [flow](oauth2applicationsecurity.md#flow)
-* [scopes](oauth2applicationsecurity.md#scopes)
+* [scopes](oauth2applicationsecurity.md#optional-scopes)
 * [tokenUrl](oauth2applicationsecurity.md#tokenurl)
 * [type](oauth2applicationsecurity.md#type)
 
----
-
 ## Properties
 
-<a id="description"></a>
+### `Optional` description
 
-### `<Optional>` description
+• **description**? : *string*
 
-**● description**: *`string`*
+*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#optional-description)*
 
-*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:200
 
 ___
-<a id="flow"></a>
 
 ###  flow
 
-**● flow**: *"application"*
+• **flow**: *"application"*
 
 *Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:212*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:233
 
 ___
-<a id="scopes"></a>
 
-### `<Optional>` scopes
+### `Optional` scopes
 
-**● scopes**: *[OAuthScope](oauthscope.md)*
+• **scopes**? : *[OAuthScope](oauthscope.md)*
 
-*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)*
+*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#optional-scopes)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:195*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:216
 
 ___
-<a id="tokenurl"></a>
 
 ###  tokenUrl
 
-**● tokenUrl**: *`string`*
+• **tokenUrl**: *string*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:213*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:234
 
 ___
-<a id="type"></a>
 
 ###  type
 
-**● type**: *"oauth2"*
+• **type**: *"oauth2"*
 
 *Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:211*
-
-___
-
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:232

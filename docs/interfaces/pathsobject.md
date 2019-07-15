@@ -1,17 +1,15 @@
-[fastify-oas](../README.md) > [PathsObject](../interfaces/pathsobject.md)
+> **[fastify-oas](../README.md)**
+
+[PathsObject](pathsobject.md) /
 
 # Interface: PathsObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ PathsObject**
+  * **PathsObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
-
----
-
+● \[▪ **extensionName**: *string*\]: any

@@ -1,12 +1,14 @@
-[fastify-oas](../README.md) > [ServerVariableObject](../interfaces/servervariableobject.md)
+> **[fastify-oas](../README.md)**
+
+[ServerVariableObject](servervariableobject.md) /
 
 # Interface: ServerVariableObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ ServerVariableObject**
+  * **ServerVariableObject**
 
 ## Implemented by
 
@@ -14,44 +16,36 @@
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
+
+#### Properties
 
 * [default](servervariableobject.md#default)
-* [description](servervariableobject.md#description)
-* [enum](servervariableobject.md#enum)
-
----
+* [description](servervariableobject.md#optional-description)
+* [enum](servervariableobject.md#optional-enum)
 
 ## Properties
 
-<a id="default"></a>
-
 ###  default
 
-**● default**: *`string` \| `boolean` \| `number`*
+• **default**: *string | boolean | number*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:40*
-
-___
-<a id="description"></a>
-
-### `<Optional>` description
-
-**● description**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:41*
-
-___
-<a id="enum"></a>
-
-### `<Optional>` enum
-
-**● enum**: *`string`[] \| `boolean`[] \| `number`[]*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:39*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:40
 
 ___
 
+### `Optional` description
+
+• **description**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:41
+
+___
+
+### `Optional` enum
+
+• **enum**? : *string[] | boolean[] | number[]*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:39

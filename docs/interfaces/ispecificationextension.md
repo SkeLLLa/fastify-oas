@@ -1,64 +1,66 @@
-[fastify-oas](../README.md) > [ISpecificationExtension](../interfaces/ispecificationextension.md)
+> **[fastify-oas](../README.md)**
+
+[ISpecificationExtension](ispecificationextension.md) /
 
 # Interface: ISpecificationExtension
 
 ## Hierarchy
 
-**ISpecificationExtension**
+* **ISpecificationExtension**
 
-↳  [OpenAPIObject](openapiobject.md)
+  * [OpenAPIObject](openapiobject.md)
 
-↳  [InfoObject](infoobject.md)
+  * [InfoObject](infoobject.md)
 
-↳  [ContactObject](contactobject.md)
+  * [ContactObject](contactobject.md)
 
-↳  [LicenseObject](licenseobject.md)
+  * [LicenseObject](licenseobject.md)
 
-↳  [ServerObject](serverobject.md)
+  * [ServerObject](serverobject.md)
 
-↳  [ServerVariableObject](servervariableobject.md)
+  * [ServerVariableObject](servervariableobject.md)
 
-↳  [ComponentsObject](componentsobject.md)
+  * [ComponentsObject](componentsobject.md)
 
-↳  [PathsObject](pathsobject.md)
+  * [PathsObject](pathsobject.md)
 
-↳  [PathItemObject](pathitemobject.md)
+  * [PathItemObject](pathitemobject.md)
 
-↳  [OperationObject](operationobject.md)
+  * [OperationObject](operationobject.md)
 
-↳  [ExternalDocumentationObject](externaldocumentationobject.md)
+  * [ExternalDocumentationObject](externaldocumentationobject.md)
 
-↳  [BaseParameterObject](baseparameterobject.md)
+  * [BaseParameterObject](baseparameterobject.md)
 
-↳  [RequestBodyObject](requestbodyobject.md)
+  * [RequestBodyObject](requestbodyobject.md)
 
-↳  [MediaTypeObject](mediatypeobject.md)
+  * [MediaTypeObject](mediatypeobject.md)
 
-↳  [EncodingObject](encodingobject.md)
+  * [EncodingObject](encodingobject.md)
 
-↳  [ResponsesObject](responsesobject.md)
+  * [ResponsesObject](responsesobject.md)
 
-↳  [ResponseObject](responseobject.md)
+  * [ResponseObject](responseobject.md)
 
-↳  [CallbacksObject](callbacksobject.md)
+  * [CallbacksObject](callbacksobject.md)
 
-↳  [CallbackObject](callbackobject.md)
+  * [CallbackObject](callbackobject.md)
 
-↳  [LinkObject](linkobject.md)
+  * [LinkObject](linkobject.md)
 
-↳  [TagObject](tagobject.md)
+  * [TagObject](tagobject.md)
 
-↳  [SchemaObject](schemaobject.md)
+  * [SchemaObject](schemaobject.md)
 
-↳  [XmlObject](xmlobject.md)
+  * [XmlObject](xmlobject.md)
 
-↳  [SecuritySchemeObject](securityschemeobject.md)
+  * [SecuritySchemeObject](securityschemeobject.md)
 
-↳  [OAuthFlowsObject](oauthflowsobject.md)
+  * [OAuthFlowsObject](oauthflowsobject.md)
 
-↳  [OAuthFlowObject](oauthflowobject.md)
+  * [OAuthFlowObject](oauthflowobject.md)
 
-↳  [ScopesObject](scopesobject.md)
+  * [ScopesObject](scopesobject.md)
 
 ## Implemented by
 
@@ -66,8 +68,4 @@
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
-
----
-
+● \[▪ **extensionName**: *string*\]: any

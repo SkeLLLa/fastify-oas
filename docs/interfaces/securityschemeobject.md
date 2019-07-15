@@ -1,103 +1,92 @@
-[fastify-oas](../README.md) > [SecuritySchemeObject](../interfaces/securityschemeobject.md)
+> **[fastify-oas](../README.md)**
+
+[SecuritySchemeObject](securityschemeobject.md) /
 
 # Interface: SecuritySchemeObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ SecuritySchemeObject**
+  * **SecuritySchemeObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [bearerFormat](securityschemeobject.md#bearerformat)
-* [description](securityschemeobject.md#description)
-* [flows](securityschemeobject.md#flows)
-* [in](securityschemeobject.md#in)
-* [name](securityschemeobject.md#name)
-* [openIdConnectUrl](securityschemeobject.md#openidconnecturl)
-* [scheme](securityschemeobject.md#scheme)
+#### Properties
+
+* [bearerFormat](securityschemeobject.md#optional-bearerformat)
+* [description](securityschemeobject.md#optional-description)
+* [flows](securityschemeobject.md#optional-flows)
+* [in](securityschemeobject.md#optional-in)
+* [name](securityschemeobject.md#optional-name)
+* [openIdConnectUrl](securityschemeobject.md#optional-openidconnecturl)
+* [scheme](securityschemeobject.md#optional-scheme)
 * [type](securityschemeobject.md#type)
-
----
 
 ## Properties
 
-<a id="bearerformat"></a>
+### `Optional` bearerFormat
 
-### `<Optional>` bearerFormat
+• **bearerFormat**? : *string*
 
-**● bearerFormat**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:278*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:278
 
 ___
-<a id="description"></a>
 
-### `<Optional>` description
+### `Optional` description
 
-**● description**: *`string`*
+• **description**? : *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:274*
-
-___
-<a id="flows"></a>
-
-### `<Optional>` flows
-
-**● flows**: *[OAuthFlowsObject](oauthflowsobject.md)*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:279*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:274
 
 ___
-<a id="in"></a>
 
-### `<Optional>` in
+### `Optional` flows
 
-**● in**: *`string`*
+• **flows**? : *[OAuthFlowsObject](oauthflowsobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:276*
-
-___
-<a id="name"></a>
-
-### `<Optional>` name
-
-**● name**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:275*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:279
 
 ___
-<a id="openidconnecturl"></a>
 
-### `<Optional>` openIdConnectUrl
+### `Optional` in
 
-**● openIdConnectUrl**: *`string`*
+• **in**? : *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:280*
-
-___
-<a id="scheme"></a>
-
-### `<Optional>` scheme
-
-**● scheme**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:277*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:276
 
 ___
-<a id="type"></a>
+
+### `Optional` name
+
+• **name**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:275
+
+___
+
+### `Optional` openIdConnectUrl
+
+• **openIdConnectUrl**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:280
+
+___
+
+### `Optional` scheme
+
+• **scheme**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:277
+
+___
 
 ###  type
 
-**● type**: *[SecuritySchemeType](../#securityschemetype)*
+• **type**: *[SecuritySchemeType](../README.md#securityschemetype)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:273*
-
-___
-
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:273

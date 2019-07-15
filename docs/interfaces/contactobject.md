@@ -1,53 +1,47 @@
-[fastify-oas](../README.md) > [ContactObject](../interfaces/contactobject.md)
+> **[fastify-oas](../README.md)**
+
+[ContactObject](contactobject.md) /
 
 # Interface: ContactObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ ContactObject**
+  * **ContactObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [email](contactobject.md#email)
-* [name](contactobject.md#name)
-* [url](contactobject.md#url)
+#### Properties
 
----
+* [email](contactobject.md#optional-email)
+* [name](contactobject.md#optional-name)
+* [url](contactobject.md#optional-url)
 
 ## Properties
 
-<a id="email"></a>
+### `Optional` email
 
-### `<Optional>` email
+• **email**? : *string*
 
-**● email**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:25*
-
-___
-<a id="name"></a>
-
-### `<Optional>` name
-
-**● name**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:23*
-
-___
-<a id="url"></a>
-
-### `<Optional>` url
-
-**● url**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:24*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:25
 
 ___
 
+### `Optional` name
+
+• **name**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:23
+
+___
+
+### `Optional` url
+
+• **url**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:24

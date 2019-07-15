@@ -1,42 +1,36 @@
-[fastify-oas](../README.md) > [DiscriminatorObject](../interfaces/discriminatorobject.md)
+> **[fastify-oas](../README.md)**
+
+[DiscriminatorObject](discriminatorobject.md) /
 
 # Interface: DiscriminatorObject
 
 ## Hierarchy
 
-**DiscriminatorObject**
+* **DiscriminatorObject**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [mapping](discriminatorobject.md#mapping)
+* [mapping](discriminatorobject.md#optional-mapping)
 * [propertyName](discriminatorobject.md#propertyname)
-
----
 
 ## Properties
 
-<a id="mapping"></a>
+### `Optional` mapping
 
-### `<Optional>` mapping
+• **mapping**? : *object*
 
-**● mapping**: *`object`*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:260
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:260*
+#### Type declaration:
 
-#### Type declaration
-
-[key: `string`]: `string`
+● \[▪ **key**: *string*\]: string
 
 ___
-<a id="propertyname"></a>
 
 ###  propertyName
 
-**● propertyName**: *`string`*
+• **propertyName**: *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:259*
-
-___
-
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:259

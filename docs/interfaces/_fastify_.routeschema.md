@@ -1,116 +1,104 @@
-[fastify-oas](../README.md) > ["fastify"](../modules/_fastify_.md) > [RouteSchema](../interfaces/_fastify_.routeschema.md)
+> **[fastify-oas](../README.md)**
+
+["fastify"](../modules/_fastify_.md) / [RouteSchema](_fastify_.routeschema.md) /
 
 # Interface: RouteSchema
 
 ## Hierarchy
 
-**RouteSchema**
+* **RouteSchema**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [consumes](_fastify_.routeschema.md#consumes)
-* [description](_fastify_.routeschema.md#description)
-* [hide](_fastify_.routeschema.md#hide)
-* [operationId](_fastify_.routeschema.md#operationid)
-* [produces](_fastify_.routeschema.md#produces)
-* [security](_fastify_.routeschema.md#security)
-* [summary](_fastify_.routeschema.md#summary)
-* [tags](_fastify_.routeschema.md#tags)
-
----
+* [consumes](_fastify_.routeschema.md#optional-consumes)
+* [description](_fastify_.routeschema.md#optional-description)
+* [hide](_fastify_.routeschema.md#optional-hide)
+* [operationId](_fastify_.routeschema.md#optional-operationid)
+* [produces](_fastify_.routeschema.md#optional-produces)
+* [security](_fastify_.routeschema.md#optional-security)
+* [summary](_fastify_.routeschema.md#optional-summary)
+* [tags](_fastify_.routeschema.md#optional-tags)
 
 ## Properties
 
-<a id="consumes"></a>
+### `Optional` consumes
 
-### `<Optional>` consumes
+• **consumes**? : *`Array<String>`*
 
-**● consumes**: *`Array`<`String`>*
-
-*Defined in lib/index.d.ts:49*
+Defined in lib/index.d.ts:49
 
 Media types route consumes
 
 ___
-<a id="description"></a>
 
-### `<Optional>` description
+### `Optional` description
 
-**● description**: *`String`*
+• **description**? : *`String`*
 
-*Defined in lib/index.d.ts:37*
+Defined in lib/index.d.ts:37
 
 Route description
 
 ___
-<a id="hide"></a>
 
-### `<Optional>` hide
+### `Optional` hide
 
-**● hide**: *`Boolean`*
+• **hide**? : *`Boolean`*
 
-*Defined in lib/index.d.ts:33*
+Defined in lib/index.d.ts:33
 
 Hides route from result OpenAPI document
 
-*__default__*: false
+**`default`** false
 
 ___
-<a id="operationid"></a>
 
-### `<Optional>` operationId
+### `Optional` operationId
 
-**● operationId**: *`string`*
+• **operationId**? : *string*
 
-*Defined in lib/index.d.ts:61*
+Defined in lib/index.d.ts:61
 
 OpenAPI operation unique identifier
 
 ___
-<a id="produces"></a>
 
-### `<Optional>` produces
+### `Optional` produces
 
-**● produces**: *`Array`<`String`>*
+• **produces**? : *`Array<String>`*
 
-*Defined in lib/index.d.ts:53*
+Defined in lib/index.d.ts:53
 
 Media types route produces
 
 ___
-<a id="security"></a>
 
-### `<Optional>` security
+### `Optional` security
 
-**● security**: *`Array`<[SecurityRequirementObject](securityrequirementobject.md)>*
+• **security**? : *`Array<SecurityRequirementObject>`*
 
-*Defined in lib/index.d.ts:57*
+Defined in lib/index.d.ts:57
 
 OpenAPI security definitions
 
 ___
-<a id="summary"></a>
 
-### `<Optional>` summary
+### `Optional` summary
 
-**● summary**: *`String`*
+• **summary**? : *`String`*
 
-*Defined in lib/index.d.ts:41*
+Defined in lib/index.d.ts:41
 
 Route summary
 
 ___
-<a id="tags"></a>
 
-### `<Optional>` tags
+### `Optional` tags
 
-**● tags**: *`Array`<`String`>*
+• **tags**? : *`Array<String>`*
 
-*Defined in lib/index.d.ts:45*
+Defined in lib/index.d.ts:45
 
 Route tags
-
-___
-

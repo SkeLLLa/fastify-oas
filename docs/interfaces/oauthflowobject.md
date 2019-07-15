@@ -1,63 +1,56 @@
-[fastify-oas](../README.md) > [OAuthFlowObject](../interfaces/oauthflowobject.md)
+> **[fastify-oas](../README.md)**
+
+[OAuthFlowObject](oauthflowobject.md) /
 
 # Interface: OAuthFlowObject
 
 ## Hierarchy
 
- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
-**↳ OAuthFlowObject**
+  * **OAuthFlowObject**
 
 ## Indexable
 
-\[extensionName: `string`\]:&nbsp;`any`
-## Index
+● \[▪ **extensionName**: *string*\]: any
 
-### Properties
+### Index
 
-* [authorizationUrl](oauthflowobject.md#authorizationurl)
-* [refreshUrl](oauthflowobject.md#refreshurl)
+#### Properties
+
+* [authorizationUrl](oauthflowobject.md#optional-authorizationurl)
+* [refreshUrl](oauthflowobject.md#optional-refreshurl)
 * [scopes](oauthflowobject.md#scopes)
-* [tokenUrl](oauthflowobject.md#tokenurl)
-
----
+* [tokenUrl](oauthflowobject.md#optional-tokenurl)
 
 ## Properties
 
-<a id="authorizationurl"></a>
+### `Optional` authorizationUrl
 
-### `<Optional>` authorizationUrl
+• **authorizationUrl**? : *string*
 
-**● authorizationUrl**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289
 
 ___
-<a id="refreshurl"></a>
 
-### `<Optional>` refreshUrl
+### `Optional` refreshUrl
 
-**● refreshUrl**: *`string`*
+• **refreshUrl**? : *string*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291
 
 ___
-<a id="scopes"></a>
 
 ###  scopes
 
-**● scopes**: *[ScopesObject](scopesobject.md)*
+• **scopes**: *[ScopesObject](scopesobject.md)*
 
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292*
-
-___
-<a id="tokenurl"></a>
-
-### `<Optional>` tokenUrl
-
-**● tokenUrl**: *`string`*
-
-*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290*
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292
 
 ___
 
+### `Optional` tokenUrl
+
+• **tokenUrl**? : *string*
+
+Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290

@@ -1,68 +1,59 @@
-[fastify-oas](../README.md) > [XML](../interfaces/xml.md)
+> **[fastify-oas](../README.md)**
+
+[XML](xml.md) /
 
 # Interface: XML
 
 ## Hierarchy
 
-**XML**
+* **XML**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [attribute](xml.md#attribute)
-* [name](xml.md#name)
-* [namespace](xml.md#namespace)
-* [prefix](xml.md#prefix)
-* [wrapped](xml.md#wrapped)
-
----
+* [attribute](xml.md#optional-attribute)
+* [name](xml.md#optional-name)
+* [namespace](xml.md#optional-namespace)
+* [prefix](xml.md#optional-prefix)
+* [wrapped](xml.md#optional-wrapped)
 
 ## Properties
 
-<a id="attribute"></a>
+### `Optional` attribute
 
-### `<Optional>` attribute
+• **attribute**? : *boolean*
 
-**● attribute**: *`boolean`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:172*
-
-___
-<a id="name"></a>
-
-### `<Optional>` name
-
-**● name**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
-
-___
-<a id="namespace"></a>
-
-### `<Optional>` namespace
-
-**● namespace**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
-
-___
-<a id="prefix"></a>
-
-### `<Optional>` prefix
-
-**● prefix**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:171*
-
-___
-<a id="wrapped"></a>
-
-### `<Optional>` wrapped
-
-**● wrapped**: *`boolean`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:173*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:193
 
 ___
 
+### `Optional` name
+
+• **name**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:190
+
+___
+
+### `Optional` namespace
+
+• **namespace**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:191
+
+___
+
+### `Optional` prefix
+
+• **prefix**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:192
+
+___
+
+### `Optional` wrapped
+
+• **wrapped**? : *boolean*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:194

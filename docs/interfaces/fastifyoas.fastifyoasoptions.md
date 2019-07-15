@@ -1,4 +1,6 @@
-[fastify-oas](../README.md) > [fastifyOAS](../modules/fastifyoas.md) > [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
+> **[fastify-oas](../README.md)**
+
+[fastifyOAS](../modules/fastifyoas.md) / [FastifyOASOptions](fastifyoas.fastifyoasoptions.md) /
 
 # Interface: FastifyOASOptions
 
@@ -6,130 +8,117 @@ Fastify OAS plugin options
 
 ## Hierarchy
 
- `RegisterOptions`<`Server`, `IncomingMessage`, `ServerResponse`>
+* `RegisterOptions<Server, IncomingMessage, ServerResponse>`
 
-**↳ FastifyOASOptions**
+  * **FastifyOASOptions**
 
 ## Indexable
 
-\[key: `string`\]:&nbsp;`any`
+● \[▪ **key**: *string*\]: any
+
 Fastify OAS plugin options
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
-* [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
-* [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
-* [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
-* [openapi](fastifyoas.fastifyoasoptions.md#openapi)
-* [prefix](fastifyoas.fastifyoasoptions.md#prefix)
-* [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
-* [swagger](fastifyoas.fastifyoasoptions.md#swagger)
-* [yaml](fastifyoas.fastifyoasoptions.md#yaml)
-
----
+* [addModels](fastifyoas.fastifyoasoptions.md#optional-addmodels)
+* [exposeRoute](fastifyoas.fastifyoasoptions.md#optional-exposeroute)
+* [hideUntagged](fastifyoas.fastifyoasoptions.md#optional-hideuntagged)
+* [openapi](fastifyoas.fastifyoasoptions.md#optional-openapi)
+* [prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)
+* [routePrefix](fastifyoas.fastifyoasoptions.md#optional-routeprefix)
+* [swagger](fastifyoas.fastifyoasoptions.md#optional-swagger)
+* [yaml](fastifyoas.fastifyoasoptions.md#optional-yaml)
 
 ## Properties
 
-<a id="addmodels"></a>
+### `Optional` addModels
 
-### `<Optional>` addModels
+• **addModels**? : *`Boolean`*
 
-**● addModels**: *`Boolean`*
-
-*Defined in lib/index.d.ts:109*
+Defined in lib/index.d.ts:109
 
 If `true` adds fastify schemas as openapi models
 
-*__default__*: false
+**`default`** false
 
 ___
-<a id="exposeroute"></a>
 
-### `<Optional>` exposeRoute
+### `Optional` exposeRoute
 
-**● exposeRoute**: *`Boolean`*
+• **exposeRoute**? : *`Boolean`*
 
-*Defined in lib/index.d.ts:104*
+Defined in lib/index.d.ts:104
 
 If `true` the plugin will expose the documentation routes
 
-*__default__*: false
+**`default`** false
 
 ___
-<a id="hideuntagged"></a>
 
-### `<Optional>` hideUntagged
+### `Optional` hideUntagged
 
-**● hideUntagged**: *`Boolean`*
+• **hideUntagged**? : *`Boolean`*
 
-*Defined in lib/index.d.ts:128*
+Defined in lib/index.d.ts:128
 
 If true will not add routes without tags
 
-*__default__*: false
+**`default`** false
 
 ___
-<a id="openapi"></a>
 
-### `<Optional>` openapi
+### `Optional` openapi
 
-**● openapi**: *`String`*
+• **openapi**? : *`String`*
 
-*Defined in lib/index.d.ts:114*
+Defined in lib/index.d.ts:114
 
 Openapi version
 
-*__default__*: 3.0.0
+**`default`** 3.0.0
 
 ___
-<a id="prefix"></a>
 
-### `<Optional>` prefix
+### `Optional` prefix
 
-**● prefix**: *`string`*
+• **prefix**? : *string*
 
-*Inherited from RegisterOptions.prefix*
+*Inherited from void*
 
-*Defined in node_modules/fastify/fastify.d.ts:287*
+Defined in node_modules/fastify/fastify.d.ts:287
 
 ___
-<a id="routeprefix"></a>
 
-### `<Optional>` routePrefix
+### `Optional` routePrefix
 
-**● routePrefix**: *`String`*
+• **routePrefix**? : *`String`*
 
-*Defined in lib/index.d.ts:99*
+Defined in lib/index.d.ts:99
 
 Documentation endpoint
 
-*__default__*: /documentation
+**`default`** /documentation
 
 ___
-<a id="swagger"></a>
 
-### `<Optional>` swagger
+### `Optional` swagger
 
-**● swagger**: *[OpenApiSpec](fastifyoas.openapispec.md)*
+• **swagger**? : *[OpenApiSpec](fastifyoas.openapispec.md)*
 
-*Defined in lib/index.d.ts:123*
+Defined in lib/index.d.ts:123
 
 OpenApi/Swagger object except paths
 
 ___
-<a id="yaml"></a>
 
-### `<Optional>` yaml
+### `Optional` yaml
 
-**● yaml**: *`Boolean`*
+• **yaml**? : *`Boolean`*
 
-*Defined in lib/index.d.ts:119*
+Defined in lib/index.d.ts:119
 
 If `true` returns yaml instead of json
 
-*__default__*: false
-
-___
-
+**`default`** false

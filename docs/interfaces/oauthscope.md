@@ -1,15 +1,13 @@
-[fastify-oas](../README.md) > [OAuthScope](../interfaces/oauthscope.md)
+> **[fastify-oas](../README.md)**
+
+[OAuthScope](oauthscope.md) /
 
 # Interface: OAuthScope
 
 ## Hierarchy
 
-**OAuthScope**
+* **OAuthScope**
 
 ## Indexable
 
-\[scopeName: `string`\]:&nbsp;`string`
-## Index
-
----
-
+● \[▪ **scopeName**: *string*\]: string

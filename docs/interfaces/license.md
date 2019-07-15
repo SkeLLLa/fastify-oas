@@ -1,38 +1,32 @@
-[fastify-oas](../README.md) > [License](../interfaces/license.md)
+> **[fastify-oas](../README.md)**
+
+[License](license.md) /
 
 # Interface: License
 
 ## Hierarchy
 
-**License**
+* **License**
 
-## Index
+### Index
 
-### Properties
+#### Properties
 
 * [name](license.md#name)
-* [url](license.md#url)
-
----
+* [url](license.md#optional-url)
 
 ## Properties
 
-<a id="name"></a>
-
 ###  name
 
-**● name**: *`string`*
+• **name**: *string*
 
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:22*
-
-___
-<a id="url"></a>
-
-### `<Optional>` url
-
-**● url**: *`string`*
-
-*Defined in node_modules/@types/swagger-schema-official/index.d.ts:23*
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:23
 
 ___
 
+### `Optional` url
+
+• **url**? : *string*
+
+Defined in node_modules/@types/swagger-schema-official/index.d.ts:24

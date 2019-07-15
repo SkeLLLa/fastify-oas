@@ -1,15 +1,13 @@
-[fastify-oas](../README.md) > [HeadersObject](../interfaces/headersobject.md)
+> **[fastify-oas](../README.md)**
+
+[HeadersObject](headersobject.md) /
 
 # Interface: HeadersObject
 
 ## Hierarchy
 
-**HeadersObject**
+* **HeadersObject**
 
 ## Indexable
 
-\[name: `string`\]:&nbsp;[HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md)
-## Index
-
----
-
+● \[▪ **name**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)

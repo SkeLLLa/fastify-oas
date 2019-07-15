@@ -1,36 +1,35 @@
-[fastify-oas](../README.md) > ["fastify"](../modules/_fastify_.md) > [FastifyInstance](../interfaces/_fastify_.fastifyinstance.md)
+> **[fastify-oas](../README.md)**
 
-# Interface: FastifyInstance
+["fastify"](../modules/_fastify_.md) / [FastifyInstance](_fastify_.fastifyinstance.md) /
+
+# Interface: FastifyInstance <**HttpServer, HttpRequest, HttpResponse**>
 
 ## Type parameters
-#### HttpServer 
-#### HttpRequest 
-#### HttpResponse 
+
+▪ **HttpServer**
+
+▪ **HttpRequest**
+
+▪ **HttpResponse**
+
 ## Hierarchy
 
-**FastifyInstance**
+* **FastifyInstance**
 
-## Index
+### Index
 
-### Methods
+#### Methods
 
 * [oas](_fastify_.fastifyinstance.md#oas)
 
----
-
 ## Methods
-
-<a id="oas"></a>
 
 ###  oas
 
-▸ **oas**(): `Promise`<`void`>
+▸ **oas**(): *`Promise<void>`*
 
-*Defined in lib/index.d.ts:25*
+Defined in lib/index.d.ts:25
 
 Init OpenApi plugin
 
-**Returns:** `Promise`<`void`>
-
-___
-
+**Returns:** *`Promise<void>`*

@@ -1,15 +1,13 @@
-[fastify-oas](../README.md) > [SecurityRequirementObject](../interfaces/securityrequirementobject.md)
+> **[fastify-oas](../README.md)**
+
+[SecurityRequirementObject](securityrequirementobject.md) /
 
 # Interface: SecurityRequirementObject
 
 ## Hierarchy
 
-**SecurityRequirementObject**
+* **SecurityRequirementObject**
 
 ## Indexable
 
-\[name: `string`\]:&nbsp;`string`[]
-## Index
-
----
-
+● \[▪ **name**: *string*\]: string[]
