@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.2.0...v2.3.0) (2019-07-15)
+
+
+### Features
+
+* **openapi:** return default response for empty schema ([0d9457b](https://gitlab.com/m03geek/fastify-oas/commit/0d9457b))
+
+
+### Tests
+
+* **openapi:** fix openapi spec compatibility ([0ab6314](https://gitlab.com/m03geek/fastify-oas/commit/0ab6314))
+
+
+
 ## [2.2.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.1.3...v2.2.0) (2019-06-18)
 
 
