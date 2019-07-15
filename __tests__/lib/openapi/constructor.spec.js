@@ -85,7 +85,7 @@ describe('openapi constructor', () => {
           securitySchemes: {
             bearerAuth: {
               type: 'http',
-              name: 'bearer',
+              scheme: 'bearer',
               bearerFormat: 'JWT',
             },
           },
@@ -262,7 +262,7 @@ describe('openapi constructor', () => {
               securitySchemes: {
                 bearerAuth: {
                   type: 'http',
-                  name: 'bearer',
+                  scheme: 'bearer',
                   bearerFormat: 'JWT',
                 },
               },
@@ -663,7 +663,7 @@ describe('openapi constructor', () => {
               securitySchemes: {
                 bearerAuth: {
                   type: 'http',
-                  name: 'bearer',
+                  scheme: 'bearer',
                   bearerFormat: 'JWT',
                 },
               },
@@ -903,9 +903,9 @@ describe('openapi constructor', () => {
         '/api/ep': {
           post: {
             responses: {
-              // '200': {
-              //   description: 'Default Response',
-              // },
+              '200': {
+                description: 'default response',
+              },
             },
           },
         },
