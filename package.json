@@ -62,20 +62,20 @@
   "devDependencies": {
     "@types/fastify-static": "^2.2.1",
     "@types/jest": "^24.0.15",
-    "@types/node": "^11.13.14",
-    "@types/swagger-schema-official": "^2.0.17",
-    "eslint": "^5.16.0",
+    "@types/node": "^12.0.0",
+    "@types/swagger-schema-official": "^2.0.18",
+    "eslint": "^6.0.0",
     "eslint-config-google": "^0.13.0",
-    "fastify": "^2.5.0",
+    "fastify": "^2.6.0",
     "jest": "^24.8.0",
     "openapi3-ts": "^1.3.0",
-    "redoc": "^2.0.0-rc.8-1",
+    "redoc": "^2.0.0-rc.10",
     "replace": "^1.1.0",
     "standard-version": "^6.0.0",
-    "swagger-parser": "^7.0.0",
-    "swagger-ui-dist": "^3.22.3",
+    "swagger-parser": "^8.0.0",
+    "swagger-ui-dist": "^3.23.1",
     "typedoc": "^0.14.2",
-    "typedoc-plugin-markdown": "^1.2.1",
-    "typescript": "^3.5.2"
+    "typedoc-plugin-markdown": "^2.0.0",
+    "typescript": "^3.5.3"
   }
 }
