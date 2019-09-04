@@ -290,7 +290,7 @@ fastify.ready(err => {
 
 Swagger UI is available via `/<routePrefix>/index.html`. By default it's `/documentation/index.html`.
 
-ReDoc UI is available via `/<routePrefix>/redoc.html`. By default it's `/documentation/redoc.html`.
+ReDoc UI is available via `/<routePrefix>/docs.html`. By default it's `/documentation/docs.html`.
 
 <sub>[Back to top](#toc)</sub>
 
