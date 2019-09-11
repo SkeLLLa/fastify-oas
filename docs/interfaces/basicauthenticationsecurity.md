@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[BasicAuthenticationSecurity](basicauthenticationsecurity.md) /
+[Globals](../README.md) › [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
 
 # Interface: BasicAuthenticationSecurity
 
@@ -10,9 +10,9 @@
 
   * **BasicAuthenticationSecurity**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](basicauthenticationsecurity.md#optional-description)
 * [type](basicauthenticationsecurity.md#type)

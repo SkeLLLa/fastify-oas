@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[fastifyOAS](../modules/fastifyoas.md) / [FastifyOASOptions](fastifyoas.fastifyoasoptions.md) /
+[Globals](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [FastifyOASOptions](fastifyoas.fastifyoasoptions.md)
 
 # Interface: FastifyOASOptions
 
@@ -8,19 +8,19 @@ Fastify OAS plugin options
 
 ## Hierarchy
 
-* `RegisterOptions<Server, IncomingMessage, ServerResponse>`
+* RegisterOptions‹Server, IncomingMessage, ServerResponse›
 
   * **FastifyOASOptions**
 
 ## Indexable
 
-● \[▪ **key**: *string*\]: any
+* \[ **key**: *string*\]: any
 
 Fastify OAS plugin options
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [addModels](fastifyoas.fastifyoasoptions.md#optional-addmodels)
 * [exposeRoute](fastifyoas.fastifyoasoptions.md#optional-exposeroute)
@@ -35,7 +35,7 @@ Fastify OAS plugin options
 
 ### `Optional` addModels
 
-• **addModels**? : *`Boolean`*
+• **addModels**? : *Boolean*
 
 Defined in lib/index.d.ts:109
 
@@ -47,7 +47,7 @@ ___
 
 ### `Optional` exposeRoute
 
-• **exposeRoute**? : *`Boolean`*
+• **exposeRoute**? : *Boolean*
 
 Defined in lib/index.d.ts:104
 
@@ -59,7 +59,7 @@ ___
 
 ### `Optional` hideUntagged
 
-• **hideUntagged**? : *`Boolean`*
+• **hideUntagged**? : *Boolean*
 
 Defined in lib/index.d.ts:128
 
@@ -71,7 +71,7 @@ ___
 
 ### `Optional` openapi
 
-• **openapi**? : *`String`*
+• **openapi**? : *String*
 
 Defined in lib/index.d.ts:114
 
@@ -87,13 +87,13 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/fastify/fastify.d.ts:287
+Defined in node_modules/fastify/fastify.d.ts:290
 
 ___
 
 ### `Optional` routePrefix
 
-• **routePrefix**? : *`String`*
+• **routePrefix**? : *String*
 
 Defined in lib/index.d.ts:99
 
@@ -115,7 +115,7 @@ ___
 
 ### `Optional` yaml
 
-• **yaml**? : *`Boolean`*
+• **yaml**? : *Boolean*
 
 Defined in lib/index.d.ts:119
 

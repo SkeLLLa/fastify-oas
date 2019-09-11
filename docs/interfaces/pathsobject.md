@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[PathsObject](pathsobject.md) /
+[Globals](../README.md) › [PathsObject](pathsobject.md)
 
 # Interface: PathsObject
 
@@ -12,4 +12,4 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any

@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Server](server.md) /
+[Globals](../README.md) › [Server](server.md)
 
 # Class: Server
 
@@ -12,19 +12,19 @@
 
 * [ServerObject](../interfaces/serverobject.md)
 
-### Index
+## Index
 
-#### Constructors
+### Constructors
 
 * [constructor](server.md#constructor)
 
-#### Properties
+### Properties
 
 * [description](server.md#optional-description)
 * [url](server.md#url)
 * [variables](server.md#variables)
 
-#### Methods
+### Methods
 
 * [addVariable](server.md#addvariable)
 
@@ -77,7 +77,7 @@ Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5
 
 #### Type declaration:
 
-● \[▪ **v**: *string*\]: [ServerVariable](servervariable.md)
+* \[ **v**: *string*\]: [ServerVariable](servervariable.md)
 
 ## Methods
 

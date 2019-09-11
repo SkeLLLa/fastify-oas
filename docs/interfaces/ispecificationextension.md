@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ISpecificationExtension](ispecificationextension.md) /
+[Globals](../README.md) › [ISpecificationExtension](ispecificationextension.md)
 
 # Interface: ISpecificationExtension
 
@@ -68,4 +68,4 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any

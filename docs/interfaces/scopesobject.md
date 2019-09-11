@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ScopesObject](scopesobject.md) /
+[Globals](../README.md) › [ScopesObject](scopesobject.md)
 
 # Interface: ScopesObject
 
@@ -12,4 +12,4 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any

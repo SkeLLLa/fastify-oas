@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ComponentsObject](componentsobject.md) /
+[Globals](../README.md) › [ComponentsObject](componentsobject.md)
 
 # Interface: ComponentsObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [callbacks](componentsobject.md#optional-callbacks)
 * [examples](componentsobject.md#optional-examples)
@@ -38,7 +38,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:68
 
 #### Type declaration:
 
-● \[▪ **callback**: *string*\]: [CallbackObject](callbackobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **callback**: *string*\]: [CallbackObject](callbackobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -50,7 +50,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:53
 
 #### Type declaration:
 
-● \[▪ **example**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **example**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -62,7 +62,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:59
 
 #### Type declaration:
 
-● \[▪ **heaer**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **heaer**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -74,7 +74,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:65
 
 #### Type declaration:
 
-● \[▪ **link**: *string*\]: [LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **link**: *string*\]: [LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -86,7 +86,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:50
 
 #### Type declaration:
 
-● \[▪ **parameter**: *string*\]: [ParameterObject](parameterobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **parameter**: *string*\]: [ParameterObject](parameterobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -98,7 +98,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:56
 
 #### Type declaration:
 
-● \[▪ **request**: *string*\]: [RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **request**: *string*\]: [RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -110,7 +110,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:47
 
 #### Type declaration:
 
-● \[▪ **response**: *string*\]: [ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **response**: *string*\]: [ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -122,7 +122,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:44
 
 #### Type declaration:
 
-● \[▪ **schema**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **schema**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 
@@ -134,4 +134,4 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:62
 
 #### Type declaration:
 
-● \[▪ **securityScheme**: *string*\]: [SecuritySchemeObject](securityschemeobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **securityScheme**: *string*\]: [SecuritySchemeObject](securityschemeobject.md) | [ReferenceObject](referenceobject.md)

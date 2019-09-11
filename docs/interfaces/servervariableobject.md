@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ServerVariableObject](servervariableobject.md) /
+[Globals](../README.md) › [ServerVariableObject](servervariableobject.md)
 
 # Interface: ServerVariableObject
 
@@ -16,11 +16,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [default](servervariableobject.md#default)
 * [description](servervariableobject.md#optional-description)

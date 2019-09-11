@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[RequestBodyObject](requestbodyobject.md) /
+[Globals](../README.md) › [RequestBodyObject](requestbodyobject.md)
 
 # Interface: RequestBodyObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [content](requestbodyobject.md#content)
 * [description](requestbodyobject.md#optional-description)

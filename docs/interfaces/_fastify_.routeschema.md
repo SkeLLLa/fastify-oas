@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-["fastify"](../modules/_fastify_.md) / [RouteSchema](_fastify_.routeschema.md) /
+[Globals](../README.md) › [&quot;fastify&quot;](../modules/_fastify_.md) › [RouteSchema](_fastify_.routeschema.md)
 
 # Interface: RouteSchema
 
@@ -8,9 +8,9 @@
 
 * **RouteSchema**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [consumes](_fastify_.routeschema.md#optional-consumes)
 * [description](_fastify_.routeschema.md#optional-description)
@@ -25,7 +25,7 @@
 
 ### `Optional` consumes
 
-• **consumes**? : *`Array<String>`*
+• **consumes**? : *Array‹String›*
 
 Defined in lib/index.d.ts:49
 
@@ -35,7 +35,7 @@ ___
 
 ### `Optional` description
 
-• **description**? : *`String`*
+• **description**? : *String*
 
 Defined in lib/index.d.ts:37
 
@@ -45,7 +45,7 @@ ___
 
 ### `Optional` hide
 
-• **hide**? : *`Boolean`*
+• **hide**? : *Boolean*
 
 Defined in lib/index.d.ts:33
 
@@ -67,7 +67,7 @@ ___
 
 ### `Optional` produces
 
-• **produces**? : *`Array<String>`*
+• **produces**? : *Array‹String›*
 
 Defined in lib/index.d.ts:53
 
@@ -77,7 +77,7 @@ ___
 
 ### `Optional` security
 
-• **security**? : *`Array<SecurityRequirementObject>`*
+• **security**? : *Array‹[SecurityRequirementObject](securityrequirementobject.md)›*
 
 Defined in lib/index.d.ts:57
 
@@ -87,7 +87,7 @@ ___
 
 ### `Optional` summary
 
-• **summary**? : *`String`*
+• **summary**? : *String*
 
 Defined in lib/index.d.ts:41
 
@@ -97,7 +97,7 @@ ___
 
 ### `Optional` tags
 
-• **tags**? : *`Array<String>`*
+• **tags**? : *Array‹String›*
 
 Defined in lib/index.d.ts:45
 

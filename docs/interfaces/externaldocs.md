@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ExternalDocs](externaldocs.md) /
+[Globals](../README.md) › [ExternalDocs](externaldocs.md)
 
 # Interface: ExternalDocs
 
@@ -8,9 +8,9 @@
 
 * **ExternalDocs**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](externaldocs.md#optional-description)
 * [url](externaldocs.md#url)

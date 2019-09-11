@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[XmlObject](xmlobject.md) /
+[Globals](../README.md) › [XmlObject](xmlobject.md)
 
 # Interface: XmlObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [attribute](xmlobject.md#optional-attribute)
 * [name](xmlobject.md#optional-name)

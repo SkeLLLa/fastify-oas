@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[OAuth2ApplicationSecurity](oauth2applicationsecurity.md) /
+[Globals](../README.md) › [OAuth2ApplicationSecurity](oauth2applicationsecurity.md)
 
 # Interface: OAuth2ApplicationSecurity
 
@@ -10,9 +10,9 @@
 
   * **OAuth2ApplicationSecurity**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](oauth2applicationsecurity.md#optional-description)
 * [flow](oauth2applicationsecurity.md#flow)

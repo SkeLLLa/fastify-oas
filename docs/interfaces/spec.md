@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Spec](spec.md) /
+[Globals](../README.md) › [Spec](spec.md)
 
 # Interface: Spec
 
@@ -8,9 +8,9 @@
 
 * **Spec**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [basePath](spec.md#optional-basepath)
 * [consumes](spec.md#optional-consumes)
@@ -54,7 +54,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:267
 
 #### Type declaration:
 
-● \[▪ **definitionsName**: *string*\]: [Schema](schema.md)
+* \[ **definitionsName**: *string*\]: [Schema](schema.md)
 
 ___
 
@@ -90,7 +90,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:268
 
 #### Type declaration:
 
-● \[▪ **parameterName**: *string*\]: [BodyParameter](../README.md#bodyparameter) | [QueryParameter](../README.md#queryparameter)
+* \[ **parameterName**: *string*\]: [BodyParameter](../README.md#bodyparameter) | [QueryParameter](../README.md#queryparameter)
 
 ___
 
@@ -102,7 +102,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:266
 
 #### Type declaration:
 
-● \[▪ **pathName**: *string*\]: [Path](path.md)
+* \[ **pathName**: *string*\]: [Path](path.md)
 
 ___
 
@@ -122,7 +122,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:269
 
 #### Type declaration:
 
-● \[▪ **responseName**: *string*\]: [Response](response.md)
+* \[ **responseName**: *string*\]: [Response](response.md)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 ### `Optional` security
 
-• **security**? : *`Array<object>`*
+• **security**? : *Array‹object›*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:270
 
@@ -150,7 +150,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:271
 
 #### Type declaration:
 
-● \[▪ **securityDefinitionName**: *string*\]: [Security](../README.md#security)
+* \[ **securityDefinitionName**: *string*\]: [Security](../README.md#security)
 
 ___
 

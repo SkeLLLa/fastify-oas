@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Operation](operation.md) /
+[Globals](../README.md) › [Operation](operation.md)
 
 # Interface: Operation
 
@@ -8,9 +8,9 @@
 
 * **Operation**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [consumes](operation.md#optional-consumes)
 * [deprecated](operation.md#optional-deprecated)
@@ -69,7 +69,7 @@ ___
 
 ### `Optional` parameters
 
-• **parameters**? : *`Array<Parameter | Reference>`*
+• **parameters**? : *Array‹[Parameter](../README.md#parameter) | [Reference](reference.md)›*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:132
 
@@ -91,7 +91,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:125
 
 #### Type declaration:
 
-● \[▪ **responseName**: *string*\]: [Response](response.md) | [Reference](reference.md)
+* \[ **responseName**: *string*\]: [Response](response.md) | [Reference](reference.md)
 
 ___
 

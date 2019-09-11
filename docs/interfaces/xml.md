@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[XML](xml.md) /
+[Globals](../README.md) › [XML](xml.md)
 
 # Interface: XML
 
@@ -8,9 +8,9 @@
 
 * **XML**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [attribute](xml.md#optional-attribute)
 * [name](xml.md#optional-name)

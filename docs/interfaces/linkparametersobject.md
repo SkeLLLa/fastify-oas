@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[LinkParametersObject](linkparametersobject.md) /
+[Globals](../README.md) › [LinkParametersObject](linkparametersobject.md)
 
 # Interface: LinkParametersObject
 
@@ -10,4 +10,4 @@
 
 ## Indexable
 
-● \[▪ **name**: *string*\]: any | string
+* \[ **name**: *string*\]: any | string

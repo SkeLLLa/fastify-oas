@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ExternalDocumentationObject](externaldocumentationobject.md) /
+[Globals](../README.md) › [ExternalDocumentationObject](externaldocumentationobject.md)
 
 # Interface: ExternalDocumentationObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](externaldocumentationobject.md#optional-description)
 * [url](externaldocumentationobject.md#url)

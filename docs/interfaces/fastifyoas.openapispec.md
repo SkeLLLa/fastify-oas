@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[fastifyOAS](../modules/fastifyoas.md) / [OpenApiSpec](fastifyoas.openapispec.md) /
+[Globals](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [OpenApiSpec](fastifyoas.openapispec.md)
 
 # Interface: OpenApiSpec
 
@@ -8,9 +8,9 @@
 
 * **OpenApiSpec**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [basePath](fastifyoas.openapispec.md#optional-basepath)
 * [components](fastifyoas.openapispec.md#optional-components)
@@ -30,7 +30,7 @@
 
 ### `Optional` basePath
 
-• **basePath**? : *`String`*
+• **basePath**? : *String*
 
 Defined in lib/index.d.ts:70
 
@@ -46,7 +46,7 @@ ___
 
 ### `Optional` consumes
 
-• **consumes**? : *`Array<String>`*
+• **consumes**? : *Array‹String›*
 
 Defined in lib/index.d.ts:73
 
@@ -62,7 +62,7 @@ ___
 
 ### `Optional` host
 
-• **host**? : *`String`*
+• **host**? : *String*
 
 Defined in lib/index.d.ts:69
 
@@ -78,7 +78,7 @@ ___
 
 ### `Optional` produces
 
-• **produces**? : *`Array<String>`*
+• **produces**? : *Array‹String›*
 
 Defined in lib/index.d.ts:74
 
@@ -86,7 +86,7 @@ ___
 
 ### `Optional` schemes
 
-• **schemes**? : *[SchemasObject](schemasobject.md) | `Array<String>`*
+• **schemes**? : *[SchemasObject](schemasobject.md) | Array‹String›*
 
 Defined in lib/index.d.ts:72
 
@@ -94,7 +94,7 @@ ___
 
 ### `Optional` security
 
-• **security**? : *`Array<SecurityRequirementObject>` | `Array<object>`*
+• **security**? : *Array‹[SecurityRequirementObject](securityrequirementobject.md)› | Array‹object›*
 
 Defined in lib/index.d.ts:75
 
@@ -108,13 +108,13 @@ Defined in lib/index.d.ts:80
 
 #### Type declaration:
 
-● \[▪ **securityDefinitionName**: *string*\]: [Security](../README.md#security)
+* \[ **securityDefinitionName**: *string*\]: [Security](../README.md#security)
 
 ___
 
 ### `Optional` servers
 
-• **servers**? : *`Array<Server>`*
+• **servers**? : *Array‹[Server](../classes/server.md)›*
 
 Defined in lib/index.d.ts:78
 
@@ -122,7 +122,7 @@ ___
 
 ### `Optional` tags
 
-• **tags**? : *`Array<TagObject>` | `Array<Tag>`*
+• **tags**? : *Array‹[TagObject](tagobject.md)› | Array‹[Tag](tag.md)›*
 
 Defined in lib/index.d.ts:83
 
@@ -130,6 +130,6 @@ ___
 
 ### `Optional` x-tagGroups
 
-• **x-tagGroups**? : *`String`*
+• **x-tagGroups**? : *String*
 
 Defined in lib/index.d.ts:71

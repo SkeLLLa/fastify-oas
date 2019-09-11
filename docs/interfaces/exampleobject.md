@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ExampleObject](exampleobject.md) /
+[Globals](../README.md) › [ExampleObject](exampleobject.md)
 
 # Interface: ExampleObject
 
@@ -10,11 +10,11 @@
 
 ## Indexable
 
-● \[▪ **property**: *string*\]: any
+* \[ **property**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](exampleobject.md#optional-description)
 * [externalValue](exampleobject.md#optional-externalvalue)

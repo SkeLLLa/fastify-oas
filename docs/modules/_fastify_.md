@@ -1,12 +1,12 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-["fastify"](_fastify_.md) /
+[Globals](../README.md) › [&quot;fastify&quot;](_fastify_.md)
 
 # Module: "fastify"
 
-### Index
+## Index
 
-#### Interfaces
+### Interfaces
 
 * [FastifyInstance](../interfaces/_fastify_.fastifyinstance.md)
 * [RouteSchema](../interfaces/_fastify_.routeschema.md)

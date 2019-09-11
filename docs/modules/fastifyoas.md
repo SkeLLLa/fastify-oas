@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[fastifyOAS](fastifyoas.md) /
+[Globals](../README.md) › [fastifyOAS](fastifyoas.md)
 
 # Module: fastifyOAS
 
@@ -12,9 +12,9 @@ Defined in lib/index.d.ts:132
 
 **Returns:** *void*
 
-### Index
+## Index
 
-#### Interfaces
+### Interfaces
 
 * [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
 * [OpenApiSpec](../interfaces/fastifyoas.openapispec.md)

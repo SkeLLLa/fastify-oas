@@ -1,19 +1,23 @@
-> **[fastify-oas](README.md)**
+**[fastify-oas](README.md)**
 
-### Index
+[Globals](README.md)
 
-#### Modules
+# fastify-oas
+
+## Index
+
+### Modules
 
 * ["fastify"](modules/_fastify_.md)
 * [fastifyOAS](modules/fastifyoas.md)
 
-#### Classes
+### Classes
 
 * [Server](classes/server.md)
 * [ServerVariable](classes/servervariable.md)
 * [SpecificationExtension](classes/specificationextension.md)
 
-#### Interfaces
+### Interfaces
 
 * [ApiKeySecurity](interfaces/apikeysecurity.md)
 * [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
@@ -79,7 +83,7 @@
 * [XML](interfaces/xml.md)
 * [XmlObject](interfaces/xmlobject.md)
 
-#### Type aliases
+### Type aliases
 
 * [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter)
 * [BaseParameter](README.md#baseparameter)
@@ -103,7 +107,7 @@
 * [SecuritySchemeType](README.md#securityschemetype)
 * [StringFormat](README.md#stringformat)
 
-#### Functions
+### Functions
 
 * [addExtension](README.md#addextension)
 * [getExtension](README.md#getextension)
@@ -351,7 +355,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:73
 
 #### Type declaration:
 
-* **format**? : *`""` | "byte" | "binary" | "date" | "date-time" | "password"*
+* **format**? : *"" | "byte" | "binary" | "date" | "date-time" | "password"*
 
 * **type**: *"string"*
 
@@ -435,6 +439,6 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254
 
 Name | Type |
 ------ | ------ |
-`schema` | [SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md) |
+`schema` | [SchemaObject](interfaces/schemaobject.md) &#124; [ReferenceObject](interfaces/referenceobject.md) |
 
 **Returns:** *boolean*

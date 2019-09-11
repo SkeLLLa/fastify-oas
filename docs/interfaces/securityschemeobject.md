@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[SecuritySchemeObject](securityschemeobject.md) /
+[Globals](../README.md) › [SecuritySchemeObject](securityschemeobject.md)
 
 # Interface: SecuritySchemeObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [bearerFormat](securityschemeobject.md#optional-bearerformat)
 * [description](securityschemeobject.md#optional-description)

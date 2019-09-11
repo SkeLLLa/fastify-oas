@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ReferenceObject](referenceobject.md) /
+[Globals](../README.md) › [ReferenceObject](referenceobject.md)
 
 # Interface: ReferenceObject
 
@@ -8,9 +8,9 @@
 
 * **ReferenceObject**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [$ref](referenceobject.md#$ref)
 

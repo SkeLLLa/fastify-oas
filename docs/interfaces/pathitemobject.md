@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[PathItemObject](pathitemobject.md) /
+[Globals](../README.md) › [PathItemObject](pathitemobject.md)
 
 # Interface: PathItemObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [$ref](pathitemobject.md#optional-$ref)
 * [delete](pathitemobject.md#optional-delete)

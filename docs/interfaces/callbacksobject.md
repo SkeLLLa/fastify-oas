@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[CallbacksObject](callbacksobject.md) /
+[Globals](../README.md) › [CallbacksObject](callbacksobject.md)
 
 # Interface: CallbacksObject
 
@@ -12,4 +12,4 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any

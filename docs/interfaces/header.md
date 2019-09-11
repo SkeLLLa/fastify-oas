@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Header](header.md) /
+[Globals](../README.md) › [Header](header.md)
 
 # Interface: Header
 
@@ -10,9 +10,9 @@
 
   * **Header**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [default](header.md#optional-default)
 * [description](header.md#optional-description)

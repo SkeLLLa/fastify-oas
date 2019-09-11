@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ContentObject](contentobject.md) /
+[Globals](../README.md) › [ContentObject](contentobject.md)
 
 # Interface: ContentObject
 
@@ -10,4 +10,4 @@
 
 ## Indexable
 
-● \[▪ **mediatype**: *string*\]: [MediaTypeObject](mediatypeobject.md)
+* \[ **mediatype**: *string*\]: [MediaTypeObject](mediatypeobject.md)

@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[License](license.md) /
+[Globals](../README.md) › [License](license.md)
 
 # Interface: License
 
@@ -8,9 +8,9 @@
 
 * **License**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [name](license.md#name)
 * [url](license.md#optional-url)

@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Path](path.md) /
+[Globals](../README.md) › [Path](path.md)
 
 # Interface: Path
 
@@ -8,9 +8,9 @@
 
 * **Path**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [$ref](path.md#optional-$ref)
 * [delete](path.md#optional-delete)
@@ -66,7 +66,7 @@ ___
 
 ### `Optional` parameters
 
-• **parameters**? : *`Array<Parameter | Reference>`*
+• **parameters**? : *Array‹[Parameter](../README.md#parameter) | [Reference](reference.md)›*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:120
 

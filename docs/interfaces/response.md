@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Response](response.md) /
+[Globals](../README.md) › [Response](response.md)
 
 # Interface: Response
 
@@ -8,9 +8,9 @@
 
 * **Response**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](response.md#description)
 * [examples](response.md#optional-examples)
@@ -35,7 +35,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:149
 
 #### Type declaration:
 
-● \[▪ **exampleName**: *string*\]: `__type`
+* \[ **exampleName**: *string*\]: __type
 
 ___
 
@@ -47,7 +47,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:148
 
 #### Type declaration:
 
-● \[▪ **headerName**: *string*\]: [Header](header.md)
+* \[ **headerName**: *string*\]: [Header](header.md)
 
 ___
 

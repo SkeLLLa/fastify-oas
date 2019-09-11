@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[SecurityRequirementObject](securityrequirementobject.md) /
+[Globals](../README.md) › [SecurityRequirementObject](securityrequirementobject.md)
 
 # Interface: SecurityRequirementObject
 
@@ -10,4 +10,4 @@
 
 ## Indexable
 
-● \[▪ **name**: *string*\]: string[]
+* \[ **name**: *string*\]: string[]

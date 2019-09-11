@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[EncodingPropertyObject](encodingpropertyobject.md) /
+[Globals](../README.md) › [EncodingPropertyObject](encodingpropertyobject.md)
 
 # Interface: EncodingPropertyObject
 
@@ -10,11 +10,11 @@
 
 ## Indexable
 
-● \[▪ **key**: *string*\]: any
+* \[ **key**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [allowReserved](encodingpropertyobject.md#optional-allowreserved)
 * [contentType](encodingpropertyobject.md#optional-contenttype)
@@ -56,7 +56,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:150
 
 #### Type declaration:
 
-● \[▪ **key**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **key**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 

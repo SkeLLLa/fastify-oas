@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[HeaderObject](headerobject.md) /
+[Globals](../README.md) › [HeaderObject](headerobject.md)
 
 # Interface: HeaderObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [allowEmptyValue](headerobject.md#optional-allowemptyvalue)
 * [allowReserved](headerobject.md#optional-allowreserved)
@@ -102,7 +102,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121
 
 #### Type declaration:
 
-● \[▪ **param**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **param**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 

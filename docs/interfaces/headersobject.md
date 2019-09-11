@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[HeadersObject](headersobject.md) /
+[Globals](../README.md) › [HeadersObject](headersobject.md)
 
 # Interface: HeadersObject
 
@@ -10,4 +10,4 @@
 
 ## Indexable
 
-● \[▪ **name**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **name**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)

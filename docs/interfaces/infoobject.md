@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[InfoObject](infoobject.md) /
+[Globals](../README.md) › [InfoObject](infoobject.md)
 
 # Interface: InfoObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [contact](infoobject.md#optional-contact)
 * [description](infoobject.md#optional-description)

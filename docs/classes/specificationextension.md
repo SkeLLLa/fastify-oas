@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[SpecificationExtension](specificationextension.md) /
+[Globals](../README.md) › [SpecificationExtension](specificationextension.md)
 
 # Class: SpecificationExtension
 
@@ -14,11 +14,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Methods
+### Methods
 
 * [addExtension](specificationextension.md#addextension)
 * [getExtension](specificationextension.md#getextension)

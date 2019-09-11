@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[DiscriminatorObject](discriminatorobject.md) /
+[Globals](../README.md) › [DiscriminatorObject](discriminatorobject.md)
 
 # Interface: DiscriminatorObject
 
@@ -8,9 +8,9 @@
 
 * **DiscriminatorObject**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [mapping](discriminatorobject.md#optional-mapping)
 * [propertyName](discriminatorobject.md#propertyname)
@@ -25,7 +25,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:260
 
 #### Type declaration:
 
-● \[▪ **key**: *string*\]: string
+* \[ **key**: *string*\]: string
 
 ___
 

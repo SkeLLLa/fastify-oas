@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ParameterObject](parameterobject.md) /
+[Globals](../README.md) › [ParameterObject](parameterobject.md)
 
 # Interface: ParameterObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [allowEmptyValue](parameterobject.md#optional-allowemptyvalue)
 * [allowReserved](parameterobject.md#optional-allowreserved)
@@ -104,7 +104,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121
 
 #### Type declaration:
 
-● \[▪ **param**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **param**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 

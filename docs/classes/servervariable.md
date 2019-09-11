@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ServerVariable](servervariable.md) /
+[Globals](../README.md) › [ServerVariable](servervariable.md)
 
 # Class: ServerVariable
 
@@ -12,13 +12,13 @@
 
 * [ServerVariableObject](../interfaces/servervariableobject.md)
 
-### Index
+## Index
 
-#### Constructors
+### Constructors
 
 * [constructor](servervariable.md#constructor)
 
-#### Properties
+### Properties
 
 * [default](servervariable.md#default)
 * [description](servervariable.md#optional-description)

@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ServerObject](serverobject.md) /
+[Globals](../README.md) › [ServerObject](serverobject.md)
 
 # Interface: ServerObject
 
@@ -16,11 +16,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [description](serverobject.md#optional-description)
 * [url](serverobject.md#url)
@@ -52,4 +52,4 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:34
 
 #### Type declaration:
 
-● \[▪ **v**: *string*\]: [ServerVariableObject](servervariableobject.md)
+* \[ **v**: *string*\]: [ServerVariableObject](servervariableobject.md)

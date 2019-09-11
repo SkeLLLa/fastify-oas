@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[OperationObject](operationobject.md) /
+[Globals](../README.md) › [OperationObject](operationobject.md)
 
 # Interface: OperationObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [callbacks](operationobject.md#optional-callbacks)
 * [deprecated](operationobject.md#optional-deprecated)

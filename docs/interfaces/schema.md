@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Schema](schema.md) /
+[Globals](../README.md) › [Schema](schema.md)
 
 # Interface: Schema
 
@@ -10,9 +10,9 @@
 
   * **Schema**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [$ref](schema.md#optional-$ref)
 * [additionalProperties](schema.md#optional-additionalproperties)
@@ -273,7 +273,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:180
 
 #### Type declaration:
 
-● \[▪ **propertyName**: *string*\]: [Schema](schema.md)
+* \[ **propertyName**: *string*\]: [Schema](schema.md)
 
 ___
 

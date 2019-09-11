@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-["fastify"](../modules/_fastify_.md) / [FastifyInstance](_fastify_.fastifyinstance.md) /
+[Globals](../README.md) › [&quot;fastify&quot;](../modules/_fastify_.md) › [FastifyInstance](_fastify_.fastifyinstance.md)
 
 # Interface: FastifyInstance <**HttpServer, HttpRequest, HttpResponse**>
 
@@ -16,9 +16,9 @@
 
 * **FastifyInstance**
 
-### Index
+## Index
 
-#### Methods
+### Methods
 
 * [oas](_fastify_.fastifyinstance.md#oas)
 
@@ -26,10 +26,10 @@
 
 ###  oas
 
-▸ **oas**(): *`Promise<void>`*
+▸ **oas**(): *Promise‹void›*
 
 Defined in lib/index.d.ts:25
 
 Init OpenApi plugin
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*

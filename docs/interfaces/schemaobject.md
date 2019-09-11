@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[SchemaObject](schemaobject.md) /
+[Globals](../README.md) › [SchemaObject](schemaobject.md)
 
 # Interface: SchemaObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [additionalProperties](schemaobject.md#optional-additionalproperties)
 * [allOf](schemaobject.md#optional-allof)
@@ -289,7 +289,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:230
 
 #### Type declaration:
 
-● \[▪ **propertyName**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **propertyName**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 

@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[ResponsesObject](responsesobject.md) /
+[Globals](../README.md) › [ResponsesObject](responsesobject.md)
 
 # Interface: ResponsesObject
 
@@ -12,11 +12,11 @@
 
 ## Indexable
 
-● \[▪ **extensionName**: *string*\]: any
+* \[ **extensionName**: *string*\]: any
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [default](responsesobject.md#optional-default)
 

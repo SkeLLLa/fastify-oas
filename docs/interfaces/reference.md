@@ -1,6 +1,6 @@
-> **[fastify-oas](../README.md)**
+**[fastify-oas](../README.md)**
 
-[Reference](reference.md) /
+[Globals](../README.md) › [Reference](reference.md)
 
 # Interface: Reference
 
@@ -8,9 +8,9 @@
 
 * **Reference**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [$ref](reference.md#$ref)
 
