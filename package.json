@@ -54,28 +54,28 @@
   ],
   "homepage": "https://gitlab.com/m03geek/fastify-oas#README",
   "dependencies": {
+    "@types/swagger-schema-official": "^2.0.18",
     "app-root-path": "^2.2.1",
     "fastify-plugin": "^1.6.0",
     "fastify-static": "^2.5.0",
-    "js-yaml": "^3.13.1"
+    "js-yaml": "^3.13.1",
+    "openapi3-ts": "^1.3.0"
   },
   "devDependencies": {
     "@types/fastify-static": "^2.2.1",
-    "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.0",
-    "@types/swagger-schema-official": "^2.0.18",
-    "eslint": "^6.0.0",
-    "eslint-config-google": "^0.13.0",
-    "fastify": "^2.6.0",
-    "jest": "^24.8.0",
-    "openapi3-ts": "^1.3.0",
-    "redoc": "^2.0.0-rc.10",
-    "replace": "^1.1.0",
-    "standard-version": "^6.0.0",
-    "swagger-parser": "^8.0.0",
-    "swagger-ui-dist": "^3.23.1",
-    "typedoc": "^0.14.2",
-    "typedoc-plugin-markdown": "^2.0.0",
-    "typescript": "^3.5.3"
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.4",
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "fastify": "^2.8.0",
+    "jest": "^24.9.0",
+    "redoc": "^2.0.0-rc.14",
+    "replace": "^1.1.1",
+    "standard-version": "^7.0.0",
+    "swagger-parser": "^8.0.1",
+    "swagger-ui-dist": "^3.23.9",
+    "typedoc": "^0.15.0",
+    "typedoc-plugin-markdown": "^2.1.11",
+    "typescript": "^3.6.3"
   }
 }
