@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.3.1...v2.3.2) (2019-09-11)
+
+
+### Bug Fixes
+
+* **typescript:** move some exported members to deps ([63cfb9c](https://gitlab.com/m03geek/fastify-oas/commit/63cfb9c))
+
 ### [2.3.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.3.0...v2.3.1) (2019-07-15)
 
 
