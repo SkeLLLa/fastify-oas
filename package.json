@@ -1,6 +1,6 @@
 {
   "name": "fastify-oas",
-  "version": "2.3.2",
+  "version": "2.3.3",
   "description": "Fastify OpenAPI specification generator plugin",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
