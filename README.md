@@ -20,20 +20,20 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
 
 ## ToC
 - [fastify-oas](#fastify-oas)
-  - [ToC](#ToC)
-  - [Fastify support](#Fastify-support)
-  - [Installation](#Installation)
-  - [Features and requirements](#Features-and-requirements)
-  - [Usage](#Usage)
-    - [Docs](#Docs)
-    - [Plugin options](#Plugin-options)
-    - [Additional schema options](#Additional-schema-options)
-    - [OpenAPI](#OpenAPI)
-    - [Swagger 2.0](#Swagger-20)
-  - [UI](#UI)
-  - [Development](#Development)
-  - [See also](#See-also)
-  - [License](#License)
+  - [ToC](#toc)
+  - [Fastify support](#fastify-support)
+  - [Installation](#installation)
+  - [Features and requirements](#features-and-requirements)
+  - [Usage](#usage)
+    - [Docs](#docs)
+    - [Plugin options](#plugin-options)
+    - [Additional schema options](#additional-schema-options)
+    - [OpenAPI](#openapi)
+    - [Swagger 2.0](#swagger-20)
+  - [UI](#ui)
+  - [Development](#development)
+  - [See also](#see-also)
+  - [License](#license)
 
 ## Fastify support
 
@@ -106,15 +106,17 @@ See [Docs](/docs/README.md) for more details.
 
 ### Plugin options
 
-|  parameter  |  type  |  description   |  default  |
-|-------------|--------|----------------|-----------|
-| `routePrefix` | String | Documentation endpoint | `/documentation` |
-| `exposeRoute` | Boolean | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false` |
-| `addModels` | Boolean | If `true` adds fastify schemas as openapi models | `false` |
-| `openapi` | String | Openapi version | '3.0.0' |
-| `yaml` | Boolean | If `true` returns yaml instead of json | `false` |
-| `hideUntagged` | Boolean | If `true` remove routes without tags in schema from resulting swagger file | `false` |
-| `swagger` | Object | Swagger object except paths | `{}` |
+| parameter      | type    | description                                                                                                                                | default          |
+| -------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
+| `routePrefix`  | String  | Documentation endpoint                                                                                                                     | `/documentation` |
+| `exposeRoute`  | Boolean | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false`          |
+| `addModels`    | Boolean | If `true` adds fastify schemas as openapi models*                                                                                          | `false`          |
+| `openapi`      | String  | Openapi version                                                                                                                            | '3.0.0'          |
+| `yaml`         | Boolean | If `true` returns yaml instead of json                                                                                                     | `false`          |
+| `hideUntagged` | Boolean | If `true` remove routes without tags in schema from resulting swagger file                                                                 | `false`          |
+| `swagger`      | Object  | Swagger object except paths                                                                                                                | `{}`             |
+
+Note (*): Fastify-oas plugin gather all schemas, so you should ensure that all of them under current and nested scopes have unique names.
 
 <sub>[Back to top](#toc)</sub>
 
