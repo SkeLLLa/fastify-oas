@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [BaseOAuthSecurity](baseoauthsecurity.md)
+[fastify-oas](../README.md) › [BaseOAuthSecurity](baseoauthsecurity.md)
 
 # Interface: BaseOAuthSecurity
 
@@ -8,15 +6,15 @@
 
 * [BaseSecurity](basesecurity.md)
 
-  * **BaseOAuthSecurity**
+  ↳ **BaseOAuthSecurity**
 
-  * [OAuth2ImplicitSecurity](oauth2implicitsecurity.md)
+  ↳ [OAuth2ImplicitSecurity](oauth2implicitsecurity.md)
 
-  * [OAuth2PasswordSecurity](oauth2passwordsecurity.md)
+  ↳ [OAuth2PasswordSecurity](oauth2passwordsecurity.md)
 
-  * [OAuth2ApplicationSecurity](oauth2applicationsecurity.md)
+  ↳ [OAuth2ApplicationSecurity](oauth2applicationsecurity.md)
 
-  * [OAuth2AccessCodeSecurity](oauth2accesscodesecurity.md)
+  ↳ [OAuth2AccessCodeSecurity](oauth2accesscodesecurity.md)
 
 ## Index
 

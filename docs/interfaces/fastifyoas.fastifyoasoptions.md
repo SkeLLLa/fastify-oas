@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [FastifyOASOptions](fastifyoas.fastifyoasoptions.md)
+[fastify-oas](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [FastifyOASOptions](fastifyoas.fastifyoasoptions.md)
 
 # Interface: FastifyOASOptions
 
@@ -10,7 +8,7 @@ Fastify OAS plugin options
 
 * RegisterOptions‹Server, IncomingMessage, ServerResponse›
 
-  * **FastifyOASOptions**
+  ↳ **FastifyOASOptions**
 
 ## Indexable
 
@@ -87,7 +85,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/fastify/fastify.d.ts:290
+Defined in node_modules/fastify/fastify.d.ts:298
 
 ___
 

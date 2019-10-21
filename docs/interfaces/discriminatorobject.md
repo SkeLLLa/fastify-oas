@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [DiscriminatorObject](discriminatorobject.md)
+[fastify-oas](../README.md) › [DiscriminatorObject](discriminatorobject.md)
 
 # Interface: DiscriminatorObject
 

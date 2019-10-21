@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [XmlObject](xmlobject.md)
+[fastify-oas](../README.md) › [XmlObject](xmlobject.md)
 
 # Interface: XmlObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **XmlObject**
+  ↳ **XmlObject**
 
 ## Indexable
 

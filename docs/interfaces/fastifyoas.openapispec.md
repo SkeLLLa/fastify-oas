@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [OpenApiSpec](fastifyoas.openapispec.md)
+[fastify-oas](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [OpenApiSpec](fastifyoas.openapispec.md)
 
 # Interface: OpenApiSpec
 

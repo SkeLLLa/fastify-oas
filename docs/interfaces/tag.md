@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Tag](tag.md)
+[fastify-oas](../README.md) › [Tag](tag.md)
 
 # Interface: Tag
 

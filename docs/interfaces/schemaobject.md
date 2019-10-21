@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [SchemaObject](schemaobject.md)
+[fastify-oas](../README.md) › [SchemaObject](schemaobject.md)
 
 # Interface: SchemaObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **SchemaObject**
+  ↳ **SchemaObject**
 
 ## Indexable
 

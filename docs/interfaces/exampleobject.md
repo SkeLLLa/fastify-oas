@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ExampleObject](exampleobject.md)
+[fastify-oas](../README.md) › [ExampleObject](exampleobject.md)
 
 # Interface: ExampleObject
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [OperationObject](operationobject.md)
+[fastify-oas](../README.md) › [OperationObject](operationobject.md)
 
 # Interface: OperationObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **OperationObject**
+  ↳ **OperationObject**
 
 ## Indexable
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Spec](spec.md)
+[fastify-oas](../README.md) › [Spec](spec.md)
 
 # Interface: Spec
 

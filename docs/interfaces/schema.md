@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Schema](schema.md)
+[fastify-oas](../README.md) › [Schema](schema.md)
 
 # Interface: Schema
 
@@ -8,7 +6,7 @@
 
 * object
 
-  * **Schema**
+  ↳ **Schema**
 
 ## Index
 
@@ -57,7 +55,7 @@ ___
 
 ### `Optional` additionalProperties
 
-• **additionalProperties**? : *[Schema](schema.md)*
+• **additionalProperties**? : *[Schema](schema.md) | boolean*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:179
 

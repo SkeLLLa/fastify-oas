@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [LicenseObject](licenseobject.md)
+[fastify-oas](../README.md) › [LicenseObject](licenseobject.md)
 
 # Interface: LicenseObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **LicenseObject**
+  ↳ **LicenseObject**
 
 ## Indexable
 

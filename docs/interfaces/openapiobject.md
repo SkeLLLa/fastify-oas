@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [OpenAPIObject](openapiobject.md)
+[fastify-oas](../README.md) › [OpenAPIObject](openapiobject.md)
 
 # Interface: OpenAPIObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **OpenAPIObject**
+  ↳ **OpenAPIObject**
 
 ## Indexable
 

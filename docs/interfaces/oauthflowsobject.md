@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [OAuthFlowsObject](oauthflowsobject.md)
+[fastify-oas](../README.md) › [OAuthFlowsObject](oauthflowsobject.md)
 
 # Interface: OAuthFlowsObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **OAuthFlowsObject**
+  ↳ **OAuthFlowsObject**
 
 ## Indexable
 

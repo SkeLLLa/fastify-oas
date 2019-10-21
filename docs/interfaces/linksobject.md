@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [LinksObject](linksobject.md)
+[fastify-oas](../README.md) › [LinksObject](linksobject.md)
 
 # Interface: LinksObject
 

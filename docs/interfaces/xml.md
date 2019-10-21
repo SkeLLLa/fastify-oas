@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [XML](xml.md)
+[fastify-oas](../README.md) › [XML](xml.md)
 
 # Interface: XML
 

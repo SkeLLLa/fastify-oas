@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ComponentsObject](componentsobject.md)
+[fastify-oas](../README.md) › [ComponentsObject](componentsobject.md)
 
 # Interface: ComponentsObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **ComponentsObject**
+  ↳ **ComponentsObject**
 
 ## Indexable
 

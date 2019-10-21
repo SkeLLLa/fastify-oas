@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Operation](operation.md)
+[fastify-oas](../README.md) › [Operation](operation.md)
 
 # Interface: Operation
 

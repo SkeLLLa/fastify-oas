@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [OAuthScope](oauthscope.md)
+[fastify-oas](../README.md) › [OAuthScope](oauthscope.md)
 
 # Interface: OAuthScope
 

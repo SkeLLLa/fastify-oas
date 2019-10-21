@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ApiKeySecurity](apikeysecurity.md)
+[fastify-oas](../README.md) › [ApiKeySecurity](apikeysecurity.md)
 
 # Interface: ApiKeySecurity
 
@@ -8,7 +6,7 @@
 
 * [BaseSecurity](basesecurity.md)
 
-  * **ApiKeySecurity**
+  ↳ **ApiKeySecurity**
 
 ## Index
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [HeadersObject](headersobject.md)
+[fastify-oas](../README.md) › [HeadersObject](headersobject.md)
 
 # Interface: HeadersObject
 

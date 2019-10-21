@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [LinkObject](linkobject.md)
+[fastify-oas](../README.md) › [LinkObject](linkobject.md)
 
 # Interface: LinkObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **LinkObject**
+  ↳ **LinkObject**
 
 ## Indexable
 

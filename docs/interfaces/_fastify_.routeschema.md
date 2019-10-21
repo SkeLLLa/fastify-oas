@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [&quot;fastify&quot;](../modules/_fastify_.md) › [RouteSchema](_fastify_.routeschema.md)
+[fastify-oas](../README.md) › ["fastify"](../modules/_fastify_.md) › [RouteSchema](_fastify_.routeschema.md)
 
 # Interface: RouteSchema
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [BaseSecurity](basesecurity.md)
+[fastify-oas](../README.md) › [BaseSecurity](basesecurity.md)
 
 # Interface: BaseSecurity
 
@@ -8,11 +6,11 @@
 
 * **BaseSecurity**
 
-  * [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
+  ↳ [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
 
-  * [ApiKeySecurity](apikeysecurity.md)
+  ↳ [ApiKeySecurity](apikeysecurity.md)
 
-  * [BaseOAuthSecurity](baseoauthsecurity.md)
+  ↳ [BaseOAuthSecurity](baseoauthsecurity.md)
 
 ## Index
 

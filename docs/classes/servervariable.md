@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ServerVariable](servervariable.md)
+[fastify-oas](../README.md) › [ServerVariable](servervariable.md)
 
 # Class: ServerVariable
 

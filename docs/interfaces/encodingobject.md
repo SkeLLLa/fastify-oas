@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [EncodingObject](encodingobject.md)
+[fastify-oas](../README.md) › [EncodingObject](encodingobject.md)
 
 # Interface: EncodingObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **EncodingObject**
+  ↳ **EncodingObject**
 
 ## Indexable
 

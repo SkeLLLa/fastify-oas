@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Contact](contact.md)
+[fastify-oas](../README.md) › [Contact](contact.md)
 
 # Interface: Contact
 

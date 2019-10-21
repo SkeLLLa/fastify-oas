@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Response](response.md)
+[fastify-oas](../README.md) › [Response](response.md)
 
 # Interface: Response
 

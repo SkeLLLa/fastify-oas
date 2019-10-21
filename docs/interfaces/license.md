@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [License](license.md)
+[fastify-oas](../README.md) › [License](license.md)
 
 # Interface: License
 

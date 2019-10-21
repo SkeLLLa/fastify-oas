@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ContentObject](contentobject.md)
+[fastify-oas](../README.md) › [ContentObject](contentobject.md)
 
 # Interface: ContentObject
 

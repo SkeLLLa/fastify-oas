@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [TagObject](tagobject.md)
+[fastify-oas](../README.md) › [TagObject](tagobject.md)
 
 # Interface: TagObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **TagObject**
+  ↳ **TagObject**
 
 ## Indexable
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [LinkParametersObject](linkparametersobject.md)
+[fastify-oas](../README.md) › [LinkParametersObject](linkparametersobject.md)
 
 # Interface: LinkParametersObject
 

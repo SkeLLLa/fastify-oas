@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Path](path.md)
+[fastify-oas](../README.md) › [Path](path.md)
 
 # Interface: Path
 

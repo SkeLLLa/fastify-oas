@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [MediaTypeObject](mediatypeobject.md)
+[fastify-oas](../README.md) › [MediaTypeObject](mediatypeobject.md)
 
 # Interface: MediaTypeObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **MediaTypeObject**
+  ↳ **MediaTypeObject**
 
 ## Indexable
 

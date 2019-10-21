@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [&quot;fastify&quot;](../modules/_fastify_.md) › [FastifyInstance](_fastify_.fastifyinstance.md)
+[fastify-oas](../README.md) › ["fastify"](../modules/_fastify_.md) › [FastifyInstance](_fastify_.fastifyinstance.md)
 
 # Interface: FastifyInstance <**HttpServer, HttpRequest, HttpResponse**>
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [SchemasObject](schemasobject.md)
+[fastify-oas](../README.md) › [SchemasObject](schemasobject.md)
 
 # Interface: SchemasObject
 

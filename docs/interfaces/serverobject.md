@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ServerObject](serverobject.md)
+[fastify-oas](../README.md) › [ServerObject](serverobject.md)
 
 # Interface: ServerObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **ServerObject**
+  ↳ **ServerObject**
 
 ## Implemented by
 

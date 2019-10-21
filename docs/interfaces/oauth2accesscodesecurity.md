@@ -1,14 +1,12 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [OAuth2AccessCodeSecurity](oauth2accesscodesecurity.md)
+[fastify-oas](../README.md) › [OAuth2AccessCodeSecurity](oauth2accesscodesecurity.md)
 
 # Interface: OAuth2AccessCodeSecurity
 
 ## Hierarchy
 
-  * [BaseOAuthSecurity](baseoauthsecurity.md)
+  ↳ [BaseOAuthSecurity](baseoauthsecurity.md)
 
-  * **OAuth2AccessCodeSecurity**
+  ↳ **OAuth2AccessCodeSecurity**
 
 ## Index
 

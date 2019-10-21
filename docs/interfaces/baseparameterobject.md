@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [BaseParameterObject](baseparameterobject.md)
+[fastify-oas](../README.md) › [BaseParameterObject](baseparameterobject.md)
 
 # Interface: BaseParameterObject
 
@@ -8,11 +6,11 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **BaseParameterObject**
+  ↳ **BaseParameterObject**
 
-  * [ParameterObject](parameterobject.md)
+  ↳ [ParameterObject](parameterobject.md)
 
-  * [HeaderObject](headerobject.md)
+  ↳ [HeaderObject](headerobject.md)
 
 ## Indexable
 

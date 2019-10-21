@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [EncodingPropertyObject](encodingpropertyobject.md)
+[fastify-oas](../README.md) › [EncodingPropertyObject](encodingpropertyobject.md)
 
 # Interface: EncodingPropertyObject
 

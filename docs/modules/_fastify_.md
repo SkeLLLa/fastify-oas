@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [&quot;fastify&quot;](_fastify_.md)
+[fastify-oas](../README.md) › ["fastify"](_fastify_.md)
 
 # Module: "fastify"
 

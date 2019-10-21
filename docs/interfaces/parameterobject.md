@@ -1,14 +1,12 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ParameterObject](parameterobject.md)
+[fastify-oas](../README.md) › [ParameterObject](parameterobject.md)
 
 # Interface: ParameterObject
 
 ## Hierarchy
 
-  * [BaseParameterObject](baseparameterobject.md)
+  ↳ [BaseParameterObject](baseparameterobject.md)
 
-  * **ParameterObject**
+  ↳ **ParameterObject**
 
 ## Indexable
 

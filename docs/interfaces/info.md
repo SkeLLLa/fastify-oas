@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Info](info.md)
+[fastify-oas](../README.md) › [Info](info.md)
 
 # Interface: Info
 

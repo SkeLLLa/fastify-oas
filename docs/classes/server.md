@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [Server](server.md)
+[fastify-oas](../README.md) › [Server](server.md)
 
 # Class: Server
 

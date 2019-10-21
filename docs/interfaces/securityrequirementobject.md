@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [SecurityRequirementObject](securityrequirementobject.md)
+[fastify-oas](../README.md) › [SecurityRequirementObject](securityrequirementobject.md)
 
 # Interface: SecurityRequirementObject
 

@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [ContactObject](contactobject.md)
+[fastify-oas](../README.md) › [ContactObject](contactobject.md)
 
 # Interface: ContactObject
 
@@ -8,7 +6,7 @@
 
 * [ISpecificationExtension](ispecificationextension.md)
 
-  * **ContactObject**
+  ↳ **ContactObject**
 
 ## Indexable
 

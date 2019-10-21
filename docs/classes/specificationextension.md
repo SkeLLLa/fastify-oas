@@ -1,6 +1,4 @@
-**[fastify-oas](../README.md)**
-
-[Globals](../README.md) › [SpecificationExtension](specificationextension.md)
+[fastify-oas](../README.md) › [SpecificationExtension](specificationextension.md)
 
 # Class: SpecificationExtension
 
