@@ -100,6 +100,31 @@ describe('helpers', () => {
       };
       helpers.genBody(dst, body, ['application/json']);
     });
+    test('generate valid body for $ref-way style shared schema references', () => {
+      const dst = {};
+      const body = {
+        type: 'object',
+        oneOf: [
+          {$ref: '#cat'},
+          {$ref: '#dog'},
+        ],
+      };
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'object',
+              oneOf: [
+                {$ref: '#cat'},
+                {$ref: '#dog'},
+              ],
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
   });
 
   describe('genHeaders', () => {
