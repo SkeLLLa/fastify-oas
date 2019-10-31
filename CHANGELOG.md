@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.4.0...v2.5.0) (2019-10-31)
+
+
+### Features
+
+* **openapi:** support $ref-way style shared schema references ([d401740](https://gitlab.com/m03geek/fastify-oas/commit/d401740))
+
 ## [2.4.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.3.3...v2.4.0) (2019-10-21)
 
 
