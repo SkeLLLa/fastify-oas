@@ -19,7 +19,7 @@ describe('plugin', () => {
           expect(res.headers['location']).toEqual('/documentation/index.html');
           expect(typeof res.payload).toBe('string');
           done();
-        }
+        },
       );
     });
   });
@@ -57,7 +57,7 @@ describe('plugin', () => {
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
           done();
-        }
+        },
       );
     });
   });
@@ -76,7 +76,7 @@ describe('plugin', () => {
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
           done();
-        }
+        },
       );
     });
   });

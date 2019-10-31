@@ -24,7 +24,7 @@ describe('openapi fastify plugin', () => {
       },
       async function(request, reply) {
         return {hello: 'world'};
-      }
+      },
     );
     await app.ready();
     expect(app).toHaveProperty('oas');

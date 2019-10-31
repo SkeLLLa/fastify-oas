@@ -24,7 +24,7 @@ const STATIC_DIR = './static';
         } catch (err) {
           // do nothing, file not exists
         }
-      })
+      }),
     );
   } catch (ex) {
     // do nothing, directory not exists
@@ -44,16 +44,16 @@ const STATIC_DIR = './static';
     'swagger-ui.js.map',
   ].forEach((filename) => {
     fs.createReadStream(`${swaggerUiAssetPath}/${filename}`).pipe(
-      fs.createWriteStream(path.resolve(`${STATIC_DIR}/${filename}`))
+      fs.createWriteStream(path.resolve(`${STATIC_DIR}/${filename}`)),
     );
   });
   const newIndex = await readFile(
     path.resolve(`${STATIC_DIR}/index.html`),
-    'utf-8'
+    'utf-8',
   );
   await copyFile(
     `${__dirname}/../node_modules/redoc/bundles/redoc.standalone.js`,
-    `${STATIC_DIR}/redoc.standalone.js`
+    `${STATIC_DIR}/redoc.standalone.js`,
   );
   await writeFile(
     path.resolve(`${STATIC_DIR}/docs.html`),
@@ -68,7 +68,7 @@ const STATIC_DIR = './static';
     <redoc spec-url="./json"></redoc>
     <script src="./redoc.standalone.js"> </script>
   </body>
-</html>`
+</html>`,
   );
   await writeFile(
     path.resolve(`${STATIC_DIR}/index.html`),
@@ -81,13 +81,13 @@ const STATIC_DIR = './static';
           const anchor = document.createElement('a')
           anchor.href = url
           return anchor.href
-      }`
+      }`,
       )
       .replace(
         /url: "(.*)",/,
         `url: resolveUrl('./json'),
     validatorUrl: null,
-    oauth2RedirectUrl: resolveUrl('./oauth2-redirect.html'),`
-      )
+    oauth2RedirectUrl: resolveUrl('./oauth2-redirect.html'),`,
+      ),
   );
 })();
