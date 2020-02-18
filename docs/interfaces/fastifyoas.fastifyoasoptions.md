@@ -23,6 +23,7 @@ Fastify OAS plugin options
 * [addModels](fastifyoas.fastifyoasoptions.md#optional-addmodels)
 * [exposeRoute](fastifyoas.fastifyoasoptions.md#optional-exposeroute)
 * [hideUntagged](fastifyoas.fastifyoasoptions.md#optional-hideuntagged)
+* [logSerializers](fastifyoas.fastifyoasoptions.md#optional-logserializers)
 * [openapi](fastifyoas.fastifyoasoptions.md#optional-openapi)
 * [prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)
 * [routePrefix](fastifyoas.fastifyoasoptions.md#optional-routeprefix)
@@ -67,6 +68,16 @@ If true will not add routes without tags
 
 ___
 
+### `Optional` logSerializers
+
+• **logSerializers**? : *Object*
+
+*Inherited from void*
+
+Defined in node_modules/fastify/fastify.d.ts:317
+
+___
+
 ### `Optional` openapi
 
 • **openapi**? : *String*
@@ -85,7 +96,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/fastify/fastify.d.ts:298
+Defined in node_modules/fastify/fastify.d.ts:316
 
 ___
 
