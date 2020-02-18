@@ -69,11 +69,11 @@
     "eslint-config-google": "^0.14.0",
     "fastify": "=2.11.0",
     "jest": "^24.9.0",
-    "redoc": "^2.0.0-rc.18",
+    "redoc": "^2.0.0-rc.23",
     "replace": "^1.1.1",
     "standard-version": "^7.0.0",
     "swagger-parser": "^8.0.3",
-    "swagger-ui-dist": "^3.24.0",
+    "swagger-ui-dist": "^3.25.0",
     "typedoc": "^0.15.0",
     "typedoc-plugin-markdown": "^2.2.11",
     "typescript": "^3.6.4"
