@@ -88,6 +88,7 @@ app.register(oas, {
     consumes: ['application/json'],
     produces: ['application/json'],
   },
+  exposeRoute: true
 });
 
 // put some routes and schemas
