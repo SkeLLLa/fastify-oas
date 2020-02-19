@@ -38,7 +38,13 @@ This plugin designed in such way to be compatible with it's predcessor and in mo
 ## Fastify support
 
 - v0.X.X - v1.X.X - supports fastify v1.X.X
-- v2.X.X - will support fastify v2.X.X
+- v2.X.X - will support fastify v2.X.X*
+
+<span style="color:red; font-size:2em;">
+Currently in Fastify v2.12.0 there's regression bug that breakes this exenstion for many users. So for now this extension doesn't support fastify 2.12.0. Cause it was cause by fastify minor change in order to preven issues this library will throw an error when you'll try to use it with that fastify version.
+In order to use it, you can either lock your fastify at 2.11.0 or fastify-oas at 2.5.0 (but there are no gaurantee that it will work correctly).
+</span>
+
 
 ## Installation
 
