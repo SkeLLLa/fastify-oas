@@ -291,7 +291,7 @@ ___
 
 ###  ParameterType
 
-Ƭ **ParameterType**: *"string" | "number" | "integer" | "boolean" | "array" | "object"*
+Ƭ **ParameterType**: *"string" | "number" | "integer" | "boolean" | "array" | "object" | "file"*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:44
 
@@ -413,7 +413,7 @@ ___
 
 ###  isReferenceObject
 
-▸ **isReferenceObject**(`obj`: object): *boolean*
+▸ **isReferenceObject**(`obj`: object): *obj is ReferenceObject*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:213
 
@@ -423,13 +423,13 @@ Name | Type |
 ------ | ------ |
 `obj` | object |
 
-**Returns:** *boolean*
+**Returns:** *obj is ReferenceObject*
 
 ___
 
 ###  isSchemaObject
 
-▸ **isSchemaObject**(`schema`: [SchemaObject](interfaces/schemaobject.md) | [ReferenceObject](interfaces/referenceobject.md)): *boolean*
+▸ **isSchemaObject**(`schema`: [SchemaObject](interfaces/schemaobject.md) | [ReferenceObject](interfaces/referenceobject.md)): *schema is SchemaObject*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254
 
@@ -439,4 +439,4 @@ Name | Type |
 ------ | ------ |
 `schema` | [SchemaObject](interfaces/schemaobject.md) &#124; [ReferenceObject](interfaces/referenceobject.md) |
 
-**Returns:** *boolean*
+**Returns:** *schema is SchemaObject*

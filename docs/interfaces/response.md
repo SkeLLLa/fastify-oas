@@ -33,7 +33,7 @@ Defined in node_modules/@types/swagger-schema-official/index.d.ts:149
 
 #### Type declaration:
 
-* \[ **exampleName**: *string*\]: __type
+* \[ **exampleName**: *string*\]: object
 
 ___
 

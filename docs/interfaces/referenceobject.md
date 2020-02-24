@@ -10,7 +10,7 @@
 
 ### Properties
 
-* [$ref](referenceobject.md#$ref)
+* [$ref](referenceobject.md#ref)
 
 ## Properties
 

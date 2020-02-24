@@ -10,7 +10,7 @@
 
 ### Properties
 
-* [$ref](path.md#optional-$ref)
+* [$ref](path.md#optional-ref)
 * [delete](path.md#optional-delete)
 * [get](path.md#optional-get)
 * [head](path.md#optional-head)

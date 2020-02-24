@@ -16,7 +16,7 @@
 
 ### Properties
 
-* [$ref](pathitemobject.md#optional-$ref)
+* [$ref](pathitemobject.md#optional-ref)
 * [delete](pathitemobject.md#optional-delete)
 * [description](pathitemobject.md#optional-description)
 * [get](pathitemobject.md#optional-get)

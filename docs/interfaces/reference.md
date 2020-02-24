@@ -10,7 +10,7 @@
 
 ### Properties
 
-* [$ref](reference.md#$ref)
+* [$ref](reference.md#ref)
 
 ## Properties
 

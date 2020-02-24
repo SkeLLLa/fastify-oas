@@ -72,7 +72,7 @@ ___
 
 • **logSerializers**? : *Object*
 
-*Inherited from void*
+*Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logSerializers](fastifyoas.fastifyoasoptions.md#optional-logserializers)*
 
 Defined in node_modules/fastify/fastify.d.ts:317
 
@@ -94,7 +94,7 @@ ___
 
 • **prefix**? : *string*
 
-*Inherited from void*
+*Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)*
 
 Defined in node_modules/fastify/fastify.d.ts:316
 

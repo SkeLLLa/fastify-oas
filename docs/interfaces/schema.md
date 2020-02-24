@@ -12,7 +12,7 @@
 
 ### Properties
 
-* [$ref](schema.md#optional-$ref)
+* [$ref](schema.md#optional-ref)
 * [additionalProperties](schema.md#optional-additionalproperties)
 * [allOf](schema.md#optional-allof)
 * [default](schema.md#optional-default)
