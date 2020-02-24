@@ -24,7 +24,7 @@
     "tsc": "tsc ./lib/index.d.ts",
     "typedoc": "rm -rf ./docs/* && typedoc --excludeExternals --name \"$npm_package_name\" --readme none --mode file --includeDeclarations --theme markdown --out ./docs",
     "prerelease": "npm run typedoc",
-    "release": "git add -A && standard-version -A"
+    "release": "git add -A && standard-version -a"
   },
   "repository": {
     "type": "git",
