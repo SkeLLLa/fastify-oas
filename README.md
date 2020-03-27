@@ -105,11 +105,68 @@ app.ready(err => {
 });
 ```
 
+Please note, the schema format for Fastify routes is [JSONSchema](https://github.com/fastify/fastify/blob/v2.13.0/docs/Routes.md#routes-option) and you may encounter some differences in the format for route spec vs. output OpenAPI spec.  
+This plugin includes handling around a few of these differences.
+
+One such case is the `example` or `examples` keywords:
+```js
+fastify.route({
+  method: 'POST',
+  url: '/',
+  schema: {
+    body: {
+      type: 'object',
+      description: 'an object',
+      examples: [
+          {
+            name: 'Object Sample',
+            summary: 'an example',
+            value: {a: 'payload'},
+          }
+      ],
+      properties: {
+        a: {type: 'string', description: 'your payload'}
+      }
+    }
+  },
+  handler: // ...
+})
+```
+Which produces a spec similar to:
+```json
+{
+  ... 
+
+  "content": {
+    "application/json": {
+      "examples": {
+        "Object Sample": {
+          "summary": "an example",
+          "value": {
+            "a": "payload"
+          }
+        }
+      },
+      "schema": {
+        "type": "object",
+        "properties": {
+          "a": {
+            "type": "string",
+            "description": "your payload"
+          }
+        }
+      }
+    }
+  }
+}
+```
+(in this case, the name property is extracted as the examples key)
+
 <sub>[Back to top](#toc)</sub>
 
 ### Docs
 
-See [Docs](/docs/README.md) for more details. 
+See [Docs](/docs/README.md) for more details on the TypeScript types that you may use when working with OpenAPI spec.
 
 ### Plugin options
 
