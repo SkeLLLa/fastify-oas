@@ -125,6 +125,70 @@ describe('helpers', () => {
       helpers.genBody(dst, body, ['application/json']);
       expect(dst).toEqual(expected);
     });
+    test('generates valid body with examples', () => {
+      const body = {
+        type: 'object',
+        description: 'lalala',
+        required: ['a', 'b'],
+        examples: [
+          {
+            name: 'Capital Letters',
+            summary: 'All string values are capitals',
+            value: {a: 'A', b: 'D', c: 0},
+          },
+          {
+            name: 'Default values',
+            summary: 'Using enum defaults',
+            value: {a: 'A', c: 0},
+          },
+        ],
+        properties: {
+          a: {type: 'string', description: 'A value'},
+          b: {
+            type: 'string',
+            enum: ['C', 'D'],
+            default: 'C',
+          },
+          c: {
+            type: 'number',
+            minimum: 0,
+            maximum: 100,
+          },
+        },
+      };
+      const expected = {
+        description: 'lalala',
+        required: true,
+        content: {
+          'application/json': {
+            examples: {
+              'Capital Letters': {
+                summary: 'All string values are capitals',
+                value: {a: 'A', b: 'D', c: 0},
+              },
+              'Default values': {
+                summary: 'Using enum defaults',
+                value: {a: 'A', c: 0},
+              },
+            },
+            schema: {
+              type: 'object',
+              required: ['a', 'b'],
+              properties: {
+                a: {type: 'string', description: 'A value'},
+                b: {type: 'string', enum: ['C', 'D'], default: 'C'},
+                c: {type: 'number', minimum: 0, maximum: 100},
+              },
+            },
+          },
+        },
+      };
+
+      const dst = {};
+      helpers.genBody(dst, body, ['application/json']);
+
+      expect(dst).toEqual(expected);
+    });
   });
 
   describe('genHeaders', () => {
