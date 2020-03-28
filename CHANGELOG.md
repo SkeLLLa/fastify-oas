@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.5.2...v2.6.0) (2020-03-28)
+
+
+### Features
+
+* allow inclusion of 'examples' keyword ([59fbdd7](https://gitlab.com/m03geek/fastify-oas/commit/59fbdd7e08ae1d28e66d2a39b191f1a7179bc516)), closes [#26](https://gitlab.com/m03geek/fastify-oas/issues/26)
+
 ### [2.5.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.5.1...v2.5.2) (2020-02-24)
 
 
