@@ -74,7 +74,7 @@ ___
 
 *Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logSerializers](fastifyoas.fastifyoasoptions.md#optional-logserializers)*
 
-Defined in node_modules/fastify/fastify.d.ts:317
+Defined in node_modules/fastify/fastify.d.ts:322
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)*
 
-Defined in node_modules/fastify/fastify.d.ts:316
+Defined in node_modules/fastify/fastify.d.ts:321
 
 ___
 

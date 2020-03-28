@@ -103,7 +103,7 @@ ___
 
 ### `Optional` security
 
-• **security**? : *[Security](../README.md#security)[]*
+• **security**? : *Array‹object›*
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:135
 
