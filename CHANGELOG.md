@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.6.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.6.1...v2.6.2) (2020-03-28)
+
+
+### Bug Fixes
+
+* node 8 compat ([6ea4a05](https://gitlab.com/m03geek/fastify-oas/commit/6ea4a0554a420ef9ff0b8b01959dabb67421b514))
+
 ### [2.6.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.6.0...v2.6.1) (2020-03-28)
 
 
