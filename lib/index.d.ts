@@ -1,5 +1,5 @@
-import * as fastify from 'fastify';
-import * as http from 'http';
+import * as fastify from "fastify";
+import * as http from "http";
 import {
   OpenAPIObject,
   InfoObject,
@@ -8,12 +8,12 @@ import {
   SecurityRequirementObject,
   ComponentsObject,
   Server,
-  TagObject,
-} from 'openapi3-ts';
-import {RegisterOptions} from 'fastify';
-import {ExternalDocs, Info, Security, Tag} from 'swagger-schema-official';
+  TagObject
+} from "openapi3-ts";
+import { RegisterOptions } from "fastify";
+import { ExternalDocs, Info, Security, Tag } from "swagger-schema-official";
 
-declare module 'fastify' {
+declare module "fastify" {
   interface FastifyInstance<
     HttpServer = http.Server,
     HttpRequest = http.IncomingMessage,
@@ -30,27 +30,27 @@ declare module 'fastify' {
      * Hides route from result OpenAPI document
      * @default false
      */
-    hide?: Boolean;
+    hide?: boolean;
     /**
      * Route description
      */
-    description?: String;
+    description?: string;
     /**
      * Route summary
      */
-    summary?: String;
+    summary?: string;
     /**
      * Route tags
      */
-    tags?: Array<String>;
+    tags?: Array<string>;
     /**
      * Media types route consumes
      */
-    consumes?: Array<String>;
+    consumes?: Array<string>;
     /**
      * Media types route produces
      */
-    produces?: Array<String>;
+    produces?: Array<string>;
     /**
      * OpenAPI security definitions
      */
@@ -66,15 +66,15 @@ declare namespace fastifyOAS {
   export interface OpenApiSpec {
     info?: InfoObject | Info;
     externalDocs?: ExternalDocumentationObject | ExternalDocs;
-    host?: String;
-    basePath?: String;
-    'x-tagGroups'?: String;
-    schemes?: SchemasObject | Array<String>;
-    consumes?: Array<String>;
-    produces?: Array<String>;
+    host?: string;
+    basePath?: string;
+    "x-tagGroups"?: string;
+    schemes?: SchemasObject | Array<string>;
+    consumes?: Array<string>;
+    produces?: Array<string>;
     security?:
       | Array<SecurityRequirementObject>
-      | Array<{[securityDefinitionName: string]: Array<String>}>;
+      | Array<{ [securityDefinitionName: string]: Array<string> }>;
     servers?: Array<Server>;
     components?: ComponentsObject;
     securityDefinitions?: {
@@ -96,27 +96,27 @@ declare namespace fastifyOAS {
      * Documentation endpoint
      * @default /documentation
      */
-    routePrefix?: String;
+    routePrefix?: string;
     /**
      * If `true` the plugin will expose the documentation routes
      * @default false
      */
-    exposeRoute?: Boolean;
+    exposeRoute?: boolean;
     /**
      * If `true` adds fastify schemas as openapi models
      * @default false
      */
-    addModels?: Boolean;
+    addModels?: boolean;
     /**
      * Openapi version
      * @default 3.0.0
      */
-    openapi?: String;
+    openapi?: string;
     /**
      * If `true` returns yaml instead of json
      * @default false
      */
-    yaml?: Boolean;
+    yaml?: boolean;
     /**
      * OpenApi/Swagger object except paths
      */
@@ -125,7 +125,7 @@ declare namespace fastifyOAS {
      * If true will not add routes without tags
      * @default false
      */
-    hideUntagged?: Boolean; 
+    hideUntagged?: boolean;
   }
 }
 

@@ -23,7 +23,7 @@
 
 ### `Optional` consumes
 
-• **consumes**? : *Array‹String›*
+• **consumes**? : *Array‹string›*
 
 Defined in lib/index.d.ts:49
 
@@ -33,7 +33,7 @@ ___
 
 ### `Optional` description
 
-• **description**? : *String*
+• **description**? : *string*
 
 Defined in lib/index.d.ts:37
 
@@ -43,7 +43,7 @@ ___
 
 ### `Optional` hide
 
-• **hide**? : *Boolean*
+• **hide**? : *boolean*
 
 Defined in lib/index.d.ts:33
 
@@ -65,7 +65,7 @@ ___
 
 ### `Optional` produces
 
-• **produces**? : *Array‹String›*
+• **produces**? : *Array‹string›*
 
 Defined in lib/index.d.ts:53
 
@@ -85,7 +85,7 @@ ___
 
 ### `Optional` summary
 
-• **summary**? : *String*
+• **summary**? : *string*
 
 Defined in lib/index.d.ts:41
 
@@ -95,7 +95,7 @@ ___
 
 ### `Optional` tags
 
-• **tags**? : *Array‹String›*
+• **tags**? : *Array‹string›*
 
 Defined in lib/index.d.ts:45
 

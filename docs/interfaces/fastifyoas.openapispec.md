@@ -28,7 +28,7 @@
 
 ### `Optional` basePath
 
-• **basePath**? : *String*
+• **basePath**? : *string*
 
 Defined in lib/index.d.ts:70
 
@@ -44,7 +44,7 @@ ___
 
 ### `Optional` consumes
 
-• **consumes**? : *Array‹String›*
+• **consumes**? : *Array‹string›*
 
 Defined in lib/index.d.ts:73
 
@@ -60,7 +60,7 @@ ___
 
 ### `Optional` host
 
-• **host**? : *String*
+• **host**? : *string*
 
 Defined in lib/index.d.ts:69
 
@@ -76,7 +76,7 @@ ___
 
 ### `Optional` produces
 
-• **produces**? : *Array‹String›*
+• **produces**? : *Array‹string›*
 
 Defined in lib/index.d.ts:74
 
@@ -84,7 +84,7 @@ ___
 
 ### `Optional` schemes
 
-• **schemes**? : *[SchemasObject](schemasobject.md) | Array‹String›*
+• **schemes**? : *[SchemasObject](schemasobject.md) | Array‹string›*
 
 Defined in lib/index.d.ts:72
 
@@ -128,6 +128,6 @@ ___
 
 ### `Optional` x-tagGroups
 
-• **x-tagGroups**? : *String*
+• **x-tagGroups**? : *string*
 
 Defined in lib/index.d.ts:71

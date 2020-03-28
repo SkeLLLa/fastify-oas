@@ -34,7 +34,7 @@ Fastify OAS plugin options
 
 ### `Optional` addModels
 
-• **addModels**? : *Boolean*
+• **addModels**? : *boolean*
 
 Defined in lib/index.d.ts:109
 
@@ -46,7 +46,7 @@ ___
 
 ### `Optional` exposeRoute
 
-• **exposeRoute**? : *Boolean*
+• **exposeRoute**? : *boolean*
 
 Defined in lib/index.d.ts:104
 
@@ -58,7 +58,7 @@ ___
 
 ### `Optional` hideUntagged
 
-• **hideUntagged**? : *Boolean*
+• **hideUntagged**? : *boolean*
 
 Defined in lib/index.d.ts:128
 
@@ -80,7 +80,7 @@ ___
 
 ### `Optional` openapi
 
-• **openapi**? : *String*
+• **openapi**? : *string*
 
 Defined in lib/index.d.ts:114
 
@@ -102,7 +102,7 @@ ___
 
 ### `Optional` routePrefix
 
-• **routePrefix**? : *String*
+• **routePrefix**? : *string*
 
 Defined in lib/index.d.ts:99
 
@@ -124,7 +124,7 @@ ___
 
 ### `Optional` yaml
 
-• **yaml**? : *Boolean*
+• **yaml**? : *boolean*
 
 Defined in lib/index.d.ts:119
 
