@@ -83,7 +83,9 @@ describe('plugin', () => {
 
   test('respext extended route options', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: {ui: false, json: false, yaml: false}});
+    app.register(oasPlugin, {exposeRoute: {
+      ui: false, json: false, yaml: false,
+    }});
     app.ready().then(() => {
       app.inject(
         {
