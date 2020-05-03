@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.6.2...v2.7.0) (2020-05-03)
+
+
+### Features
+
+* extended doc options ([65df4ea](https://gitlab.com/m03geek/fastify-oas/commit/65df4eab8136ab820a0e98890567d5971b49008c))
+
+
+### Bug Fixes
+
+* redirect fix ([6ca211b](https://gitlab.com/m03geek/fastify-oas/commit/6ca211bbc67c10b5884f32a5b830a064f47e4276))
+
 ### [2.6.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.6.1...v2.6.2) (2020-03-28)
 
 
