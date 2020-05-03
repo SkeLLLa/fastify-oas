@@ -173,7 +173,7 @@ See [Docs](/docs/README.md) for more details on the TypeScript types that you ma
 | parameter      | type    | description                                                                                                                                | default          |
 | -------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
 | `routePrefix`  | String  | Documentation endpoint                                                                                                                     | `/documentation` |
-| `exposeRoute`  | Boolean | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false`          |
+| `exposeRoute`  | Boolean|Object** | If `true` the plugin will expose the documentation with the following apis: `/<routePrefix>`, `/<routePrefix>/json`, `/<routePrefix>/yaml` | `false`          |
 | `addModels`    | Boolean | If `true` adds fastify schemas as openapi models*                                                                                          | `false`          |
 | `openapi`      | String  | Openapi version                                                                                                                            | '3.0.0'          |
 | `yaml`         | Boolean | If `true` returns yaml instead of json                                                                                                     | `false`          |
@@ -181,7 +181,7 @@ See [Docs](/docs/README.md) for more details on the TypeScript types that you ma
 | `swagger`      | Object  | Swagger object except paths                                                                                                                | `{}`             |
 
 Note (*): Fastify-oas plugin gather all schemas, so you should ensure that all of them under current and nested scopes have unique names.
-
+Note (**): see [Expose route options](/docs/interfaces/fastifyoas.exposeoptions.md)
 <sub>[Back to top](#toc)</sub>
 
 ### Additional schema options
