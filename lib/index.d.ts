@@ -83,6 +83,12 @@ declare namespace fastifyOAS {
     tags?: Array<TagObject> | Array<Tag>;
   }
 
+  export interface ExposeOptions {
+    ui?: boolean,
+    json?: boolean,
+    yaml?: boolean,
+  }
+
   /**
    * Fastify OAS plugin options
    */
@@ -101,7 +107,7 @@ declare namespace fastifyOAS {
      * If `true` the plugin will expose the documentation routes
      * @default false
      */
-    exposeRoute?: boolean;
+    exposeRoute?: boolean | fastifyOAS.ExposeOptions;
     /**
      * If `true` adds fastify schemas as openapi models
      * @default false

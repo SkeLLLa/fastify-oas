@@ -24,24 +24,24 @@ describe('plugin', () => {
     });
   });
   // temporary disable due to graceful-fs bug
-  // test('returns documentation', (done) => {
-  //   const app = fastify();
-  //   app.register(oasPlugin, {exposeRoute: true});
-  //   app.ready().then(() => {
-  //     app.inject(
-  //       {
-  //         method: 'GET',
-  //         url: '/documentation/index.html',
-  //       },
-  //       (err, res) => {
-  //         expect(err).toBeFalsy();
-  //         expect(res.statusCode).toEqual(200);
-  //         expect(res.payload).toBeDefined();
-  //         done();
-  //       }
-  //     );
-  //   });
-  // });
+  test('returns documentation', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: true});
+    app.ready().then(() => {
+      app.inject(
+        {
+          method: 'GET',
+          url: '/documentation/index.html',
+        },
+        (err, res) => {
+          expect(err).toBeFalsy();
+          expect(res.statusCode).toEqual(200);
+          expect(res.payload).toBeDefined();
+          done();
+        },
+      );
+    });
+  });
 
   test('returns json spec', (done) => {
     const app = fastify();
@@ -75,6 +75,24 @@ describe('plugin', () => {
           expect(err).toBeFalsy();
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
+          done();
+        },
+      );
+    });
+  });
+
+  test('respext extended route options', (done) => {
+    const app = fastify();
+    app.register(oasPlugin, {exposeRoute: {ui: false, json: false, yaml: false}});
+    app.ready().then(() => {
+      app.inject(
+        {
+          method: 'GET',
+          url: '/documentation/yaml',
+        },
+        (err, res) => {
+          expect(err).toBeFalsy();
+          expect(res.statusCode).toEqual(404);
           done();
         },
       );
