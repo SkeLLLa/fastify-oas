@@ -84,8 +84,20 @@ declare namespace fastifyOAS {
   }
 
   export interface ExposeOptions {
+    /**
+     * If false hides swagger UI and redoc
+     * @default true
+     */
     ui?: boolean,
+    /**
+     * If false doesn't expose json swagger route
+     * @default true
+     */
     json?: boolean,
+    /**
+     * If false doesn't expose yaml swagger route
+     * @default true
+     */
     yaml?: boolean,
   }
 
