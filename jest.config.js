@@ -1,5 +1,3 @@
-
-
 module.exports = {
   testEnvironment: 'node',
   collectCoverage: true,
@@ -7,7 +5,5 @@ module.exports = {
   testMatch: ['**/__tests__/**/*.spec.js'],
   testPathIgnorePatterns: ['/node_modules/', '/build/', '/static/'],
   coverageReporters: ['lcov', 'text'],
-  collectCoverageFrom: [
-    'lib/**/*.js',
-  ],
+  collectCoverageFrom: ['lib/**/*.js'],
 };

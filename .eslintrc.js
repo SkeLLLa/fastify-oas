@@ -1,15 +1,49 @@
+// module.exports = {
+//   extends: ['eslint:recommended', 'google'],
+//   parserOptions: {
+//     ecmaVersion: 2018,
+//   },
+//   env: {
+//     es6: true,
+//     node: true,
+//     jest: false,
+//   },
+//   rules: {
+//     'new-cap': ['error', {capIsNewExceptions: ['ObjectId', 'Fastify']}],
+//     'max-len': [
+//       'error',
+//       {
+//         code: 80,
+//         comments: 999,
+//         ignoreComments: true,
+//         ignoreStrings: true,
+//         ignoreTrailingComments: true,
+//         ignoreUrls: true,
+//         ignoreTemplateLiterals: true,
+//       },
+//     ],
+//     indent: ['error', 2, {SwitchCase: 1}],
+//     'spaced-comment': ['error', 'always', {markers: ['/']}],
+//     'no-console': 'warn',
+//     'valid-jsdoc': 'off',
+//     'require-jsdoc': 'off',
+//   },
+// };
+
 module.exports = {
-  extends: ['eslint:recommended', 'google'],
+  root: true,
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 11,
   },
+  extends: ['plugin:prettier/recommended', 'eslint:recommended'],
   env: {
-    es6: true,
     node: true,
-    jest: false,
+    es6: true,
+    browser: true,
   },
   rules: {
-    'new-cap': ['error', {capIsNewExceptions: ['ObjectId', 'Fastify']}],
+    'new-cap': ['error', { capIsNewExceptions: ['ObjectId', 'Fastify'] }],
     'max-len': [
       'error',
       {
@@ -22,10 +56,5 @@ module.exports = {
         ignoreTemplateLiterals: true,
       },
     ],
-    indent: ['error', 2, {SwitchCase: 1}],
-    'spaced-comment': ['error', 'always', {markers: ['/']}],
-    'no-console': 'warn',
-    'valid-jsdoc': 'off',
-    'require-jsdoc': 'off',
   },
 };

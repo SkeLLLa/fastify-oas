@@ -2,12 +2,12 @@
 /// <reference types="jest" />
 
 const openapi = require('../../../lib/openapi');
-const fastify = require('fastify');
+const fastify = require('fastify').default;
 
 describe('openapi fastify plugin', () => {
   test('registers plugin', async () => {
     const app = fastify();
-    openapi(app, {exposeRoute: true});
+    openapi(app, { exposeRoute: true });
     expect(app).toHaveProperty('oas');
     expect(app.oas).toBeInstanceOf(Function);
   });
@@ -22,9 +22,9 @@ describe('openapi fastify plugin', () => {
           description: `Get root`,
         },
       },
-      async function(request, reply) {
-        return {hello: 'world'};
-      },
+      async function () {
+        return { hello: 'world' };
+      }
     );
     await app.ready();
     expect(app).toHaveProperty('oas');

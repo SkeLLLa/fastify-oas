@@ -1,10 +1,10 @@
 /// <reference types="node" />
 /// <reference types="jest" />
 
-const swParser = require('swagger-parser');
+const swParser = require('@apidevtools/swagger-parser');
 
 const openapi = require('../../../lib/openapi/constructor');
-const {version} = require('../../../package.json');
+const { version } = require('../../../package.json');
 
 describe('openapi constructor', () => {
   describe('swagger 2.0 compatible', () => {
@@ -20,7 +20,7 @@ describe('openapi constructor', () => {
         'schemes': ['http'],
         'consumes': ['application/json'],
         'produces': ['application/json'],
-        'tags': [{name: 'tag'}],
+        'tags': [{ name: 'tag' }],
         'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
@@ -40,7 +40,7 @@ describe('openapi constructor', () => {
       },
     };
     test('generates valid swagger header', async () => {
-      const api = openapi({options})();
+      const api = openapi({ options })();
       await expect(api).toEqual({
         'openapi': '3.0.0',
         'info': {
@@ -58,13 +58,13 @@ describe('openapi constructor', () => {
             },
           },
         },
-        'tags': [{name: 'tag'}],
+        'tags': [{ name: 'tag' }],
         'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
         },
-        'security': [{apiKey: []}],
-        'servers': [{url: 'http://localhost/'}],
+        'security': [{ apiKey: [] }],
+        'servers': [{ url: 'http://localhost/' }],
         'paths': {},
       });
       await expect(swParser.validate(api)).resolves.toEqual(api);
@@ -90,12 +90,12 @@ describe('openapi constructor', () => {
             },
           },
         },
-        'tags': [{name: 'tag'}],
+        'tags': [{ name: 'tag' }],
         'externalDocs': {
           description: 'Find more info here',
           url: 'https://swagger.io',
         },
-        'security': [{bearerAuth: []}],
+        'security': [{ bearerAuth: [] }],
         'servers': [
           {
             url: 'https://{prefix}.example.com:{port}',
@@ -115,11 +115,11 @@ describe('openapi constructor', () => {
       },
     };
     test('generates valid swagger header', async () => {
-      const api = openapi({options})();
+      const api = openapi({ options })();
       await expect(swParser.validate(api)).resolves.toEqual(api);
     });
     test('adds fastify schemas as models', async () => {
-      const opts = Object.assign({addModels: true}, options);
+      const opts = Object.assign({ addModels: true }, options);
       const schemas = {
         sch1: {
           $id: 'sch1',
@@ -161,7 +161,7 @@ describe('openapi constructor', () => {
         },
       };
       const getSchemas = () => schemas;
-      const api = openapi({options: opts, getSchemas})();
+      const api = openapi({ options: opts, getSchemas })();
       await expect(api).toHaveProperty('components.schemas', {
         sch1: {
           type: 'object',
@@ -237,9 +237,9 @@ describe('openapi constructor', () => {
       });
       const api = apiFn();
       const apiCache = apiFn();
-      const expected = 'openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: \'http://127.0.0.1/\'\npaths: {}\n'.replace(
+      const expected = "openapi: 3.0.0\ninfo:\n  title: fastify-oas\n  description: Fastify OpenAPI specification generator plugin\n  version: X.X.X\ncomponents: {}\nservers:\n  - url: 'http://127.0.0.1/'\npaths: {}\n".replace(
         'X.X.X',
-        version,
+        version
       );
 
       await expect(api).toEqual(apiCache);
@@ -267,12 +267,12 @@ describe('openapi constructor', () => {
                 },
               },
             },
-            tags: [{name: 'tag'}],
+            tags: [{ name: 'tag' }],
             externalDocs: {
               description: 'Find more info here',
               url: 'https://swagger.io',
             },
-            security: [{bearerAuth: []}],
+            security: [{ bearerAuth: [] }],
             servers: [
               {
                 url: 'https://{prefix}.example.com:{port}',
@@ -303,7 +303,7 @@ describe('openapi constructor', () => {
               operationId: 'operationId',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
-              security: [{bearerAuth: []}],
+              security: [{ bearerAuth: [] }],
               summary: 'Summary',
               body: {
                 $id: 'auth',
@@ -313,7 +313,7 @@ describe('openapi constructor', () => {
                     $id: 'obj1',
                     type: 'object',
                     properties: {
-                      login: {type: 'string', description: 'User login'},
+                      login: { type: 'string', description: 'User login' },
                       password: {
                         type: 'string',
                         pattern: 'qwerty',
@@ -337,12 +337,12 @@ describe('openapi constructor', () => {
                 '200': {
                   description: 'Response description',
                   type: 'object',
-                  properties: {status: {type: 'string'}},
+                  properties: { status: { type: 'string' } },
                 },
                 '401': {
                   description: 'User not logged in',
                   type: 'object',
-                  properties: {message: {type: 'string'}},
+                  properties: { message: { type: 'string' } },
                 },
               },
             },
@@ -359,7 +359,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'Response description',
                       type: 'object',
-                      properties: {status: {type: 'string'}},
+                      properties: { status: { type: 'string' } },
                     },
                   },
                 },
@@ -371,7 +371,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'User not logged in',
                       type: 'object',
-                      properties: {message: {type: 'string'}},
+                      properties: { message: { type: 'string' } },
                     },
                   },
                 },
@@ -382,7 +382,7 @@ describe('openapi constructor', () => {
             description: 'Description',
             tags: ['tag'],
             operationId: 'operationId',
-            security: [{bearerAuth: []}],
+            security: [{ bearerAuth: [] }],
             requestBody: {
               content: {
                 'text/plain; charset=utf-8': {
@@ -392,7 +392,7 @@ describe('openapi constructor', () => {
                       {
                         type: 'object',
                         properties: {
-                          login: {type: 'string', description: 'User login'},
+                          login: { type: 'string', description: 'User login' },
                           password: {
                             type: 'string',
                             pattern: 'qwerty',
@@ -438,7 +438,7 @@ describe('openapi constructor', () => {
                     $id: 'obj1',
                     type: 'object',
                     properties: {
-                      login: {type: 'string', description: 'User login'},
+                      login: { type: 'string', description: 'User login' },
                       password: {
                         type: 'string',
                         description: 'User password',
@@ -461,12 +461,12 @@ describe('openapi constructor', () => {
                 '200': {
                   description: 'Response description',
                   type: 'object',
-                  properties: {status: {type: 'string'}},
+                  properties: { status: { type: 'string' } },
                 },
                 '401': {
                   description: 'User not logged in',
                   type: 'object',
-                  properties: {message: {type: 'string'}},
+                  properties: { message: { type: 'string' } },
                 },
               },
             },
@@ -483,7 +483,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'Response description',
                       type: 'object',
-                      properties: {status: {type: 'string'}},
+                      properties: { status: { type: 'string' } },
                     },
                   },
                 },
@@ -495,7 +495,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'User not logged in',
                       type: 'object',
-                      properties: {message: {type: 'string'}},
+                      properties: { message: { type: 'string' } },
                     },
                   },
                 },
@@ -511,7 +511,7 @@ describe('openapi constructor', () => {
                       {
                         type: 'object',
                         properties: {
-                          login: {type: 'string', description: 'User login'},
+                          login: { type: 'string', description: 'User login' },
                           password: {
                             type: 'string',
                             description: 'User password',
@@ -541,7 +541,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'Response description',
                       type: 'object',
-                      properties: {status: {type: 'string'}},
+                      properties: { status: { type: 'string' } },
                     },
                   },
                 },
@@ -553,7 +553,7 @@ describe('openapi constructor', () => {
                     schema: {
                       description: 'User not logged in',
                       type: 'object',
-                      properties: {message: {type: 'string'}},
+                      properties: { message: { type: 'string' } },
                     },
                   },
                 },
@@ -569,7 +569,7 @@ describe('openapi constructor', () => {
                       {
                         type: 'object',
                         properties: {
-                          login: {type: 'string', description: 'User login'},
+                          login: { type: 'string', description: 'User login' },
                           password: {
                             type: 'string',
                             description: 'User password',
@@ -612,11 +612,11 @@ describe('openapi constructor', () => {
               description: 'Description',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
-              security: [{bearerAuth: []}],
+              security: [{ bearerAuth: [] }],
               summary: 'Summary',
               params: {
                 type: 'object',
-                properties: {id: {type: 'number', description: 'ID'}},
+                properties: { id: { type: 'number', description: 'ID' } },
               },
             },
           },
@@ -629,11 +629,11 @@ describe('openapi constructor', () => {
             schema: {
               description: 'Description',
               consumes: ['text/plain; charset=utf-8'],
-              security: [{bearerAuth: []}],
+              security: [{ bearerAuth: [] }],
               summary: 'Summary',
               params: {
                 type: 'object',
-                properties: {id: {type: 'number', description: 'ID'}},
+                properties: { id: { type: 'number', description: 'ID' } },
               },
             },
           },
@@ -668,12 +668,12 @@ describe('openapi constructor', () => {
                 },
               },
             },
-            tags: [{name: 'tag'}],
+            tags: [{ name: 'tag' }],
             externalDocs: {
               description: 'Find more info here',
               url: 'https://swagger.io',
             },
-            security: [{bearerAuth: []}],
+            security: [{ bearerAuth: [] }],
             servers: [
               {
                 url: 'https://{prefix}.example.com:{port}',
@@ -703,11 +703,11 @@ describe('openapi constructor', () => {
               description: 'Description',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
-              security: [{bearerAuth: []}],
+              security: [{ bearerAuth: [] }],
               summary: 'Summary',
               params: {
                 type: 'object',
-                properties: {id: {type: 'number', description: 'ID'}},
+                properties: { id: { type: 'number', description: 'ID' } },
               },
             },
           },
@@ -724,14 +724,14 @@ describe('openapi constructor', () => {
             summary: 'Summary',
             description: 'Description',
             tags: ['tag'],
-            security: [{bearerAuth: []}],
+            security: [{ bearerAuth: [] }],
             parameters: [
               {
                 name: 'id',
                 in: 'path',
                 required: true,
                 description: 'ID',
-                schema: {type: 'number', description: 'ID'},
+                schema: { type: 'number', description: 'ID' },
               },
             ],
           },
@@ -754,13 +754,13 @@ describe('openapi constructor', () => {
               description: 'Description',
               tags: ['tag'],
               consumes: ['text/plain; charset=utf-8'],
-              security: [{bearerAuth: []}],
+              security: [{ bearerAuth: [] }],
               summary: 'Summary',
               querystring: {
                 type: 'object',
                 properties: {
-                  id: {type: 'number', description: 'ID'},
-                  text: {type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$'},
+                  id: { type: 'number', description: 'ID' },
+                  text: { type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$' },
                 },
               },
             },
@@ -778,18 +778,18 @@ describe('openapi constructor', () => {
             summary: 'Summary',
             description: 'Description',
             tags: ['tag'],
-            security: [{bearerAuth: []}],
+            security: [{ bearerAuth: [] }],
             parameters: [
               {
                 name: 'id',
                 in: 'query',
                 description: 'ID',
-                schema: {type: 'number', description: 'ID'},
+                schema: { type: 'number', description: 'ID' },
               },
               {
                 name: 'text',
                 in: 'query',
-                schema: {type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$'},
+                schema: { type: 'string', pattern: '^[a-z0-9A-Z]{16,18}$' },
               },
             ],
           },
@@ -813,7 +813,7 @@ describe('openapi constructor', () => {
               deprecated: true,
               headers: {
                 type: 'object',
-                properties: {host: {type: 'string', description: 'Host'}},
+                properties: { host: { type: 'string', description: 'Host' } },
               },
             },
           },
@@ -833,7 +833,7 @@ describe('openapi constructor', () => {
                 name: 'host',
                 in: 'header',
                 description: 'Host',
-                schema: {type: 'string', description: 'Host'},
+                schema: { type: 'string', description: 'Host' },
               },
             ],
           },
@@ -857,7 +857,7 @@ describe('openapi constructor', () => {
               deprecated: true,
               cookies: {
                 type: 'object',
-                properties: {host: {type: 'string', description: 'Host'}},
+                properties: { host: { type: 'string', description: 'Host' } },
               },
             },
           },
@@ -877,7 +877,7 @@ describe('openapi constructor', () => {
                 name: 'host',
                 in: 'cookie',
                 description: 'Host',
-                schema: {type: 'string', description: 'Host'},
+                schema: { type: 'string', description: 'Host' },
               },
             ],
           },
