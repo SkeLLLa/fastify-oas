@@ -131,7 +131,7 @@ Defined in lib/index.d.ts:17
 
 ▸ **oas**(): _Promise‹void›_
 
-Defined in lib/index.d.ts:25
+Defined in lib/index.d.ts:21
 
 Init OpenApi plugin
 
@@ -141,13 +141,13 @@ Init OpenApi plugin
 
 • **RouteSchema**:
 
-Defined in lib/index.d.ts:28
+Defined in lib/index.d.ts:24
 
 ### `Optional` consumes
 
 • **consumes**? : _Array‹string›_
 
-Defined in lib/index.d.ts:49
+Defined in lib/index.d.ts:45
 
 Media types route consumes
 
@@ -155,7 +155,7 @@ Media types route consumes
 
 • **description**? : _string_
 
-Defined in lib/index.d.ts:37
+Defined in lib/index.d.ts:33
 
 Route description
 
@@ -163,7 +163,7 @@ Route description
 
 • **hide**? : _boolean_
 
-Defined in lib/index.d.ts:33
+Defined in lib/index.d.ts:29
 
 Hides route from result OpenAPI document
 
@@ -173,7 +173,7 @@ Hides route from result OpenAPI document
 
 • **operationId**? : _string_
 
-Defined in lib/index.d.ts:61
+Defined in lib/index.d.ts:57
 
 OpenAPI operation unique identifier
 
@@ -181,7 +181,7 @@ OpenAPI operation unique identifier
 
 • **produces**? : _Array‹string›_
 
-Defined in lib/index.d.ts:53
+Defined in lib/index.d.ts:49
 
 Media types route produces
 
@@ -189,7 +189,7 @@ Media types route produces
 
 • **security**? : _Array‹[SecurityRequirementObject](interfaces/securityrequirementobject.md)›_
 
-Defined in lib/index.d.ts:57
+Defined in lib/index.d.ts:53
 
 OpenAPI security definitions
 
@@ -197,7 +197,7 @@ OpenAPI security definitions
 
 • **summary**? : _string_
 
-Defined in lib/index.d.ts:41
+Defined in lib/index.d.ts:37
 
 Route summary
 
@@ -205,7 +205,7 @@ Route summary
 
 • **tags**? : _Array‹string›_
 
-Defined in lib/index.d.ts:45
+Defined in lib/index.d.ts:41
 
 Route tags
 
@@ -215,7 +215,7 @@ Route tags
 
 ▸ **fastifyOAS**(): _void_
 
-Defined in lib/index.d.ts:150
+Defined in lib/index.d.ts:141
 
 **Returns:** _void_
 
@@ -223,13 +223,13 @@ Defined in lib/index.d.ts:150
 
 • **ExposeOptions**:
 
-Defined in lib/index.d.ts:86
+Defined in lib/index.d.ts:82
 
 ### `Optional` json
 
 • **json**? : _boolean_
 
-Defined in lib/index.d.ts:96
+Defined in lib/index.d.ts:92
 
 If false doesn't expose json swagger route
 
@@ -239,7 +239,7 @@ If false doesn't expose json swagger route
 
 • **ui**? : _boolean_
 
-Defined in lib/index.d.ts:91
+Defined in lib/index.d.ts:87
 
 If false hides swagger UI and redoc
 
@@ -249,7 +249,7 @@ If false hides swagger UI and redoc
 
 • **yaml**? : _boolean_
 
-Defined in lib/index.d.ts:101
+Defined in lib/index.d.ts:97
 
 If false doesn't expose yaml swagger route
 
@@ -259,7 +259,7 @@ If false doesn't expose yaml swagger route
 
 • **FastifyOASOptions**:
 
-Defined in lib/index.d.ts:107
+Defined in lib/index.d.ts:103
 
 Fastify OAS plugin options
 
@@ -267,7 +267,7 @@ Fastify OAS plugin options
 
 • **addModels**? : _boolean_
 
-Defined in lib/index.d.ts:127
+Defined in lib/index.d.ts:118
 
 If `true` adds fastify schemas as openapi models
 
@@ -277,7 +277,7 @@ If `true` adds fastify schemas as openapi models
 
 • **exposeRoute**? : _boolean | [ExposeOptions](README.md#exposeoptions)_
 
-Defined in lib/index.d.ts:122
+Defined in lib/index.d.ts:113
 
 If `true` the plugin will expose the documentation routes
 
@@ -287,27 +287,43 @@ If `true` the plugin will expose the documentation routes
 
 • **hideUntagged**? : _boolean_
 
-Defined in lib/index.d.ts:146
+Defined in lib/index.d.ts:137
 
 If true will not add routes without tags
 
 **`default`** false
 
+### `Optional` logLevel
+
+• **logLevel**? : _LogLevels_
+
+_Inherited from [FastifyOASOptions](README.md#fastifyoasoptions).[logLevel](README.md#optional-loglevel)_
+
+Defined in node_modules/fastify/types/register.d.ts:20
+
 ### `Optional` openapi
 
 • **openapi**? : _string_
 
-Defined in lib/index.d.ts:132
+Defined in lib/index.d.ts:123
 
 Openapi version
 
 **`default`** 3.0.0
 
+### `Optional` prefix
+
+• **prefix**? : _string_
+
+_Inherited from [FastifyOASOptions](README.md#fastifyoasoptions).[prefix](README.md#optional-prefix)_
+
+Defined in node_modules/fastify/types/register.d.ts:19
+
 ### `Optional` routePrefix
 
 • **routePrefix**? : _string_
 
-Defined in lib/index.d.ts:117
+Defined in lib/index.d.ts:108
 
 Documentation endpoint
 
@@ -317,7 +333,7 @@ Documentation endpoint
 
 • **swagger**? : _[OpenApiSpec](README.md#openapispec)_
 
-Defined in lib/index.d.ts:141
+Defined in lib/index.d.ts:132
 
 OpenApi/Swagger object except paths
 
@@ -325,7 +341,7 @@ OpenApi/Swagger object except paths
 
 • **yaml**? : _boolean_
 
-Defined in lib/index.d.ts:137
+Defined in lib/index.d.ts:128
 
 If `true` returns yaml instead of json
 
@@ -335,67 +351,67 @@ If `true` returns yaml instead of json
 
 • **OpenApiSpec**:
 
-Defined in lib/index.d.ts:66
+Defined in lib/index.d.ts:62
 
 ### `Optional` basePath
 
 • **basePath**? : _string_
 
-Defined in lib/index.d.ts:70
+Defined in lib/index.d.ts:66
 
 ### `Optional` components
 
 • **components**? : _[ComponentsObject](interfaces/componentsobject.md)_
 
-Defined in lib/index.d.ts:79
+Defined in lib/index.d.ts:75
 
 ### `Optional` consumes
 
 • **consumes**? : _Array‹string›_
 
-Defined in lib/index.d.ts:73
+Defined in lib/index.d.ts:69
 
 ### `Optional` externalDocs
 
 • **externalDocs**? : _[ExternalDocumentationObject](interfaces/externaldocumentationobject.md) | [ExternalDocs](interfaces/externaldocs.md)_
 
-Defined in lib/index.d.ts:68
+Defined in lib/index.d.ts:64
 
 ### `Optional` host
 
 • **host**? : _string_
 
-Defined in lib/index.d.ts:69
+Defined in lib/index.d.ts:65
 
 ### `Optional` info
 
 • **info**? : _[InfoObject](interfaces/infoobject.md) | [Info](interfaces/info.md)_
 
-Defined in lib/index.d.ts:67
+Defined in lib/index.d.ts:63
 
 ### `Optional` produces
 
 • **produces**? : _Array‹string›_
 
-Defined in lib/index.d.ts:74
+Defined in lib/index.d.ts:70
 
 ### `Optional` schemes
 
 • **schemes**? : _[SchemasObject](interfaces/schemasobject.md) | Array‹string›_
 
-Defined in lib/index.d.ts:72
+Defined in lib/index.d.ts:68
 
 ### `Optional` security
 
 • **security**? : _Array‹[SecurityRequirementObject](interfaces/securityrequirementobject.md)› | Array‹object›_
 
-Defined in lib/index.d.ts:75
+Defined in lib/index.d.ts:71
 
 ### `Optional` securityDefinitions
 
 • **securityDefinitions**? : _object_
 
-Defined in lib/index.d.ts:80
+Defined in lib/index.d.ts:76
 
 #### Type declaration:
 
@@ -405,19 +421,19 @@ Defined in lib/index.d.ts:80
 
 • **servers**? : _Array‹[Server](classes/server.md)›_
 
-Defined in lib/index.d.ts:78
+Defined in lib/index.d.ts:74
 
 ### `Optional` tags
 
 • **tags**? : _Array‹[TagObject](interfaces/tagobject.md)› | Array‹[Tag](interfaces/tag.md)›_
 
-Defined in lib/index.d.ts:83
+Defined in lib/index.d.ts:79
 
 ### `Optional` x-tagGroups
 
 • **x-tagGroups**? : _string_
 
-Defined in lib/index.d.ts:71
+Defined in lib/index.d.ts:67
 
 ## Type aliases
 
