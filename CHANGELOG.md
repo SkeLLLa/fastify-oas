@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0-rc.2](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.1...v3.0.0-rc.2) (2020-05-22)
+
+### Bug Fixes
+
+- remove node 8 support ([a325e0b](https://gitlab.com/m03geek/fastify-oas/commit/a325e0b8d572e00e2775aa2d773424809320e557))
+
 ## [3.0.0-rc.1](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.0...v3.0.0-rc.1) (2020-05-22)
 
 ### Features
