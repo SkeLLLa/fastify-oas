@@ -1,5 +1,5 @@
-import * as fastify from "fastify";
-import * as http from "http";
+import * as fastify from 'fastify';
+import * as http from 'http';
 import {
   OpenAPIObject,
   InfoObject,
@@ -8,17 +8,13 @@ import {
   SecurityRequirementObject,
   ComponentsObject,
   Server,
-  TagObject
-} from "openapi3-ts";
-import { RegisterOptions } from "fastify";
-import { ExternalDocs, Info, Security, Tag } from "swagger-schema-official";
+  TagObject,
+} from 'openapi3-ts';
+import { RegisterOptions } from 'fastify';
+import { ExternalDocs, Info, Security, Tag } from 'swagger-schema-official';
 
-declare module "fastify" {
-  interface FastifyInstance<
-    HttpServer = http.Server,
-    HttpRequest = http.IncomingMessage,
-    HttpResponse = http.ServerResponse
-  > {
+declare module 'fastify' {
+  interface FastifyInstance {
     /**
      * Init OpenApi plugin
      */
@@ -64,23 +60,23 @@ declare module "fastify" {
 
 declare namespace fastifyOAS {
   export interface OpenApiSpec {
-    info?: InfoObject | Info;
-    externalDocs?: ExternalDocumentationObject | ExternalDocs;
-    host?: string;
-    basePath?: string;
-    "x-tagGroups"?: string;
-    schemes?: SchemasObject | Array<string>;
-    consumes?: Array<string>;
-    produces?: Array<string>;
-    security?:
+    'info'?: InfoObject | Info;
+    'externalDocs'?: ExternalDocumentationObject | ExternalDocs;
+    'host'?: string;
+    'basePath'?: string;
+    'x-tagGroups'?: string;
+    'schemes'?: SchemasObject | Array<string>;
+    'consumes'?: Array<string>;
+    'produces'?: Array<string>;
+    'security'?:
       | Array<SecurityRequirementObject>
       | Array<{ [securityDefinitionName: string]: Array<string> }>;
-    servers?: Array<Server>;
-    components?: ComponentsObject;
-    securityDefinitions?: {
+    'servers'?: Array<Server>;
+    'components'?: ComponentsObject;
+    'securityDefinitions'?: {
       [securityDefinitionName: string]: Security;
     };
-    tags?: Array<TagObject> | Array<Tag>;
+    'tags'?: Array<TagObject> | Array<Tag>;
   }
 
   export interface ExposeOptions {
@@ -88,28 +84,23 @@ declare namespace fastifyOAS {
      * If false hides swagger UI and redoc
      * @default true
      */
-    ui?: boolean,
+    ui?: boolean;
     /**
      * If false doesn't expose json swagger route
      * @default true
      */
-    json?: boolean,
+    json?: boolean;
     /**
      * If false doesn't expose yaml swagger route
      * @default true
      */
-    yaml?: boolean,
+    yaml?: boolean;
   }
 
   /**
    * Fastify OAS plugin options
    */
-  export interface FastifyOASOptions
-    extends RegisterOptions<
-      http.Server,
-      http.IncomingMessage,
-      http.ServerResponse
-    > {
+  export interface FastifyOASOptions extends RegisterOptions {
     /**
      * Documentation endpoint
      * @default /documentation
