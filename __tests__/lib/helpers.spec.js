@@ -398,6 +398,29 @@ describe('helpers', () => {
       helpers.genResponse(dst, response);
       expect(dst).toEqual(expected);
     });
+
+    test('generates valid response from $ref', () => {
+      const dst = {};
+      const response = {
+        200: {
+          $ref: 'http://example.com/schemas/response',
+        },
+      };
+
+      const expected = {
+        '200': {
+          content: {
+            '*/*': {
+              schema: {
+                $ref: 'http://example.com/schemas/response',
+              },
+            },
+          },
+        },
+      };
+      helpers.genResponse(dst, response);
+      expect(dst).toEqual(expected);
+    });
   });
 
   describe('formatParamUrl', () => {
