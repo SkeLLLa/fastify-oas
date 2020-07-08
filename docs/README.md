@@ -4,12 +4,9 @@
 
 ## Index
 
-### Modules
-
-- ["fastify"](modules/_fastify_.md)
-
 ### Namespaces
 
+- ["fastify"](README.md#fastify)
 - [fastifyOAS](README.md#export-assignment-fastifyoas)
 
 ### Classes
@@ -117,6 +114,102 @@
 - [isSchemaObject](README.md#isschemaobject)
 
 ## Namespaces
+
+### "fastify"
+
+• **"fastify"**:
+
+Defined in lib/index.d.ts:16
+
+### FastifyInstance
+
+• **FastifyInstance**:
+
+Defined in lib/index.d.ts:17
+
+### oas
+
+▸ **oas**(): _Promise‹void›_
+
+Defined in lib/index.d.ts:21
+
+Init OpenApi plugin
+
+**Returns:** _Promise‹void›_
+
+### RouteSchema
+
+• **RouteSchema**:
+
+Defined in lib/index.d.ts:24
+
+### `Optional` consumes
+
+• **consumes**? : _Array‹string›_
+
+Defined in lib/index.d.ts:45
+
+Media types route consumes
+
+### `Optional` description
+
+• **description**? : _string_
+
+Defined in lib/index.d.ts:33
+
+Route description
+
+### `Optional` hide
+
+• **hide**? : _boolean_
+
+Defined in lib/index.d.ts:29
+
+Hides route from result OpenAPI document
+
+**`default`** false
+
+### `Optional` operationId
+
+• **operationId**? : _string_
+
+Defined in lib/index.d.ts:57
+
+OpenAPI operation unique identifier
+
+### `Optional` produces
+
+• **produces**? : _Array‹string›_
+
+Defined in lib/index.d.ts:49
+
+Media types route produces
+
+### `Optional` security
+
+• **security**? : _Array‹[SecurityRequirementObject](interfaces/securityrequirementobject.md)›_
+
+Defined in lib/index.d.ts:53
+
+OpenAPI security definitions
+
+### `Optional` summary
+
+• **summary**? : _string_
+
+Defined in lib/index.d.ts:37
+
+Route summary
+
+### `Optional` tags
+
+• **tags**? : _Array‹string›_
+
+Defined in lib/index.d.ts:41
+
+Route tags
+
+---
 
 ### `Export assignment` fastifyOAS
 

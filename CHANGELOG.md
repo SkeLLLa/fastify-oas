@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0-rc.3](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.2...v3.0.0-rc.3) (2020-07-08)
+
+### Style
+
+- lint fix ([6fd4d00](https://gitlab.com/m03geek/fastify-oas/commit/6fd4d00b6353dea0d3fb5e4693b13b00e54ec17f))
+
 ## [3.0.0-rc.2](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.1...v3.0.0-rc.2) (2020-05-22)
 
 ### Bug Fixes
