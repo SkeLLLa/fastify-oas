@@ -71,7 +71,7 @@
     "jest": "^25.5.4",
     "redoc": "^2.0.0-rc.28",
     "replace": "^1.2.0",
-    "standard-version": "^7.1.0",
+    "standard-version": "^8.0.1",
     "swagger-parser": "^8.0.4",
     "swagger-ui-dist": "^3.25.1",
     "typedoc": "^0.16.11",
