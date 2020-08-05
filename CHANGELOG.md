@@ -2,6 +2,62 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.2...v3.0.0) (2020-08-05)
+
+### Misc
+
+- lock update ([ea2207c](https://gitlab.com/m03geek/fastify-oas/commit/ea2207c5fc8a506e3f4bc93af3757d1271c42813))
+- **deps:** update ([a4afb9c](https://gitlab.com/m03geek/fastify-oas/commit/a4afb9c7683330e2b47dc1713a89cbc5036a6c76))
+
+## [3.0.0-rc.3](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.2...v3.0.0-rc.3) (2020-07-08)
+
+### Style
+
+- lint fix ([6fd4d00](https://gitlab.com/m03geek/fastify-oas/commit/6fd4d00b6353dea0d3fb5e4693b13b00e54ec17f))
+
+### Misc
+
+- **release:** 3.0.0-rc.3 ([94c245d](https://gitlab.com/m03geek/fastify-oas/commit/94c245d7d26a249478c8d44c41d33df58b71bcd3))
+
+## [3.0.0-rc.2](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.1...v3.0.0-rc.2) (2020-05-22)
+
+### Bug Fixes
+
+- remove node 8 support ([a325e0b](https://gitlab.com/m03geek/fastify-oas/commit/a325e0b8d572e00e2775aa2d773424809320e557))
+
+### Misc
+
+- **release:** 3.0.0-rc.2 ([417649e](https://gitlab.com/m03geek/fastify-oas/commit/417649eed4c58d7a15b01dcb9e4194dbfb1cb93d))
+
+## [3.0.0-rc.1](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0-rc.0...v3.0.0-rc.1) (2020-05-22)
+
+### Features
+
+- quick and dirty fix for refs ([18077fa](https://gitlab.com/m03geek/fastify-oas/commit/18077fa28067f6d0258c11261f9be9592b3e5518))
+
+### Bug Fixes
+
+- **lint:** linter fix ([60e8f04](https://gitlab.com/m03geek/fastify-oas/commit/60e8f045eccbc2d055046d3a11e103cd5bc87168))
+- test and types fix ([19b5268](https://gitlab.com/m03geek/fastify-oas/commit/19b5268c621c6693788fd1f067246e53516c06ce))
+
+### Misc
+
+- **release:** 3.0.0-rc.1 ([97c611f](https://gitlab.com/m03geek/fastify-oas/commit/97c611f3beb8bdf16dfdfa04701fd06ffc9ee9c1))
+
+## [3.0.0-rc.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.0...v3.0.0-rc.0) (2020-05-03)
+
+### ⚠ BREAKING CHANGES
+
+- **fastify:** fastify 3.0 support
+
+### Features
+
+- **fastify:** allow fastify 3.0 ([3b0ab5f](https://gitlab.com/m03geek/fastify-oas/commit/3b0ab5f6dd80a1e9e6c0d4b2ee932946a67a3ff9))
+
+### Misc
+
+- **release:** 3.0.0-rc.0 ([166f30f](https://gitlab.com/m03geek/fastify-oas/commit/166f30fb5c7810405f4c8340b0729ab02c93a0ab))
+
 ### [2.7.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.1...v2.7.2) (2020-08-05)
 
 ### [2.7.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.0...v2.7.1) (2020-07-08)
