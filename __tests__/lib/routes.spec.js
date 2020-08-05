@@ -7,7 +7,7 @@ const oasPlugin = require('../../lib');
 describe('plugin', () => {
   test('redirects to documentation index', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: true});
+    app.register(oasPlugin, { exposeRoute: true });
     app.ready().then(() => {
       app.inject(
         {
@@ -19,14 +19,14 @@ describe('plugin', () => {
           expect(res.headers['location']).toEqual('/documentation/index.html');
           expect(typeof res.payload).toBe('string');
           done();
-        },
+        }
       );
     });
   });
   // temporary disable due to graceful-fs bug
   test('returns documentation', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: true});
+    app.register(oasPlugin, { exposeRoute: true });
     app.ready().then(() => {
       app.inject(
         {
@@ -38,14 +38,14 @@ describe('plugin', () => {
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
           done();
-        },
+        }
       );
     });
   });
 
   test('returns json spec', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: true});
+    app.register(oasPlugin, { exposeRoute: true });
     app.ready().then(() => {
       app.inject(
         {
@@ -57,14 +57,14 @@ describe('plugin', () => {
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
           done();
-        },
+        }
       );
     });
   });
 
   test('returns yaml spec', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: true});
+    app.register(oasPlugin, { exposeRoute: true });
     app.ready().then(() => {
       app.inject(
         {
@@ -76,16 +76,20 @@ describe('plugin', () => {
           expect(res.statusCode).toEqual(200);
           expect(res.payload).toBeDefined();
           done();
-        },
+        }
       );
     });
   });
 
   test('respext extended route options', (done) => {
     const app = fastify();
-    app.register(oasPlugin, {exposeRoute: {
-      ui: false, json: false, yaml: false,
-    }});
+    app.register(oasPlugin, {
+      exposeRoute: {
+        ui: false,
+        json: false,
+        yaml: false,
+      },
+    });
     app.ready().then(() => {
       app.inject(
         {
@@ -96,7 +100,7 @@ describe('plugin', () => {
           expect(err).toBeFalsy();
           expect(res.statusCode).toEqual(404);
           done();
-        },
+        }
       );
     });
   });

@@ -4,439 +4,761 @@
 
 ## Index
 
-### Modules
+### Namespaces
 
-* ["fastify"](modules/_fastify_.md)
-* [fastifyOAS](modules/fastifyoas.md)
+- ["fastify"](README.md#fastify)
+- [fastifyOAS](README.md#export-assignment-fastifyoas)
 
 ### Classes
 
-* [Server](classes/server.md)
-* [ServerVariable](classes/servervariable.md)
-* [SpecificationExtension](classes/specificationextension.md)
+- [Server](classes/server.md)
+- [ServerVariable](classes/servervariable.md)
+- [SpecificationExtension](classes/specificationextension.md)
 
 ### Interfaces
 
-* [ApiKeySecurity](interfaces/apikeysecurity.md)
-* [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
-* [BaseParameterObject](interfaces/baseparameterobject.md)
-* [BaseSecurity](interfaces/basesecurity.md)
-* [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md)
-* [CallbackObject](interfaces/callbackobject.md)
-* [CallbacksObject](interfaces/callbacksobject.md)
-* [ComponentsObject](interfaces/componentsobject.md)
-* [Contact](interfaces/contact.md)
-* [ContactObject](interfaces/contactobject.md)
-* [ContentObject](interfaces/contentobject.md)
-* [DiscriminatorObject](interfaces/discriminatorobject.md)
-* [EncodingObject](interfaces/encodingobject.md)
-* [EncodingPropertyObject](interfaces/encodingpropertyobject.md)
-* [ExampleObject](interfaces/exampleobject.md)
-* [ExamplesObject](interfaces/examplesobject.md)
-* [ExternalDocs](interfaces/externaldocs.md)
-* [ExternalDocumentationObject](interfaces/externaldocumentationobject.md)
-* [Header](interfaces/header.md)
-* [HeaderObject](interfaces/headerobject.md)
-* [HeadersObject](interfaces/headersobject.md)
-* [ISpecificationExtension](interfaces/ispecificationextension.md)
-* [Info](interfaces/info.md)
-* [InfoObject](interfaces/infoobject.md)
-* [License](interfaces/license.md)
-* [LicenseObject](interfaces/licenseobject.md)
-* [LinkObject](interfaces/linkobject.md)
-* [LinkParametersObject](interfaces/linkparametersobject.md)
-* [LinksObject](interfaces/linksobject.md)
-* [MediaTypeObject](interfaces/mediatypeobject.md)
-* [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md)
-* [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md)
-* [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md)
-* [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md)
-* [OAuthFlowObject](interfaces/oauthflowobject.md)
-* [OAuthFlowsObject](interfaces/oauthflowsobject.md)
-* [OAuthScope](interfaces/oauthscope.md)
-* [OpenAPIObject](interfaces/openapiobject.md)
-* [Operation](interfaces/operation.md)
-* [OperationObject](interfaces/operationobject.md)
-* [ParameterObject](interfaces/parameterobject.md)
-* [Path](interfaces/path.md)
-* [PathItemObject](interfaces/pathitemobject.md)
-* [PathsObject](interfaces/pathsobject.md)
-* [Reference](interfaces/reference.md)
-* [ReferenceObject](interfaces/referenceobject.md)
-* [RequestBodyObject](interfaces/requestbodyobject.md)
-* [Response](interfaces/response.md)
-* [ResponseObject](interfaces/responseobject.md)
-* [ResponsesObject](interfaces/responsesobject.md)
-* [Schema](interfaces/schema.md)
-* [SchemaObject](interfaces/schemaobject.md)
-* [SchemasObject](interfaces/schemasobject.md)
-* [ScopesObject](interfaces/scopesobject.md)
-* [SecurityRequirementObject](interfaces/securityrequirementobject.md)
-* [SecuritySchemeObject](interfaces/securityschemeobject.md)
-* [ServerObject](interfaces/serverobject.md)
-* [ServerVariableObject](interfaces/servervariableobject.md)
-* [Spec](interfaces/spec.md)
-* [Tag](interfaces/tag.md)
-* [TagObject](interfaces/tagobject.md)
-* [XML](interfaces/xml.md)
-* [XmlObject](interfaces/xmlobject.md)
+- [ApiKeySecurity](interfaces/apikeysecurity.md)
+- [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
+- [BaseParameterObject](interfaces/baseparameterobject.md)
+- [BaseSecurity](interfaces/basesecurity.md)
+- [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md)
+- [CallbackObject](interfaces/callbackobject.md)
+- [CallbacksObject](interfaces/callbacksobject.md)
+- [ComponentsObject](interfaces/componentsobject.md)
+- [Contact](interfaces/contact.md)
+- [ContactObject](interfaces/contactobject.md)
+- [ContentObject](interfaces/contentobject.md)
+- [DiscriminatorObject](interfaces/discriminatorobject.md)
+- [EncodingObject](interfaces/encodingobject.md)
+- [EncodingPropertyObject](interfaces/encodingpropertyobject.md)
+- [ExampleObject](interfaces/exampleobject.md)
+- [ExamplesObject](interfaces/examplesobject.md)
+- [ExternalDocs](interfaces/externaldocs.md)
+- [ExternalDocumentationObject](interfaces/externaldocumentationobject.md)
+- [Header](interfaces/header.md)
+- [HeaderObject](interfaces/headerobject.md)
+- [HeadersObject](interfaces/headersobject.md)
+- [ISpecificationExtension](interfaces/ispecificationextension.md)
+- [Info](interfaces/info.md)
+- [InfoObject](interfaces/infoobject.md)
+- [License](interfaces/license.md)
+- [LicenseObject](interfaces/licenseobject.md)
+- [LinkObject](interfaces/linkobject.md)
+- [LinkParametersObject](interfaces/linkparametersobject.md)
+- [LinksObject](interfaces/linksobject.md)
+- [MediaTypeObject](interfaces/mediatypeobject.md)
+- [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md)
+- [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md)
+- [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md)
+- [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md)
+- [OAuthFlowObject](interfaces/oauthflowobject.md)
+- [OAuthFlowsObject](interfaces/oauthflowsobject.md)
+- [OAuthScope](interfaces/oauthscope.md)
+- [OpenAPIObject](interfaces/openapiobject.md)
+- [Operation](interfaces/operation.md)
+- [OperationObject](interfaces/operationobject.md)
+- [ParameterObject](interfaces/parameterobject.md)
+- [Path](interfaces/path.md)
+- [PathItemObject](interfaces/pathitemobject.md)
+- [PathsObject](interfaces/pathsobject.md)
+- [Reference](interfaces/reference.md)
+- [ReferenceObject](interfaces/referenceobject.md)
+- [RequestBodyObject](interfaces/requestbodyobject.md)
+- [Response](interfaces/response.md)
+- [ResponseObject](interfaces/responseobject.md)
+- [ResponsesObject](interfaces/responsesobject.md)
+- [Schema](interfaces/schema.md)
+- [SchemaObject](interfaces/schemaobject.md)
+- [SchemasObject](interfaces/schemasobject.md)
+- [ScopesObject](interfaces/scopesobject.md)
+- [SecurityRequirementObject](interfaces/securityrequirementobject.md)
+- [SecuritySchemeObject](interfaces/securityschemeobject.md)
+- [ServerObject](interfaces/serverobject.md)
+- [ServerVariableObject](interfaces/servervariableobject.md)
+- [Spec](interfaces/spec.md)
+- [Tag](interfaces/tag.md)
+- [TagObject](interfaces/tagobject.md)
+- [XML](interfaces/xml.md)
+- [XmlObject](interfaces/xmlobject.md)
 
 ### Type aliases
 
-* [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter)
-* [BaseParameter](README.md#baseparameter)
-* [BaseSchema](README.md#baseschema)
-* [BodyParameter](README.md#bodyparameter)
-* [FormDataParameter](README.md#formdataparameter)
-* [GenericFormat](README.md#genericformat)
-* [HeaderParameter](README.md#headerparameter)
-* [IntegerFormat](README.md#integerformat)
-* [NumberFormat](README.md#numberformat)
-* [Parameter](README.md#parameter)
-* [ParameterCollectionFormat](README.md#parametercollectionformat)
-* [ParameterLocation](README.md#parameterlocation)
-* [ParameterStyle](README.md#parameterstyle)
-* [ParameterType](README.md#parametertype)
-* [PathObject](README.md#pathobject)
-* [PathParameter](README.md#pathparameter)
-* [QueryParameter](README.md#queryparameter)
-* [SchemaFormatConstraints](README.md#schemaformatconstraints)
-* [Security](README.md#security)
-* [SecuritySchemeType](README.md#securityschemetype)
-* [StringFormat](README.md#stringformat)
+- [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter)
+- [BaseParameter](README.md#baseparameter)
+- [BaseSchema](README.md#baseschema)
+- [BodyParameter](README.md#bodyparameter)
+- [FormDataParameter](README.md#formdataparameter)
+- [GenericFormat](README.md#genericformat)
+- [HeaderParameter](README.md#headerparameter)
+- [IntegerFormat](README.md#integerformat)
+- [NumberFormat](README.md#numberformat)
+- [Parameter](README.md#parameter)
+- [ParameterCollectionFormat](README.md#parametercollectionformat)
+- [ParameterLocation](README.md#parameterlocation)
+- [ParameterStyle](README.md#parameterstyle)
+- [ParameterType](README.md#parametertype)
+- [PathObject](README.md#pathobject)
+- [PathParameter](README.md#pathparameter)
+- [QueryParameter](README.md#queryparameter)
+- [SchemaFormatConstraints](README.md#schemaformatconstraints)
+- [Security](README.md#security)
+- [SecuritySchemeType](README.md#securityschemetype)
+- [StringFormat](README.md#stringformat)
 
 ### Functions
 
-* [addExtension](README.md#addextension)
-* [getExtension](README.md#getextension)
-* [getPath](README.md#getpath)
-* [isReferenceObject](README.md#isreferenceobject)
-* [isSchemaObject](README.md#isschemaobject)
+- [addExtension](README.md#addextension)
+- [getExtension](README.md#getextension)
+- [getPath](README.md#getpath)
+- [isReferenceObject](README.md#isreferenceobject)
+- [isSchemaObject](README.md#isschemaobject)
+
+## Namespaces
+
+### "fastify"
+
+• **"fastify"**:
+
+Defined in lib/index.d.ts:16
+
+### FastifyInstance
+
+• **FastifyInstance**:
+
+Defined in lib/index.d.ts:17
+
+### oas
+
+▸ **oas**(): _Promise‹void›_
+
+Defined in lib/index.d.ts:21
+
+Init OpenApi plugin
+
+**Returns:** _Promise‹void›_
+
+### RouteSchema
+
+• **RouteSchema**:
+
+Defined in lib/index.d.ts:24
+
+### `Optional` consumes
+
+• **consumes**? : _Array‹string›_
+
+Defined in lib/index.d.ts:45
+
+Media types route consumes
+
+### `Optional` description
+
+• **description**? : _string_
+
+Defined in lib/index.d.ts:33
+
+Route description
+
+### `Optional` hide
+
+• **hide**? : _boolean_
+
+Defined in lib/index.d.ts:29
+
+Hides route from result OpenAPI document
+
+**`default`** false
+
+### `Optional` operationId
+
+• **operationId**? : _string_
+
+Defined in lib/index.d.ts:57
+
+OpenAPI operation unique identifier
+
+### `Optional` produces
+
+• **produces**? : _Array‹string›_
+
+Defined in lib/index.d.ts:49
+
+Media types route produces
+
+### `Optional` security
+
+• **security**? : _Array‹[SecurityRequirementObject](interfaces/securityrequirementobject.md)›_
+
+Defined in lib/index.d.ts:53
+
+OpenAPI security definitions
+
+### `Optional` summary
+
+• **summary**? : _string_
+
+Defined in lib/index.d.ts:37
+
+Route summary
+
+### `Optional` tags
+
+• **tags**? : _Array‹string›_
+
+Defined in lib/index.d.ts:41
+
+Route tags
+
+---
+
+### `Export assignment` fastifyOAS
+
+▸ **fastifyOAS**(): _void_
+
+Defined in lib/index.d.ts:141
+
+**Returns:** _void_
+
+### ExposeOptions
+
+• **ExposeOptions**:
+
+Defined in lib/index.d.ts:82
+
+### `Optional` json
+
+• **json**? : _boolean_
+
+Defined in lib/index.d.ts:92
+
+If false doesn't expose json swagger route
+
+**`default`** true
+
+### `Optional` ui
+
+• **ui**? : _boolean_
+
+Defined in lib/index.d.ts:87
+
+If false hides swagger UI and redoc
+
+**`default`** true
+
+### `Optional` yaml
+
+• **yaml**? : _boolean_
+
+Defined in lib/index.d.ts:97
+
+If false doesn't expose yaml swagger route
+
+**`default`** true
+
+### FastifyOASOptions
+
+• **FastifyOASOptions**:
+
+Defined in lib/index.d.ts:103
+
+Fastify OAS plugin options
+
+### `Optional` addModels
+
+• **addModels**? : _boolean_
+
+Defined in lib/index.d.ts:118
+
+If `true` adds fastify schemas as openapi models
+
+**`default`** false
+
+### `Optional` exposeRoute
+
+• **exposeRoute**? : _boolean | [ExposeOptions](README.md#exposeoptions)_
+
+Defined in lib/index.d.ts:113
+
+If `true` the plugin will expose the documentation routes
+
+**`default`** false
+
+### `Optional` hideUntagged
+
+• **hideUntagged**? : _boolean_
+
+Defined in lib/index.d.ts:137
+
+If true will not add routes without tags
+
+**`default`** false
+
+### `Optional` logLevel
+
+• **logLevel**? : _LogLevels_
+
+_Inherited from [FastifyOASOptions](README.md#fastifyoasoptions).[logLevel](README.md#optional-loglevel)_
+
+Defined in node_modules/fastify/types/register.d.ts:20
+
+### `Optional` openapi
+
+• **openapi**? : _string_
+
+Defined in lib/index.d.ts:123
+
+Openapi version
+
+**`default`** 3.0.0
+
+### `Optional` prefix
+
+• **prefix**? : _string_
+
+_Inherited from [FastifyOASOptions](README.md#fastifyoasoptions).[prefix](README.md#optional-prefix)_
+
+Defined in node_modules/fastify/types/register.d.ts:19
+
+### `Optional` routePrefix
+
+• **routePrefix**? : _string_
+
+Defined in lib/index.d.ts:108
+
+Documentation endpoint
+
+**`default`** /documentation
+
+### `Optional` swagger
+
+• **swagger**? : _[OpenApiSpec](README.md#openapispec)_
+
+Defined in lib/index.d.ts:132
+
+OpenApi/Swagger object except paths
+
+### `Optional` yaml
+
+• **yaml**? : _boolean_
+
+Defined in lib/index.d.ts:128
+
+If `true` returns yaml instead of json
+
+**`default`** false
+
+### OpenApiSpec
+
+• **OpenApiSpec**:
+
+Defined in lib/index.d.ts:62
+
+### `Optional` basePath
+
+• **basePath**? : _string_
+
+Defined in lib/index.d.ts:66
+
+### `Optional` components
+
+• **components**? : _[ComponentsObject](interfaces/componentsobject.md)_
+
+Defined in lib/index.d.ts:75
+
+### `Optional` consumes
+
+• **consumes**? : _Array‹string›_
+
+Defined in lib/index.d.ts:69
+
+### `Optional` externalDocs
+
+• **externalDocs**? : _[ExternalDocumentationObject](interfaces/externaldocumentationobject.md) | [ExternalDocs](interfaces/externaldocs.md)_
+
+Defined in lib/index.d.ts:64
+
+### `Optional` host
+
+• **host**? : _string_
+
+Defined in lib/index.d.ts:65
+
+### `Optional` info
+
+• **info**? : _[InfoObject](interfaces/infoobject.md) | [Info](interfaces/info.md)_
+
+Defined in lib/index.d.ts:63
+
+### `Optional` produces
+
+• **produces**? : _Array‹string›_
+
+Defined in lib/index.d.ts:70
+
+### `Optional` schemes
+
+• **schemes**? : _[SchemasObject](interfaces/schemasobject.md) | Array‹string›_
+
+Defined in lib/index.d.ts:68
+
+### `Optional` security
+
+• **security**? : _Array‹[SecurityRequirementObject](interfaces/securityrequirementobject.md)› | Array‹object›_
+
+Defined in lib/index.d.ts:71
+
+### `Optional` securityDefinitions
+
+• **securityDefinitions**? : _object_
+
+Defined in lib/index.d.ts:76
+
+#### Type declaration:
+
+- \[ **securityDefinitionName**: _string_\]: [Security](README.md#security)
+
+### `Optional` servers
+
+• **servers**? : _Array‹[Server](classes/server.md)›_
+
+Defined in lib/index.d.ts:74
+
+### `Optional` tags
+
+• **tags**? : _Array‹[TagObject](interfaces/tagobject.md)› | Array‹[Tag](interfaces/tag.md)›_
+
+Defined in lib/index.d.ts:79
+
+### `Optional` x-tagGroups
+
+• **x-tagGroups**? : _string_
+
+Defined in lib/index.d.ts:67
 
 ## Type aliases
 
-###  BaseFormatContrainedParameter
+### BaseFormatContrainedParameter
 
-Ƭ **BaseFormatContrainedParameter**: *[BaseParameter](README.md#baseparameter) & [SchemaFormatConstraints](README.md#schemaformatconstraints)*
+Ƭ **BaseFormatContrainedParameter**: _[BaseParameter](README.md#baseparameter) & [SchemaFormatConstraints](README.md#schemaformatconstraints)_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:79
 
-___
+---
 
-###  BaseParameter
+### BaseParameter
 
-Ƭ **BaseParameter**: *object*
+Ƭ **BaseParameter**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:46
 
 #### Type declaration:
 
-* **description**? : *string*
+- **description**? : _string_
 
-* **in**: *"body" | "query" | "path" | "header" | "formData" | "body"*
+- **in**: _"body" | "query" | "path" | "header" | "formData" | "body"_
 
-* **name**: *string*
+- **name**: _string_
 
-* **required**? : *boolean*
+- **required**? : _boolean_
 
-___
+---
 
-###  BaseSchema
+### BaseSchema
 
-Ƭ **BaseSchema**: *object*
+Ƭ **BaseSchema**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:153
 
 #### Type declaration:
 
-* **default**? : *any*
+- **default**? : _any_
 
-* **description**? : *string*
+- **description**? : _string_
 
-* **enum**? : *any[]*
+- **enum**? : _any[]_
 
-* **exclusiveMaximum**? : *boolean*
+- **exclusiveMaximum**? : _boolean_
 
-* **exclusiveMinimum**? : *boolean*
+- **exclusiveMinimum**? : _boolean_
 
-* **format**? : *string*
+- **format**? : _string_
 
-* **items**? : *[Schema](interfaces/schema.md) | [Schema](interfaces/schema.md)[]*
+- **items**? : _[Schema](interfaces/schema.md) | [Schema](interfaces/schema.md)[]_
 
-* **maxItems**? : *number*
+- **maxItems**? : _number_
 
-* **maxLength**? : *number*
+- **maxLength**? : _number_
 
-* **maxProperties**? : *number*
+- **maxProperties**? : _number_
 
-* **maximum**? : *number*
+- **maximum**? : _number_
 
-* **minItems**? : *number*
+- **minItems**? : _number_
 
-* **minLength**? : *number*
+- **minLength**? : _number_
 
-* **minProperties**? : *number*
+- **minProperties**? : _number_
 
-* **minimum**? : *number*
+- **minimum**? : _number_
 
-* **multipleOf**? : *number*
+- **multipleOf**? : _number_
 
-* **pattern**? : *string*
+- **pattern**? : _string_
 
-* **title**? : *string*
+- **title**? : _string_
 
-* **type**? : *[ParameterType](README.md#parametertype)*
+- **type**? : _[ParameterType](README.md#parametertype)_
 
-* **uniqueItems**? : *boolean*
+- **uniqueItems**? : _boolean_
 
-___
+---
 
-###  BodyParameter
+### BodyParameter
 
-Ƭ **BodyParameter**: *[BaseParameter](README.md#baseparameter) & object*
+Ƭ **BodyParameter**: _[BaseParameter](README.md#baseparameter) & object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:53
 
-___
+---
 
-###  FormDataParameter
+### FormDataParameter
 
-Ƭ **FormDataParameter**: *[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object*
+Ƭ **FormDataParameter**: _[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:100
 
-___
+---
 
-###  GenericFormat
+### GenericFormat
 
-Ƭ **GenericFormat**: *object*
+Ƭ **GenericFormat**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:58
 
 #### Type declaration:
 
-* **format**? : *string*
+- **format**? : _string_
 
-* **type**? : *[ParameterType](README.md#parametertype)*
+- **type**? : _[ParameterType](README.md#parametertype)_
 
-___
+---
 
-###  HeaderParameter
+### HeaderParameter
 
-Ƭ **HeaderParameter**: *[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object*
+Ƭ **HeaderParameter**: _[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:95
 
-___
+---
 
-###  IntegerFormat
+### IntegerFormat
 
-Ƭ **IntegerFormat**: *object*
+Ƭ **IntegerFormat**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:63
 
 #### Type declaration:
 
-* **format**? : *"int32" | "int64"*
+- **format**? : _"int32" | "int64"_
 
-* **type**: *"integer"*
+- **type**: _"integer"_
 
-___
+---
 
-###  NumberFormat
+### NumberFormat
 
-Ƭ **NumberFormat**: *object*
+Ƭ **NumberFormat**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:68
 
 #### Type declaration:
 
-* **format**? : *"float" | "double"*
+- **format**? : _"float" | "double"_
 
-* **type**: *"number"*
+- **type**: _"number"_
 
-___
+---
 
-###  Parameter
+### Parameter
 
-Ƭ **Parameter**: *[BodyParameter](README.md#bodyparameter) | [FormDataParameter](README.md#formdataparameter) | [QueryParameter](README.md#queryparameter) | [PathParameter](README.md#pathparameter) | [HeaderParameter](README.md#headerparameter)*
+Ƭ **Parameter**: _[BodyParameter](README.md#bodyparameter) | [FormDataParameter](README.md#formdataparameter) | [QueryParameter](README.md#queryparameter) | [PathParameter](README.md#pathparameter) | [HeaderParameter](README.md#headerparameter)_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:108
 
-___
+---
 
-###  ParameterCollectionFormat
+### ParameterCollectionFormat
 
-Ƭ **ParameterCollectionFormat**: *"csv" | "ssv" | "tsv" | "pipes" | "multi"*
+Ƭ **ParameterCollectionFormat**: _"csv" | "ssv" | "tsv" | "pipes" | "multi"_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:80
 
-___
+---
 
-###  ParameterLocation
+### ParameterLocation
 
-Ƭ **ParameterLocation**: *"query" | "header" | "path" | "cookie"*
+Ƭ **ParameterLocation**: _"query" | "header" | "path" | "cookie"_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:110
 
-___
+---
 
-###  ParameterStyle
+### ParameterStyle
 
-Ƭ **ParameterStyle**: *"matrix" | "label" | "form" | "simple" | "spaceDelimited" | "pipeDelimited" | "deepObject"*
+Ƭ **ParameterStyle**: _"matrix" | "label" | "form" | "simple" | "spaceDelimited" | "pipeDelimited" | "deepObject"_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:111
 
-___
+---
 
-###  ParameterType
+### ParameterType
 
-Ƭ **ParameterType**: *"string" | "number" | "integer" | "boolean" | "array" | "object" | "file"*
+Ƭ **ParameterType**: _"string" | "number" | "integer" | "boolean" | "array" | "object" | "file"_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:44
 
-___
+---
 
-###  PathObject
+### PathObject
 
-Ƭ **PathObject**: *[PathsObject](interfaces/pathsobject.md)*
+Ƭ **PathObject**: _[PathsObject](interfaces/pathsobject.md)_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:75
 
-___
+---
 
-###  PathParameter
+### PathParameter
 
-Ƭ **PathParameter**: *[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object*
+Ƭ **PathParameter**: _[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:89
 
-___
+---
 
-###  QueryParameter
+### QueryParameter
 
-Ƭ **QueryParameter**: *[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object*
+Ƭ **QueryParameter**: _[BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:82
 
-___
+---
 
-###  SchemaFormatConstraints
+### SchemaFormatConstraints
 
-Ƭ **SchemaFormatConstraints**: *[GenericFormat](README.md#genericformat) | [IntegerFormat](README.md#integerformat) | [NumberFormat](README.md#numberformat) | [StringFormat](README.md#stringformat)*
+Ƭ **SchemaFormatConstraints**: _[GenericFormat](README.md#genericformat) | [IntegerFormat](README.md#integerformat) | [NumberFormat](README.md#numberformat) | [StringFormat](README.md#stringformat)_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:78
 
-___
+---
 
-###  Security
+### Security
 
-Ƭ **Security**: *[BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) | [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) | [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) | [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) | [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) | [ApiKeySecurity](interfaces/apikeysecurity.md)*
+Ƭ **Security**: _[BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) | [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) | [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) | [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) | [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) | [ApiKeySecurity](interfaces/apikeysecurity.md)_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:248
 
-___
+---
 
-###  SecuritySchemeType
+### SecuritySchemeType
 
-Ƭ **SecuritySchemeType**: *"apiKey" | "http" | "oauth2" | "openIdConnect"*
+Ƭ **SecuritySchemeType**: _"apiKey" | "http" | "oauth2" | "openIdConnect"_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:271
 
-___
+---
 
-###  StringFormat
+### StringFormat
 
-Ƭ **StringFormat**: *object*
+Ƭ **StringFormat**: _object_
 
 Defined in node_modules/@types/swagger-schema-official/index.d.ts:73
 
 #### Type declaration:
 
-* **format**? : *"" | "byte" | "binary" | "date" | "date-time" | "password"*
+- **format**? : _"" | "byte" | "binary" | "date" | "date-time" | "password"_
 
-* **type**: *"string"*
+- **type**: _"string"_
 
 ## Functions
 
-###  addExtension
+### addExtension
 
-▸ **addExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string, `extension`: any): *void*
+▸ **addExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string, `extension`: any): _void_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:3
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`obj` | [ISpecificationExtension](interfaces/ispecificationextension.md) |
-`extensionName` | string |
-`extension` | any |
+| Name            | Type                                                             |
+| --------------- | ---------------------------------------------------------------- |
+| `obj`           | [ISpecificationExtension](interfaces/ispecificationextension.md) |
+| `extensionName` | string                                                           |
+| `extension`     | any                                                              |
 
-**Returns:** *void*
+**Returns:** _void_
 
-___
+---
 
-###  getExtension
+### getExtension
 
-▸ **getExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string): *any*
+▸ **getExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string): _any_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:2
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`obj` | [ISpecificationExtension](interfaces/ispecificationextension.md) |
-`extensionName` | string |
+| Name            | Type                                                             |
+| --------------- | ---------------------------------------------------------------- |
+| `obj`           | [ISpecificationExtension](interfaces/ispecificationextension.md) |
+| `extensionName` | string                                                           |
 
-**Returns:** *any*
+**Returns:** _any_
 
-___
+---
 
-###  getPath
+### getPath
 
-▸ **getPath**(`pathsObject`: [PathsObject](interfaces/pathsobject.md), `path`: string): *[PathItemObject](interfaces/pathitemobject.md) | undefined*
+▸ **getPath**(`pathsObject`: [PathsObject](interfaces/pathsobject.md), `path`: string): _[PathItemObject](interfaces/pathitemobject.md) | undefined_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:76
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`pathsObject` | [PathsObject](interfaces/pathsobject.md) |
-`path` | string |
+| Name          | Type                                     |
+| ------------- | ---------------------------------------- |
+| `pathsObject` | [PathsObject](interfaces/pathsobject.md) |
+| `path`        | string                                   |
 
-**Returns:** *[PathItemObject](interfaces/pathitemobject.md) | undefined*
+**Returns:** _[PathItemObject](interfaces/pathitemobject.md) | undefined_
 
-___
+---
 
-###  isReferenceObject
+### isReferenceObject
 
-▸ **isReferenceObject**(`obj`: object): *obj is ReferenceObject*
+▸ **isReferenceObject**(`obj`: object): _obj is ReferenceObject_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:213
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`obj` | object |
+| Name  | Type   |
+| ----- | ------ |
+| `obj` | object |
 
-**Returns:** *obj is ReferenceObject*
+**Returns:** _obj is ReferenceObject_
 
-___
+---
 
-###  isSchemaObject
+### isSchemaObject
 
-▸ **isSchemaObject**(`schema`: [SchemaObject](interfaces/schemaobject.md) | [ReferenceObject](interfaces/referenceobject.md)): *schema is SchemaObject*
+▸ **isSchemaObject**(`schema`: [SchemaObject](interfaces/schemaobject.md) | [ReferenceObject](interfaces/referenceobject.md)): _schema is SchemaObject_
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`schema` | [SchemaObject](interfaces/schemaobject.md) &#124; [ReferenceObject](interfaces/referenceobject.md) |
+| Name     | Type                                                                                               |
+| -------- | -------------------------------------------------------------------------------------------------- |
+| `schema` | [SchemaObject](interfaces/schemaobject.md) &#124; [ReferenceObject](interfaces/referenceobject.md) |
 
-**Returns:** *schema is SchemaObject*
+**Returns:** _schema is SchemaObject_

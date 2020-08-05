@@ -1,7 +1,7 @@
 image: node:latest
 
 cache:
-  key: "$CI_BUILD_REF_NAME"
+  key: '$CI_BUILD_REF_NAME'
   untracked: true
   paths:
     - node_modules/
@@ -23,9 +23,9 @@ codestyle:
     - npm run lint
     # - npm audit
 
-node:8:
+node:10:
   stage: test
-  image: node:8
+  image: node:10
   only:
     - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
   script:
@@ -33,9 +33,9 @@ node:8:
     - npm run unit
   coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
-node:10:
+node:12:
   stage: test
-  image: node:10
+  image: node:12
   only:
     - /^v\d+\.\d+\.\d+(-rc.\d+|)$/
   script:

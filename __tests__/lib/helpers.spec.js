@@ -6,13 +6,13 @@ const helpers = require('../../lib/helpers');
 describe('helpers', () => {
   describe('clone', () => {
     test('clones object', () => {
-      const src = {a: 1, b: {c: 1}};
+      const src = { a: 1, b: { c: 1 } };
       const clone = helpers.clone(src);
       expect(src).toEqual(clone);
     });
 
     test('clones without references', () => {
-      const src = {a: 1, b: {c: 1}};
+      const src = { a: 1, b: { c: 1 } };
       const clone = helpers.clone(src);
       clone.b.c = 2;
       expect(src.b.c).toEqual(1);
@@ -32,7 +32,7 @@ describe('helpers', () => {
           c: 1,
         },
         properties: {
-          a: {type: 'string', description: 'A value'},
+          a: { type: 'string', description: 'A value' },
           b: {
             type: 'string',
             enum: ['C', 'D'],
@@ -60,9 +60,9 @@ describe('helpers', () => {
               type: 'object',
               required: ['a', 'b'],
               properties: {
-                a: {type: 'string', description: 'A value'},
-                b: {type: 'string', enum: ['C', 'D'], default: 'C'},
-                c: {type: 'number', minimum: 0, maximum: 100},
+                a: { type: 'string', description: 'A value' },
+                b: { type: 'string', enum: ['C', 'D'], default: 'C' },
+                c: { type: 'number', minimum: 0, maximum: 100 },
               },
             },
           },
@@ -104,20 +104,14 @@ describe('helpers', () => {
       const dst = {};
       const body = {
         type: 'object',
-        oneOf: [
-          {$ref: '#cat'},
-          {$ref: '#dog'},
-        ],
+        oneOf: [{ $ref: '#cat' }, { $ref: '#dog' }],
       };
       const expected = {
         content: {
           'application/json': {
             schema: {
               type: 'object',
-              oneOf: [
-                {$ref: '#cat'},
-                {$ref: '#dog'},
-              ],
+              oneOf: [{ $ref: '#cat' }, { $ref: '#dog' }],
             },
           },
         },
@@ -134,16 +128,16 @@ describe('helpers', () => {
           {
             name: 'Capital Letters',
             summary: 'All string values are capitals',
-            value: {a: 'A', b: 'D', c: 0},
+            value: { a: 'A', b: 'D', c: 0 },
           },
           {
             name: 'Default values',
             summary: 'Using enum defaults',
-            value: {a: 'A', c: 0},
+            value: { a: 'A', c: 0 },
           },
         ],
         properties: {
-          a: {type: 'string', description: 'A value'},
+          a: { type: 'string', description: 'A value' },
           b: {
             type: 'string',
             enum: ['C', 'D'],
@@ -164,20 +158,20 @@ describe('helpers', () => {
             examples: {
               'Capital Letters': {
                 summary: 'All string values are capitals',
-                value: {a: 'A', b: 'D', c: 0},
+                value: { a: 'A', b: 'D', c: 0 },
               },
               'Default values': {
                 summary: 'Using enum defaults',
-                value: {a: 'A', c: 0},
+                value: { a: 'A', c: 0 },
               },
             },
             schema: {
               type: 'object',
               required: ['a', 'b'],
               properties: {
-                a: {type: 'string', description: 'A value'},
-                b: {type: 'string', enum: ['C', 'D'], default: 'C'},
-                c: {type: 'number', minimum: 0, maximum: 100},
+                a: { type: 'string', description: 'A value' },
+                b: { type: 'string', enum: ['C', 'D'], default: 'C' },
+                c: { type: 'number', minimum: 0, maximum: 100 },
               },
             },
           },
@@ -200,7 +194,7 @@ describe('helpers', () => {
           in: 'header',
           name: 'x-api-token',
           required: true,
-          schema: {description: 'optional api token', type: 'string'},
+          schema: { description: 'optional api token', type: 'string' },
         },
         {
           description: 'optional api version',
@@ -236,7 +230,7 @@ describe('helpers', () => {
       const querystring = {
         type: 'object',
         properties: {
-          hello: {type: 'string'},
+          hello: { type: 'string' },
           world: {
             type: 'string',
             enum: ['world', 'worlds'],
@@ -247,7 +241,12 @@ describe('helpers', () => {
       };
       const dst = [];
       const expected = [
-        {in: 'query', name: 'hello', required: true, schema: {type: 'string'}},
+        {
+          in: 'query',
+          name: 'hello',
+          required: true,
+          schema: { type: 'string' },
+        },
         {
           in: 'query',
           name: 'world',
@@ -264,17 +263,22 @@ describe('helpers', () => {
     });
     test('generates valid query from shorthand', () => {
       const querystring = {
-        hello: {type: 'string', required: true},
-        world: {type: 'string', description: 'something'},
+        hello: { type: 'string', required: true },
+        world: { type: 'string', description: 'something' },
       };
       const dst = [];
       const expected = [
-        {in: 'query', name: 'hello', required: true, schema: {type: 'string'}},
+        {
+          in: 'query',
+          name: 'hello',
+          required: true,
+          schema: { type: 'string' },
+        },
         {
           in: 'query',
           name: 'world',
           description: 'something',
-          schema: {type: 'string', description: 'something'},
+          schema: { type: 'string', description: 'something' },
         },
       ];
       helpers.genQuery(dst, querystring);
@@ -288,10 +292,10 @@ describe('helpers', () => {
           required: true,
           style: 'deepObject',
           properties: {
-            id: {type: 'string'},
+            id: { type: 'string' },
           },
         },
-        world: {type: 'string', description: 'something'},
+        world: { type: 'string', description: 'something' },
       };
       const dst = [];
       const expected = [
@@ -301,13 +305,13 @@ describe('helpers', () => {
           explode: true,
           style: 'deepObject',
           required: true,
-          schema: {type: 'object', properties: {id: {type: 'string'}}},
+          schema: { type: 'object', properties: { id: { type: 'string' } } },
         },
         {
           in: 'query',
           name: 'world',
           description: 'something',
-          schema: {type: 'string', description: 'something'},
+          schema: { type: 'string', description: 'something' },
         },
       ];
       helpers.genQuery(dst, querystring);
@@ -324,7 +328,7 @@ describe('helpers', () => {
           in: 'path',
           name: 'id',
           required: true,
-          schema: {description: 'user id', type: 'string'},
+          schema: { description: 'user id', type: 'string' },
         },
       ];
       const params = {
@@ -345,7 +349,7 @@ describe('helpers', () => {
     test('generates default response', () => {
       const dst = {};
       const expected = {
-        200: {description: 'Default Response'},
+        200: { description: 'Default Response' },
       };
       helpers.genResponse(dst);
       expect(dst).toEqual(expected);
@@ -365,7 +369,7 @@ describe('helpers', () => {
             },
           },
           properties: {
-            hello: {type: 'string'},
+            hello: { type: 'string' },
           },
         },
         500: {
@@ -386,7 +390,10 @@ describe('helpers', () => {
           },
           content: {
             '*/*': {
-              schema: {properties: {hello: {type: 'string'}}, type: 'object'},
+              schema: {
+                properties: { hello: { type: 'string' } },
+                type: 'object',
+              },
             },
           },
         },
@@ -441,7 +448,7 @@ describe('helpers', () => {
     test('json-schema tuple type', () => {
       const body = {
         type: 'array',
-        items: [{type: 'string'}, {type: 'number'}],
+        items: [{ type: 'string' }, { type: 'number' }],
       };
       const dst = {};
       const expected = {
@@ -450,7 +457,7 @@ describe('helpers', () => {
             schema: {
               type: 'array',
               items: {
-                oneOf: [{type: 'string'}, {type: 'number'}],
+                oneOf: [{ type: 'string' }, { type: 'number' }],
               },
               maxItems: 2,
               minItems: 2,
@@ -465,7 +472,7 @@ describe('helpers', () => {
     test('json-schema tuple type with minItems, maxItems', () => {
       const body = {
         type: 'array',
-        items: [{type: 'string'}, {type: 'number'}],
+        items: [{ type: 'string' }, { type: 'number' }],
         minItems: 3,
         maxItems: 3,
       };
@@ -476,7 +483,7 @@ describe('helpers', () => {
             schema: {
               type: 'array',
               items: {
-                oneOf: [{type: 'string'}, {type: 'number'}],
+                oneOf: [{ type: 'string' }, { type: 'number' }],
               },
               maxItems: 3,
               minItems: 3,
@@ -535,7 +542,7 @@ describe('helpers', () => {
         content: {
           'application/json': {
             schema: {
-              oneOf: [{type: 'string'}, {type: 'number'}],
+              oneOf: [{ type: 'string' }, { type: 'number' }],
             },
           },
         },
