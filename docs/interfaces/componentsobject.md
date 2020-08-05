@@ -60,7 +60,7 @@ Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:59
 
 #### Type declaration:
 
-* \[ **heaer**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+* \[ **header**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
 
 ___
 

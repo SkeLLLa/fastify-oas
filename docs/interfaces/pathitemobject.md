@@ -82,7 +82,7 @@ ___
 
 ### `Optional` parameters
 
-• **parameters**? : *[ReferenceObject](referenceobject.md) | [ParameterObject](parameterobject.md)[]*
+• **parameters**? : *([ReferenceObject](referenceobject.md) | [ParameterObject](parameterobject.md))[]*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:90
 

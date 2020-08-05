@@ -65,7 +65,7 @@ ___
 
 ### `Optional` allOf
 
-• **allOf**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)[]*
+• **allOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225
 
@@ -73,7 +73,7 @@ ___
 
 ### `Optional` anyOf
 
-• **anyOf**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)[]*
+• **anyOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227
 
@@ -265,7 +265,7 @@ ___
 
 ### `Optional` oneOf
 
-• **oneOf**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)[]*
+• **oneOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
 
 Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226
 

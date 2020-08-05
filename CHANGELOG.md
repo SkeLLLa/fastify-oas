@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.7.2](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.1...v2.7.2) (2020-08-05)
+
 ### [2.7.1](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.0...v2.7.1) (2020-07-08)
 
 
