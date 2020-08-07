@@ -913,5 +913,551 @@ describe('openapi constructor', () => {
 
       await expect(swParser.validate(api)).resolves.toEqual(api);
     });
+    describe('should substitute references', () => {
+      const schemas = {
+        sch1: {
+          type: 'object',
+          description: 'sch1 schema',
+          properties: {
+            num: {
+              type: 'number',
+              minimum: 1,
+              maximum: 1000,
+              description: 'some number',
+            },
+            str: {
+              enum: ['a', 'b', 'c'],
+              default: 'b',
+              description: 'some string',
+              type: 'string',
+            },
+          },
+        },
+        sch2: {
+          type: 'object',
+          description: 'sch2 schema',
+          properties: {
+            num: {
+              type: 'number',
+              title: 'title',
+              minimum: 1,
+              maximum: 1000,
+              description: 'some number',
+            },
+            str: {
+              enum: ['a', 'b', 'c'],
+              default: 'b',
+              description: 'some string',
+              type: 'string',
+            },
+            ref: {
+              $ref: 'sch1#',
+            },
+          },
+        },
+      };
+      const getSchema = (id) => schemas[id];
+      test('in querystring', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                querystring: {
+                  $ref: 'sch1#',
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              parameters: [
+                {
+                  description: schemas.sch1.properties.num.description,
+                  in: 'query',
+                  name: 'num',
+                  schema: schemas.sch1.properties.num,
+                },
+                {
+                  description: schemas.sch1.properties.str.description,
+                  in: 'query',
+                  name: 'str',
+                  schema: schemas.sch1.properties.str,
+                },
+              ],
+              responses: {
+                '200': {
+                  description: 'Default Response',
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in body', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                body: {
+                  $ref: 'sch1#',
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              requestBody: {
+                description: schemas.sch1.description,
+                content: {
+                  '*/*': {
+                    schema: Object.assign({}, schemas.sch1, {
+                      description: undefined,
+                    }),
+                  },
+                },
+              },
+              responses: {
+                '200': {
+                  description: 'Default Response',
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in params', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                params: {
+                  $ref: 'sch1#',
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              parameters: [
+                {
+                  description: schemas.sch1.properties.num.description,
+                  in: 'path',
+                  name: 'num',
+                  required: true,
+                  schema: schemas.sch1.properties.num,
+                },
+                {
+                  description: schemas.sch1.properties.str.description,
+                  in: 'path',
+                  name: 'str',
+                  required: true,
+                  schema: schemas.sch1.properties.str,
+                },
+              ],
+              responses: {
+                '200': {
+                  description: 'Default Response',
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in headers', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                headers: {
+                  $ref: 'sch1#',
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              parameters: [
+                {
+                  description: schemas.sch1.properties.num.description,
+                  in: 'header',
+                  name: 'num',
+                  schema: schemas.sch1.properties.num,
+                },
+                {
+                  description: schemas.sch1.properties.str.description,
+                  in: 'header',
+                  name: 'str',
+                  schema: schemas.sch1.properties.str,
+                },
+              ],
+              responses: {
+                '200': {
+                  description: 'Default Response',
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in cookies', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                cookies: {
+                  $ref: 'sch1#',
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              parameters: [
+                {
+                  description: schemas.sch1.properties.num.description,
+                  in: 'cookie',
+                  name: 'num',
+                  schema: schemas.sch1.properties.num,
+                },
+                {
+                  description: schemas.sch1.properties.str.description,
+                  in: 'cookie',
+                  name: 'str',
+                  schema: schemas.sch1.properties.str,
+                },
+              ],
+              responses: {
+                '200': {
+                  description: 'Default Response',
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in responses', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                response: {
+                  200: {
+                    $ref: 'sch1#',
+                  },
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              responses: {
+                '200': {
+                  description: schemas.sch1.description,
+                  content: {
+                    '*/*': {
+                      schema: schemas.sch1,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in nested references', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                response: {
+                  200: {
+                    $ref: 'sch2#',
+                  },
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              responses: {
+                '200': {
+                  description: schemas.sch2.description,
+                  content: {
+                    '*/*': {
+                      schema: Object.assign({}, schemas.sch2, {
+                        properties: Object.assign({}, schemas.sch2.properties, {
+                          ref: schemas.sch1,
+                        }),
+                      }),
+                    },
+                  },
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in array of references', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                response: {
+                  200: {
+                    description: 'an array',
+                    type: 'array',
+                    items: {
+                      $ref: 'sch1#',
+                    },
+                  },
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              responses: {
+                '200': {
+                  description: 'an array',
+                  content: {
+                    '*/*': {
+                      schema: {
+                        type: 'array',
+                        description: 'an array',
+                        items: schemas.sch1,
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in anyOf with references', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                response: {
+                  200: {
+                    description: 'any of',
+                    type: 'object',
+                    anyOf: [
+                      {
+                        type: 'object',
+                        properties: {
+                          inlineProp1: {
+                            type: 'string',
+                          },
+                        },
+                      },
+                      {
+                        $ref: 'sch1#',
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              responses: {
+                '200': {
+                  description: 'any of',
+                  content: {
+                    '*/*': {
+                      schema: {
+                        description: 'any of',
+                        type: 'object',
+                        anyOf: [
+                          {
+                            type: 'object',
+                            properties: {
+                              inlineProp1: {
+                                type: 'string',
+                              },
+                            },
+                          },
+                          schemas.sch1,
+                        ],
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+      test('in allOf with references', async () => {
+        const api = openapi({
+          options: {},
+          getSchema,
+          routes: [
+            {
+              logLevel: '',
+              method: 'GET',
+              path: '/api/ep',
+              url: '/api/ep',
+              prefix: '/api',
+              schema: {
+                response: {
+                  200: {
+                    description: 'all of',
+                    type: 'object',
+                    allOf: [
+                      {
+                        type: 'object',
+                        properties: {
+                          inlineProp1: {
+                            type: 'string',
+                          },
+                        },
+                      },
+                      {
+                        $ref: 'sch1#',
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          ],
+        })();
+        expect(api).toHaveProperty('paths', {
+          '/api/ep': {
+            get: {
+              responses: {
+                '200': {
+                  description: 'all of',
+                  content: {
+                    '*/*': {
+                      schema: {
+                        description: 'all of',
+                        type: 'object',
+                        allOf: [
+                          {
+                            type: 'object',
+                            properties: {
+                              inlineProp1: {
+                                type: 'string',
+                              },
+                            },
+                          },
+                          schemas.sch1,
+                        ],
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          },
+        });
+
+        await expect(swParser.validate(api)).resolves.toEqual(api);
+      });
+    });
   });
 });
