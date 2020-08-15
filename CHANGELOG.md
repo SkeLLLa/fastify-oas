@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0...v3.0.1) (2020-08-15)
+
+### Bug Fixes
+
+- fixed a typo in constructor.js (getPath → getQuery) ([a7bb0fd](https://gitlab.com/m03geek/fastify-oas/commit/a7bb0fd42ecb032901d0ebb2ab2d26199751f035))
+
+### Misc
+
+- **deps:** update ([f209e38](https://gitlab.com/m03geek/fastify-oas/commit/f209e384a2834babd24ac3c6e57d42a15c3c2926))
+
 ## [3.0.0](https://gitlab.com/m03geek/fastify-oas/compare/v2.7.2...v3.0.0) (2020-08-05)
 
 ### Misc
