@@ -343,6 +343,29 @@ describe('helpers', () => {
       helpers.genPath(dst, params);
       expect(dst).toEqual(expected);
     });
+    test('generates valid url params', () => {
+      const dst = [];
+      const expected = [
+        {
+          description: 'user id',
+          in: 'query',
+          name: 'id',
+          schema: { description: 'user id', type: 'string' },
+        },
+      ];
+      const params = {
+        type: 'object',
+        properties: {
+          id: {
+            in: 'query',
+            type: 'string',
+            description: 'user id',
+          },
+        },
+      };
+      helpers.genPath(dst, params);
+      expect(dst).toEqual(expected);
+    });
   });
 
   describe('genResponse', () => {
