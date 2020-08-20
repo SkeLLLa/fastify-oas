@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.2](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.1...v3.0.2) (2020-08-20)
+
+### Bug Fixes
+
+- add support for url parameters ([6c336e4](https://gitlab.com/m03geek/fastify-oas/commit/6c336e4bb1e1ad316dae96465bb84027857b3783))
+- added test for url parameters in genPaths ([6a19600](https://gitlab.com/m03geek/fastify-oas/commit/6a1960085a674303d9084e2b4e8ce4f868f0a784))
+
 ### [3.0.1](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.0...v3.0.1) (2020-08-15)
 
 ### Bug Fixes
