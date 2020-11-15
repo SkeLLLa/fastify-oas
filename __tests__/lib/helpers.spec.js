@@ -100,6 +100,33 @@ describe('helpers', () => {
       };
       helpers.genBody(dst, body, ['application/json']);
     });
+    test('generates valid body with array items', () => {
+      const dst = {};
+      const body = {
+        type: 'array',
+        somestuff: 'todo: delete',
+        items: {
+          moreStuff: 'todo: delete',
+          type: 'string',
+          enum: ['test', 'test2'],
+        },
+      };
+      const expected = {
+        content: {
+          'application/json': {
+            schema: {
+              type: 'array',
+              items: {
+                type: 'string',
+                enum: ['test', 'test2'],
+              },
+            },
+          },
+        },
+      };
+      helpers.genBody(dst, body, ['application/json']);
+      expect(dst).toEqual(expected);
+    });
     test('generate valid body for $ref-way style shared schema references', () => {
       const dst = {};
       const body = {
