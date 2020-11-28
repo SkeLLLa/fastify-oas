@@ -79,7 +79,7 @@
     "redoc": "^2.0.0-rc.36",
     "replace": "^1.2.0",
     "standard-version": "^9.0.0",
-    "swagger-ui-dist": "^3.36.1",
+    "swagger-ui-dist": "^3.37.2",
     "typedoc": "^0.18.0",
     "typedoc-plugin-markdown": "^2.4.0",
     "typescript": "^3.9.7"
