@@ -1,4 +1,4 @@
-image: node:latest
+image: node:14
 
 cache:
   key: '$CI_BUILD_REF_NAME'
@@ -43,9 +43,9 @@ node:12:
     - npm run unit
   coverage: /^All files[^|]*\|[^|]*\s+([\d\.]+)/
 
-node:latest:
+node:14:
   stage: test
-  image: node:latest
+  image: node:14
   script:
     - npm ci
     - npm run unit
