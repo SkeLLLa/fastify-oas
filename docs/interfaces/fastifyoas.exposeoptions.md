@@ -1,4 +1,6 @@
-[fastify-oas](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [ExposeOptions](fastifyoas.exposeoptions.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / [fastifyOAS](../modules/fastifyoas.md) / ExposeOptions
 
 # Interface: ExposeOptions
 
@@ -10,17 +12,17 @@
 
 ### Properties
 
-- [json](fastifyoas.exposeoptions.md#optional-json)
-- [ui](fastifyoas.exposeoptions.md#optional-ui)
-- [yaml](fastifyoas.exposeoptions.md#optional-yaml)
+- [json](fastifyoas.exposeoptions.md#json)
+- [ui](fastifyoas.exposeoptions.md#ui)
+- [yaml](fastifyoas.exposeoptions.md#yaml)
 
 ## Properties
 
-### `Optional` json
+### json
 
-• **json**? : _boolean_
+• `Optional` **json**: boolean
 
-Defined in lib/index.d.ts:92
+_Defined in lib/index.d.ts:92_
 
 If false doesn't expose json swagger route
 
@@ -28,11 +30,11 @@ If false doesn't expose json swagger route
 
 ---
 
-### `Optional` ui
+### ui
 
-• **ui**? : _boolean_
+• `Optional` **ui**: boolean
 
-Defined in lib/index.d.ts:87
+_Defined in lib/index.d.ts:87_
 
 If false hides swagger UI and redoc
 
@@ -40,11 +42,11 @@ If false hides swagger UI and redoc
 
 ---
 
-### `Optional` yaml
+### yaml
 
-• **yaml**? : _boolean_
+• `Optional` **yaml**: boolean
 
-Defined in lib/index.d.ts:97
+_Defined in lib/index.d.ts:97_
 
 If false doesn't expose yaml swagger route
 

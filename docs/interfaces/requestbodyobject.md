@@ -1,45 +1,47 @@
-[fastify-oas](../README.md) › [RequestBodyObject](requestbodyobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / RequestBodyObject
 
 # Interface: RequestBodyObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **RequestBodyObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [content](requestbodyobject.md#content)
-* [description](requestbodyobject.md#optional-description)
-* [required](requestbodyobject.md#optional-required)
+- [content](requestbodyobject.md#content)
+- [description](requestbodyobject.md#description)
+- [required](requestbodyobject.md#required)
 
 ## Properties
 
-###  content
+### content
 
-• **content**: *[ContentObject](contentobject.md)*
+• **content**: [ContentObject](contentobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:133
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:133_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:132
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:132_
 
-___
+---
 
-### `Optional` required
+### required
 
-• **required**? : *boolean*
+• `Optional` **required**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:134
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:134_

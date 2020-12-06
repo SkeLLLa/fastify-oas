@@ -1,27 +1,29 @@
-[fastify-oas](../README.md) › [ResponsesObject](responsesobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ResponsesObject
 
 # Interface: ResponsesObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ResponsesObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [default](responsesobject.md#optional-default)
+- [default](responsesobject.md#default)
 
 ## Properties
 
-### `Optional` default
+### default
 
-• **default**? : *[ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)*
+• `Optional` **default**: [ResponseObject](responseobject.md) \| [ReferenceObject](referenceobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:159
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:159_

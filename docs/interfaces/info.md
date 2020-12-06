@@ -1,66 +1,68 @@
-[fastify-oas](../README.md) › [Info](info.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Info
 
 # Interface: Info
 
 ## Hierarchy
 
-* **Info**
+- **Info**
 
 ## Index
 
 ### Properties
 
-* [contact](info.md#optional-contact)
-* [description](info.md#optional-description)
-* [license](info.md#optional-license)
-* [termsOfService](info.md#optional-termsofservice)
-* [title](info.md#title)
-* [version](info.md#version)
+- [contact](info.md#contact)
+- [description](info.md#description)
+- [license](info.md#license)
+- [termsOfService](info.md#termsofservice)
+- [title](info.md#title)
+- [version](info.md#version)
 
 ## Properties
 
-### `Optional` contact
+### contact
 
-• **contact**? : *[Contact](contact.md)*
+• `Optional` **contact**: [Contact](contact.md)
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:12
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:12_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:10
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:10_
 
-___
+---
 
-### `Optional` license
+### license
 
-• **license**? : *[License](license.md)*
+• `Optional` **license**: [License](license.md)
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:13
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:13_
 
-___
+---
 
-### `Optional` termsOfService
+### termsOfService
 
-• **termsOfService**? : *string*
+• `Optional` **termsOfService**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:11
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:11_
 
-___
+---
 
-###  title
+### title
 
-• **title**: *string*
+• **title**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:8
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:8_
 
-___
+---
 
-###  version
+### version
 
-• **version**: *string*
+• **version**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:9
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:9_

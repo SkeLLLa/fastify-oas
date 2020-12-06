@@ -1,52 +1,54 @@
-[fastify-oas](../README.md) › [ExampleObject](exampleobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ExampleObject
 
 # Interface: ExampleObject
 
 ## Hierarchy
 
-* **ExampleObject**
+- **ExampleObject**
 
 ## Indexable
 
-* \[ **property**: *string*\]: any
+▪ [property: string]: any
 
 ## Index
 
 ### Properties
 
-* [description](exampleobject.md#optional-description)
-* [externalValue](exampleobject.md#optional-externalvalue)
-* [summary](exampleobject.md#optional-summary)
-* [value](exampleobject.md#optional-value)
+- [description](exampleobject.md#description)
+- [externalValue](exampleobject.md#externalvalue)
+- [summary](exampleobject.md#summary)
+- [value](exampleobject.md#value)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179_
 
-___
+---
 
-### `Optional` externalValue
+### externalValue
 
-• **externalValue**? : *string*
+• `Optional` **externalValue**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181_
 
-___
+---
 
-### `Optional` summary
+### summary
 
-• **summary**? : *string*
+• `Optional` **summary**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178_
 
-___
+---
 
-### `Optional` value
+### value
 
-• **value**? : *any*
+• `Optional` **value**: any
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180_

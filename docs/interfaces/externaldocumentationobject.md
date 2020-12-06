@@ -1,36 +1,38 @@
-[fastify-oas](../README.md) › [ExternalDocumentationObject](externaldocumentationobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ExternalDocumentationObject
 
 # Interface: ExternalDocumentationObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ExternalDocumentationObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [description](externaldocumentationobject.md#optional-description)
-* [url](externaldocumentationobject.md#url)
+- [description](externaldocumentationobject.md#description)
+- [url](externaldocumentationobject.md#url)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:107
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:107_
 
-___
+---
 
-###  url
+### url
 
-• **url**: *string*
+• **url**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:108
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:108_

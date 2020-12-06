@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) › [ISpecificationExtension](ispecificationextension.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ISpecificationExtension
 
 # Interface: ISpecificationExtension
 
 ## Hierarchy
 
-* **ISpecificationExtension**
+- **ISpecificationExtension**
 
   ↳ [OpenAPIObject](openapiobject.md)
 
@@ -62,8 +64,8 @@
 
 ## Implemented by
 
-* [SpecificationExtension](../classes/specificationextension.md)
+- [SpecificationExtension](../classes/specificationextension.md)
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any

@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [LinksObject](linksobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / LinksObject
 
 # Interface: LinksObject
 
 ## Hierarchy
 
-* **LinksObject**
+- **LinksObject**
 
 ## Indexable
 
-* \[ **name**: *string*\]: [LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
+▪ [name: string]: [LinkObject](linkobject.md) \| [ReferenceObject](referenceobject.md)

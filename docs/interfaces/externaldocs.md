@@ -1,30 +1,32 @@
-[fastify-oas](../README.md) › [ExternalDocs](externaldocs.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ExternalDocs
 
 # Interface: ExternalDocs
 
 ## Hierarchy
 
-* **ExternalDocs**
+- **ExternalDocs**
 
 ## Index
 
 ### Properties
 
-* [description](externaldocs.md#optional-description)
-* [url](externaldocs.md#url)
+- [description](externaldocs.md#description)
+- [url](externaldocs.md#url)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:29
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:29_
 
-___
+---
 
-###  url
+### url
 
-• **url**: *string*
+• **url**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:28
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:28_

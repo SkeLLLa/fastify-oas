@@ -1,125 +1,123 @@
-[fastify-oas](../README.md) › [BaseParameterObject](baseparameterobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / BaseParameterObject
 
 # Interface: BaseParameterObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **BaseParameterObject**
 
-  ↳ [ParameterObject](parameterobject.md)
+  ↳↳ [ParameterObject](parameterobject.md)
 
-  ↳ [HeaderObject](headerobject.md)
+  ↳↳ [HeaderObject](headerobject.md)
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [allowEmptyValue](baseparameterobject.md#optional-allowemptyvalue)
-* [allowReserved](baseparameterobject.md#optional-allowreserved)
-* [content](baseparameterobject.md#optional-content)
-* [deprecated](baseparameterobject.md#optional-deprecated)
-* [description](baseparameterobject.md#optional-description)
-* [example](baseparameterobject.md#optional-example)
-* [examples](baseparameterobject.md#optional-examples)
-* [explode](baseparameterobject.md#optional-explode)
-* [required](baseparameterobject.md#optional-required)
-* [schema](baseparameterobject.md#optional-schema)
-* [style](baseparameterobject.md#optional-style)
+- [allowEmptyValue](baseparameterobject.md#allowemptyvalue)
+- [allowReserved](baseparameterobject.md#allowreserved)
+- [content](baseparameterobject.md#content)
+- [deprecated](baseparameterobject.md#deprecated)
+- [description](baseparameterobject.md#description)
+- [example](baseparameterobject.md#example)
+- [examples](baseparameterobject.md#examples)
+- [explode](baseparameterobject.md#explode)
+- [required](baseparameterobject.md#required)
+- [schema](baseparameterobject.md#schema)
+- [style](baseparameterobject.md#style)
 
 ## Properties
 
-### `Optional` allowEmptyValue
+### allowEmptyValue
 
-• **allowEmptyValue**? : *boolean*
+• `Optional` **allowEmptyValue**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:116
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:116_
 
-___
+---
 
-### `Optional` allowReserved
+### allowReserved
 
-• **allowReserved**? : *boolean*
+• `Optional` **allowReserved**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:119
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:119_
 
-___
+---
 
-### `Optional` content
+### content
 
-• **content**? : *[ContentObject](contentobject.md)*
+• `Optional` **content**: [ContentObject](contentobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:125
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:125_
 
-___
+---
 
-### `Optional` deprecated
+### deprecated
 
-• **deprecated**? : *boolean*
+• `Optional` **deprecated**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:115
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:115_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:113
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:113_
 
-___
+---
 
-### `Optional` example
+### example
 
-• **example**? : *any*
+• `Optional` **example**: any
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:124
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:124_
 
-___
+---
 
-### `Optional` examples
+### examples
 
-• **examples**? : *object*
+• `Optional` **examples**: { [param:string]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121_
 
-#### Type declaration:
+---
 
-* \[ **param**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+### explode
 
-___
+• `Optional` **explode**: boolean
 
-### `Optional` explode
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:118_
 
-• **explode**? : *boolean*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:118
+### required
 
-___
+• `Optional` **required**: boolean
 
-### `Optional` required
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:114_
 
-• **required**? : *boolean*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:114
+### schema
 
-___
+• `Optional` **schema**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-### `Optional` schema
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:120_
 
-• **schema**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:120
+### style
 
-___
+• `Optional` **style**: [ParameterStyle](../README.md#parameterstyle)
 
-### `Optional` style
-
-• **style**? : *[ParameterStyle](../README.md#parameterstyle)*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:117
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:117_

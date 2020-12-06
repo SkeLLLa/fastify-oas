@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.4](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.3...v3.0.4) (2020-12-06)
+
+### Bug Fixes
+
+- bump swagger-ui-dist to 3.36.1 ([9fecca7](https://gitlab.com/m03geek/fastify-oas/commit/9fecca7e05d74f23427a7d3e1c9a7205c0d72502))
+- bump swagger-ui-dist to 3.37.2 ([a8d9119](https://gitlab.com/m03geek/fastify-oas/commit/a8d91190095f5b4ffba198d1d859b197afb234d5))
+- children.length type error ([c579091](https://gitlab.com/m03geek/fastify-oas/commit/c579091d572b1c4e4456ef64366e5bcdbcf5eaef))
+- redoc complains on csp violation ([6460989](https://gitlab.com/m03geek/fastify-oas/commit/6460989e45bba9f3d3379802086388eee5c85faa))
+- strip item objects of non-allowed props ([2be1b07](https://gitlab.com/m03geek/fastify-oas/commit/2be1b07ccface79f630ba4dbd701a1ff600b303c)), closes [#54](https://gitlab.com/m03geek/fastify-oas/issues/54)
+
+### Misc
+
+- **deps:** bump ([2d9ed4d](https://gitlab.com/m03geek/fastify-oas/commit/2d9ed4d3b30e0196b885a335bb9fa62466d16c84))
+
 ### [3.0.3](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.2...v3.0.3) (2020-08-25)
 
 ### Style

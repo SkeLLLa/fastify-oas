@@ -1,4 +1,6 @@
-[fastify-oas](../README.md) › ["fastify"](../modules/_fastify_.md) › [FastifyInstance](_fastify_.fastifyinstance.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ["fastify"](../modules/_fastify_.md) / FastifyInstance
 
 # Interface: FastifyInstance
 
@@ -16,10 +18,10 @@
 
 ### oas
 
-▸ **oas**(): _Promise‹void›_
+▸ **oas**(): Promise\<void>
 
-Defined in lib/index.d.ts:21
+_Defined in lib/index.d.ts:21_
 
 Init OpenApi plugin
 
-**Returns:** _Promise‹void›_
+**Returns:** Promise\<void>

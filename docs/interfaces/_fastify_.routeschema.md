@@ -1,4 +1,6 @@
-[fastify-oas](../README.md) › ["fastify"](../modules/_fastify_.md) › [RouteSchema](_fastify_.routeschema.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ["fastify"](../modules/_fastify_.md) / RouteSchema
 
 # Interface: RouteSchema
 
@@ -10,42 +12,42 @@
 
 ### Properties
 
-- [consumes](_fastify_.routeschema.md#optional-consumes)
-- [description](_fastify_.routeschema.md#optional-description)
-- [hide](_fastify_.routeschema.md#optional-hide)
-- [operationId](_fastify_.routeschema.md#optional-operationid)
-- [produces](_fastify_.routeschema.md#optional-produces)
-- [security](_fastify_.routeschema.md#optional-security)
-- [summary](_fastify_.routeschema.md#optional-summary)
-- [tags](_fastify_.routeschema.md#optional-tags)
+- [consumes](_fastify_.routeschema.md#consumes)
+- [description](_fastify_.routeschema.md#description)
+- [hide](_fastify_.routeschema.md#hide)
+- [operationId](_fastify_.routeschema.md#operationid)
+- [produces](_fastify_.routeschema.md#produces)
+- [security](_fastify_.routeschema.md#security)
+- [summary](_fastify_.routeschema.md#summary)
+- [tags](_fastify_.routeschema.md#tags)
 
 ## Properties
 
-### `Optional` consumes
+### consumes
 
-• **consumes**? : _Array‹string›_
+• `Optional` **consumes**: Array\<string>
 
-Defined in lib/index.d.ts:45
+_Defined in lib/index.d.ts:45_
 
 Media types route consumes
 
 ---
 
-### `Optional` description
+### description
 
-• **description**? : _string_
+• `Optional` **description**: string
 
-Defined in lib/index.d.ts:33
+_Defined in lib/index.d.ts:33_
 
 Route description
 
 ---
 
-### `Optional` hide
+### hide
 
-• **hide**? : _boolean_
+• `Optional` **hide**: boolean
 
-Defined in lib/index.d.ts:29
+_Defined in lib/index.d.ts:29_
 
 Hides route from result OpenAPI document
 
@@ -53,50 +55,50 @@ Hides route from result OpenAPI document
 
 ---
 
-### `Optional` operationId
+### operationId
 
-• **operationId**? : _string_
+• `Optional` **operationId**: string
 
-Defined in lib/index.d.ts:57
+_Defined in lib/index.d.ts:57_
 
 OpenAPI operation unique identifier
 
 ---
 
-### `Optional` produces
+### produces
 
-• **produces**? : _Array‹string›_
+• `Optional` **produces**: Array\<string>
 
-Defined in lib/index.d.ts:49
+_Defined in lib/index.d.ts:49_
 
 Media types route produces
 
 ---
 
-### `Optional` security
+### security
 
-• **security**? : _Array‹[SecurityRequirementObject](securityrequirementobject.md)›_
+• `Optional` **security**: Array\<[SecurityRequirementObject](securityrequirementobject.md)>
 
-Defined in lib/index.d.ts:53
+_Defined in lib/index.d.ts:53_
 
 OpenAPI security definitions
 
 ---
 
-### `Optional` summary
+### summary
 
-• **summary**? : _string_
+• `Optional` **summary**: string
 
-Defined in lib/index.d.ts:37
+_Defined in lib/index.d.ts:37_
 
 Route summary
 
 ---
 
-### `Optional` tags
+### tags
 
-• **tags**? : _Array‹string›_
+• `Optional` **tags**: Array\<string>
 
-Defined in lib/index.d.ts:41
+_Defined in lib/index.d.ts:41_
 
 Route tags

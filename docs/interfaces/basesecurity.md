@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) › [BaseSecurity](basesecurity.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / BaseSecurity
 
 # Interface: BaseSecurity
 
 ## Hierarchy
 
-* **BaseSecurity**
+- **BaseSecurity**
 
   ↳ [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
 
@@ -16,21 +18,21 @@
 
 ### Properties
 
-* [description](basesecurity.md#optional-description)
-* [type](basesecurity.md#type)
+- [description](basesecurity.md#description)
+- [type](basesecurity.md#type)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:200
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
 
-___
+---
 
-###  type
+### type
 
-• **type**: *"basic" | "apiKey" | "oauth2"*
+• **type**: \"basic\" \| \"apiKey\" \| \"oauth2\"
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:199
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:199_

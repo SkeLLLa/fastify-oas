@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) › [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / BasicAuthenticationSecurity
 
 # Interface: BasicAuthenticationSecurity
 
 ## Hierarchy
 
-* [BaseSecurity](basesecurity.md)
+- [BaseSecurity](basesecurity.md)
 
   ↳ **BasicAuthenticationSecurity**
 
@@ -12,25 +14,25 @@
 
 ### Properties
 
-* [description](basicauthenticationsecurity.md#optional-description)
-* [type](basicauthenticationsecurity.md#type)
+- [description](basicauthenticationsecurity.md#description)
+- [type](basicauthenticationsecurity.md#type)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#optional-description)*
+_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:200
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
 
-___
+---
 
-###  type
+### type
 
-• **type**: *"basic"*
+• **type**: \"basic\"
 
-*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
+_Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:204
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:204_

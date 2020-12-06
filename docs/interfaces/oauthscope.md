@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [OAuthScope](oauthscope.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / OAuthScope
 
 # Interface: OAuthScope
 
 ## Hierarchy
 
-* **OAuthScope**
+- **OAuthScope**
 
 ## Indexable
 
-* \[ **scopeName**: *string*\]: string
+▪ [scopeName: string]: string

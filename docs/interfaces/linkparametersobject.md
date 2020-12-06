@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [LinkParametersObject](linkparametersobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / LinkParametersObject
 
 # Interface: LinkParametersObject
 
 ## Hierarchy
 
-* **LinkParametersObject**
+- **LinkParametersObject**
 
 ## Indexable
 
-* \[ **name**: *string*\]: any | string
+▪ [name: string]: any \| string

@@ -1,54 +1,56 @@
-[fastify-oas](../README.md) › [MediaTypeObject](mediatypeobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / MediaTypeObject
 
 # Interface: MediaTypeObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **MediaTypeObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [encoding](mediatypeobject.md#optional-encoding)
-* [example](mediatypeobject.md#optional-example)
-* [examples](mediatypeobject.md#optional-examples)
-* [schema](mediatypeobject.md#optional-schema)
+- [encoding](mediatypeobject.md#encoding)
+- [example](mediatypeobject.md#example)
+- [examples](mediatypeobject.md#examples)
+- [schema](mediatypeobject.md#schema)
 
 ## Properties
 
-### `Optional` encoding
+### encoding
 
-• **encoding**? : *[EncodingObject](encodingobject.md)*
+• `Optional` **encoding**: [EncodingObject](encodingobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:143
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:143_
 
-___
+---
 
-### `Optional` example
+### example
 
-• **example**? : *any*
+• `Optional` **example**: any
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:142
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:142_
 
-___
+---
 
-### `Optional` examples
+### examples
 
-• **examples**? : *[ExamplesObject](examplesobject.md)*
+• `Optional` **examples**: [ExamplesObject](examplesobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:141
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:141_
 
-___
+---
 
-### `Optional` schema
+### schema
 
-• **schema**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+• `Optional` **schema**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:140
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:140_

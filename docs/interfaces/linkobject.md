@@ -1,72 +1,74 @@
-[fastify-oas](../README.md) › [LinkObject](linkobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / LinkObject
 
 # Interface: LinkObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **LinkObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [description](linkobject.md#optional-description)
-* [operationId](linkobject.md#optional-operationid)
-* [operationRef](linkobject.md#optional-operationref)
-* [parameters](linkobject.md#optional-parameters)
-* [requestBody](linkobject.md#optional-requestbody)
-* [server](linkobject.md#optional-server)
+- [description](linkobject.md#description)
+- [operationId](linkobject.md#operationid)
+- [operationRef](linkobject.md#operationref)
+- [parameters](linkobject.md#parameters)
+- [requestBody](linkobject.md#requestbody)
+- [server](linkobject.md#server)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192_
 
-___
+---
 
-### `Optional` operationId
+### operationId
 
-• **operationId**? : *string*
+• `Optional` **operationId**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189_
 
-___
+---
 
-### `Optional` operationRef
+### operationRef
 
-• **operationRef**? : *string*
+• `Optional` **operationRef**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188_
 
-___
+---
 
-### `Optional` parameters
+### parameters
 
-• **parameters**? : *[LinkParametersObject](linkparametersobject.md)*
+• `Optional` **parameters**: [LinkParametersObject](linkparametersobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190_
 
-___
+---
 
-### `Optional` requestBody
+### requestBody
 
-• **requestBody**? : *any | string*
+• `Optional` **requestBody**: any \| string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191_
 
-___
+---
 
-### `Optional` server
+### server
 
-• **server**? : *[ServerObject](serverobject.md)*
+• `Optional` **server**: [ServerObject](serverobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193_

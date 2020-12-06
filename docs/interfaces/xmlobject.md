@@ -1,63 +1,65 @@
-[fastify-oas](../README.md) › [XmlObject](xmlobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / XmlObject
 
 # Interface: XmlObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **XmlObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [attribute](xmlobject.md#optional-attribute)
-* [name](xmlobject.md#optional-name)
-* [namespace](xmlobject.md#optional-namespace)
-* [prefix](xmlobject.md#optional-prefix)
-* [wrapped](xmlobject.md#optional-wrapped)
+- [attribute](xmlobject.md#attribute)
+- [name](xmlobject.md#name)
+- [namespace](xmlobject.md#namespace)
+- [prefix](xmlobject.md#prefix)
+- [wrapped](xmlobject.md#wrapped)
 
 ## Properties
 
-### `Optional` attribute
+### attribute
 
-• **attribute**? : *boolean*
+• `Optional` **attribute**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268_
 
-___
+---
 
-### `Optional` name
+### name
 
-• **name**? : *string*
+• `Optional` **name**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265_
 
-___
+---
 
-### `Optional` namespace
+### namespace
 
-• **namespace**? : *string*
+• `Optional` **namespace**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266_
 
-___
+---
 
-### `Optional` prefix
+### prefix
 
-• **prefix**? : *string*
+• `Optional` **prefix**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267_
 
-___
+---
 
-### `Optional` wrapped
+### wrapped
 
-• **wrapped**? : *boolean*
+• `Optional` **wrapped**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269_

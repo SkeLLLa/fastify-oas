@@ -1,65 +1,63 @@
-[fastify-oas](../README.md) › [EncodingPropertyObject](encodingpropertyobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / EncodingPropertyObject
 
 # Interface: EncodingPropertyObject
 
 ## Hierarchy
 
-* **EncodingPropertyObject**
+- **EncodingPropertyObject**
 
 ## Indexable
 
-* \[ **key**: *string*\]: any
+▪ [key: string]: any
 
 ## Index
 
 ### Properties
 
-* [allowReserved](encodingpropertyobject.md#optional-allowreserved)
-* [contentType](encodingpropertyobject.md#optional-contenttype)
-* [explode](encodingpropertyobject.md#optional-explode)
-* [headers](encodingpropertyobject.md#optional-headers)
-* [style](encodingpropertyobject.md#optional-style)
+- [allowReserved](encodingpropertyobject.md#allowreserved)
+- [contentType](encodingpropertyobject.md#contenttype)
+- [explode](encodingpropertyobject.md#explode)
+- [headers](encodingpropertyobject.md#headers)
+- [style](encodingpropertyobject.md#style)
 
 ## Properties
 
-### `Optional` allowReserved
+### allowReserved
 
-• **allowReserved**? : *boolean*
+• `Optional` **allowReserved**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:155
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:155_
 
-___
+---
 
-### `Optional` contentType
+### contentType
 
-• **contentType**? : *string*
+• `Optional` **contentType**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:149
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:149_
 
-___
+---
 
-### `Optional` explode
+### explode
 
-• **explode**? : *boolean*
+• `Optional` **explode**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:154
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:154_
 
-___
+---
 
-### `Optional` headers
+### headers
 
-• **headers**? : *object*
+• `Optional` **headers**: { [key:string]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:150
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:150_
 
-#### Type declaration:
+---
 
-* \[ **key**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+### style
 
-___
+• `Optional` **style**: string
 
-### `Optional` style
-
-• **style**? : *string*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:153
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:153_

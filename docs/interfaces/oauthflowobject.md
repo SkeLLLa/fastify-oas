@@ -1,54 +1,56 @@
-[fastify-oas](../README.md) › [OAuthFlowObject](oauthflowobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / OAuthFlowObject
 
 # Interface: OAuthFlowObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **OAuthFlowObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [authorizationUrl](oauthflowobject.md#optional-authorizationurl)
-* [refreshUrl](oauthflowobject.md#optional-refreshurl)
-* [scopes](oauthflowobject.md#scopes)
-* [tokenUrl](oauthflowobject.md#optional-tokenurl)
+- [authorizationUrl](oauthflowobject.md#authorizationurl)
+- [refreshUrl](oauthflowobject.md#refreshurl)
+- [scopes](oauthflowobject.md#scopes)
+- [tokenUrl](oauthflowobject.md#tokenurl)
 
 ## Properties
 
-### `Optional` authorizationUrl
+### authorizationUrl
 
-• **authorizationUrl**? : *string*
+• `Optional` **authorizationUrl**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289_
 
-___
+---
 
-### `Optional` refreshUrl
+### refreshUrl
 
-• **refreshUrl**? : *string*
+• `Optional` **refreshUrl**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291_
 
-___
+---
 
-###  scopes
+### scopes
 
-• **scopes**: *[ScopesObject](scopesobject.md)*
+• **scopes**: [ScopesObject](scopesobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292_
 
-___
+---
 
-### `Optional` tokenUrl
+### tokenUrl
 
-• **tokenUrl**? : *string*
+• `Optional` **tokenUrl**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290_

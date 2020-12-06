@@ -1,45 +1,47 @@
-[fastify-oas](../README.md) › [TagObject](tagobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / TagObject
 
 # Interface: TagObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **TagObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [description](tagobject.md#optional-description)
-* [externalDocs](tagobject.md#optional-externaldocs)
-* [name](tagobject.md#name)
+- [description](tagobject.md#description)
+- [externalDocs](tagobject.md#externaldocs)
+- [name](tagobject.md#name)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:203
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:203_
 
-___
+---
 
-### `Optional` externalDocs
+### externalDocs
 
-• **externalDocs**? : *[ExternalDocumentationObject](externaldocumentationobject.md)*
+• `Optional` **externalDocs**: [ExternalDocumentationObject](externaldocumentationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:204
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:204_
 
-___
+---
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:202
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:202_

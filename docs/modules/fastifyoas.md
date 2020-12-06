@@ -1,14 +1,16 @@
-[fastify-oas](../README.md) › [fastifyOAS](fastifyoas.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / fastifyOAS
 
 # Namespace: fastifyOAS
 
 ## Callable
 
-▸ **fastifyOAS**(): _void_
+▸ `Export assignment`**fastifyOAS**(): void
 
-Defined in lib/index.d.ts:141
+_Defined in lib/index.d.ts:141_
 
-**Returns:** _void_
+**Returns:** void
 
 ## Index
 

@@ -1,56 +1,50 @@
-[fastify-oas](../README.md) › [Response](response.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Response
 
 # Interface: Response
 
 ## Hierarchy
 
-* **Response**
+- **Response**
 
 ## Index
 
 ### Properties
 
-* [description](response.md#description)
-* [examples](response.md#optional-examples)
-* [headers](response.md#optional-headers)
-* [schema](response.md#optional-schema)
+- [description](response.md#description)
+- [examples](response.md#examples)
+- [headers](response.md#headers)
+- [schema](response.md#schema)
 
 ## Properties
 
-###  description
+### description
 
-• **description**: *string*
+• **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:146
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:146_
 
-___
+---
 
-### `Optional` examples
+### examples
 
-• **examples**? : *object*
+• `Optional` **examples**: { [exampleName:string]: {}; }
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:149
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:149_
 
-#### Type declaration:
+---
 
-* \[ **exampleName**: *string*\]: object
+### headers
 
-___
+• `Optional` **headers**: { [headerName:string]: [Header](header.md); }
 
-### `Optional` headers
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:148_
 
-• **headers**? : *object*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:148
+### schema
 
-#### Type declaration:
+• `Optional` **schema**: [Schema](schema.md)
 
-* \[ **headerName**: *string*\]: [Header](header.md)
-
-___
-
-### `Optional` schema
-
-• **schema**? : *[Schema](schema.md)*
-
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:147
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:147_

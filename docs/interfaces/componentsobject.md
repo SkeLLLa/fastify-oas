@@ -1,135 +1,101 @@
-[fastify-oas](../README.md) › [ComponentsObject](componentsobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ComponentsObject
 
 # Interface: ComponentsObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ComponentsObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [callbacks](componentsobject.md#optional-callbacks)
-* [examples](componentsobject.md#optional-examples)
-* [headers](componentsobject.md#optional-headers)
-* [links](componentsobject.md#optional-links)
-* [parameters](componentsobject.md#optional-parameters)
-* [requestBodies](componentsobject.md#optional-requestbodies)
-* [responses](componentsobject.md#optional-responses)
-* [schemas](componentsobject.md#optional-schemas)
-* [securitySchemes](componentsobject.md#optional-securityschemes)
+- [callbacks](componentsobject.md#callbacks)
+- [examples](componentsobject.md#examples)
+- [headers](componentsobject.md#headers)
+- [links](componentsobject.md#links)
+- [parameters](componentsobject.md#parameters)
+- [requestBodies](componentsobject.md#requestbodies)
+- [responses](componentsobject.md#responses)
+- [schemas](componentsobject.md#schemas)
+- [securitySchemes](componentsobject.md#securityschemes)
 
 ## Properties
 
-### `Optional` callbacks
+### callbacks
 
-• **callbacks**? : *object*
+• `Optional` **callbacks**: { [callback:string]: [CallbackObject](callbackobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:68
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:68_
 
-#### Type declaration:
+---
 
-* \[ **callback**: *string*\]: [CallbackObject](callbackobject.md) | [ReferenceObject](referenceobject.md)
+### examples
 
-___
+• `Optional` **examples**: { [example:string]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md); }
 
-### `Optional` examples
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:53_
 
-• **examples**? : *object*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:53
+### headers
 
-#### Type declaration:
+• `Optional` **headers**: { [header:string]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md); }
 
-* \[ **example**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:59_
 
-___
+---
 
-### `Optional` headers
+### links
 
-• **headers**? : *object*
+• `Optional` **links**: { [link:string]: [LinkObject](linkobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:59
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:65_
 
-#### Type declaration:
+---
 
-* \[ **header**: *string*\]: [HeaderObject](headerobject.md) | [ReferenceObject](referenceobject.md)
+### parameters
 
-___
+• `Optional` **parameters**: { [parameter:string]: [ParameterObject](parameterobject.md) \| [ReferenceObject](referenceobject.md); }
 
-### `Optional` links
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:50_
 
-• **links**? : *object*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:65
+### requestBodies
 
-#### Type declaration:
+• `Optional` **requestBodies**: { [request:string]: [RequestBodyObject](requestbodyobject.md) \| [ReferenceObject](referenceobject.md); }
 
-* \[ **link**: *string*\]: [LinkObject](linkobject.md) | [ReferenceObject](referenceobject.md)
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:56_
 
-___
+---
 
-### `Optional` parameters
+### responses
 
-• **parameters**? : *object*
+• `Optional` **responses**: { [response:string]: [ResponseObject](responseobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:50
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:47_
 
-#### Type declaration:
+---
 
-* \[ **parameter**: *string*\]: [ParameterObject](parameterobject.md) | [ReferenceObject](referenceobject.md)
+### schemas
 
-___
+• `Optional` **schemas**: { [schema:string]: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md); }
 
-### `Optional` requestBodies
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:44_
 
-• **requestBodies**? : *object*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:56
+### securitySchemes
 
-#### Type declaration:
+• `Optional` **securitySchemes**: { [securityScheme:string]: [SecuritySchemeObject](securityschemeobject.md) \| [ReferenceObject](referenceobject.md); }
 
-* \[ **request**: *string*\]: [RequestBodyObject](requestbodyobject.md) | [ReferenceObject](referenceobject.md)
-
-___
-
-### `Optional` responses
-
-• **responses**? : *object*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:47
-
-#### Type declaration:
-
-* \[ **response**: *string*\]: [ResponseObject](responseobject.md) | [ReferenceObject](referenceobject.md)
-
-___
-
-### `Optional` schemas
-
-• **schemas**? : *object*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:44
-
-#### Type declaration:
-
-* \[ **schema**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
-
-___
-
-### `Optional` securitySchemes
-
-• **securitySchemes**? : *object*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:62
-
-#### Type declaration:
-
-* \[ **securityScheme**: *string*\]: [SecuritySchemeObject](securityschemeobject.md) | [ReferenceObject](referenceobject.md)
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:62_

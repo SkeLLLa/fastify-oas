@@ -1,39 +1,41 @@
-[fastify-oas](../README.md) › [Contact](contact.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Contact
 
 # Interface: Contact
 
 ## Hierarchy
 
-* **Contact**
+- **Contact**
 
 ## Index
 
 ### Properties
 
-* [email](contact.md#optional-email)
-* [name](contact.md#optional-name)
-* [url](contact.md#optional-url)
+- [email](contact.md#email)
+- [name](contact.md#name)
+- [url](contact.md#url)
 
 ## Properties
 
-### `Optional` email
+### email
 
-• **email**? : *string*
+• `Optional` **email**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:18
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:18_
 
-___
+---
 
-### `Optional` name
+### name
 
-• **name**? : *string*
+• `Optional` **name**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:17
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:17_
 
-___
+---
 
-### `Optional` url
+### url
 
-• **url**? : *string*
+• `Optional` **url**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:19
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:19_

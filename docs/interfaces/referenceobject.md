@@ -1,21 +1,23 @@
-[fastify-oas](../README.md) › [ReferenceObject](referenceobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ReferenceObject
 
 # Interface: ReferenceObject
 
 ## Hierarchy
 
-* **ReferenceObject**
+- **ReferenceObject**
 
 ## Index
 
 ### Properties
 
-* [$ref](referenceobject.md#ref)
+- [$ref](referenceobject.md#$ref)
 
 ## Properties
 
-###  $ref
+### $ref
 
-• **$ref**: *string*
+• **$ref**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:211
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:211_

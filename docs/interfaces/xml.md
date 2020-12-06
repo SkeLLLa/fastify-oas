@@ -1,57 +1,59 @@
-[fastify-oas](../README.md) › [XML](xml.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / XML
 
 # Interface: XML
 
 ## Hierarchy
 
-* **XML**
+- **XML**
 
 ## Index
 
 ### Properties
 
-* [attribute](xml.md#optional-attribute)
-* [name](xml.md#optional-name)
-* [namespace](xml.md#optional-namespace)
-* [prefix](xml.md#optional-prefix)
-* [wrapped](xml.md#optional-wrapped)
+- [attribute](xml.md#attribute)
+- [name](xml.md#name)
+- [namespace](xml.md#namespace)
+- [prefix](xml.md#prefix)
+- [wrapped](xml.md#wrapped)
 
 ## Properties
 
-### `Optional` attribute
+### attribute
 
-• **attribute**? : *boolean*
+• `Optional` **attribute**: boolean
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:193
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:193_
 
-___
+---
 
-### `Optional` name
+### name
 
-• **name**? : *string*
+• `Optional` **name**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:190
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:190_
 
-___
+---
 
-### `Optional` namespace
+### namespace
 
-• **namespace**? : *string*
+• `Optional` **namespace**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:191
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:191_
 
-___
+---
 
-### `Optional` prefix
+### prefix
 
-• **prefix**? : *string*
+• `Optional` **prefix**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:192
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:192_
 
-___
+---
 
-### `Optional` wrapped
+### wrapped
 
-• **wrapped**? : *boolean*
+• `Optional` **wrapped**: boolean
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:194
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:194_

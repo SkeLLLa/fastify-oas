@@ -1,83 +1,85 @@
-[fastify-oas](../README.md) › [SpecificationExtension](specificationextension.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / SpecificationExtension
 
 # Class: SpecificationExtension
 
 ## Hierarchy
 
-* **SpecificationExtension**
+- **SpecificationExtension**
 
 ## Implements
 
-* [ISpecificationExtension](../interfaces/ispecificationextension.md)
+- [ISpecificationExtension](../interfaces/ispecificationextension.md)
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Methods
 
-* [addExtension](specificationextension.md#addextension)
-* [getExtension](specificationextension.md#getextension)
-* [listExtensions](specificationextension.md#listextensions)
-* [isValidExtension](specificationextension.md#static-isvalidextension)
+- [addExtension](specificationextension.md#addextension)
+- [getExtension](specificationextension.md#getextension)
+- [listExtensions](specificationextension.md#listextensions)
+- [isValidExtension](specificationextension.md#isvalidextension)
 
 ## Methods
 
-###  addExtension
+### addExtension
 
-▸ **addExtension**(`extensionName`: string, `payload`: any): *void*
+▸ **addExtension**(`extensionName`: string, `payload`: any): void
 
-Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:8
+_Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:8_
 
-**Parameters:**
+#### Parameters:
 
-Name | Type |
------- | ------ |
-`extensionName` | string |
-`payload` | any |
+| Name            | Type   |
+| --------------- | ------ |
+| `extensionName` | string |
+| `payload`       | any    |
 
-**Returns:** *void*
+**Returns:** void
 
-___
+---
 
-###  getExtension
+### getExtension
 
-▸ **getExtension**(`extensionName`: string): *any*
+▸ **getExtension**(`extensionName`: string): any
 
-Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:7
+_Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:7_
 
-**Parameters:**
+#### Parameters:
 
-Name | Type |
------- | ------ |
-`extensionName` | string |
+| Name            | Type   |
+| --------------- | ------ |
+| `extensionName` | string |
 
-**Returns:** *any*
+**Returns:** any
 
-___
+---
 
-###  listExtensions
+### listExtensions
 
-▸ **listExtensions**(): *string[]*
+▸ **listExtensions**(): string[]
 
-Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:9
+_Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:9_
 
-**Returns:** *string[]*
+**Returns:** string[]
 
-___
+---
 
-### `Static` isValidExtension
+### isValidExtension
 
-▸ **isValidExtension**(`extensionName`: string): *boolean*
+▸ `Static`**isValidExtension**(`extensionName`: string): boolean
 
-Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:6
+_Defined in node_modules/openapi3-ts/dist/model/SpecificationExtension.d.ts:6_
 
-**Parameters:**
+#### Parameters:
 
-Name | Type |
------- | ------ |
-`extensionName` | string |
+| Name            | Type   |
+| --------------- | ------ |
+| `extensionName` | string |
 
-**Returns:** *boolean*
+**Returns:** boolean

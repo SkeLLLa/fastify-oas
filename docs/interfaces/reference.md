@@ -1,21 +1,23 @@
-[fastify-oas](../README.md) › [Reference](reference.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Reference
 
 # Interface: Reference
 
 ## Hierarchy
 
-* **Reference**
+- **Reference**
 
 ## Index
 
 ### Properties
 
-* [$ref](reference.md#ref)
+- [$ref](reference.md#$ref)
 
 ## Properties
 
-###  $ref
+### $ref
 
-• **$ref**: *string*
+• **$ref**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:141
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:141_

@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [ExamplesObject](examplesobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ExamplesObject
 
 # Interface: ExamplesObject
 
 ## Hierarchy
 
-* **ExamplesObject**
+- **ExamplesObject**
 
 ## Indexable
 
-* \[ **name**: *string*\]: [ExampleObject](exampleobject.md) | [ReferenceObject](referenceobject.md)
+▪ [name: string]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md)

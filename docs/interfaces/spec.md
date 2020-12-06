@@ -1,167 +1,149 @@
-[fastify-oas](../README.md) › [Spec](spec.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Spec
 
 # Interface: Spec
 
 ## Hierarchy
 
-* **Spec**
+- **Spec**
 
 ## Index
 
 ### Properties
 
-* [basePath](spec.md#optional-basepath)
-* [consumes](spec.md#optional-consumes)
-* [definitions](spec.md#optional-definitions)
-* [externalDocs](spec.md#optional-externaldocs)
-* [host](spec.md#optional-host)
-* [info](spec.md#info)
-* [parameters](spec.md#optional-parameters)
-* [paths](spec.md#paths)
-* [produces](spec.md#optional-produces)
-* [responses](spec.md#optional-responses)
-* [schemes](spec.md#optional-schemes)
-* [security](spec.md#optional-security)
-* [securityDefinitions](spec.md#optional-securitydefinitions)
-* [swagger](spec.md#swagger)
-* [tags](spec.md#optional-tags)
+- [basePath](spec.md#basepath)
+- [consumes](spec.md#consumes)
+- [definitions](spec.md#definitions)
+- [externalDocs](spec.md#externaldocs)
+- [host](spec.md#host)
+- [info](spec.md#info)
+- [parameters](spec.md#parameters)
+- [paths](spec.md#paths)
+- [produces](spec.md#produces)
+- [responses](spec.md#responses)
+- [schemes](spec.md#schemes)
+- [security](spec.md#security)
+- [securityDefinitions](spec.md#securitydefinitions)
+- [swagger](spec.md#swagger)
+- [tags](spec.md#tags)
 
 ## Properties
 
-### `Optional` basePath
+### basePath
 
-• **basePath**? : *string*
+• `Optional` **basePath**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:262
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:262_
 
-___
+---
 
-### `Optional` consumes
+### consumes
 
-• **consumes**? : *string[]*
+• `Optional` **consumes**: string[]
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:264
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:264_
 
-___
+---
 
-### `Optional` definitions
+### definitions
 
-• **definitions**? : *object*
+• `Optional` **definitions**: { [definitionsName:string]: [Schema](schema.md); }
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:267
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:267_
 
-#### Type declaration:
+---
 
-* \[ **definitionsName**: *string*\]: [Schema](schema.md)
+### externalDocs
 
-___
+• `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-### `Optional` externalDocs
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:260_
 
-• **externalDocs**? : *[ExternalDocs](externaldocs.md)*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:260
+### host
 
-___
+• `Optional` **host**: string
 
-### `Optional` host
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:261_
 
-• **host**? : *string*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:261
+### info
 
-___
+• **info**: [Info](info.md)
 
-###  info
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:259_
 
-• **info**: *[Info](info.md)*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:259
+### parameters
 
-___
+• `Optional` **parameters**: { [parameterName:string]: [BodyParameter](../README.md#bodyparameter) \| [QueryParameter](../README.md#queryparameter); }
 
-### `Optional` parameters
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:268_
 
-• **parameters**? : *object*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:268
+### paths
 
-#### Type declaration:
+• **paths**: { [pathName:string]: [Path](path.md); }
 
-* \[ **parameterName**: *string*\]: [BodyParameter](../README.md#bodyparameter) | [QueryParameter](../README.md#queryparameter)
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:266_
 
-___
+---
 
-###  paths
+### produces
 
-• **paths**: *object*
+• `Optional` **produces**: string[]
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:266
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:265_
 
-#### Type declaration:
+---
 
-* \[ **pathName**: *string*\]: [Path](path.md)
+### responses
 
-___
+• `Optional` **responses**: { [responseName:string]: [Response](response.md); }
 
-### `Optional` produces
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:269_
 
-• **produces**? : *string[]*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:265
+### schemes
 
-___
+• `Optional` **schemes**: string[]
 
-### `Optional` responses
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:263_
 
-• **responses**? : *object*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:269
+### security
 
-#### Type declaration:
+• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[]; }>
 
-* \[ **responseName**: *string*\]: [Response](response.md)
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:270_
 
-___
+---
 
-### `Optional` schemes
+### securityDefinitions
 
-• **schemes**? : *string[]*
+• `Optional` **securityDefinitions**: { [securityDefinitionName:string]: [Security](../README.md#security); }
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:263
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:271_
 
-___
+---
 
-### `Optional` security
+### swagger
 
-• **security**? : *Array‹object›*
+• **swagger**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:270
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:258_
 
-___
+---
 
-### `Optional` securityDefinitions
+### tags
 
-• **securityDefinitions**? : *object*
+• `Optional` **tags**: [Tag](tag.md)[]
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:271
-
-#### Type declaration:
-
-* \[ **securityDefinitionName**: *string*\]: [Security](../README.md#security)
-
-___
-
-###  swagger
-
-• **swagger**: *string*
-
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:258
-
-___
-
-### `Optional` tags
-
-• **tags**? : *[Tag](tag.md)[]*
-
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:272
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:272_

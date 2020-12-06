@@ -1,124 +1,122 @@
-[fastify-oas](../README.md) › [Operation](operation.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Operation
 
 # Interface: Operation
 
 ## Hierarchy
 
-* **Operation**
+- **Operation**
 
 ## Index
 
 ### Properties
 
-* [consumes](operation.md#optional-consumes)
-* [deprecated](operation.md#optional-deprecated)
-* [description](operation.md#optional-description)
-* [externalDocs](operation.md#optional-externaldocs)
-* [operationId](operation.md#optional-operationid)
-* [parameters](operation.md#optional-parameters)
-* [produces](operation.md#optional-produces)
-* [responses](operation.md#responses)
-* [schemes](operation.md#optional-schemes)
-* [security](operation.md#optional-security)
-* [summary](operation.md#optional-summary)
-* [tags](operation.md#optional-tags)
+- [consumes](operation.md#consumes)
+- [deprecated](operation.md#deprecated)
+- [description](operation.md#description)
+- [externalDocs](operation.md#externaldocs)
+- [operationId](operation.md#operationid)
+- [parameters](operation.md#parameters)
+- [produces](operation.md#produces)
+- [responses](operation.md#responses)
+- [schemes](operation.md#schemes)
+- [security](operation.md#security)
+- [summary](operation.md#summary)
+- [tags](operation.md#tags)
 
 ## Properties
 
-### `Optional` consumes
+### consumes
 
-• **consumes**? : *string[]*
+• `Optional` **consumes**: string[]
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:131
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:131_
 
-___
+---
 
-### `Optional` deprecated
+### deprecated
 
-• **deprecated**? : *boolean*
+• `Optional` **deprecated**: boolean
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:134
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:134_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:127
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:127_
 
-___
+---
 
-### `Optional` externalDocs
+### externalDocs
 
-• **externalDocs**? : *[ExternalDocs](externaldocs.md)*
+• `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:128
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:128_
 
-___
+---
 
-### `Optional` operationId
+### operationId
 
-• **operationId**? : *string*
+• `Optional` **operationId**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:129
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:129_
 
-___
+---
 
-### `Optional` parameters
+### parameters
 
-• **parameters**? : *Array‹[Parameter](../README.md#parameter) | [Reference](reference.md)›*
+• `Optional` **parameters**: Array\<[Parameter](../README.md#parameter) \| [Reference](reference.md)>
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:132
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:132_
 
-___
+---
 
-### `Optional` produces
+### produces
 
-• **produces**? : *string[]*
+• `Optional` **produces**: string[]
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:130
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:130_
 
-___
+---
 
-###  responses
+### responses
 
-• **responses**: *object*
+• **responses**: { [responseName:string]: [Response](response.md) \| [Reference](reference.md); }
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:125
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:125_
 
-#### Type declaration:
+---
 
-* \[ **responseName**: *string*\]: [Response](response.md) | [Reference](reference.md)
+### schemes
 
-___
+• `Optional` **schemes**: string[]
 
-### `Optional` schemes
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:133_
 
-• **schemes**? : *string[]*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:133
+### security
 
-___
+• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[]; }>
 
-### `Optional` security
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:135_
 
-• **security**? : *Array‹object›*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:135
+### summary
 
-___
+• `Optional` **summary**: string
 
-### `Optional` summary
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:126_
 
-• **summary**? : *string*
+---
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:126
+### tags
 
-___
+• `Optional` **tags**: string[]
 
-### `Optional` tags
-
-• **tags**? : *string[]*
-
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:136
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:136_

@@ -1,54 +1,56 @@
-[fastify-oas](../README.md) › [OAuthFlowsObject](oauthflowsobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / OAuthFlowsObject
 
 # Interface: OAuthFlowsObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **OAuthFlowsObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [authorizationCode](oauthflowsobject.md#optional-authorizationcode)
-* [clientCredentials](oauthflowsobject.md#optional-clientcredentials)
-* [implicit](oauthflowsobject.md#optional-implicit)
-* [password](oauthflowsobject.md#optional-password)
+- [authorizationCode](oauthflowsobject.md#authorizationcode)
+- [clientCredentials](oauthflowsobject.md#clientcredentials)
+- [implicit](oauthflowsobject.md#implicit)
+- [password](oauthflowsobject.md#password)
 
 ## Properties
 
-### `Optional` authorizationCode
+### authorizationCode
 
-• **authorizationCode**? : *[OAuthFlowObject](oauthflowobject.md)*
+• `Optional` **authorizationCode**: [OAuthFlowObject](oauthflowobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:286
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:286_
 
-___
+---
 
-### `Optional` clientCredentials
+### clientCredentials
 
-• **clientCredentials**? : *[OAuthFlowObject](oauthflowobject.md)*
+• `Optional` **clientCredentials**: [OAuthFlowObject](oauthflowobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:285
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:285_
 
-___
+---
 
-### `Optional` implicit
+### implicit
 
-• **implicit**? : *[OAuthFlowObject](oauthflowobject.md)*
+• `Optional` **implicit**: [OAuthFlowObject](oauthflowobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283_
 
-___
+---
 
-### `Optional` password
+### password
 
-• **password**? : *[OAuthFlowObject](oauthflowobject.md)*
+• `Optional` **password**: [OAuthFlowObject](oauthflowobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284_

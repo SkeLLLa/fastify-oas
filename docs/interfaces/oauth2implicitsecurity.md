@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) › [OAuth2ImplicitSecurity](oauth2implicitsecurity.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / OAuth2ImplicitSecurity
 
 # Interface: OAuth2ImplicitSecurity
 
 ## Hierarchy
 
-  ↳ [BaseOAuthSecurity](baseoauthsecurity.md)
+- [BaseOAuthSecurity](baseoauthsecurity.md)
 
   ↳ **OAuth2ImplicitSecurity**
 
@@ -12,56 +14,56 @@
 
 ### Properties
 
-* [authorizationUrl](oauth2implicitsecurity.md#authorizationurl)
-* [description](oauth2implicitsecurity.md#optional-description)
-* [flow](oauth2implicitsecurity.md#flow)
-* [scopes](oauth2implicitsecurity.md#optional-scopes)
-* [type](oauth2implicitsecurity.md#type)
+- [authorizationUrl](oauth2implicitsecurity.md#authorizationurl)
+- [description](oauth2implicitsecurity.md#description)
+- [flow](oauth2implicitsecurity.md#flow)
+- [scopes](oauth2implicitsecurity.md#scopes)
+- [type](oauth2implicitsecurity.md#type)
 
 ## Properties
 
-###  authorizationUrl
+### authorizationUrl
 
-• **authorizationUrl**: *string*
+• **authorizationUrl**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:222
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:222_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#optional-description)*
+_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:200
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
 
-___
+---
 
-###  flow
+### flow
 
-• **flow**: *"implicit"*
+• **flow**: \"implicit\"
 
-*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)*
+_Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:221
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:221_
 
-___
+---
 
-### `Optional` scopes
+### scopes
 
-• **scopes**? : *[OAuthScope](oauthscope.md)*
+• `Optional` **scopes**: [OAuthScope](oauthscope.md)
 
-*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#optional-scopes)*
+_Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:216
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:216_
 
-___
+---
 
-###  type
+### type
 
-• **type**: *"oauth2"*
+• **type**: \"oauth2\"
 
-*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)*
+_Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:220
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:220_

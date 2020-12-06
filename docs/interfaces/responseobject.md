@@ -1,54 +1,56 @@
-[fastify-oas](../README.md) › [ResponseObject](responseobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ResponseObject
 
 # Interface: ResponseObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ResponseObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [content](responseobject.md#optional-content)
-* [description](responseobject.md#description)
-* [headers](responseobject.md#optional-headers)
-* [links](responseobject.md#optional-links)
+- [content](responseobject.md#content)
+- [description](responseobject.md#description)
+- [headers](responseobject.md#headers)
+- [links](responseobject.md#links)
 
 ## Properties
 
-### `Optional` content
+### content
 
-• **content**? : *[ContentObject](contentobject.md)*
+• `Optional` **content**: [ContentObject](contentobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165_
 
-___
+---
 
-###  description
+### description
 
-• **description**: *string*
+• **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163_
 
-___
+---
 
-### `Optional` headers
+### headers
 
-• **headers**? : *[HeadersObject](headersobject.md)*
+• `Optional` **headers**: [HeadersObject](headersobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164_
 
-___
+---
 
-### `Optional` links
+### links
 
-• **links**? : *[LinksObject](linksobject.md)*
+• `Optional` **links**: [LinksObject](linksobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166_

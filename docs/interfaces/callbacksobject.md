@@ -1,13 +1,15 @@
-[fastify-oas](../README.md) › [CallbacksObject](callbacksobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / CallbacksObject
 
 # Interface: CallbacksObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **CallbacksObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any

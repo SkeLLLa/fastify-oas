@@ -1,39 +1,41 @@
-[fastify-oas](../README.md) › [Tag](tag.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / Tag
 
 # Interface: Tag
 
 ## Hierarchy
 
-* **Tag**
+- **Tag**
 
 ## Index
 
 ### Properties
 
-* [description](tag.md#optional-description)
-* [externalDocs](tag.md#optional-externaldocs)
-* [name](tag.md#name)
+- [description](tag.md#description)
+- [externalDocs](tag.md#externaldocs)
+- [name](tag.md#name)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:34
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:34_
 
-___
+---
 
-### `Optional` externalDocs
+### externalDocs
 
-• **externalDocs**? : *[ExternalDocs](externaldocs.md)*
+• `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:35
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:35_
 
-___
+---
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:33
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:33_

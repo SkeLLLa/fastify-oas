@@ -1,346 +1,344 @@
-[fastify-oas](../README.md) › [SchemaObject](schemaobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / SchemaObject
 
 # Interface: SchemaObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **SchemaObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [additionalProperties](schemaobject.md#optional-additionalproperties)
-* [allOf](schemaobject.md#optional-allof)
-* [anyOf](schemaobject.md#optional-anyof)
-* [default](schemaobject.md#optional-default)
-* [deprecated](schemaobject.md#optional-deprecated)
-* [description](schemaobject.md#optional-description)
-* [discriminator](schemaobject.md#optional-discriminator)
-* [enum](schemaobject.md#optional-enum)
-* [example](schemaobject.md#optional-example)
-* [examples](schemaobject.md#optional-examples)
-* [exclusiveMaximum](schemaobject.md#optional-exclusivemaximum)
-* [exclusiveMinimum](schemaobject.md#optional-exclusiveminimum)
-* [externalDocs](schemaobject.md#optional-externaldocs)
-* [format](schemaobject.md#optional-format)
-* [items](schemaobject.md#optional-items)
-* [maxItems](schemaobject.md#optional-maxitems)
-* [maxLength](schemaobject.md#optional-maxlength)
-* [maxProperties](schemaobject.md#optional-maxproperties)
-* [maximum](schemaobject.md#optional-maximum)
-* [minItems](schemaobject.md#optional-minitems)
-* [minLength](schemaobject.md#optional-minlength)
-* [minProperties](schemaobject.md#optional-minproperties)
-* [minimum](schemaobject.md#optional-minimum)
-* [multipleOf](schemaobject.md#optional-multipleof)
-* [not](schemaobject.md#optional-not)
-* [nullable](schemaobject.md#optional-nullable)
-* [oneOf](schemaobject.md#optional-oneof)
-* [pattern](schemaobject.md#optional-pattern)
-* [properties](schemaobject.md#optional-properties)
-* [readOnly](schemaobject.md#optional-readonly)
-* [required](schemaobject.md#optional-required)
-* [title](schemaobject.md#optional-title)
-* [type](schemaobject.md#optional-type)
-* [uniqueItems](schemaobject.md#optional-uniqueitems)
-* [writeOnly](schemaobject.md#optional-writeonly)
-* [xml](schemaobject.md#optional-xml)
+- [additionalProperties](schemaobject.md#additionalproperties)
+- [allOf](schemaobject.md#allof)
+- [anyOf](schemaobject.md#anyof)
+- [default](schemaobject.md#default)
+- [deprecated](schemaobject.md#deprecated)
+- [description](schemaobject.md#description)
+- [discriminator](schemaobject.md#discriminator)
+- [enum](schemaobject.md#enum)
+- [example](schemaobject.md#example)
+- [examples](schemaobject.md#examples)
+- [exclusiveMaximum](schemaobject.md#exclusivemaximum)
+- [exclusiveMinimum](schemaobject.md#exclusiveminimum)
+- [externalDocs](schemaobject.md#externaldocs)
+- [format](schemaobject.md#format)
+- [items](schemaobject.md#items)
+- [maxItems](schemaobject.md#maxitems)
+- [maxLength](schemaobject.md#maxlength)
+- [maxProperties](schemaobject.md#maxproperties)
+- [maximum](schemaobject.md#maximum)
+- [minItems](schemaobject.md#minitems)
+- [minLength](schemaobject.md#minlength)
+- [minProperties](schemaobject.md#minproperties)
+- [minimum](schemaobject.md#minimum)
+- [multipleOf](schemaobject.md#multipleof)
+- [not](schemaobject.md#not)
+- [nullable](schemaobject.md#nullable)
+- [oneOf](schemaobject.md#oneof)
+- [pattern](schemaobject.md#pattern)
+- [properties](schemaobject.md#properties)
+- [readOnly](schemaobject.md#readonly)
+- [required](schemaobject.md#required)
+- [title](schemaobject.md#title)
+- [type](schemaobject.md#type)
+- [uniqueItems](schemaobject.md#uniqueitems)
+- [writeOnly](schemaobject.md#writeonly)
+- [xml](schemaobject.md#xml)
 
 ## Properties
 
-### `Optional` additionalProperties
+### additionalProperties
 
-• **additionalProperties**? : *false | true | [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+• `Optional` **additionalProperties**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md) \| boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:233
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:233_
 
-___
+---
 
-### `Optional` allOf
+### allOf
 
-• **allOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
+• `Optional` **allOf**: ([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:225_
 
-___
+---
 
-### `Optional` anyOf
+### anyOf
 
-• **anyOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
+• `Optional` **anyOf**: ([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:227_
 
-___
+---
 
-### `Optional` default
+### default
 
-• **default**? : *any*
+• `Optional` **default**: any
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:236
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:236_
 
-___
+---
 
-### `Optional` deprecated
+### deprecated
 
-• **deprecated**? : *boolean*
+• `Optional` **deprecated**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:223
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:223_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:234
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:234_
 
-___
+---
 
-### `Optional` discriminator
+### discriminator
 
-• **discriminator**? : *[DiscriminatorObject](discriminatorobject.md)*
+• `Optional` **discriminator**: [DiscriminatorObject](discriminatorobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:216
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:216_
 
-___
+---
 
-### `Optional` enum
+### enum
 
-• **enum**? : *any[]*
+• `Optional` **enum**: any[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:252
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:252_
 
-___
+---
 
-### `Optional` example
+### example
 
-• **example**? : *any*
+• `Optional` **example**: any
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:221
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:221_
 
-___
+---
 
-### `Optional` examples
+### examples
 
-• **examples**? : *any[]*
+• `Optional` **examples**: any[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:222
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:222_
 
-___
+---
 
-### `Optional` exclusiveMaximum
+### exclusiveMaximum
 
-• **exclusiveMaximum**? : *boolean*
+• `Optional` **exclusiveMaximum**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:240
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:240_
 
-___
+---
 
-### `Optional` exclusiveMinimum
+### exclusiveMinimum
 
-• **exclusiveMinimum**? : *boolean*
+• `Optional` **exclusiveMinimum**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:242
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:242_
 
-___
+---
 
-### `Optional` externalDocs
+### externalDocs
 
-• **externalDocs**? : *[ExternalDocumentationObject](externaldocumentationobject.md)*
+• `Optional` **externalDocs**: [ExternalDocumentationObject](externaldocumentationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:220
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:220_
 
-___
+---
 
-### `Optional` format
+### format
 
-• **format**? : *string*
+• `Optional` **format**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:235
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:235_
 
-___
+---
 
-### `Optional` items
+### items
 
-• **items**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+• `Optional` **items**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:229
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:229_
 
-___
+---
 
-### `Optional` maxItems
+### maxItems
 
-• **maxItems**? : *number*
+• `Optional` **maxItems**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:246
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:246_
 
-___
+---
 
-### `Optional` maxLength
+### maxLength
 
-• **maxLength**? : *number*
+• `Optional` **maxLength**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:243
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:243_
 
-___
+---
 
-### `Optional` maxProperties
+### maxProperties
 
-• **maxProperties**? : *number*
+• `Optional` **maxProperties**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:249
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:249_
 
-___
+---
 
-### `Optional` maximum
+### maximum
 
-• **maximum**? : *number*
+• `Optional` **maximum**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:239
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:239_
 
-___
+---
 
-### `Optional` minItems
+### minItems
 
-• **minItems**? : *number*
+• `Optional` **minItems**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:247
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:247_
 
-___
+---
 
-### `Optional` minLength
+### minLength
 
-• **minLength**? : *number*
+• `Optional` **minLength**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:244
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:244_
 
-___
+---
 
-### `Optional` minProperties
+### minProperties
 
-• **minProperties**? : *number*
+• `Optional` **minProperties**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:250
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:250_
 
-___
+---
 
-### `Optional` minimum
+### minimum
 
-• **minimum**? : *number*
+• `Optional` **minimum**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:241
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:241_
 
-___
+---
 
-### `Optional` multipleOf
+### multipleOf
 
-• **multipleOf**? : *number*
+• `Optional` **multipleOf**: number
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:238
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:238_
 
-___
+---
 
-### `Optional` not
+### not
 
-• **not**? : *[SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)*
+• `Optional` **not**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:228
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:228_
 
-___
+---
 
-### `Optional` nullable
+### nullable
 
-• **nullable**? : *boolean*
+• `Optional` **nullable**: boolean
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:215
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:215_
 
-___
+---
 
-### `Optional` oneOf
+### oneOf
 
-• **oneOf**? : *([SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md))[]*
+• `Optional` **oneOf**: ([SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md))[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:226_
 
-___
+---
 
-### `Optional` pattern
+### pattern
 
-• **pattern**? : *string*
+• `Optional` **pattern**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:245
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:245_
 
-___
+---
 
-### `Optional` properties
+### properties
 
-• **properties**? : *object*
+• `Optional` **properties**: { [propertyName:string]: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:230
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:230_
 
-#### Type declaration:
+---
 
-* \[ **propertyName**: *string*\]: [SchemaObject](schemaobject.md) | [ReferenceObject](referenceobject.md)
+### readOnly
 
-___
+• `Optional` **readOnly**: boolean
 
-### `Optional` readOnly
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:217_
 
-• **readOnly**? : *boolean*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:217
+### required
 
-___
+• `Optional` **required**: string[]
 
-### `Optional` required
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:251_
 
-• **required**? : *string[]*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:251
+### title
 
-___
+• `Optional` **title**: string
 
-### `Optional` title
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:237_
 
-• **title**? : *string*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:237
+### type
 
-___
+• `Optional` **type**: string
 
-### `Optional` type
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:224_
 
-• **type**? : *string*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:224
+### uniqueItems
 
-___
+• `Optional` **uniqueItems**: boolean
 
-### `Optional` uniqueItems
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:248_
 
-• **uniqueItems**? : *boolean*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:248
+### writeOnly
 
-___
+• `Optional` **writeOnly**: boolean
 
-### `Optional` writeOnly
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:218_
 
-• **writeOnly**? : *boolean*
+---
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:218
+### xml
 
-___
+• `Optional` **xml**: [XmlObject](xmlobject.md)
 
-### `Optional` xml
-
-• **xml**? : *[XmlObject](xmlobject.md)*
-
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:219
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:219_

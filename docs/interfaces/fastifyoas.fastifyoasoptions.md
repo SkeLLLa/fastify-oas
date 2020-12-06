@@ -1,4 +1,6 @@
-[fastify-oas](../README.md) › [fastifyOAS](../modules/fastifyoas.md) › [FastifyOASOptions](fastifyoas.fastifyoasoptions.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / [fastifyOAS](../modules/fastifyoas.md) / FastifyOASOptions
 
 # Interface: FastifyOASOptions
 
@@ -14,23 +16,24 @@ Fastify OAS plugin options
 
 ### Properties
 
-- [addModels](fastifyoas.fastifyoasoptions.md#optional-addmodels)
-- [exposeRoute](fastifyoas.fastifyoasoptions.md#optional-exposeroute)
-- [hideUntagged](fastifyoas.fastifyoasoptions.md#optional-hideuntagged)
-- [logLevel](fastifyoas.fastifyoasoptions.md#optional-loglevel)
-- [openapi](fastifyoas.fastifyoasoptions.md#optional-openapi)
-- [prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)
-- [routePrefix](fastifyoas.fastifyoasoptions.md#optional-routeprefix)
-- [swagger](fastifyoas.fastifyoasoptions.md#optional-swagger)
-- [yaml](fastifyoas.fastifyoasoptions.md#optional-yaml)
+- [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
+- [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
+- [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
+- [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
+- [logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)
+- [openapi](fastifyoas.fastifyoasoptions.md#openapi)
+- [prefix](fastifyoas.fastifyoasoptions.md#prefix)
+- [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
+- [swagger](fastifyoas.fastifyoasoptions.md#swagger)
+- [yaml](fastifyoas.fastifyoasoptions.md#yaml)
 
 ## Properties
 
-### `Optional` addModels
+### addModels
 
-• **addModels**? : _boolean_
+• `Optional` **addModels**: boolean
 
-Defined in lib/index.d.ts:118
+_Defined in lib/index.d.ts:118_
 
 If `true` adds fastify schemas as openapi models
 
@@ -38,11 +41,11 @@ If `true` adds fastify schemas as openapi models
 
 ---
 
-### `Optional` exposeRoute
+### exposeRoute
 
-• **exposeRoute**? : _boolean | [ExposeOptions](fastifyoas.exposeoptions.md)_
+• `Optional` **exposeRoute**: boolean \| [ExposeOptions](fastifyoas.exposeoptions.md)
 
-Defined in lib/index.d.ts:113
+_Defined in lib/index.d.ts:113_
 
 If `true` the plugin will expose the documentation routes
 
@@ -50,11 +53,11 @@ If `true` the plugin will expose the documentation routes
 
 ---
 
-### `Optional` hideUntagged
+### hideUntagged
 
-• **hideUntagged**? : _boolean_
+• `Optional` **hideUntagged**: boolean
 
-Defined in lib/index.d.ts:137
+_Defined in lib/index.d.ts:137_
 
 If true will not add routes without tags
 
@@ -62,21 +65,31 @@ If true will not add routes without tags
 
 ---
 
-### `Optional` logLevel
+### logLevel
 
-• **logLevel**? : _LogLevel_
+• `Optional` **logLevel**: LogLevel
 
-_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logLevel](fastifyoas.fastifyoasoptions.md#optional-loglevel)_
+_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logLevel](fastifyoas.fastifyoasoptions.md#loglevel)_
 
-Defined in node_modules/fastify/types/register.d.ts:28
+_Defined in node_modules/fastify/types/register.d.ts:6_
 
 ---
 
-### `Optional` openapi
+### logSerializers
 
-• **openapi**? : _string_
+• `Optional` **logSerializers**: Record\<string, (value: any) => string>
 
-Defined in lib/index.d.ts:123
+_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)_
+
+_Defined in node_modules/fastify/types/register.d.ts:7_
+
+---
+
+### openapi
+
+• `Optional` **openapi**: string
+
+_Defined in lib/index.d.ts:123_
 
 Openapi version
 
@@ -84,21 +97,21 @@ Openapi version
 
 ---
 
-### `Optional` prefix
+### prefix
 
-• **prefix**? : _string_
+• `Optional` **prefix**: string
 
-_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#optional-prefix)_
+_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#prefix)_
 
-Defined in node_modules/fastify/types/register.d.ts:27
+_Defined in node_modules/fastify/types/register.d.ts:5_
 
 ---
 
-### `Optional` routePrefix
+### routePrefix
 
-• **routePrefix**? : _string_
+• `Optional` **routePrefix**: string
 
-Defined in lib/index.d.ts:108
+_Defined in lib/index.d.ts:108_
 
 Documentation endpoint
 
@@ -106,21 +119,21 @@ Documentation endpoint
 
 ---
 
-### `Optional` swagger
+### swagger
 
-• **swagger**? : _[OpenApiSpec](fastifyoas.openapispec.md)_
+• `Optional` **swagger**: [OpenApiSpec](fastifyoas.openapispec.md)
 
-Defined in lib/index.d.ts:132
+_Defined in lib/index.d.ts:132_
 
 OpenApi/Swagger object except paths
 
 ---
 
-### `Optional` yaml
+### yaml
 
-• **yaml**? : _boolean_
+• `Optional` **yaml**: boolean
 
-Defined in lib/index.d.ts:128
+_Defined in lib/index.d.ts:128_
 
 If `true` returns yaml instead of json
 

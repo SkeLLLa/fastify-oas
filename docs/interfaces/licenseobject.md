@@ -1,36 +1,38 @@
-[fastify-oas](../README.md) › [LicenseObject](licenseobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / LicenseObject
 
 # Interface: LicenseObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **LicenseObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [name](licenseobject.md#name)
-* [url](licenseobject.md#optional-url)
+- [name](licenseobject.md#name)
+- [url](licenseobject.md#url)
 
 ## Properties
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:28
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:28_
 
-___
+---
 
-### `Optional` url
+### url
 
-• **url**? : *string*
+• `Optional` **url**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:29
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:29_

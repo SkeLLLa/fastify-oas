@@ -1,53 +1,51 @@
-[fastify-oas](../README.md) › [ServerObject](serverobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ServerObject
 
 # Interface: ServerObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ServerObject**
 
 ## Implemented by
 
-* [Server](../classes/server.md)
+- [Server](../classes/server.md)
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [description](serverobject.md#optional-description)
-* [url](serverobject.md#url)
-* [variables](serverobject.md#optional-variables)
+- [description](serverobject.md#description)
+- [url](serverobject.md#url)
+- [variables](serverobject.md#variables)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:33
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:33_
 
-___
+---
 
-###  url
+### url
 
-• **url**: *string*
+• **url**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:32
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:32_
 
-___
+---
 
-### `Optional` variables
+### variables
 
-• **variables**? : *object*
+• `Optional` **variables**: { [v:string]: [ServerVariableObject](servervariableobject.md); }
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:34
-
-#### Type declaration:
-
-* \[ **v**: *string*\]: [ServerVariableObject](servervariableobject.md)
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:34_

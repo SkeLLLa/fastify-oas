@@ -1,135 +1,137 @@
-[fastify-oas](../README.md) › [PathItemObject](pathitemobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / PathItemObject
 
 # Interface: PathItemObject
 
 ## Hierarchy
 
-* [ISpecificationExtension](ispecificationextension.md)
+- [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **PathItemObject**
 
 ## Indexable
 
-* \[ **extensionName**: *string*\]: any
+▪ [extensionName: string]: any
 
 ## Index
 
 ### Properties
 
-* [$ref](pathitemobject.md#optional-ref)
-* [delete](pathitemobject.md#optional-delete)
-* [description](pathitemobject.md#optional-description)
-* [get](pathitemobject.md#optional-get)
-* [head](pathitemobject.md#optional-head)
-* [options](pathitemobject.md#optional-options)
-* [parameters](pathitemobject.md#optional-parameters)
-* [patch](pathitemobject.md#optional-patch)
-* [post](pathitemobject.md#optional-post)
-* [put](pathitemobject.md#optional-put)
-* [servers](pathitemobject.md#optional-servers)
-* [summary](pathitemobject.md#optional-summary)
-* [trace](pathitemobject.md#optional-trace)
+- [$ref](pathitemobject.md#$ref)
+- [delete](pathitemobject.md#delete)
+- [description](pathitemobject.md#description)
+- [get](pathitemobject.md#get)
+- [head](pathitemobject.md#head)
+- [options](pathitemobject.md#options)
+- [parameters](pathitemobject.md#parameters)
+- [patch](pathitemobject.md#patch)
+- [post](pathitemobject.md#post)
+- [put](pathitemobject.md#put)
+- [servers](pathitemobject.md#servers)
+- [summary](pathitemobject.md#summary)
+- [trace](pathitemobject.md#trace)
 
 ## Properties
 
-### `Optional` $ref
+### $ref
 
-• **$ref**? : *string*
+• `Optional` **$ref**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:78
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:78_
 
-___
+---
 
-### `Optional` delete
+### delete
 
-• **delete**? : *[OperationObject](operationobject.md)*
+• `Optional` **delete**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:84
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:84_
 
-___
+---
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:80
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:80_
 
-___
+---
 
-### `Optional` get
+### get
 
-• **get**? : *[OperationObject](operationobject.md)*
+• `Optional` **get**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:81
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:81_
 
-___
+---
 
-### `Optional` head
+### head
 
-• **head**? : *[OperationObject](operationobject.md)*
+• `Optional` **head**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:86
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:86_
 
-___
+---
 
-### `Optional` options
+### options
 
-• **options**? : *[OperationObject](operationobject.md)*
+• `Optional` **options**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:85
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:85_
 
-___
+---
 
-### `Optional` parameters
+### parameters
 
-• **parameters**? : *([ReferenceObject](referenceobject.md) | [ParameterObject](parameterobject.md))[]*
+• `Optional` **parameters**: ([ParameterObject](parameterobject.md) \| [ReferenceObject](referenceobject.md))[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:90
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:90_
 
-___
+---
 
-### `Optional` patch
+### patch
 
-• **patch**? : *[OperationObject](operationobject.md)*
+• `Optional` **patch**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:87
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:87_
 
-___
+---
 
-### `Optional` post
+### post
 
-• **post**? : *[OperationObject](operationobject.md)*
+• `Optional` **post**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:83
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:83_
 
-___
+---
 
-### `Optional` put
+### put
 
-• **put**? : *[OperationObject](operationobject.md)*
+• `Optional` **put**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:82
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:82_
 
-___
+---
 
-### `Optional` servers
+### servers
 
-• **servers**? : *[ServerObject](serverobject.md)[]*
+• `Optional` **servers**: [ServerObject](serverobject.md)[]
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:89
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:89_
 
-___
+---
 
-### `Optional` summary
+### summary
 
-• **summary**? : *string*
+• `Optional` **summary**: string
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:79
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:79_
 
-___
+---
 
-### `Optional` trace
+### trace
 
-• **trace**? : *[OperationObject](operationobject.md)*
+• `Optional` **trace**: [OperationObject](operationobject.md)
 
-Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:88
+_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:88_

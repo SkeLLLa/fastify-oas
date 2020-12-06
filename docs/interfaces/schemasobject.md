@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [SchemasObject](schemasobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / SchemasObject
 
 # Interface: SchemasObject
 
 ## Hierarchy
 
-* **SchemasObject**
+- **SchemasObject**
 
 ## Indexable
 
-* \[ **schema**: *string*\]: [SchemaObject](schemaobject.md)
+▪ [schema: string]: [SchemaObject](schemaobject.md)

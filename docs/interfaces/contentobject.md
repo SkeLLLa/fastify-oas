@@ -1,11 +1,13 @@
-[fastify-oas](../README.md) › [ContentObject](contentobject.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ContentObject
 
 # Interface: ContentObject
 
 ## Hierarchy
 
-* **ContentObject**
+- **ContentObject**
 
 ## Indexable
 
-* \[ **mediatype**: *string*\]: [MediaTypeObject](mediatypeobject.md)
+▪ [mediatype: string]: [MediaTypeObject](mediatypeobject.md)

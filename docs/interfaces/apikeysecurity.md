@@ -1,10 +1,12 @@
-[fastify-oas](../README.md) › [ApiKeySecurity](apikeysecurity.md)
+**[fastify-oas](../README.md)**
+
+> [Globals](../README.md) / ApiKeySecurity
 
 # Interface: ApiKeySecurity
 
 ## Hierarchy
 
-* [BaseSecurity](basesecurity.md)
+- [BaseSecurity](basesecurity.md)
 
   ↳ **ApiKeySecurity**
 
@@ -12,43 +14,43 @@
 
 ### Properties
 
-* [description](apikeysecurity.md#optional-description)
-* [in](apikeysecurity.md#in)
-* [name](apikeysecurity.md#name)
-* [type](apikeysecurity.md#type)
+- [description](apikeysecurity.md#description)
+- [in](apikeysecurity.md#in)
+- [name](apikeysecurity.md#name)
+- [type](apikeysecurity.md#type)
 
 ## Properties
 
-### `Optional` description
+### description
 
-• **description**? : *string*
+• `Optional` **description**: string
 
-*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#optional-description)*
+_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:200
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
 
-___
+---
 
-###  in
+### in
 
-• **in**: *"query" | "header"*
+• **in**: \"query\" \| \"header\"
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:210
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:210_
 
-___
+---
 
-###  name
+### name
 
-• **name**: *string*
+• **name**: string
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:209
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:209_
 
-___
+---
 
-###  type
+### type
 
-• **type**: *"apiKey"*
+• **type**: \"apiKey\"
 
-*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
+_Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)_
 
-Defined in node_modules/@types/swagger-schema-official/index.d.ts:208
+_Defined in node_modules/@types/swagger-schema-official/index.d.ts:208_
