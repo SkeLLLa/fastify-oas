@@ -429,7 +429,7 @@ describe('helpers', () => {
       };
 
       const expected = {
-        '200': {
+        200: {
           headers: {
             'X-Powered-By': {
               description: 'header',
@@ -447,7 +447,7 @@ describe('helpers', () => {
             },
           },
         },
-        '500': {
+        500: {
           links: ['https://example.com'],
           description: 'Some error',
         },
@@ -465,7 +465,7 @@ describe('helpers', () => {
       };
 
       const expected = {
-        '200': {
+        200: {
           content: {
             '*/*': {
               schema: {

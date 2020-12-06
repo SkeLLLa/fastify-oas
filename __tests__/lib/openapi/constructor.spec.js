@@ -334,12 +334,12 @@ describe('openapi constructor', () => {
                 ],
               },
               response: {
-                '200': {
+                200: {
                   description: 'Response description',
                   type: 'object',
                   properties: { status: { type: 'string' } },
                 },
-                '401': {
+                401: {
                   description: 'User not logged in',
                   type: 'object',
                   properties: { message: { type: 'string' } },
@@ -353,7 +353,7 @@ describe('openapi constructor', () => {
         '/api/ep': {
           post: {
             responses: {
-              '200': {
+              200: {
                 content: {
                   '*/*': {
                     schema: {
@@ -365,7 +365,7 @@ describe('openapi constructor', () => {
                 },
                 description: 'Response description',
               },
-              '401': {
+              401: {
                 content: {
                   '*/*': {
                     schema: {
@@ -458,12 +458,12 @@ describe('openapi constructor', () => {
                 ],
               },
               response: {
-                '200': {
+                200: {
                   description: 'Response description',
                   type: 'object',
                   properties: { status: { type: 'string' } },
                 },
-                '401': {
+                401: {
                   description: 'User not logged in',
                   type: 'object',
                   properties: { message: { type: 'string' } },
@@ -477,7 +477,7 @@ describe('openapi constructor', () => {
         '/api/ep': {
           post: {
             responses: {
-              '200': {
+              200: {
                 content: {
                   '*/*': {
                     schema: {
@@ -489,7 +489,7 @@ describe('openapi constructor', () => {
                 },
                 description: 'Response description',
               },
-              '401': {
+              401: {
                 content: {
                   '*/*': {
                     schema: {
@@ -535,7 +535,7 @@ describe('openapi constructor', () => {
           },
           patch: {
             responses: {
-              '200': {
+              200: {
                 content: {
                   '*/*': {
                     schema: {
@@ -547,7 +547,7 @@ describe('openapi constructor', () => {
                 },
                 description: 'Response description',
               },
-              '401': {
+              401: {
                 content: {
                   '*/*': {
                     schema: {
@@ -717,7 +717,7 @@ describe('openapi constructor', () => {
         '/api/ep/{id}': {
           post: {
             responses: {
-              '200': {
+              200: {
                 description: 'Default Response',
               },
             },
@@ -771,7 +771,7 @@ describe('openapi constructor', () => {
         '/api/ep': {
           post: {
             responses: {
-              '200': {
+              200: {
                 description: 'Default Response',
               },
             },
@@ -824,7 +824,7 @@ describe('openapi constructor', () => {
           post: {
             deprecated: true,
             responses: {
-              '200': {
+              200: {
                 description: 'Default Response',
               },
             },
@@ -868,7 +868,7 @@ describe('openapi constructor', () => {
           post: {
             deprecated: true,
             responses: {
-              '200': {
+              200: {
                 description: 'Default Response',
               },
             },
@@ -903,7 +903,7 @@ describe('openapi constructor', () => {
         '/api/ep': {
           post: {
             responses: {
-              '200': {
+              200: {
                 description: 'default response',
               },
             },
@@ -994,7 +994,7 @@ describe('openapi constructor', () => {
                 },
               ],
               responses: {
-                '200': {
+                200: {
                   description: 'Default Response',
                 },
               },
@@ -1037,7 +1037,7 @@ describe('openapi constructor', () => {
                 },
               },
               responses: {
-                '200': {
+                200: {
                   description: 'Default Response',
                 },
               },
@@ -1086,7 +1086,7 @@ describe('openapi constructor', () => {
                 },
               ],
               responses: {
-                '200': {
+                200: {
                   description: 'Default Response',
                 },
               },
@@ -1133,7 +1133,7 @@ describe('openapi constructor', () => {
                 },
               ],
               responses: {
-                '200': {
+                200: {
                   description: 'Default Response',
                 },
               },
@@ -1180,7 +1180,7 @@ describe('openapi constructor', () => {
                 },
               ],
               responses: {
-                '200': {
+                200: {
                   description: 'Default Response',
                 },
               },
@@ -1215,7 +1215,7 @@ describe('openapi constructor', () => {
           '/api/ep': {
             get: {
               responses: {
-                '200': {
+                200: {
                   description: schemas.sch1.description,
                   content: {
                     '*/*': {
@@ -1255,7 +1255,7 @@ describe('openapi constructor', () => {
           '/api/ep': {
             get: {
               responses: {
-                '200': {
+                200: {
                   description: schemas.sch2.description,
                   content: {
                     '*/*': {
@@ -1303,7 +1303,7 @@ describe('openapi constructor', () => {
           '/api/ep': {
             get: {
               responses: {
-                '200': {
+                200: {
                   description: 'an array',
                   content: {
                     '*/*': {
@@ -1361,7 +1361,7 @@ describe('openapi constructor', () => {
           '/api/ep': {
             get: {
               responses: {
-                '200': {
+                200: {
                   description: 'any of',
                   content: {
                     '*/*': {
@@ -1429,7 +1429,7 @@ describe('openapi constructor', () => {
           '/api/ep': {
             get: {
               responses: {
-                '200': {
+                200: {
                   description: 'all of',
                   content: {
                     '*/*': {
