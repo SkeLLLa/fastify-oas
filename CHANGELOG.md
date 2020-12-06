@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.7](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.6...v3.0.7) (2020-12-06)
+
+
+### Misc
+
+* disable non working test ([11a8d57](https://gitlab.com/m03geek/fastify-oas/commit/11a8d57e8a3110aaf5f807c25ddca3b7a3559e40))
+
 ### [3.0.6](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.5...v3.0.6) (2020-12-06)
 
 
