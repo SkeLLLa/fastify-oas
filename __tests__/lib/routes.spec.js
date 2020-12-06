@@ -24,7 +24,7 @@ describe('plugin', () => {
     });
   });
   // temporary disable due to graceful-fs bug
-  test('returns documentation', (done) => {
+  test.skip('returns documentation', (done) => {
     const app = fastify();
     app.register(oasPlugin, { exposeRoute: true });
     app.ready().then(() => {
