@@ -6,15 +6,15 @@
 
 ## Hierarchy
 
-- **Contact**
+* **Contact**
 
 ## Index
 
 ### Properties
 
-- [email](contact.md#email)
-- [name](contact.md#name)
-- [url](contact.md#url)
+* [email](contact.md#email)
+* [name](contact.md#name)
+* [url](contact.md#url)
 
 ## Properties
 
@@ -22,20 +22,20 @@
 
 • `Optional` **email**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:18_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:18*
 
----
+___
 
 ### name
 
 • `Optional` **name**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:17_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:17*
 
----
+___
 
 ### url
 
 • `Optional` **url**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:19_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:19*

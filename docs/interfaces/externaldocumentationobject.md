@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ExternalDocumentationObject**
 
@@ -18,8 +18,8 @@
 
 ### Properties
 
-- [description](externaldocumentationobject.md#description)
-- [url](externaldocumentationobject.md#url)
+* [description](externaldocumentationobject.md#description)
+* [url](externaldocumentationobject.md#url)
 
 ## Properties
 
@@ -27,12 +27,12 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:107_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:107*
 
----
+___
 
 ### url
 
-• **url**: string
+•  **url**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:108_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:108*

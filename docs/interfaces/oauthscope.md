@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **OAuthScope**
+* **OAuthScope**
 
 ## Indexable
 

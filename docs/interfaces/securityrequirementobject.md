@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **SecurityRequirementObject**
+* **SecurityRequirementObject**
 
 ## Indexable
 

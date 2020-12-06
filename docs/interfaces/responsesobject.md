@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ResponsesObject**
 
@@ -18,7 +18,7 @@
 
 ### Properties
 
-- [default](responsesobject.md#default)
+* [default](responsesobject.md#default)
 
 ## Properties
 
@@ -26,4 +26,4 @@
 
 • `Optional` **default**: [ResponseObject](responseobject.md) \| [ReferenceObject](referenceobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:159_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:159*

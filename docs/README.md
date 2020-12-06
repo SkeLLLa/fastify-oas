@@ -8,345 +8,345 @@
 
 ### Modules
 
-- ["fastify"](modules/_fastify_.md)
+* ["fastify"](modules/_fastify_.md)
 
 ### Namespaces
 
-- [fastifyOAS](modules/fastifyoas.md)
+* [fastifyOAS](modules/fastifyoas.md)
 
 ### Classes
 
-- [Server](classes/server.md)
-- [ServerVariable](classes/servervariable.md)
-- [SpecificationExtension](classes/specificationextension.md)
+* [Server](classes/server.md)
+* [ServerVariable](classes/servervariable.md)
+* [SpecificationExtension](classes/specificationextension.md)
 
 ### Interfaces
 
-- [ApiKeySecurity](interfaces/apikeysecurity.md)
-- [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
-- [BaseParameterObject](interfaces/baseparameterobject.md)
-- [BaseSecurity](interfaces/basesecurity.md)
-- [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md)
-- [CallbackObject](interfaces/callbackobject.md)
-- [CallbacksObject](interfaces/callbacksobject.md)
-- [ComponentsObject](interfaces/componentsobject.md)
-- [Contact](interfaces/contact.md)
-- [ContactObject](interfaces/contactobject.md)
-- [ContentObject](interfaces/contentobject.md)
-- [DiscriminatorObject](interfaces/discriminatorobject.md)
-- [EncodingObject](interfaces/encodingobject.md)
-- [EncodingPropertyObject](interfaces/encodingpropertyobject.md)
-- [ExampleObject](interfaces/exampleobject.md)
-- [ExamplesObject](interfaces/examplesobject.md)
-- [ExternalDocs](interfaces/externaldocs.md)
-- [ExternalDocumentationObject](interfaces/externaldocumentationobject.md)
-- [Header](interfaces/header.md)
-- [HeaderObject](interfaces/headerobject.md)
-- [HeadersObject](interfaces/headersobject.md)
-- [ISpecificationExtension](interfaces/ispecificationextension.md)
-- [Info](interfaces/info.md)
-- [InfoObject](interfaces/infoobject.md)
-- [License](interfaces/license.md)
-- [LicenseObject](interfaces/licenseobject.md)
-- [LinkObject](interfaces/linkobject.md)
-- [LinkParametersObject](interfaces/linkparametersobject.md)
-- [LinksObject](interfaces/linksobject.md)
-- [MediaTypeObject](interfaces/mediatypeobject.md)
-- [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md)
-- [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md)
-- [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md)
-- [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md)
-- [OAuthFlowObject](interfaces/oauthflowobject.md)
-- [OAuthFlowsObject](interfaces/oauthflowsobject.md)
-- [OAuthScope](interfaces/oauthscope.md)
-- [OpenAPIObject](interfaces/openapiobject.md)
-- [Operation](interfaces/operation.md)
-- [OperationObject](interfaces/operationobject.md)
-- [ParameterObject](interfaces/parameterobject.md)
-- [Path](interfaces/path.md)
-- [PathItemObject](interfaces/pathitemobject.md)
-- [PathsObject](interfaces/pathsobject.md)
-- [Reference](interfaces/reference.md)
-- [ReferenceObject](interfaces/referenceobject.md)
-- [RequestBodyObject](interfaces/requestbodyobject.md)
-- [Response](interfaces/response.md)
-- [ResponseObject](interfaces/responseobject.md)
-- [ResponsesObject](interfaces/responsesobject.md)
-- [Schema](interfaces/schema.md)
-- [SchemaObject](interfaces/schemaobject.md)
-- [SchemasObject](interfaces/schemasobject.md)
-- [ScopesObject](interfaces/scopesobject.md)
-- [SecurityRequirementObject](interfaces/securityrequirementobject.md)
-- [SecuritySchemeObject](interfaces/securityschemeobject.md)
-- [ServerObject](interfaces/serverobject.md)
-- [ServerVariableObject](interfaces/servervariableobject.md)
-- [Spec](interfaces/spec.md)
-- [Tag](interfaces/tag.md)
-- [TagObject](interfaces/tagobject.md)
-- [XML](interfaces/xml.md)
-- [XmlObject](interfaces/xmlobject.md)
+* [ApiKeySecurity](interfaces/apikeysecurity.md)
+* [BaseOAuthSecurity](interfaces/baseoauthsecurity.md)
+* [BaseParameterObject](interfaces/baseparameterobject.md)
+* [BaseSecurity](interfaces/basesecurity.md)
+* [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md)
+* [CallbackObject](interfaces/callbackobject.md)
+* [CallbacksObject](interfaces/callbacksobject.md)
+* [ComponentsObject](interfaces/componentsobject.md)
+* [Contact](interfaces/contact.md)
+* [ContactObject](interfaces/contactobject.md)
+* [ContentObject](interfaces/contentobject.md)
+* [DiscriminatorObject](interfaces/discriminatorobject.md)
+* [EncodingObject](interfaces/encodingobject.md)
+* [EncodingPropertyObject](interfaces/encodingpropertyobject.md)
+* [ExampleObject](interfaces/exampleobject.md)
+* [ExamplesObject](interfaces/examplesobject.md)
+* [ExternalDocs](interfaces/externaldocs.md)
+* [ExternalDocumentationObject](interfaces/externaldocumentationobject.md)
+* [Header](interfaces/header.md)
+* [HeaderObject](interfaces/headerobject.md)
+* [HeadersObject](interfaces/headersobject.md)
+* [ISpecificationExtension](interfaces/ispecificationextension.md)
+* [Info](interfaces/info.md)
+* [InfoObject](interfaces/infoobject.md)
+* [License](interfaces/license.md)
+* [LicenseObject](interfaces/licenseobject.md)
+* [LinkObject](interfaces/linkobject.md)
+* [LinkParametersObject](interfaces/linkparametersobject.md)
+* [LinksObject](interfaces/linksobject.md)
+* [MediaTypeObject](interfaces/mediatypeobject.md)
+* [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md)
+* [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md)
+* [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md)
+* [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md)
+* [OAuthFlowObject](interfaces/oauthflowobject.md)
+* [OAuthFlowsObject](interfaces/oauthflowsobject.md)
+* [OAuthScope](interfaces/oauthscope.md)
+* [OpenAPIObject](interfaces/openapiobject.md)
+* [Operation](interfaces/operation.md)
+* [OperationObject](interfaces/operationobject.md)
+* [ParameterObject](interfaces/parameterobject.md)
+* [Path](interfaces/path.md)
+* [PathItemObject](interfaces/pathitemobject.md)
+* [PathsObject](interfaces/pathsobject.md)
+* [Reference](interfaces/reference.md)
+* [ReferenceObject](interfaces/referenceobject.md)
+* [RequestBodyObject](interfaces/requestbodyobject.md)
+* [Response](interfaces/response.md)
+* [ResponseObject](interfaces/responseobject.md)
+* [ResponsesObject](interfaces/responsesobject.md)
+* [Schema](interfaces/schema.md)
+* [SchemaObject](interfaces/schemaobject.md)
+* [SchemasObject](interfaces/schemasobject.md)
+* [ScopesObject](interfaces/scopesobject.md)
+* [SecurityRequirementObject](interfaces/securityrequirementobject.md)
+* [SecuritySchemeObject](interfaces/securityschemeobject.md)
+* [ServerObject](interfaces/serverobject.md)
+* [ServerVariableObject](interfaces/servervariableobject.md)
+* [Spec](interfaces/spec.md)
+* [Tag](interfaces/tag.md)
+* [TagObject](interfaces/tagobject.md)
+* [XML](interfaces/xml.md)
+* [XmlObject](interfaces/xmlobject.md)
 
 ### Type aliases
 
-- [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter)
-- [BaseParameter](README.md#baseparameter)
-- [BaseSchema](README.md#baseschema)
-- [BodyParameter](README.md#bodyparameter)
-- [FormDataParameter](README.md#formdataparameter)
-- [GenericFormat](README.md#genericformat)
-- [HeaderParameter](README.md#headerparameter)
-- [IntegerFormat](README.md#integerformat)
-- [NumberFormat](README.md#numberformat)
-- [Parameter](README.md#parameter)
-- [ParameterCollectionFormat](README.md#parametercollectionformat)
-- [ParameterLocation](README.md#parameterlocation)
-- [ParameterStyle](README.md#parameterstyle)
-- [ParameterType](README.md#parametertype)
-- [PathObject](README.md#pathobject)
-- [PathParameter](README.md#pathparameter)
-- [QueryParameter](README.md#queryparameter)
-- [SchemaFormatConstraints](README.md#schemaformatconstraints)
-- [Security](README.md#security)
-- [SecuritySchemeType](README.md#securityschemetype)
-- [StringFormat](README.md#stringformat)
+* [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter)
+* [BaseParameter](README.md#baseparameter)
+* [BaseSchema](README.md#baseschema)
+* [BodyParameter](README.md#bodyparameter)
+* [FormDataParameter](README.md#formdataparameter)
+* [GenericFormat](README.md#genericformat)
+* [HeaderParameter](README.md#headerparameter)
+* [IntegerFormat](README.md#integerformat)
+* [NumberFormat](README.md#numberformat)
+* [Parameter](README.md#parameter)
+* [ParameterCollectionFormat](README.md#parametercollectionformat)
+* [ParameterLocation](README.md#parameterlocation)
+* [ParameterStyle](README.md#parameterstyle)
+* [ParameterType](README.md#parametertype)
+* [PathObject](README.md#pathobject)
+* [PathParameter](README.md#pathparameter)
+* [QueryParameter](README.md#queryparameter)
+* [SchemaFormatConstraints](README.md#schemaformatconstraints)
+* [Security](README.md#security)
+* [SecuritySchemeType](README.md#securityschemetype)
+* [StringFormat](README.md#stringformat)
 
 ### Functions
 
-- [addExtension](README.md#addextension)
-- [getExtension](README.md#getextension)
-- [getPath](README.md#getpath)
-- [isReferenceObject](README.md#isreferenceobject)
-- [isSchemaObject](README.md#isschemaobject)
+* [addExtension](README.md#addextension)
+* [getExtension](README.md#getextension)
+* [getPath](README.md#getpath)
+* [isReferenceObject](README.md#isreferenceobject)
+* [isSchemaObject](README.md#isschemaobject)
 
 ## Type aliases
 
 ### BaseFormatContrainedParameter
 
-Ƭ **BaseFormatContrainedParameter**: [BaseParameter](README.md#baseparameter) & [SchemaFormatConstraints](README.md#schemaformatconstraints)
+Ƭ  **BaseFormatContrainedParameter**: [BaseParameter](README.md#baseparameter) & [SchemaFormatConstraints](README.md#schemaformatconstraints)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:79_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:79*
 
----
+___
 
 ### BaseParameter
 
-Ƭ **BaseParameter**: { description?: string ; in: \"body\" \| \"query\" \| \"path\" \| \"header\" \| \"formData\" \| \"body\" ; name: string ; required?: boolean }
+Ƭ  **BaseParameter**: { description?: string ; in: \"body\" \| \"query\" \| \"path\" \| \"header\" \| \"formData\" \| \"body\" ; name: string ; required?: boolean  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:46_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:46*
 
 #### Type declaration:
 
-| Name           | Type                                                                        |
-| -------------- | --------------------------------------------------------------------------- |
-| `description?` | string                                                                      |
-| `in`           | \"body\" \| \"query\" \| \"path\" \| \"header\" \| \"formData\" \| \"body\" |
-| `name`         | string                                                                      |
-| `required?`    | boolean                                                                     |
+Name | Type |
+------ | ------ |
+`description?` | string |
+`in` | \"body\" \| \"query\" \| \"path\" \| \"header\" \| \"formData\" \| \"body\" |
+`name` | string |
+`required?` | boolean |
 
----
+___
 
 ### BaseSchema
 
-Ƭ **BaseSchema**: { default?: any ; description?: string ; enum?: any[] ; exclusiveMaximum?: boolean ; exclusiveMinimum?: boolean ; format?: string ; items?: [Schema](interfaces/schema.md) \| [Schema](interfaces/schema.md)[] ; maxItems?: number ; maxLength?: number ; maxProperties?: number ; maximum?: number ; minItems?: number ; minLength?: number ; minProperties?: number ; minimum?: number ; multipleOf?: number ; pattern?: string ; title?: string ; type?: [ParameterType](README.md#parametertype) ; uniqueItems?: boolean }
+Ƭ  **BaseSchema**: { default?: any ; description?: string ; enum?: any[] ; exclusiveMaximum?: boolean ; exclusiveMinimum?: boolean ; format?: string ; items?: [Schema](interfaces/schema.md) \| [Schema](interfaces/schema.md)[] ; maxItems?: number ; maxLength?: number ; maxProperties?: number ; maximum?: number ; minItems?: number ; minLength?: number ; minProperties?: number ; minimum?: number ; multipleOf?: number ; pattern?: string ; title?: string ; type?: [ParameterType](README.md#parametertype) ; uniqueItems?: boolean  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:153_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:153*
 
 #### Type declaration:
 
-| Name                | Type                                                               |
-| ------------------- | ------------------------------------------------------------------ |
-| `default?`          | any                                                                |
-| `description?`      | string                                                             |
-| `enum?`             | any[]                                                              |
-| `exclusiveMaximum?` | boolean                                                            |
-| `exclusiveMinimum?` | boolean                                                            |
-| `format?`           | string                                                             |
-| `items?`            | [Schema](interfaces/schema.md) \| [Schema](interfaces/schema.md)[] |
-| `maxItems?`         | number                                                             |
-| `maxLength?`        | number                                                             |
-| `maxProperties?`    | number                                                             |
-| `maximum?`          | number                                                             |
-| `minItems?`         | number                                                             |
-| `minLength?`        | number                                                             |
-| `minProperties?`    | number                                                             |
-| `minimum?`          | number                                                             |
-| `multipleOf?`       | number                                                             |
-| `pattern?`          | string                                                             |
-| `title?`            | string                                                             |
-| `type?`             | [ParameterType](README.md#parametertype)                           |
-| `uniqueItems?`      | boolean                                                            |
+Name | Type |
+------ | ------ |
+`default?` | any |
+`description?` | string |
+`enum?` | any[] |
+`exclusiveMaximum?` | boolean |
+`exclusiveMinimum?` | boolean |
+`format?` | string |
+`items?` | [Schema](interfaces/schema.md) \| [Schema](interfaces/schema.md)[] |
+`maxItems?` | number |
+`maxLength?` | number |
+`maxProperties?` | number |
+`maximum?` | number |
+`minItems?` | number |
+`minLength?` | number |
+`minProperties?` | number |
+`minimum?` | number |
+`multipleOf?` | number |
+`pattern?` | string |
+`title?` | string |
+`type?` | [ParameterType](README.md#parametertype) |
+`uniqueItems?` | boolean |
 
----
+___
 
 ### BodyParameter
 
-Ƭ **BodyParameter**: [BaseParameter](README.md#baseparameter) & { in: \"body\" ; schema?: [Schema](interfaces/schema.md) }
+Ƭ  **BodyParameter**: [BaseParameter](README.md#baseparameter) & { in: \"body\" ; schema?: [Schema](interfaces/schema.md)  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:53_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:53*
 
----
+___
 
 ### FormDataParameter
 
-Ƭ **FormDataParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { allowEmptyValue?: boolean ; collectionFormat?: [ParameterCollectionFormat](README.md#parametercollectionformat) ; in: \"formData\" ; type: [ParameterType](README.md#parametertype) \| \"file\" }
+Ƭ  **FormDataParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { allowEmptyValue?: boolean ; collectionFormat?: [ParameterCollectionFormat](README.md#parametercollectionformat) ; in: \"formData\" ; type: [ParameterType](README.md#parametertype) \| \"file\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:100_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:100*
 
----
+___
 
 ### GenericFormat
 
-Ƭ **GenericFormat**: { format?: string ; type?: [ParameterType](README.md#parametertype) }
+Ƭ  **GenericFormat**: { format?: string ; type?: [ParameterType](README.md#parametertype)  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:58_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:58*
 
 #### Type declaration:
 
-| Name      | Type                                     |
-| --------- | ---------------------------------------- |
-| `format?` | string                                   |
-| `type?`   | [ParameterType](README.md#parametertype) |
+Name | Type |
+------ | ------ |
+`format?` | string |
+`type?` | [ParameterType](README.md#parametertype) |
 
----
+___
 
 ### HeaderParameter
 
-Ƭ **HeaderParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { in: \"header\" }
+Ƭ  **HeaderParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { in: \"header\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:95_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:95*
 
----
+___
 
 ### IntegerFormat
 
-Ƭ **IntegerFormat**: { format?: \"int32\" \| \"int64\" ; type: \"integer\" }
+Ƭ  **IntegerFormat**: { format?: \"int32\" \| \"int64\" ; type: \"integer\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:63_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:63*
 
 #### Type declaration:
 
-| Name      | Type                   |
-| --------- | ---------------------- |
-| `format?` | \"int32\" \| \"int64\" |
-| `type`    | \"integer\"            |
+Name | Type |
+------ | ------ |
+`format?` | \"int32\" \| \"int64\" |
+`type` | \"integer\" |
 
----
+___
 
 ### NumberFormat
 
-Ƭ **NumberFormat**: { format?: \"float\" \| \"double\" ; type: \"number\" }
+Ƭ  **NumberFormat**: { format?: \"float\" \| \"double\" ; type: \"number\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:68_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:68*
 
 #### Type declaration:
 
-| Name      | Type                    |
-| --------- | ----------------------- |
-| `format?` | \"float\" \| \"double\" |
-| `type`    | \"number\"              |
+Name | Type |
+------ | ------ |
+`format?` | \"float\" \| \"double\" |
+`type` | \"number\" |
 
----
+___
 
 ### Parameter
 
-Ƭ **Parameter**: [BodyParameter](README.md#bodyparameter) \| [FormDataParameter](README.md#formdataparameter) \| [QueryParameter](README.md#queryparameter) \| [PathParameter](README.md#pathparameter) \| [HeaderParameter](README.md#headerparameter)
+Ƭ  **Parameter**: [BodyParameter](README.md#bodyparameter) \| [FormDataParameter](README.md#formdataparameter) \| [QueryParameter](README.md#queryparameter) \| [PathParameter](README.md#pathparameter) \| [HeaderParameter](README.md#headerparameter)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:108_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:108*
 
----
+___
 
 ### ParameterCollectionFormat
 
-Ƭ **ParameterCollectionFormat**: \"csv\" \| \"ssv\" \| \"tsv\" \| \"pipes\" \| \"multi\"
+Ƭ  **ParameterCollectionFormat**: \"csv\" \| \"ssv\" \| \"tsv\" \| \"pipes\" \| \"multi\"
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:80_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:80*
 
----
+___
 
 ### ParameterLocation
 
-Ƭ **ParameterLocation**: \"query\" \| \"header\" \| \"path\" \| \"cookie\"
+Ƭ  **ParameterLocation**: \"query\" \| \"header\" \| \"path\" \| \"cookie\"
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:110_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:110*
 
----
+___
 
 ### ParameterStyle
 
-Ƭ **ParameterStyle**: \"matrix\" \| \"label\" \| \"form\" \| \"simple\" \| \"spaceDelimited\" \| \"pipeDelimited\" \| \"deepObject\"
+Ƭ  **ParameterStyle**: \"matrix\" \| \"label\" \| \"form\" \| \"simple\" \| \"spaceDelimited\" \| \"pipeDelimited\" \| \"deepObject\"
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:111_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:111*
 
----
+___
 
 ### ParameterType
 
-Ƭ **ParameterType**: \"string\" \| \"number\" \| \"integer\" \| \"boolean\" \| \"array\" \| \"object\" \| \"file\"
+Ƭ  **ParameterType**: \"string\" \| \"number\" \| \"integer\" \| \"boolean\" \| \"array\" \| \"object\" \| \"file\"
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:44_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:44*
 
----
+___
 
 ### PathObject
 
-Ƭ **PathObject**: [PathsObject](interfaces/pathsobject.md)
+Ƭ  **PathObject**: [PathsObject](interfaces/pathsobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:75_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:75*
 
----
+___
 
 ### PathParameter
 
-Ƭ **PathParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { in: \"path\" ; required: true }
+Ƭ  **PathParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { in: \"path\" ; required: true  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:89_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:89*
 
----
+___
 
 ### QueryParameter
 
-Ƭ **QueryParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { allowEmptyValue?: boolean ; collectionFormat?: [ParameterCollectionFormat](README.md#parametercollectionformat) ; in: \"query\" }
+Ƭ  **QueryParameter**: [BaseFormatContrainedParameter](README.md#baseformatcontrainedparameter) & [BaseSchema](README.md#baseschema) & { allowEmptyValue?: boolean ; collectionFormat?: [ParameterCollectionFormat](README.md#parametercollectionformat) ; in: \"query\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:82_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:82*
 
----
+___
 
 ### SchemaFormatConstraints
 
-Ƭ **SchemaFormatConstraints**: [GenericFormat](README.md#genericformat) \| [IntegerFormat](README.md#integerformat) \| [NumberFormat](README.md#numberformat) \| [StringFormat](README.md#stringformat)
+Ƭ  **SchemaFormatConstraints**: [GenericFormat](README.md#genericformat) \| [IntegerFormat](README.md#integerformat) \| [NumberFormat](README.md#numberformat) \| [StringFormat](README.md#stringformat)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:78_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:78*
 
----
+___
 
 ### Security
 
-Ƭ **Security**: [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) \| [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) \| [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) \| [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) \| [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) \| [ApiKeySecurity](interfaces/apikeysecurity.md)
+Ƭ  **Security**: [BasicAuthenticationSecurity](interfaces/basicauthenticationsecurity.md) \| [OAuth2AccessCodeSecurity](interfaces/oauth2accesscodesecurity.md) \| [OAuth2ApplicationSecurity](interfaces/oauth2applicationsecurity.md) \| [OAuth2ImplicitSecurity](interfaces/oauth2implicitsecurity.md) \| [OAuth2PasswordSecurity](interfaces/oauth2passwordsecurity.md) \| [ApiKeySecurity](interfaces/apikeysecurity.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:248_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:248*
 
----
+___
 
 ### SecuritySchemeType
 
-Ƭ **SecuritySchemeType**: \"apiKey\" \| \"http\" \| \"oauth2\" \| \"openIdConnect\"
+Ƭ  **SecuritySchemeType**: \"apiKey\" \| \"http\" \| \"oauth2\" \| \"openIdConnect\"
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:271_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:271*
 
----
+___
 
 ### StringFormat
 
-Ƭ **StringFormat**: { format?: "" \| \"byte\" \| \"binary\" \| \"date\" \| \"date-time\" \| \"password\" ; type: \"string\" }
+Ƭ  **StringFormat**: { format?: "" \| \"byte\" \| \"binary\" \| \"date\" \| \"date-time\" \| \"password\" ; type: \"string\"  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:73_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:73*
 
 #### Type declaration:
 
-| Name      | Type                                                                      |
-| --------- | ------------------------------------------------------------------------- |
-| `format?` | "" \| \"byte\" \| \"binary\" \| \"date\" \| \"date-time\" \| \"password\" |
-| `type`    | \"string\"                                                                |
+Name | Type |
+------ | ------ |
+`format?` | "" \| \"byte\" \| \"binary\" \| \"date\" \| \"date-time\" \| \"password\" |
+`type` | \"string\" |
 
 ## Functions
 
@@ -354,80 +354,80 @@ _Defined in node_modules/@types/swagger-schema-official/index.d.ts:73_
 
 ▸ **addExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string, `extension`: any): void
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:3_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:3*
 
 #### Parameters:
 
-| Name            | Type                                                             |
-| --------------- | ---------------------------------------------------------------- |
-| `obj`           | [ISpecificationExtension](interfaces/ispecificationextension.md) |
-| `extensionName` | string                                                           |
-| `extension`     | any                                                              |
+Name | Type |
+------ | ------ |
+`obj` | [ISpecificationExtension](interfaces/ispecificationextension.md) |
+`extensionName` | string |
+`extension` | any |
 
 **Returns:** void
 
----
+___
 
 ### getExtension
 
 ▸ **getExtension**(`obj`: [ISpecificationExtension](interfaces/ispecificationextension.md), `extensionName`: string): any
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:2_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:2*
 
 #### Parameters:
 
-| Name            | Type                                                             |
-| --------------- | ---------------------------------------------------------------- |
-| `obj`           | [ISpecificationExtension](interfaces/ispecificationextension.md) |
-| `extensionName` | string                                                           |
+Name | Type |
+------ | ------ |
+`obj` | [ISpecificationExtension](interfaces/ispecificationextension.md) |
+`extensionName` | string |
 
 **Returns:** any
 
----
+___
 
 ### getPath
 
 ▸ **getPath**(`pathsObject`: [PathsObject](interfaces/pathsobject.md), `path`: string): [PathItemObject](interfaces/pathitemobject.md) \| undefined
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:76_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:76*
 
 #### Parameters:
 
-| Name          | Type                                     |
-| ------------- | ---------------------------------------- |
-| `pathsObject` | [PathsObject](interfaces/pathsobject.md) |
-| `path`        | string                                   |
+Name | Type |
+------ | ------ |
+`pathsObject` | [PathsObject](interfaces/pathsobject.md) |
+`path` | string |
 
 **Returns:** [PathItemObject](interfaces/pathitemobject.md) \| undefined
 
----
+___
 
 ### isReferenceObject
 
 ▸ **isReferenceObject**(`obj`: object): obj is ReferenceObject
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:213_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:213*
 
 #### Parameters:
 
-| Name  | Type   |
-| ----- | ------ |
-| `obj` | object |
+Name | Type |
+------ | ------ |
+`obj` | object |
 
 **Returns:** obj is ReferenceObject
 
----
+___
 
 ### isSchemaObject
 
 ▸ **isSchemaObject**(`schema`: [SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md)): schema is SchemaObject
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:254*
 
 #### Parameters:
 
-| Name     | Type                                                                                           |
-| -------- | ---------------------------------------------------------------------------------------------- |
-| `schema` | [SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md) |
+Name | Type |
+------ | ------ |
+`schema` | [SchemaObject](interfaces/schemaobject.md) \| [ReferenceObject](interfaces/referenceobject.md) |
 
 **Returns:** schema is SchemaObject

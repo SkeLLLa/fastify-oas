@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **ISpecificationExtension**
+* **ISpecificationExtension**
 
   ↳ [OpenAPIObject](openapiobject.md)
 
@@ -64,7 +64,7 @@
 
 ## Implemented by
 
-- [SpecificationExtension](../classes/specificationextension.md)
+* [SpecificationExtension](../classes/specificationextension.md)
 
 ## Indexable
 

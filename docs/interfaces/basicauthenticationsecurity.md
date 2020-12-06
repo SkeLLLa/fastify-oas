@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [BaseSecurity](basesecurity.md)
+* [BaseSecurity](basesecurity.md)
 
   ↳ **BasicAuthenticationSecurity**
 
@@ -14,8 +14,8 @@
 
 ### Properties
 
-- [description](basicauthenticationsecurity.md#description)
-- [type](basicauthenticationsecurity.md#type)
+* [description](basicauthenticationsecurity.md#description)
+* [type](basicauthenticationsecurity.md#type)
 
 ## Properties
 
@@ -23,16 +23,16 @@
 
 • `Optional` **description**: string
 
-_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
+*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
 
----
+___
 
 ### type
 
-• **type**: \"basic\"
+•  **type**: \"basic\"
 
-_Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)_
+*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:204_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:204*

@@ -6,24 +6,24 @@
 
 ## Hierarchy
 
-- **Operation**
+* **Operation**
 
 ## Index
 
 ### Properties
 
-- [consumes](operation.md#consumes)
-- [deprecated](operation.md#deprecated)
-- [description](operation.md#description)
-- [externalDocs](operation.md#externaldocs)
-- [operationId](operation.md#operationid)
-- [parameters](operation.md#parameters)
-- [produces](operation.md#produces)
-- [responses](operation.md#responses)
-- [schemes](operation.md#schemes)
-- [security](operation.md#security)
-- [summary](operation.md#summary)
-- [tags](operation.md#tags)
+* [consumes](operation.md#consumes)
+* [deprecated](operation.md#deprecated)
+* [description](operation.md#description)
+* [externalDocs](operation.md#externaldocs)
+* [operationId](operation.md#operationid)
+* [parameters](operation.md#parameters)
+* [produces](operation.md#produces)
+* [responses](operation.md#responses)
+* [schemes](operation.md#schemes)
+* [security](operation.md#security)
+* [summary](operation.md#summary)
+* [tags](operation.md#tags)
 
 ## Properties
 
@@ -31,92 +31,92 @@
 
 • `Optional` **consumes**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:131_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:131*
 
----
+___
 
 ### deprecated
 
 • `Optional` **deprecated**: boolean
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:134_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:134*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:127_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:127*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:128_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:128*
 
----
+___
 
 ### operationId
 
 • `Optional` **operationId**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:129_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:129*
 
----
+___
 
 ### parameters
 
 • `Optional` **parameters**: Array\<[Parameter](../README.md#parameter) \| [Reference](reference.md)>
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:132_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:132*
 
----
+___
 
 ### produces
 
 • `Optional` **produces**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:130_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:130*
 
----
+___
 
 ### responses
 
-• **responses**: { [responseName:string]: [Response](response.md) \| [Reference](reference.md); }
+•  **responses**: { [responseName:string]: [Response](response.md) \| [Reference](reference.md);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:125_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:125*
 
----
+___
 
 ### schemes
 
 • `Optional` **schemes**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:133_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:133*
 
----
+___
 
 ### security
 
-• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[]; }>
+• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[];  }>
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:135_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:135*
 
----
+___
 
 ### summary
 
 • `Optional` **summary**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:126_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:126*
 
----
+___
 
 ### tags
 
 • `Optional` **tags**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:136_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:136*

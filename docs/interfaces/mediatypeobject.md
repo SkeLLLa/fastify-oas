@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **MediaTypeObject**
 
@@ -18,10 +18,10 @@
 
 ### Properties
 
-- [encoding](mediatypeobject.md#encoding)
-- [example](mediatypeobject.md#example)
-- [examples](mediatypeobject.md#examples)
-- [schema](mediatypeobject.md#schema)
+* [encoding](mediatypeobject.md#encoding)
+* [example](mediatypeobject.md#example)
+* [examples](mediatypeobject.md#examples)
+* [schema](mediatypeobject.md#schema)
 
 ## Properties
 
@@ -29,28 +29,28 @@
 
 • `Optional` **encoding**: [EncodingObject](encodingobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:143_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:143*
 
----
+___
 
 ### example
 
 • `Optional` **example**: any
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:142_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:142*
 
----
+___
 
 ### examples
 
 • `Optional` **examples**: [ExamplesObject](examplesobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:141_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:141*
 
----
+___
 
 ### schema
 
 • `Optional` **schema**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:140_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:140*

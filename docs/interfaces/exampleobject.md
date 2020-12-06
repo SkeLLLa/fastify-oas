@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **ExampleObject**
+* **ExampleObject**
 
 ## Indexable
 
@@ -16,10 +16,10 @@
 
 ### Properties
 
-- [description](exampleobject.md#description)
-- [externalValue](exampleobject.md#externalvalue)
-- [summary](exampleobject.md#summary)
-- [value](exampleobject.md#value)
+* [description](exampleobject.md#description)
+* [externalValue](exampleobject.md#externalvalue)
+* [summary](exampleobject.md#summary)
+* [value](exampleobject.md#value)
 
 ## Properties
 
@@ -27,28 +27,28 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:179*
 
----
+___
 
 ### externalValue
 
 • `Optional` **externalValue**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:181*
 
----
+___
 
 ### summary
 
 • `Optional` **summary**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:178*
 
----
+___
 
 ### value
 
 • `Optional` **value**: any
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:180*

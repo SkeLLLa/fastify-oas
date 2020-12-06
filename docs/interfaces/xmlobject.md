@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **XmlObject**
 
@@ -18,11 +18,11 @@
 
 ### Properties
 
-- [attribute](xmlobject.md#attribute)
-- [name](xmlobject.md#name)
-- [namespace](xmlobject.md#namespace)
-- [prefix](xmlobject.md#prefix)
-- [wrapped](xmlobject.md#wrapped)
+* [attribute](xmlobject.md#attribute)
+* [name](xmlobject.md#name)
+* [namespace](xmlobject.md#namespace)
+* [prefix](xmlobject.md#prefix)
+* [wrapped](xmlobject.md#wrapped)
 
 ## Properties
 
@@ -30,36 +30,36 @@
 
 • `Optional` **attribute**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:268*
 
----
+___
 
 ### name
 
 • `Optional` **name**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:265*
 
----
+___
 
 ### namespace
 
 • `Optional` **namespace**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:266*
 
----
+___
 
 ### prefix
 
 • `Optional` **prefix**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:267*
 
----
+___
 
 ### wrapped
 
 • `Optional` **wrapped**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:269*

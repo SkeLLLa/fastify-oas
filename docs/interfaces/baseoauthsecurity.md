@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [BaseSecurity](basesecurity.md)
+* [BaseSecurity](basesecurity.md)
 
   ↳ **BaseOAuthSecurity**
 
@@ -22,10 +22,10 @@
 
 ### Properties
 
-- [description](baseoauthsecurity.md#description)
-- [flow](baseoauthsecurity.md#flow)
-- [scopes](baseoauthsecurity.md#scopes)
-- [type](baseoauthsecurity.md#type)
+* [description](baseoauthsecurity.md#description)
+* [flow](baseoauthsecurity.md#flow)
+* [scopes](baseoauthsecurity.md#scopes)
+* [type](baseoauthsecurity.md#type)
 
 ## Properties
 
@@ -33,32 +33,32 @@
 
 • `Optional` **description**: string
 
-_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
+*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
 
----
+___
 
 ### flow
 
-• **flow**: \"accessCode\" \| \"application\" \| \"implicit\" \| \"password\"
+•  **flow**: \"accessCode\" \| \"application\" \| \"implicit\" \| \"password\"
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:215_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:215*
 
----
+___
 
 ### scopes
 
 • `Optional` **scopes**: [OAuthScope](oauthscope.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:216_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:216*
 
----
+___
 
 ### type
 
-• **type**: \"oauth2\"
+•  **type**: \"oauth2\"
 
-_Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)_
+*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:214_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:214*

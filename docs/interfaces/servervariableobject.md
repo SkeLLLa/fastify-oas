@@ -6,13 +6,13 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ServerVariableObject**
 
 ## Implemented by
 
-- [ServerVariable](../classes/servervariable.md)
+* [ServerVariable](../classes/servervariable.md)
 
 ## Indexable
 
@@ -22,30 +22,30 @@
 
 ### Properties
 
-- [default](servervariableobject.md#default)
-- [description](servervariableobject.md#description)
-- [enum](servervariableobject.md#enum)
+* [default](servervariableobject.md#default)
+* [description](servervariableobject.md#description)
+* [enum](servervariableobject.md#enum)
 
 ## Properties
 
 ### default
 
-• **default**: string \| boolean \| number
+•  **default**: string \| boolean \| number
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:40_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:40*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:41_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:41*
 
----
+___
 
 ### enum
 
 • `Optional` **enum**: string[] \| boolean[] \| number[]
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:39_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:39*

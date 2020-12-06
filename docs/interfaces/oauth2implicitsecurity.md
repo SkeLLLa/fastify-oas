@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [BaseOAuthSecurity](baseoauthsecurity.md)
+* [BaseOAuthSecurity](baseoauthsecurity.md)
 
   ↳ **OAuth2ImplicitSecurity**
 
@@ -14,56 +14,56 @@
 
 ### Properties
 
-- [authorizationUrl](oauth2implicitsecurity.md#authorizationurl)
-- [description](oauth2implicitsecurity.md#description)
-- [flow](oauth2implicitsecurity.md#flow)
-- [scopes](oauth2implicitsecurity.md#scopes)
-- [type](oauth2implicitsecurity.md#type)
+* [authorizationUrl](oauth2implicitsecurity.md#authorizationurl)
+* [description](oauth2implicitsecurity.md#description)
+* [flow](oauth2implicitsecurity.md#flow)
+* [scopes](oauth2implicitsecurity.md#scopes)
+* [type](oauth2implicitsecurity.md#type)
 
 ## Properties
 
 ### authorizationUrl
 
-• **authorizationUrl**: string
+•  **authorizationUrl**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:222_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:222*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
+*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
 
----
+___
 
 ### flow
 
-• **flow**: \"implicit\"
+•  **flow**: \"implicit\"
 
-_Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)_
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[flow](baseoauthsecurity.md#flow)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:221_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:221*
 
----
+___
 
 ### scopes
 
 • `Optional` **scopes**: [OAuthScope](oauthscope.md)
 
-_Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)_
+*Inherited from [BaseOAuthSecurity](baseoauthsecurity.md).[scopes](baseoauthsecurity.md#scopes)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:216_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:216*
 
----
+___
 
 ### type
 
-• **type**: \"oauth2\"
+•  **type**: \"oauth2\"
 
-_Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)_
+*Overrides [BaseOAuthSecurity](baseoauthsecurity.md).[type](baseoauthsecurity.md#type)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:220_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:220*

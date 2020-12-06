@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [BaseSecurity](basesecurity.md)
+* [BaseSecurity](basesecurity.md)
 
   ↳ **ApiKeySecurity**
 
@@ -14,10 +14,10 @@
 
 ### Properties
 
-- [description](apikeysecurity.md#description)
-- [in](apikeysecurity.md#in)
-- [name](apikeysecurity.md#name)
-- [type](apikeysecurity.md#type)
+* [description](apikeysecurity.md#description)
+* [in](apikeysecurity.md#in)
+* [name](apikeysecurity.md#name)
+* [type](apikeysecurity.md#type)
 
 ## Properties
 
@@ -25,32 +25,32 @@
 
 • `Optional` **description**: string
 
-_Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)_
+*Inherited from [BaseSecurity](basesecurity.md).[description](basesecurity.md#description)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
 
----
+___
 
 ### in
 
-• **in**: \"query\" \| \"header\"
+•  **in**: \"query\" \| \"header\"
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:210_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:210*
 
----
+___
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:209_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:209*
 
----
+___
 
 ### type
 
-• **type**: \"apiKey\"
+•  **type**: \"apiKey\"
 
-_Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)_
+*Overrides [BaseSecurity](basesecurity.md).[type](basesecurity.md#type)*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:208_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:208*

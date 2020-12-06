@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **TagObject**
 
@@ -18,9 +18,9 @@
 
 ### Properties
 
-- [description](tagobject.md#description)
-- [externalDocs](tagobject.md#externaldocs)
-- [name](tagobject.md#name)
+* [description](tagobject.md#description)
+* [externalDocs](tagobject.md#externaldocs)
+* [name](tagobject.md#name)
 
 ## Properties
 
@@ -28,20 +28,20 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:203_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:203*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocumentationObject](externaldocumentationobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:204_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:204*
 
----
+___
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:202_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:202*

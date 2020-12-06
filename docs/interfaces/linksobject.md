@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **LinksObject**
+* **LinksObject**
 
 ## Indexable
 

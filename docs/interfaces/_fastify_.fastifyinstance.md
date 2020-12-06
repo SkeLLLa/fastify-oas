@@ -6,13 +6,13 @@
 
 ## Hierarchy
 
-- **FastifyInstance**
+* **FastifyInstance**
 
 ## Index
 
 ### Methods
 
-- [oas](_fastify_.fastifyinstance.md#oas)
+* [oas](_fastify_.fastifyinstance.md#oas)
 
 ## Methods
 
@@ -20,7 +20,7 @@
 
 ▸ **oas**(): Promise\<void>
 
-_Defined in lib/index.d.ts:21_
+*Defined in lib/index.d.ts:21*
 
 Init OpenApi plugin
 

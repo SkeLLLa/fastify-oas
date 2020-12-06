@@ -8,7 +8,7 @@ Fastify OAS plugin options
 
 ## Hierarchy
 
-- RegisterOptions
+* RegisterOptions
 
   ↳ **FastifyOASOptions**
 
@@ -16,16 +16,16 @@ Fastify OAS plugin options
 
 ### Properties
 
-- [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
-- [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
-- [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
-- [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
-- [logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)
-- [openapi](fastifyoas.fastifyoasoptions.md#openapi)
-- [prefix](fastifyoas.fastifyoasoptions.md#prefix)
-- [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
-- [swagger](fastifyoas.fastifyoasoptions.md#swagger)
-- [yaml](fastifyoas.fastifyoasoptions.md#yaml)
+* [addModels](fastifyoas.fastifyoasoptions.md#addmodels)
+* [exposeRoute](fastifyoas.fastifyoasoptions.md#exposeroute)
+* [hideUntagged](fastifyoas.fastifyoasoptions.md#hideuntagged)
+* [logLevel](fastifyoas.fastifyoasoptions.md#loglevel)
+* [logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)
+* [openapi](fastifyoas.fastifyoasoptions.md#openapi)
+* [prefix](fastifyoas.fastifyoasoptions.md#prefix)
+* [routePrefix](fastifyoas.fastifyoasoptions.md#routeprefix)
+* [swagger](fastifyoas.fastifyoasoptions.md#swagger)
+* [yaml](fastifyoas.fastifyoasoptions.md#yaml)
 
 ## Properties
 
@@ -33,107 +33,107 @@ Fastify OAS plugin options
 
 • `Optional` **addModels**: boolean
 
-_Defined in lib/index.d.ts:118_
+*Defined in lib/index.d.ts:118*
 
 If `true` adds fastify schemas as openapi models
 
 **`default`** false
 
----
+___
 
 ### exposeRoute
 
 • `Optional` **exposeRoute**: boolean \| [ExposeOptions](fastifyoas.exposeoptions.md)
 
-_Defined in lib/index.d.ts:113_
+*Defined in lib/index.d.ts:113*
 
 If `true` the plugin will expose the documentation routes
 
 **`default`** false
 
----
+___
 
 ### hideUntagged
 
 • `Optional` **hideUntagged**: boolean
 
-_Defined in lib/index.d.ts:137_
+*Defined in lib/index.d.ts:137*
 
 If true will not add routes without tags
 
 **`default`** false
 
----
+___
 
 ### logLevel
 
 • `Optional` **logLevel**: LogLevel
 
-_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logLevel](fastifyoas.fastifyoasoptions.md#loglevel)_
+*Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logLevel](fastifyoas.fastifyoasoptions.md#loglevel)*
 
-_Defined in node_modules/fastify/types/register.d.ts:6_
+*Defined in node_modules/fastify/types/register.d.ts:6*
 
----
+___
 
 ### logSerializers
 
 • `Optional` **logSerializers**: Record\<string, (value: any) => string>
 
-_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)_
+*Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[logSerializers](fastifyoas.fastifyoasoptions.md#logserializers)*
 
-_Defined in node_modules/fastify/types/register.d.ts:7_
+*Defined in node_modules/fastify/types/register.d.ts:7*
 
----
+___
 
 ### openapi
 
 • `Optional` **openapi**: string
 
-_Defined in lib/index.d.ts:123_
+*Defined in lib/index.d.ts:123*
 
 Openapi version
 
 **`default`** 3.0.0
 
----
+___
 
 ### prefix
 
 • `Optional` **prefix**: string
 
-_Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#prefix)_
+*Inherited from [FastifyOASOptions](fastifyoas.fastifyoasoptions.md).[prefix](fastifyoas.fastifyoasoptions.md#prefix)*
 
-_Defined in node_modules/fastify/types/register.d.ts:5_
+*Defined in node_modules/fastify/types/register.d.ts:5*
 
----
+___
 
 ### routePrefix
 
 • `Optional` **routePrefix**: string
 
-_Defined in lib/index.d.ts:108_
+*Defined in lib/index.d.ts:108*
 
 Documentation endpoint
 
 **`default`** /documentation
 
----
+___
 
 ### swagger
 
 • `Optional` **swagger**: [OpenApiSpec](fastifyoas.openapispec.md)
 
-_Defined in lib/index.d.ts:132_
+*Defined in lib/index.d.ts:132*
 
 OpenApi/Swagger object except paths
 
----
+___
 
 ### yaml
 
 • `Optional` **yaml**: boolean
 
-_Defined in lib/index.d.ts:128_
+*Defined in lib/index.d.ts:128*
 
 If `true` returns yaml instead of json
 

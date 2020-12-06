@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ContactObject**
 
@@ -18,9 +18,9 @@
 
 ### Properties
 
-- [email](contactobject.md#email)
-- [name](contactobject.md#name)
-- [url](contactobject.md#url)
+* [email](contactobject.md#email)
+* [name](contactobject.md#name)
+* [url](contactobject.md#url)
 
 ## Properties
 
@@ -28,20 +28,20 @@
 
 • `Optional` **email**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:25_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:25*
 
----
+___
 
 ### name
 
 • `Optional` **name**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:23_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:23*
 
----
+___
 
 ### url
 
 • `Optional` **url**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:24_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:24*

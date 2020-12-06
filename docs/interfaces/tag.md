@@ -6,15 +6,15 @@
 
 ## Hierarchy
 
-- **Tag**
+* **Tag**
 
 ## Index
 
 ### Properties
 
-- [description](tag.md#description)
-- [externalDocs](tag.md#externaldocs)
-- [name](tag.md#name)
+* [description](tag.md#description)
+* [externalDocs](tag.md#externaldocs)
+* [name](tag.md#name)
 
 ## Properties
 
@@ -22,20 +22,20 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:34_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:34*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:35_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:35*
 
----
+___
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:33_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:33*

@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **LinkObject**
 
@@ -18,12 +18,12 @@
 
 ### Properties
 
-- [description](linkobject.md#description)
-- [operationId](linkobject.md#operationid)
-- [operationRef](linkobject.md#operationref)
-- [parameters](linkobject.md#parameters)
-- [requestBody](linkobject.md#requestbody)
-- [server](linkobject.md#server)
+* [description](linkobject.md#description)
+* [operationId](linkobject.md#operationid)
+* [operationRef](linkobject.md#operationref)
+* [parameters](linkobject.md#parameters)
+* [requestBody](linkobject.md#requestbody)
+* [server](linkobject.md#server)
 
 ## Properties
 
@@ -31,44 +31,44 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:192*
 
----
+___
 
 ### operationId
 
 • `Optional` **operationId**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:189*
 
----
+___
 
 ### operationRef
 
 • `Optional` **operationRef**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:188*
 
----
+___
 
 ### parameters
 
 • `Optional` **parameters**: [LinkParametersObject](linkparametersobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:190*
 
----
+___
 
 ### requestBody
 
 • `Optional` **requestBody**: any \| string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:191*
 
----
+___
 
 ### server
 
 • `Optional` **server**: [ServerObject](serverobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:193*

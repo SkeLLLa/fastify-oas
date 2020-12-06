@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **OperationObject**
 
@@ -18,18 +18,18 @@
 
 ### Properties
 
-- [callbacks](operationobject.md#callbacks)
-- [deprecated](operationobject.md#deprecated)
-- [description](operationobject.md#description)
-- [externalDocs](operationobject.md#externaldocs)
-- [operationId](operationobject.md#operationid)
-- [parameters](operationobject.md#parameters)
-- [requestBody](operationobject.md#requestbody)
-- [responses](operationobject.md#responses)
-- [security](operationobject.md#security)
-- [servers](operationobject.md#servers)
-- [summary](operationobject.md#summary)
-- [tags](operationobject.md#tags)
+* [callbacks](operationobject.md#callbacks)
+* [deprecated](operationobject.md#deprecated)
+* [description](operationobject.md#description)
+* [externalDocs](operationobject.md#externaldocs)
+* [operationId](operationobject.md#operationid)
+* [parameters](operationobject.md#parameters)
+* [requestBody](operationobject.md#requestbody)
+* [responses](operationobject.md#responses)
+* [security](operationobject.md#security)
+* [servers](operationobject.md#servers)
+* [summary](operationobject.md#summary)
+* [tags](operationobject.md#tags)
 
 ## Properties
 
@@ -37,92 +37,92 @@
 
 • `Optional` **callbacks**: [CallbacksObject](callbacksobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:101_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:101*
 
----
+___
 
 ### deprecated
 
 • `Optional` **deprecated**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:102_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:102*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:95_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:95*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocumentationObject](externaldocumentationobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:96_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:96*
 
----
+___
 
 ### operationId
 
 • `Optional` **operationId**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:97_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:97*
 
----
+___
 
 ### parameters
 
 • `Optional` **parameters**: ([ParameterObject](parameterobject.md) \| [ReferenceObject](referenceobject.md))[]
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:98_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:98*
 
----
+___
 
 ### requestBody
 
 • `Optional` **requestBody**: [RequestBodyObject](requestbodyobject.md) \| [ReferenceObject](referenceobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:99_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:99*
 
----
+___
 
 ### responses
 
-• **responses**: [ResponsesObject](responsesobject.md)
+•  **responses**: [ResponsesObject](responsesobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:100_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:100*
 
----
+___
 
 ### security
 
 • `Optional` **security**: [SecurityRequirementObject](securityrequirementobject.md)[]
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:103_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:103*
 
----
+___
 
 ### servers
 
 • `Optional` **servers**: [ServerObject](serverobject.md)[]
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:104_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:104*
 
----
+___
 
 ### summary
 
 • `Optional` **summary**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:94_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:94*
 
----
+___
 
 ### tags
 
 • `Optional` **tags**: string[]
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:93_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:93*

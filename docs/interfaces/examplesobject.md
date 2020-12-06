@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **ExamplesObject**
+* **ExamplesObject**
 
 ## Indexable
 

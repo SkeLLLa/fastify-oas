@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **BaseSecurity**
+* **BaseSecurity**
 
   ↳ [BasicAuthenticationSecurity](basicauthenticationsecurity.md)
 
@@ -18,8 +18,8 @@
 
 ### Properties
 
-- [description](basesecurity.md#description)
-- [type](basesecurity.md#type)
+* [description](basesecurity.md#description)
+* [type](basesecurity.md#type)
 
 ## Properties
 
@@ -27,12 +27,12 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:200_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:200*
 
----
+___
 
 ### type
 
-• **type**: \"basic\" \| \"apiKey\" \| \"oauth2\"
+•  **type**: \"basic\" \| \"apiKey\" \| \"oauth2\"
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:199_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:199*

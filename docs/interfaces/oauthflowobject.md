@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **OAuthFlowObject**
 
@@ -18,10 +18,10 @@
 
 ### Properties
 
-- [authorizationUrl](oauthflowobject.md#authorizationurl)
-- [refreshUrl](oauthflowobject.md#refreshurl)
-- [scopes](oauthflowobject.md#scopes)
-- [tokenUrl](oauthflowobject.md#tokenurl)
+* [authorizationUrl](oauthflowobject.md#authorizationurl)
+* [refreshUrl](oauthflowobject.md#refreshurl)
+* [scopes](oauthflowobject.md#scopes)
+* [tokenUrl](oauthflowobject.md#tokenurl)
 
 ## Properties
 
@@ -29,28 +29,28 @@
 
 • `Optional` **authorizationUrl**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:289*
 
----
+___
 
 ### refreshUrl
 
 • `Optional` **refreshUrl**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:291*
 
----
+___
 
 ### scopes
 
-• **scopes**: [ScopesObject](scopesobject.md)
+•  **scopes**: [ScopesObject](scopesobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:292*
 
----
+___
 
 ### tokenUrl
 
 • `Optional` **tokenUrl**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:290*

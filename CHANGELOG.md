@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.6](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.5...v3.0.6) (2020-12-06)
+
+
+### Misc
+
+* remove husky ([324d08f](https://gitlab.com/m03geek/fastify-oas/commit/324d08f78d594c29108c4e5ea069402b086987b6))
+
 ### [3.0.5](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.4...v3.0.5) (2020-12-06)
 
 ### Bug Fixes

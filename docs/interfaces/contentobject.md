@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **ContentObject**
+* **ContentObject**
 
 ## Indexable
 

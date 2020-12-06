@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **EncodingPropertyObject**
+* **EncodingPropertyObject**
 
 ## Indexable
 
@@ -16,11 +16,11 @@
 
 ### Properties
 
-- [allowReserved](encodingpropertyobject.md#allowreserved)
-- [contentType](encodingpropertyobject.md#contenttype)
-- [explode](encodingpropertyobject.md#explode)
-- [headers](encodingpropertyobject.md#headers)
-- [style](encodingpropertyobject.md#style)
+* [allowReserved](encodingpropertyobject.md#allowreserved)
+* [contentType](encodingpropertyobject.md#contenttype)
+* [explode](encodingpropertyobject.md#explode)
+* [headers](encodingpropertyobject.md#headers)
+* [style](encodingpropertyobject.md#style)
 
 ## Properties
 
@@ -28,36 +28,36 @@
 
 • `Optional` **allowReserved**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:155_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:155*
 
----
+___
 
 ### contentType
 
 • `Optional` **contentType**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:149_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:149*
 
----
+___
 
 ### explode
 
 • `Optional` **explode**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:154_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:154*
 
----
+___
 
 ### headers
 
-• `Optional` **headers**: { [key:string]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md); }
+• `Optional` **headers**: { [key:string]: [HeaderObject](headerobject.md) \| [ReferenceObject](referenceobject.md);  }
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:150_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:150*
 
----
+___
 
 ### style
 
 • `Optional` **style**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:153_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:153*

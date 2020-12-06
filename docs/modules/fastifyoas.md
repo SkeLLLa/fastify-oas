@@ -8,7 +8,7 @@
 
 ▸ `Export assignment`**fastifyOAS**(): void
 
-_Defined in lib/index.d.ts:141_
+*Defined in lib/index.d.ts:141*
 
 **Returns:** void
 
@@ -16,6 +16,6 @@ _Defined in lib/index.d.ts:141_
 
 ### Interfaces
 
-- [ExposeOptions](../interfaces/fastifyoas.exposeoptions.md)
-- [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
-- [OpenApiSpec](../interfaces/fastifyoas.openapispec.md)
+* [ExposeOptions](../interfaces/fastifyoas.exposeoptions.md)
+* [FastifyOASOptions](../interfaces/fastifyoas.fastifyoasoptions.md)
+* [OpenApiSpec](../interfaces/fastifyoas.openapispec.md)

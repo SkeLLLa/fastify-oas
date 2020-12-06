@@ -6,18 +6,18 @@
 
 ## Hierarchy
 
-- **Info**
+* **Info**
 
 ## Index
 
 ### Properties
 
-- [contact](info.md#contact)
-- [description](info.md#description)
-- [license](info.md#license)
-- [termsOfService](info.md#termsofservice)
-- [title](info.md#title)
-- [version](info.md#version)
+* [contact](info.md#contact)
+* [description](info.md#description)
+* [license](info.md#license)
+* [termsOfService](info.md#termsofservice)
+* [title](info.md#title)
+* [version](info.md#version)
 
 ## Properties
 
@@ -25,44 +25,44 @@
 
 • `Optional` **contact**: [Contact](contact.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:12_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:12*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:10_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:10*
 
----
+___
 
 ### license
 
 • `Optional` **license**: [License](license.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:13_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:13*
 
----
+___
 
 ### termsOfService
 
 • `Optional` **termsOfService**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:11_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:11*
 
----
+___
 
 ### title
 
-• **title**: string
+•  **title**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:8_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:8*
 
----
+___
 
 ### version
 
-• **version**: string
+•  **version**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:9_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:9*

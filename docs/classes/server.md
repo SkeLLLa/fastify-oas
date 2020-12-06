@@ -6,27 +6,27 @@
 
 ## Hierarchy
 
-- **Server**
+* **Server**
 
 ## Implements
 
-- [ServerObject](../interfaces/serverobject.md)
+* [ServerObject](../interfaces/serverobject.md)
 
 ## Index
 
 ### Constructors
 
-- [constructor](server.md#constructor)
+* [constructor](server.md#constructor)
 
 ### Properties
 
-- [description](server.md#description)
-- [url](server.md#url)
-- [variables](server.md#variables)
+* [description](server.md#description)
+* [url](server.md#url)
+* [variables](server.md#variables)
 
 ### Methods
 
-- [addVariable](server.md#addvariable)
+* [addVariable](server.md#addvariable)
 
 ## Constructors
 
@@ -34,14 +34,14 @@
 
 \+ **new Server**(`url`: string, `desc?`: string): [Server](server.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:7_
+*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:7*
 
 #### Parameters:
 
-| Name    | Type   |
-| ------- | ------ |
-| `url`   | string |
-| `desc?` | string |
+Name | Type |
+------ | ------ |
+`url` | string |
+`desc?` | string |
 
 **Returns:** [Server](server.md)
 
@@ -51,29 +51,29 @@ _Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:7_
 
 • `Optional` **description**: string
 
-_Implementation of [ServerObject](../interfaces/serverobject.md).[description](../interfaces/serverobject.md#description)_
+*Implementation of [ServerObject](../interfaces/serverobject.md).[description](../interfaces/serverobject.md#description)*
 
-_Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:4_
+*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:4*
 
----
+___
 
 ### url
 
-• **url**: string
+•  **url**: string
 
-_Implementation of [ServerObject](../interfaces/serverobject.md).[url](../interfaces/serverobject.md#url)_
+*Implementation of [ServerObject](../interfaces/serverobject.md).[url](../interfaces/serverobject.md#url)*
 
-_Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:3_
+*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:3*
 
----
+___
 
 ### variables
 
-• **variables**: { [v:string]: [ServerVariable](servervariable.md); }
+•  **variables**: { [v:string]: [ServerVariable](servervariable.md);  }
 
-_Implementation of [ServerObject](../interfaces/serverobject.md).[variables](../interfaces/serverobject.md#variables)_
+*Implementation of [ServerObject](../interfaces/serverobject.md).[variables](../interfaces/serverobject.md#variables)*
 
-_Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5_
+*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5*
 
 ## Methods
 
@@ -81,13 +81,13 @@ _Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:5_
 
 ▸ **addVariable**(`name`: string, `variable`: [ServerVariable](servervariable.md)): void
 
-_Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:9_
+*Defined in node_modules/openapi3-ts/dist/model/Server.d.ts:9*
 
 #### Parameters:
 
-| Name       | Type                                |
-| ---------- | ----------------------------------- |
-| `name`     | string                              |
-| `variable` | [ServerVariable](servervariable.md) |
+Name | Type |
+------ | ------ |
+`name` | string |
+`variable` | [ServerVariable](servervariable.md) |
 
 **Returns:** void

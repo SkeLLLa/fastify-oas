@@ -6,17 +6,17 @@
 
 ## Hierarchy
 
-- **XML**
+* **XML**
 
 ## Index
 
 ### Properties
 
-- [attribute](xml.md#attribute)
-- [name](xml.md#name)
-- [namespace](xml.md#namespace)
-- [prefix](xml.md#prefix)
-- [wrapped](xml.md#wrapped)
+* [attribute](xml.md#attribute)
+* [name](xml.md#name)
+* [namespace](xml.md#namespace)
+* [prefix](xml.md#prefix)
+* [wrapped](xml.md#wrapped)
 
 ## Properties
 
@@ -24,36 +24,36 @@
 
 • `Optional` **attribute**: boolean
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:193_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:193*
 
----
+___
 
 ### name
 
 • `Optional` **name**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:190_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:190*
 
----
+___
 
 ### namespace
 
 • `Optional` **namespace**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:191_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:191*
 
----
+___
 
 ### prefix
 
 • `Optional` **prefix**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:192_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:192*
 
----
+___
 
 ### wrapped
 
 • `Optional` **wrapped**: boolean
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:194_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:194*

@@ -6,14 +6,14 @@
 
 ## Hierarchy
 
-- **ExternalDocs**
+* **ExternalDocs**
 
 ## Index
 
 ### Properties
 
-- [description](externaldocs.md#description)
-- [url](externaldocs.md#url)
+* [description](externaldocs.md#description)
+* [url](externaldocs.md#url)
 
 ## Properties
 
@@ -21,12 +21,12 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:29_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:29*
 
----
+___
 
 ### url
 
-• **url**: string
+•  **url**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:28_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:28*

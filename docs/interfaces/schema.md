@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- { default?: any ; description?: string ; enum?: any[] ; exclusiveMaximum?: boolean ; exclusiveMinimum?: boolean ; format?: string ; items?: [Schema](schema.md) \| [Schema](schema.md)[] ; maxItems?: number ; maxLength?: number ; maxProperties?: number ; maximum?: number ; minItems?: number ; minLength?: number ; minProperties?: number ; minimum?: number ; multipleOf?: number ; pattern?: string ; title?: string ; type?: [ParameterType](../README.md#parametertype) ; uniqueItems?: boolean }
+* { default?: any ; description?: string ; enum?: any[] ; exclusiveMaximum?: boolean ; exclusiveMinimum?: boolean ; format?: string ; items?: [Schema](schema.md) \| [Schema](schema.md)[] ; maxItems?: number ; maxLength?: number ; maxProperties?: number ; maximum?: number ; minItems?: number ; minLength?: number ; minProperties?: number ; minimum?: number ; multipleOf?: number ; pattern?: string ; title?: string ; type?: [ParameterType](../README.md#parametertype) ; uniqueItems?: boolean  }
 
   ↳ **Schema**
 
@@ -14,36 +14,36 @@
 
 ### Properties
 
-- [$ref](schema.md#$ref)
-- [additionalProperties](schema.md#additionalproperties)
-- [allOf](schema.md#allof)
-- [default](schema.md#default)
-- [description](schema.md#description)
-- [discriminator](schema.md#discriminator)
-- [enum](schema.md#enum)
-- [example](schema.md#example)
-- [exclusiveMaximum](schema.md#exclusivemaximum)
-- [exclusiveMinimum](schema.md#exclusiveminimum)
-- [externalDocs](schema.md#externaldocs)
-- [format](schema.md#format)
-- [items](schema.md#items)
-- [maxItems](schema.md#maxitems)
-- [maxLength](schema.md#maxlength)
-- [maxProperties](schema.md#maxproperties)
-- [maximum](schema.md#maximum)
-- [minItems](schema.md#minitems)
-- [minLength](schema.md#minlength)
-- [minProperties](schema.md#minproperties)
-- [minimum](schema.md#minimum)
-- [multipleOf](schema.md#multipleof)
-- [pattern](schema.md#pattern)
-- [properties](schema.md#properties)
-- [readOnly](schema.md#readonly)
-- [required](schema.md#required)
-- [title](schema.md#title)
-- [type](schema.md#type)
-- [uniqueItems](schema.md#uniqueitems)
-- [xml](schema.md#xml)
+* [$ref](schema.md#$ref)
+* [additionalProperties](schema.md#additionalproperties)
+* [allOf](schema.md#allof)
+* [default](schema.md#default)
+* [description](schema.md#description)
+* [discriminator](schema.md#discriminator)
+* [enum](schema.md#enum)
+* [example](schema.md#example)
+* [exclusiveMaximum](schema.md#exclusivemaximum)
+* [exclusiveMinimum](schema.md#exclusiveminimum)
+* [externalDocs](schema.md#externaldocs)
+* [format](schema.md#format)
+* [items](schema.md#items)
+* [maxItems](schema.md#maxitems)
+* [maxLength](schema.md#maxlength)
+* [maxProperties](schema.md#maxproperties)
+* [maximum](schema.md#maximum)
+* [minItems](schema.md#minitems)
+* [minLength](schema.md#minlength)
+* [minProperties](schema.md#minproperties)
+* [minimum](schema.md#minimum)
+* [multipleOf](schema.md#multipleof)
+* [pattern](schema.md#pattern)
+* [properties](schema.md#properties)
+* [readOnly](schema.md#readonly)
+* [required](schema.md#required)
+* [title](schema.md#title)
+* [type](schema.md#type)
+* [uniqueItems](schema.md#uniqueitems)
+* [xml](schema.md#xml)
 
 ## Properties
 
@@ -51,276 +51,276 @@
 
 • `Optional` **$ref**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:177_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:177*
 
----
+___
 
 ### additionalProperties
 
 • `Optional` **additionalProperties**: [Schema](schema.md) \| boolean
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:179_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:179*
 
----
+___
 
 ### allOf
 
 • `Optional` **allOf**: [Schema](schema.md)[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:178_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:178*
 
----
+___
 
 ### default
 
 • `Optional` **default**: any
 
-_Inherited from \_\_type.default_
+*Inherited from __type.default*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:158_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:158*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Inherited from \_\_type.description_
+*Inherited from __type.description*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:157_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:157*
 
----
+___
 
 ### discriminator
 
 • `Optional` **discriminator**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:181_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:181*
 
----
+___
 
 ### enum
 
 • `Optional` **enum**: any[]
 
-_Inherited from \_\_type.enum_
+*Inherited from __type.enum*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:172_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:172*
 
----
+___
 
 ### example
 
 • `Optional` **example**: any
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:185_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:185*
 
----
+___
 
 ### exclusiveMaximum
 
 • `Optional` **exclusiveMaximum**: boolean
 
-_Inherited from \_\_type.exclusiveMaximum_
+*Inherited from __type.exclusiveMaximum*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:161_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:161*
 
----
+___
 
 ### exclusiveMinimum
 
 • `Optional` **exclusiveMinimum**: boolean
 
-_Inherited from \_\_type.exclusiveMinimum_
+*Inherited from __type.exclusiveMinimum*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:163_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:163*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:184_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:184*
 
----
+___
 
 ### format
 
 • `Optional` **format**: string
 
-_Inherited from \_\_type.format_
+*Inherited from __type.format*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:155_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:155*
 
----
+___
 
 ### items
 
 • `Optional` **items**: [Schema](schema.md) \| [Schema](schema.md)[]
 
-_Inherited from \_\_type.items_
+*Inherited from __type.items*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:173_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:173*
 
----
+___
 
 ### maxItems
 
 • `Optional` **maxItems**: number
 
-_Inherited from \_\_type.maxItems_
+*Inherited from __type.maxItems*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:167_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:167*
 
----
+___
 
 ### maxLength
 
 • `Optional` **maxLength**: number
 
-_Inherited from \_\_type.maxLength_
+*Inherited from __type.maxLength*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:164_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:164*
 
----
+___
 
 ### maxProperties
 
 • `Optional` **maxProperties**: number
 
-_Inherited from \_\_type.maxProperties_
+*Inherited from __type.maxProperties*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:170_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:170*
 
----
+___
 
 ### maximum
 
 • `Optional` **maximum**: number
 
-_Inherited from \_\_type.maximum_
+*Inherited from __type.maximum*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:160_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:160*
 
----
+___
 
 ### minItems
 
 • `Optional` **minItems**: number
 
-_Inherited from \_\_type.minItems_
+*Inherited from __type.minItems*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:168_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:168*
 
----
+___
 
 ### minLength
 
 • `Optional` **minLength**: number
 
-_Inherited from \_\_type.minLength_
+*Inherited from __type.minLength*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:165_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:165*
 
----
+___
 
 ### minProperties
 
 • `Optional` **minProperties**: number
 
-_Inherited from \_\_type.minProperties_
+*Inherited from __type.minProperties*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:171_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:171*
 
----
+___
 
 ### minimum
 
 • `Optional` **minimum**: number
 
-_Inherited from \_\_type.minimum_
+*Inherited from __type.minimum*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:162_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:162*
 
----
+___
 
 ### multipleOf
 
 • `Optional` **multipleOf**: number
 
-_Inherited from \_\_type.multipleOf_
+*Inherited from __type.multipleOf*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:159_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:159*
 
----
+___
 
 ### pattern
 
 • `Optional` **pattern**: string
 
-_Inherited from \_\_type.pattern_
+*Inherited from __type.pattern*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:166_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:166*
 
----
+___
 
 ### properties
 
-• `Optional` **properties**: { [propertyName:string]: [Schema](schema.md); }
+• `Optional` **properties**: { [propertyName:string]: [Schema](schema.md);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:180_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:180*
 
----
+___
 
 ### readOnly
 
 • `Optional` **readOnly**: boolean
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:182_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:182*
 
----
+___
 
 ### required
 
 • `Optional` **required**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:186_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:186*
 
----
+___
 
 ### title
 
 • `Optional` **title**: string
 
-_Inherited from \_\_type.title_
+*Inherited from __type.title*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:156_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:156*
 
----
+___
 
 ### type
 
 • `Optional` **type**: [ParameterType](../README.md#parametertype)
 
-_Inherited from \_\_type.type_
+*Inherited from __type.type*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:154_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:154*
 
----
+___
 
 ### uniqueItems
 
 • `Optional` **uniqueItems**: boolean
 
-_Inherited from \_\_type.uniqueItems_
+*Inherited from __type.uniqueItems*
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:169_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:169*
 
----
+___
 
 ### xml
 
 • `Optional` **xml**: [XML](xml.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:183_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:183*

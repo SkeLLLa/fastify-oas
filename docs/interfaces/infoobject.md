@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **InfoObject**
 
@@ -18,12 +18,12 @@
 
 ### Properties
 
-- [contact](infoobject.md#contact)
-- [description](infoobject.md#description)
-- [license](infoobject.md#license)
-- [termsOfService](infoobject.md#termsofservice)
-- [title](infoobject.md#title)
-- [version](infoobject.md#version)
+* [contact](infoobject.md#contact)
+* [description](infoobject.md#description)
+* [license](infoobject.md#license)
+* [termsOfService](infoobject.md#termsofservice)
+* [title](infoobject.md#title)
+* [version](infoobject.md#version)
 
 ## Properties
 
@@ -31,44 +31,44 @@
 
 • `Optional` **contact**: [ContactObject](contactobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:18_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:18*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:16_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:16*
 
----
+___
 
 ### license
 
 • `Optional` **license**: [LicenseObject](licenseobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:19_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:19*
 
----
+___
 
 ### termsOfService
 
 • `Optional` **termsOfService**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:17_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:17*
 
----
+___
 
 ### title
 
-• **title**: string
+•  **title**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:15_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:15*
 
----
+___
 
 ### version
 
-• **version**: string
+•  **version**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:20_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:20*

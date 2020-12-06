@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [BaseParameterObject](baseparameterobject.md)
+* [BaseParameterObject](baseparameterobject.md)
 
   ↳ **HeaderObject**
 
@@ -18,17 +18,17 @@
 
 ### Properties
 
-- [allowEmptyValue](headerobject.md#allowemptyvalue)
-- [allowReserved](headerobject.md#allowreserved)
-- [content](headerobject.md#content)
-- [deprecated](headerobject.md#deprecated)
-- [description](headerobject.md#description)
-- [example](headerobject.md#example)
-- [examples](headerobject.md#examples)
-- [explode](headerobject.md#explode)
-- [required](headerobject.md#required)
-- [schema](headerobject.md#schema)
-- [style](headerobject.md#style)
+* [allowEmptyValue](headerobject.md#allowemptyvalue)
+* [allowReserved](headerobject.md#allowreserved)
+* [content](headerobject.md#content)
+* [deprecated](headerobject.md#deprecated)
+* [description](headerobject.md#description)
+* [example](headerobject.md#example)
+* [examples](headerobject.md#examples)
+* [explode](headerobject.md#explode)
+* [required](headerobject.md#required)
+* [schema](headerobject.md#schema)
+* [style](headerobject.md#style)
 
 ## Properties
 
@@ -36,106 +36,106 @@
 
 • `Optional` **allowEmptyValue**: boolean
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[allowEmptyValue](baseparameterobject.md#allowemptyvalue)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[allowEmptyValue](baseparameterobject.md#allowemptyvalue)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:116_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:116*
 
----
+___
 
 ### allowReserved
 
 • `Optional` **allowReserved**: boolean
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[allowReserved](baseparameterobject.md#allowreserved)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[allowReserved](baseparameterobject.md#allowreserved)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:119_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:119*
 
----
+___
 
 ### content
 
 • `Optional` **content**: [ContentObject](contentobject.md)
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[content](baseparameterobject.md#content)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[content](baseparameterobject.md#content)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:125_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:125*
 
----
+___
 
 ### deprecated
 
 • `Optional` **deprecated**: boolean
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[deprecated](baseparameterobject.md#deprecated)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[deprecated](baseparameterobject.md#deprecated)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:115_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:115*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[description](baseparameterobject.md#description)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[description](baseparameterobject.md#description)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:113_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:113*
 
----
+___
 
 ### example
 
 • `Optional` **example**: any
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[example](baseparameterobject.md#example)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[example](baseparameterobject.md#example)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:124_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:124*
 
----
+___
 
 ### examples
 
-• `Optional` **examples**: { [param:string]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md); }
+• `Optional` **examples**: { [param:string]: [ExampleObject](exampleobject.md) \| [ReferenceObject](referenceobject.md);  }
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[examples](baseparameterobject.md#examples)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[examples](baseparameterobject.md#examples)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:121*
 
----
+___
 
 ### explode
 
 • `Optional` **explode**: boolean
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[explode](baseparameterobject.md#explode)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[explode](baseparameterobject.md#explode)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:118_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:118*
 
----
+___
 
 ### required
 
 • `Optional` **required**: boolean
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[required](baseparameterobject.md#required)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[required](baseparameterobject.md#required)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:114_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:114*
 
----
+___
 
 ### schema
 
 • `Optional` **schema**: [SchemaObject](schemaobject.md) \| [ReferenceObject](referenceobject.md)
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[schema](baseparameterobject.md#schema)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[schema](baseparameterobject.md#schema)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:120_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:120*
 
----
+___
 
 ### style
 
 • `Optional` **style**: [ParameterStyle](../README.md#parameterstyle)
 
-_Inherited from [BaseParameterObject](baseparameterobject.md).[style](baseparameterobject.md#style)_
+*Inherited from [BaseParameterObject](baseparameterobject.md).[style](baseparameterobject.md#style)*
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:117_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:117*

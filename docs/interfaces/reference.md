@@ -6,18 +6,18 @@
 
 ## Hierarchy
 
-- **Reference**
+* **Reference**
 
 ## Index
 
 ### Properties
 
-- [$ref](reference.md#$ref)
+* [$ref](reference.md#$ref)
 
 ## Properties
 
 ### $ref
 
-• **$ref**: string
+•  **$ref**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:141_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:141*

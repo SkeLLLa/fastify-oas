@@ -6,27 +6,27 @@
 
 ## Hierarchy
 
-- **License**
+* **License**
 
 ## Index
 
 ### Properties
 
-- [name](license.md#name)
-- [url](license.md#url)
+* [name](license.md#name)
+* [url](license.md#url)
 
 ## Properties
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:23_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:23*
 
----
+___
 
 ### url
 
 • `Optional` **url**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:24_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:24*

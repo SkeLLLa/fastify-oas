@@ -6,13 +6,13 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ServerObject**
 
 ## Implemented by
 
-- [Server](../classes/server.md)
+* [Server](../classes/server.md)
 
 ## Indexable
 
@@ -22,9 +22,9 @@
 
 ### Properties
 
-- [description](serverobject.md#description)
-- [url](serverobject.md#url)
-- [variables](serverobject.md#variables)
+* [description](serverobject.md#description)
+* [url](serverobject.md#url)
+* [variables](serverobject.md#variables)
 
 ## Properties
 
@@ -32,20 +32,20 @@
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:33_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:33*
 
----
+___
 
 ### url
 
-• **url**: string
+•  **url**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:32_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:32*
 
----
+___
 
 ### variables
 
-• `Optional` **variables**: { [v:string]: [ServerVariableObject](servervariableobject.md); }
+• `Optional` **variables**: { [v:string]: [ServerVariableObject](servervariableobject.md);  }
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:34_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:34*

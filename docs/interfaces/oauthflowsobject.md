@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **OAuthFlowsObject**
 
@@ -18,10 +18,10 @@
 
 ### Properties
 
-- [authorizationCode](oauthflowsobject.md#authorizationcode)
-- [clientCredentials](oauthflowsobject.md#clientcredentials)
-- [implicit](oauthflowsobject.md#implicit)
-- [password](oauthflowsobject.md#password)
+* [authorizationCode](oauthflowsobject.md#authorizationcode)
+* [clientCredentials](oauthflowsobject.md#clientcredentials)
+* [implicit](oauthflowsobject.md#implicit)
+* [password](oauthflowsobject.md#password)
 
 ## Properties
 
@@ -29,28 +29,28 @@
 
 • `Optional` **authorizationCode**: [OAuthFlowObject](oauthflowobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:286_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:286*
 
----
+___
 
 ### clientCredentials
 
 • `Optional` **clientCredentials**: [OAuthFlowObject](oauthflowobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:285_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:285*
 
----
+___
 
 ### implicit
 
 • `Optional` **implicit**: [OAuthFlowObject](oauthflowobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:283*
 
----
+___
 
 ### password
 
 • `Optional` **password**: [OAuthFlowObject](oauthflowobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:284*

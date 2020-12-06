@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **ResponseObject**
 
@@ -18,10 +18,10 @@
 
 ### Properties
 
-- [content](responseobject.md#content)
-- [description](responseobject.md#description)
-- [headers](responseobject.md#headers)
-- [links](responseobject.md#links)
+* [content](responseobject.md#content)
+* [description](responseobject.md#description)
+* [headers](responseobject.md#headers)
+* [links](responseobject.md#links)
 
 ## Properties
 
@@ -29,28 +29,28 @@
 
 • `Optional` **content**: [ContentObject](contentobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:165*
 
----
+___
 
 ### description
 
-• **description**: string
+•  **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:163*
 
----
+___
 
 ### headers
 
 • `Optional` **headers**: [HeadersObject](headersobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:164*
 
----
+___
 
 ### links
 
 • `Optional` **links**: [LinksObject](linksobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:166*

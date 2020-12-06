@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **LinkParametersObject**
+* **LinkParametersObject**
 
 ## Indexable
 

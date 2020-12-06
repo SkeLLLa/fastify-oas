@@ -6,27 +6,27 @@
 
 ## Hierarchy
 
-- **Spec**
+* **Spec**
 
 ## Index
 
 ### Properties
 
-- [basePath](spec.md#basepath)
-- [consumes](spec.md#consumes)
-- [definitions](spec.md#definitions)
-- [externalDocs](spec.md#externaldocs)
-- [host](spec.md#host)
-- [info](spec.md#info)
-- [parameters](spec.md#parameters)
-- [paths](spec.md#paths)
-- [produces](spec.md#produces)
-- [responses](spec.md#responses)
-- [schemes](spec.md#schemes)
-- [security](spec.md#security)
-- [securityDefinitions](spec.md#securitydefinitions)
-- [swagger](spec.md#swagger)
-- [tags](spec.md#tags)
+* [basePath](spec.md#basepath)
+* [consumes](spec.md#consumes)
+* [definitions](spec.md#definitions)
+* [externalDocs](spec.md#externaldocs)
+* [host](spec.md#host)
+* [info](spec.md#info)
+* [parameters](spec.md#parameters)
+* [paths](spec.md#paths)
+* [produces](spec.md#produces)
+* [responses](spec.md#responses)
+* [schemes](spec.md#schemes)
+* [security](spec.md#security)
+* [securityDefinitions](spec.md#securitydefinitions)
+* [swagger](spec.md#swagger)
+* [tags](spec.md#tags)
 
 ## Properties
 
@@ -34,116 +34,116 @@
 
 • `Optional` **basePath**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:262_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:262*
 
----
+___
 
 ### consumes
 
 • `Optional` **consumes**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:264_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:264*
 
----
+___
 
 ### definitions
 
-• `Optional` **definitions**: { [definitionsName:string]: [Schema](schema.md); }
+• `Optional` **definitions**: { [definitionsName:string]: [Schema](schema.md);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:267_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:267*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocs](externaldocs.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:260_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:260*
 
----
+___
 
 ### host
 
 • `Optional` **host**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:261_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:261*
 
----
+___
 
 ### info
 
-• **info**: [Info](info.md)
+•  **info**: [Info](info.md)
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:259_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:259*
 
----
+___
 
 ### parameters
 
-• `Optional` **parameters**: { [parameterName:string]: [BodyParameter](../README.md#bodyparameter) \| [QueryParameter](../README.md#queryparameter); }
+• `Optional` **parameters**: { [parameterName:string]: [BodyParameter](../README.md#bodyparameter) \| [QueryParameter](../README.md#queryparameter);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:268_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:268*
 
----
+___
 
 ### paths
 
-• **paths**: { [pathName:string]: [Path](path.md); }
+•  **paths**: { [pathName:string]: [Path](path.md);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:266_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:266*
 
----
+___
 
 ### produces
 
 • `Optional` **produces**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:265_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:265*
 
----
+___
 
 ### responses
 
-• `Optional` **responses**: { [responseName:string]: [Response](response.md); }
+• `Optional` **responses**: { [responseName:string]: [Response](response.md);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:269_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:269*
 
----
+___
 
 ### schemes
 
 • `Optional` **schemes**: string[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:263_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:263*
 
----
+___
 
 ### security
 
-• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[]; }>
+• `Optional` **security**: Array\<{ [securityDefinitionName:string]: string[];  }>
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:270_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:270*
 
----
+___
 
 ### securityDefinitions
 
-• `Optional` **securityDefinitions**: { [securityDefinitionName:string]: [Security](../README.md#security); }
+• `Optional` **securityDefinitions**: { [securityDefinitionName:string]: [Security](../README.md#security);  }
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:271_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:271*
 
----
+___
 
 ### swagger
 
-• **swagger**: string
+•  **swagger**: string
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:258_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:258*
 
----
+___
 
 ### tags
 
 • `Optional` **tags**: [Tag](tag.md)[]
 
-_Defined in node_modules/@types/swagger-schema-official/index.d.ts:272_
+*Defined in node_modules/@types/swagger-schema-official/index.d.ts:272*

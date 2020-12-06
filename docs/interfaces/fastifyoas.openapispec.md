@@ -6,25 +6,25 @@
 
 ## Hierarchy
 
-- **OpenApiSpec**
+* **OpenApiSpec**
 
 ## Index
 
 ### Properties
 
-- [basePath](fastifyoas.openapispec.md#basepath)
-- [components](fastifyoas.openapispec.md#components)
-- [consumes](fastifyoas.openapispec.md#consumes)
-- [externalDocs](fastifyoas.openapispec.md#externaldocs)
-- [host](fastifyoas.openapispec.md#host)
-- [info](fastifyoas.openapispec.md#info)
-- [produces](fastifyoas.openapispec.md#produces)
-- [schemes](fastifyoas.openapispec.md#schemes)
-- [security](fastifyoas.openapispec.md#security)
-- [securityDefinitions](fastifyoas.openapispec.md#securitydefinitions)
-- [servers](fastifyoas.openapispec.md#servers)
-- [tags](fastifyoas.openapispec.md#tags)
-- [x-tagGroups](fastifyoas.openapispec.md#x-taggroups)
+* [basePath](fastifyoas.openapispec.md#basepath)
+* [components](fastifyoas.openapispec.md#components)
+* [consumes](fastifyoas.openapispec.md#consumes)
+* [externalDocs](fastifyoas.openapispec.md#externaldocs)
+* [host](fastifyoas.openapispec.md#host)
+* [info](fastifyoas.openapispec.md#info)
+* [produces](fastifyoas.openapispec.md#produces)
+* [schemes](fastifyoas.openapispec.md#schemes)
+* [security](fastifyoas.openapispec.md#security)
+* [securityDefinitions](fastifyoas.openapispec.md#securitydefinitions)
+* [servers](fastifyoas.openapispec.md#servers)
+* [tags](fastifyoas.openapispec.md#tags)
+* [x-tagGroups](fastifyoas.openapispec.md#x-taggroups)
 
 ## Properties
 
@@ -32,100 +32,100 @@
 
 • `Optional` **basePath**: string
 
-_Defined in lib/index.d.ts:66_
+*Defined in lib/index.d.ts:66*
 
----
+___
 
 ### components
 
 • `Optional` **components**: [ComponentsObject](componentsobject.md)
 
-_Defined in lib/index.d.ts:75_
+*Defined in lib/index.d.ts:75*
 
----
+___
 
 ### consumes
 
 • `Optional` **consumes**: Array\<string>
 
-_Defined in lib/index.d.ts:69_
+*Defined in lib/index.d.ts:69*
 
----
+___
 
 ### externalDocs
 
 • `Optional` **externalDocs**: [ExternalDocumentationObject](externaldocumentationobject.md) \| [ExternalDocs](externaldocs.md)
 
-_Defined in lib/index.d.ts:64_
+*Defined in lib/index.d.ts:64*
 
----
+___
 
 ### host
 
 • `Optional` **host**: string
 
-_Defined in lib/index.d.ts:65_
+*Defined in lib/index.d.ts:65*
 
----
+___
 
 ### info
 
 • `Optional` **info**: [InfoObject](infoobject.md) \| [Info](info.md)
 
-_Defined in lib/index.d.ts:63_
+*Defined in lib/index.d.ts:63*
 
----
+___
 
 ### produces
 
 • `Optional` **produces**: Array\<string>
 
-_Defined in lib/index.d.ts:70_
+*Defined in lib/index.d.ts:70*
 
----
+___
 
 ### schemes
 
 • `Optional` **schemes**: [SchemasObject](schemasobject.md) \| Array\<string>
 
-_Defined in lib/index.d.ts:68_
+*Defined in lib/index.d.ts:68*
 
----
+___
 
 ### security
 
-• `Optional` **security**: Array\<[SecurityRequirementObject](securityrequirementobject.md)> \| Array\<{ [securityDefinitionName:string]: Array\<string>; }>
+• `Optional` **security**: Array\<[SecurityRequirementObject](securityrequirementobject.md)> \| Array\<{ [securityDefinitionName:string]: Array\<string>;  }>
 
-_Defined in lib/index.d.ts:71_
+*Defined in lib/index.d.ts:71*
 
----
+___
 
 ### securityDefinitions
 
-• `Optional` **securityDefinitions**: { [securityDefinitionName:string]: [Security](../README.md#security); }
+• `Optional` **securityDefinitions**: { [securityDefinitionName:string]: [Security](../README.md#security);  }
 
-_Defined in lib/index.d.ts:76_
+*Defined in lib/index.d.ts:76*
 
----
+___
 
 ### servers
 
 • `Optional` **servers**: Array\<[Server](../classes/server.md)>
 
-_Defined in lib/index.d.ts:74_
+*Defined in lib/index.d.ts:74*
 
----
+___
 
 ### tags
 
 • `Optional` **tags**: Array\<[TagObject](tagobject.md)> \| Array\<[Tag](tag.md)>
 
-_Defined in lib/index.d.ts:79_
+*Defined in lib/index.d.ts:79*
 
----
+___
 
 ### x-tagGroups
 
 • `Optional` **x-tagGroups**: string
 
-_Defined in lib/index.d.ts:67_
+*Defined in lib/index.d.ts:67*

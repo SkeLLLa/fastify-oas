@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **LicenseObject**
 
@@ -18,21 +18,21 @@
 
 ### Properties
 
-- [name](licenseobject.md#name)
-- [url](licenseobject.md#url)
+* [name](licenseobject.md#name)
+* [url](licenseobject.md#url)
 
 ## Properties
 
 ### name
 
-• **name**: string
+•  **name**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:28_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:28*
 
----
+___
 
 ### url
 
 • `Optional` **url**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:29_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:29*

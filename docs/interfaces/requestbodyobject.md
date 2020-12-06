@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- [ISpecificationExtension](ispecificationextension.md)
+* [ISpecificationExtension](ispecificationextension.md)
 
   ↳ **RequestBodyObject**
 
@@ -18,30 +18,30 @@
 
 ### Properties
 
-- [content](requestbodyobject.md#content)
-- [description](requestbodyobject.md#description)
-- [required](requestbodyobject.md#required)
+* [content](requestbodyobject.md#content)
+* [description](requestbodyobject.md#description)
+* [required](requestbodyobject.md#required)
 
 ## Properties
 
 ### content
 
-• **content**: [ContentObject](contentobject.md)
+•  **content**: [ContentObject](contentobject.md)
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:133_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:133*
 
----
+___
 
 ### description
 
 • `Optional` **description**: string
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:132_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:132*
 
----
+___
 
 ### required
 
 • `Optional` **required**: boolean
 
-_Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:134_
+*Defined in node_modules/openapi3-ts/dist/model/OpenApi.d.ts:134*

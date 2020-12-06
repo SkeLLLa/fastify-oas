@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- **SchemasObject**
+* **SchemasObject**
 
 ## Indexable
 
