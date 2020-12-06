@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.5](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.4...v3.0.5) (2020-12-06)
+
+### Bug Fixes
+
+- stupid hasky downgrade ([76aeb78](https://gitlab.com/m03geek/fastify-oas/commit/76aeb78d788db4720feef5aaa6bd3f22febcf24b))
+
 ### [3.0.4](https://gitlab.com/m03geek/fastify-oas/compare/v3.0.3...v3.0.4) (2020-12-06)
 
 ### Bug Fixes
