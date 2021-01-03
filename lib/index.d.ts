@@ -21,7 +21,7 @@ declare module 'fastify' {
     oas(): Promise<void>;
   }
 
-  interface RouteSchema {
+  interface FastifySchema {
     /**
      * Hides route from result OpenAPI document
      * @default false
