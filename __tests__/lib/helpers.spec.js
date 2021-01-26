@@ -344,6 +344,43 @@ describe('helpers', () => {
       helpers.genQuery(dst, querystring);
       expect(dst).toEqual(expected);
     });
+    test('generates valid query with serialization type (content keyword)', () => {
+      const querystring = {
+        hello: {
+          type: 'object',
+          required: true,
+          contentType: 'application/json',
+          properties: {
+            id: { type: 'string' },
+          },
+        },
+        world: { type: 'string', description: 'something' },
+      };
+      const dst = [];
+      const expected = [
+        {
+          in: 'query',
+          name: 'hello',
+          required: true,
+          content: {
+            'application/json': {
+              schema: {
+                type: 'object',
+                properties: { id: { type: 'string' } },
+              },
+            },
+          },
+        },
+        {
+          in: 'query',
+          name: 'world',
+          description: 'something',
+          schema: { type: 'string', description: 'something' },
+        },
+      ];
+      helpers.genQuery(dst, querystring);
+      expect(dst).toEqual(expected);
+    });
   });
 
   describe('genPath', () => {
