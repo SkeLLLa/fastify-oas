@@ -52,7 +52,7 @@
     "@types/swagger-schema-official": "^2.0.21",
     "app-root-path": "^3.0.0",
     "fastify-plugin": "^3.0.0",
-    "fastify-static": "^3.3.0",
+    "fastify-static": "^4.2.4",
     "js-yaml": "^3.14.0",
     "openapi3-ts": "^1.4.0"
   },
