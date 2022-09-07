@@ -9,7 +9,7 @@ const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 const copyFile = promisify(fs.copyFile);
 
-const STATIC_DIR = './static';
+const STATIC_DIR = path.resolve('./static');
 
 (async () => {
   try {
@@ -22,6 +22,7 @@ const STATIC_DIR = './static';
             await unlink(p);
           }
         } catch (err) {
+            console.log('Delete file error', err);
           // do nothing, file not exists
         }
       }),
@@ -29,7 +30,8 @@ const STATIC_DIR = './static';
   } catch (ex) {
     // do nothing, directory not exists
   }
-  [
+  
+  const files = [
     'favicon-16x16.png',
     'favicon-32x32.png',
     'index.html',
@@ -42,13 +44,15 @@ const STATIC_DIR = './static';
     'swagger-ui.css.map',
     'swagger-ui.js',
     'swagger-ui.js.map',
-  ].forEach((filename) => {
-    fs.createReadStream(`${swaggerUiAssetPath}/${filename}`).pipe(
-      fs.createWriteStream(path.resolve(`${STATIC_DIR}/${filename}`)),
-    );
-  });
+  ];
+
+  for (let filename of files) {
+    const content = fs.readFileSync(`${swaggerUiAssetPath}/${filename}`);
+    fs.writeFileSync(`${STATIC_DIR}/${filename}`, content);
+  }
+    
   const newIndex = await readFile(
-    path.resolve(`${STATIC_DIR}/index.html`),
+    path.join(STATIC_DIR, 'index.html'),
     'utf-8',
   );
   await copyFile(
