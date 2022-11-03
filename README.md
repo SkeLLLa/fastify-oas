@@ -2,6 +2,8 @@
 
 **NOTE**: OpenAPI 3 support finally [landed](https://github.com/fastify/fastify-swagger/pull/333) in "official" [fastify-swagger](https://github.com/fastify/fastify-swagger) module. Consider using it instead of this one, since it has better support for $ref in schemas.
 
+This plugin is deprecated and no longer mainteined. Feel free to fork it and publish if needed.
+
 <div align="center">
   <img src="https://gitlab.com/m03geek/fastify-oas/raw/master/logo.png" alt="fastify-oas logo"/>
 </div>
